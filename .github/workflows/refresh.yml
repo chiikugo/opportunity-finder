@@ -1,0 +1,46 @@
+# ==========================================================================
+# refresh.yml — runs the "new finds" scraper every day on GitHub's servers
+# (free for public repos) and saves the results to data/fresh.json.
+# GitHub Pages then republishes the site automatically.
+#
+# 👉 Change the time:  edit the cron line (it's in UTC; 13:17 UTC ≈ 8–9am ET).
+#    Run it right now: GitHub → Actions → "Refresh new finds" → Run workflow.
+# Note: GitHub pauses scheduled jobs in repos with no activity for 60 days.
+#       The daily commits below count as activity, so it keeps itself awake.
+# ==========================================================================
+name: Refresh new finds
+
+on:
+  schedule:
+    - cron: "17 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect new opportunities
+        run: node scripts/scrape.mjs
+      - name: Save if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fresh.json
+          if git diff --cached --quiet; then
+            echo "No changes today."
+          else
+            git commit -m "Daily refresh of new finds"
+            git push
+          fi

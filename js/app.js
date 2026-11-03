@@ -9,7 +9,9 @@
      renderPrograms() . tab 1: curated fellowships & programs
      renderLive() ..... tab 2: live remote jobs
      renderBoards() ... tab 3: more places to search
-     renderSaved() .... tab 4: your list / application tracker
+     renderFresh() .... tab 2: new finds collected by the daily scraper
+     renderSaved() .... "My list": your saved items / application tracker
+     (the Tailor resume tab lives in js/tailor-ui.js)
      card() ........... the HTML for one opportunity card
 
    I WANT TO…                                  → EDIT
@@ -18,6 +20,8 @@
      make the matcher smarter                   → js/match.js (SKILLS, WEIGHTS)
      change colours / fonts                     → styles.css (top section)
      change default filters                     → DEFAULT_FILTERS below
+     change the daily scraper's sources         → scripts/scrape.mjs
+     change how resume tailoring works          → js/tailor.js
    ========================================================================== */
 
 import { OPPORTUNITIES, LAST_CHECKED } from "./data/opportunities.js";
@@ -25,6 +29,7 @@ import { BOARDS } from "./data/boards.js";
 import { buildProfile, scoreItem, timingOf } from "./match.js";
 import { fetchLiveJobs, pickTerms } from "./live.js";
 import { readResume } from "./resume.js";
+import { initTailor, tailorFor, refreshTailorResume } from "./tailor-ui.js";
 
 /* --------------------------------------------------------------------------
    Defaults — what the filters start as on a first visit.
@@ -57,6 +62,10 @@ const state = {
   liveTerms: [],
   liveLoading: false,
   saved: {},                 // { id: { item, status, note, savedAt } }
+  fresh: [],                 // new finds from data/fresh.json (daily scraper)
+  freshUpdated: "",          // when the scraper last ran
+  freshSources: [],          // [{ name, url, ok, count }]
+  linkCheck: {},             // { curatedId: HTTP status } from the daily scraper
   hasRun: false,
 };
 
@@ -93,8 +102,10 @@ const KIND_LABEL = {
   fellowship: "Fellowship", residency: "Residency", grant: "Grant", internship: "Internship",
   "part-time": "Part-time", volunteer: "Volunteer", job: "Job", contract: "Contract",
 };
-const PAY_LABEL = { paid: "Paid", stipend: "Stipend / award", unpaid: "Unpaid" };
-const WHERE_LABEL = { remote: "Remote", hybrid: "Remote option", onsite: "On-site" };
+const PAY_LABEL = { paid: "Paid", stipend: "Stipend / award", unpaid: "Unpaid", unknown: "Pay: check" };
+const WHERE_LABEL = { remote: "Remote", hybrid: "Remote option", onsite: "On-site", unknown: "Location: check" };
+// Scraped items count as "new" for this many days after we first see them.
+const NEW_DAYS = 7;
 
 /* ==========================================================================
    The profile — recomputed whenever the prompt or resume changes
@@ -139,7 +150,9 @@ function passes(item, timing) {
 function rank(list) {
   const out = [];
   for (const item of list) {
-    const timing = item.live ? { state: "rolling", label: "Posted " + ago(item.date) } : timingOf(item);
+    const timing = item.live ? { state: "rolling", label: "Posted " + ago(item.date) }
+      : item.fresh && !item.deadline ? { state: "unknown", label: "Found " + ago(item.firstSeen) }
+      : timingOf(item);
     if (!passes(item, timing)) continue;
     const { score, reasons } = scoreItem(item, profile, timing);
     out.push({ item, timing, score, reasons });
@@ -151,6 +164,16 @@ function rank(list) {
     out.sort((a, b) => b.score - a.score);
   }
   return out;
+}
+
+function isNew(item) {
+  return item.fresh && item.firstSeen && (Date.now() - new Date(item.firstSeen).getTime()) / 864e5 <= NEW_DAYS;
+}
+
+/** Find any opportunity by id, wherever it came from. */
+function findItem(id) {
+  return OPPORTUNITIES.find((o) => o.id === id) || state.liveJobs.find((j) => j.id === id)
+    || state.fresh.find((f) => f.id === id) || state.saved[id]?.item;
 }
 
 function ago(iso) {
@@ -168,7 +191,7 @@ function card({ item, timing, reasons }, { showWhy = true } = {}) {
   return `
   <article class="card" data-id="${esc(item.id)}">
     <div class="card-top">
-      <span class="timing timing-${timing.state}">${esc(timing.label)}</span>
+      <span class="timing timing-${timing.state}">${isNew(item) ? `<span class="new">New</span> ` : ""}${esc(timing.label)}</span>
       <button class="save ${saved ? "is-saved" : ""}" data-save="${esc(item.id)}" aria-pressed="${saved}"
         title="${saved ? "Remove from My list" : "Save to My list"}">${saved ? "★ Saved" : "☆ Save"}</button>
     </div>
@@ -187,10 +210,15 @@ function card({ item, timing, reasons }, { showWhy = true } = {}) {
       ${item.eligibility ? `<div><dt>Who</dt><dd>${esc(item.eligibility)}</dd></div>` : ""}
       ${item.cycle ? `<div><dt>When</dt><dd>${esc(item.cycle)}</dd></div>` : ""}
     </dl>
+    ${[0, 404, 410].includes(state.linkCheck[item.id]) && !item.live && !item.fresh
+      ? `<p class="warn small">This link didn't load in today's automatic check — the program may have moved. Search for it by name.</p>` : ""}
     ${showWhy && reasons && reasons.length ? `<p class="why"><b>Why it fits:</b> ${esc(reasons.join(" · "))}</p>` : ""}
     <div class="card-foot">
-      <a class="btn btn-small" href="${esc(item.url)}" target="_blank" rel="noopener">Open ${item.live ? "post" : "official page"} ↗</a>
-      ${item.live ? `<span class="via">via <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener">${esc(item.source)}</a></span>` : ""}
+      <span class="foot-btns">
+        <a class="btn btn-small" href="${esc(item.url)}" target="_blank" rel="noopener">Open ${item.live || item.fresh ? "listing" : "official page"} ↗</a>
+        <button class="btn btn-small btn-ghost" data-tailor="${esc(item.id)}" title="Match your resume to this">Tailor resume</button>
+      </span>
+      ${item.live || item.fresh ? `<span class="via">via <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener">${esc(item.source)}</a></span>` : ""}
     </div>
   </article>`;
 }
@@ -208,7 +236,41 @@ function renderPrograms() {
 }
 
 /* ==========================================================================
-   Tab 2 — live jobs
+   Tab 2 — new finds (collected daily by scripts/scrape.mjs → data/fresh.json)
+   ========================================================================== */
+async function loadFresh() {
+  try {
+    const res = await fetch("data/fresh.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    state.fresh = (data.items || []).map((x) => ({ ...x, fresh: true }));
+    state.freshUpdated = data.updated || "";
+    state.freshSources = data.sources || [];
+    state.linkCheck = data.links || {};
+    renderPrograms();
+  } catch { state.fresh = []; }
+  renderFresh();
+  updateCounts();
+}
+
+function renderFresh() {
+  const el = $("#panel-fresh");
+  if (!state.fresh.length) {
+    el.innerHTML = empty("No new finds yet — the daily scraper fills this tab. Check back tomorrow.");
+    return;
+  }
+  const ranked = rank(state.fresh);
+  const newCount = ranked.filter((r) => isNew(r.item)).length;
+  const when = state.freshUpdated ? new Date(state.freshUpdated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "recently";
+  el.innerHTML = `
+    <p class="panel-note">Collected automatically every day (last run ${esc(when)}). ${ranked.length} shown, <b>${newCount} new this week</b>.
+      These aren't hand-checked — pay, location and eligibility are guessed from the listing, so read it before applying.</p>
+    <div class="grid">${ranked.map((r) => card(r, { showWhy: state.hasRun })).join("") || empty("Nothing new passes these filters — try switching some back on.")}</div>
+    <p class="credit">Sources: ${state.freshSources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.ok ? "" : " (didn't answer last run)"}`).join(", ")}.</p>`;
+}
+
+/* ==========================================================================
+   Tab 3 — live jobs
    ========================================================================== */
 async function loadLive() {
   state.liveTerms = pickTerms(profile, state.filters.fields);
@@ -246,7 +308,7 @@ function renderLive() {
 }
 
 /* ==========================================================================
-   Tab 3 — more places to search
+   Tab 4 — more places to search
    ========================================================================== */
 function renderBoards() {
   // Build a search phrase from your prompt keywords or top skills.
@@ -289,6 +351,7 @@ function renderSaved() {
         </div>
         <select data-status="${esc(id)}" aria-label="Status">${STATUSES.map((st) => `<option ${st === s.status ? "selected" : ""}>${st}</option>`).join("")}</select>
         <input data-note="${esc(id)}" value="${esc(s.note || "")}" placeholder="Notes (e.g. ask Prof. X for a reference)" aria-label="Notes">
+        <button class="link" data-tailor="${esc(id)}">Tailor</button>
         <button class="icon-btn" data-remove="${esc(id)}" title="Remove" aria-label="Remove">✕</button>
       </div>`;
     }).join("")}</div>`;
@@ -346,6 +409,8 @@ function updateCounts() {
   $("#count-programs").textContent = rank(OPPORTUNITIES).length;
   $("#count-live").textContent = state.liveJobs.length ? rank(state.liveJobs).length : "";
   $("#count-saved").textContent = Object.keys(state.saved).length || "";
+  const freshNew = state.fresh.filter(isNew).length;
+  $("#count-fresh").textContent = freshNew ? `${freshNew} new` : state.fresh.length || "";
 }
 
 function renderAll() {
@@ -354,6 +419,7 @@ function renderAll() {
   renderPrograms();
   renderLive();
   renderBoards();
+  renderFresh();
   renderSaved();
   updateCounts();
   showTab(state.tab);
@@ -362,6 +428,7 @@ function renderAll() {
 
 function showTab(name) {
   state.tab = name;
+  if (name === "tailor") refreshTailorResume();
   $$("[role=tab]").forEach((t) => t.setAttribute("aria-selected", t.dataset.tab === name));
   $$(".panel").forEach((p) => (p.hidden = p.id !== `panel-${name}`));
 }
@@ -418,6 +485,7 @@ function wire() {
     }
     showResume();
     persist();
+    refreshTailorResume();
   };
   $("#resume-file").addEventListener("change", (e) => takeFile(e.target.files[0]));
   const drop = $("#dropzone");
@@ -429,6 +497,7 @@ function wire() {
     state.resumeName = e.target.value ? "pasted text" : "";
     showResume();
     persist();
+    refreshTailorResume();
   });
   showResume();
 
@@ -460,12 +529,14 @@ function wire() {
       const id = saveBtn.dataset.save;
       if (state.saved[id]) delete state.saved[id];
       else {
-        const item = OPPORTUNITIES.find((o) => o.id === id) || state.liveJobs.find((j) => j.id === id);
+        const item = findItem(id);
         if (item) state.saved[id] = { item, status: STATUSES[0], note: "", savedAt: Date.now() };
       }
       renderAll();
       return;
     }
+    const tb = e.target.closest("[data-tailor]");
+    if (tb) { const item = findItem(tb.dataset.tailor); if (item) tailorFor(item); return; }
     const rm = e.target.closest("[data-remove]");
     if (rm) { delete state.saved[rm.dataset.remove]; renderAll(); return; }
     if (e.target.id === "export") exportCsv();
@@ -489,5 +560,12 @@ restore();
 // On page load, keep the filters you left on last time (don't re-apply the prompt).
 refreshProfile({ applyAsked: false });
 wire();
+initTailor({
+  getResume: () => ({ text: state.resumeText, name: state.resumeName }),
+  setResume: (text) => { state.resumeText = text; if (!state.resumeName) state.resumeName = "edited text"; persist(); },
+  getSaved: () => state.saved,
+  showTab: (name) => { showTab(name); persist(); },
+});
 renderAll();
+loadFresh();
 if (state.hasRun) loadLive();

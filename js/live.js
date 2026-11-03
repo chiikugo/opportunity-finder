@@ -46,18 +46,27 @@ function plain(html, max = 240) {
   return t.length > max ? t.slice(0, max).replace(/\s\S*$/, "") + "…" : t;
 }
 
+/** Full description as plain text WITH line breaks (the Tailor tab uses
+    the lines to tell requirements from nice-to-haves). Capped at ~8,000 chars. */
+function plainLines(html) {
+  const withBreaks = String(html || "").replace(/<\s*(br|\/p|\/li|\/h\d|\/div)[^>]*>/gi, "\n").replace(/<\s*li[^>]*>/gi, "\n• ");
+  const div = document.createElement("div");
+  div.innerHTML = withBreaks;
+  return (div.textContent || "").split("\n").map((l) => l.replace(/\s+/g, " ").trim()).filter(Boolean).join("\n").slice(0, 8000);
+}
+
 /** Read/write the browser cache. Wrapped in try/catch because private
     windows can block storage — the app still works, just without caching. */
 function cacheGet(key) {
   try {
-    const raw = localStorage.getItem("of-live:" + key);
+    const raw = localStorage.getItem("of-live2:" + key);
     if (!raw) return null;
     const { at, data } = JSON.parse(raw);
     return Date.now() - at < CACHE_HOURS * 3600e3 ? data : null;
   } catch { return null; }
 }
 function cacheSet(key, data) {
-  try { localStorage.setItem("of-live:" + key, JSON.stringify({ at: Date.now(), data })); } catch { /* ignore */ }
+  try { localStorage.setItem("of-live2:" + key, JSON.stringify({ at: Date.now(), data })); } catch { /* ignore */ }
 }
 
 /** fetch() with a timeout so one slow site doesn't freeze everything. */
@@ -72,7 +81,7 @@ async function getJSON(url, ms = 12000) {
 }
 
 /** Build one tidy job object — the same shape the cards expect. */
-function toJob({ id, title, org, url, source, sourceUrl, blurb, tags, type, location, salary, date }) {
+function toJob({ id, title, org, url, source, sourceUrl, blurb, fullText, tags, type, location, salary, date }) {
   const typeText = String(type || "").toLowerCase();
   const kind = /part/.test(typeText) ? "part-time"
     : /intern/.test(typeText) ? "internship"
@@ -84,7 +93,7 @@ function toJob({ id, title, org, url, source, sourceUrl, blurb, tags, type, loca
   const fields = Object.keys(mix).filter((f) => mix[f] > 0);
   return {
     id: `${source}-${id}`, title, org, url, source, sourceUrl,
-    blurb, tags: (tags || []).map((t) => String(t).toLowerCase()).slice(0, 12),
+    blurb, fullText: fullText || "", tags: (tags || []).map((t) => String(t).toLowerCase()).slice(0, 12),
     kind, jobType: type || "", location: location || "Remote",
     payNote: salary || "", pay: "paid", where: "remote",
     fields: fields.length ? fields : ["tech"], date: date || "",
@@ -103,7 +112,7 @@ async function fetchRemotive(term) {
     .map((j) => toJob({
       id: j.id, title: j.title, org: j.company_name, url: j.url,
       source: "Remotive", sourceUrl: "https://remotive.com",
-      blurb: plain(j.description), tags: j.tags, type: (j.job_type || "").replace("_", "-"),
+      blurb: plain(j.description), fullText: plainLines(j.description), tags: j.tags, type: (j.job_type || "").replace("_", "-"),
       location: j.candidate_required_location, salary: j.salary, date: j.publication_date,
     }));
 }
@@ -114,7 +123,7 @@ async function fetchJobicy(term) {
   return (data.jobs || []).map((j) => toJob({
     id: j.id, title: j.jobTitle, org: j.companyName, url: j.url,
     source: "Jobicy", sourceUrl: "https://jobicy.com",
-    blurb: plain(j.jobExcerpt || j.jobDescription),
+    blurb: plain(j.jobExcerpt || j.jobDescription), fullText: plainLines(j.jobDescription),
     tags: [].concat(j.jobIndustry || []),
     type: [].concat(j.jobType || []).join(", "),
     location: j.jobGeo,
@@ -132,7 +141,7 @@ async function fetchRemoteOK(term) {
     .map((j) => toJob({
       id: j.id, title: j.position, org: j.company, url: j.url,
       source: "RemoteOK", sourceUrl: "https://remoteok.com",
-      blurb: plain(j.description), tags: j.tags,
+      blurb: plain(j.description), fullText: plainLines(j.description), tags: j.tags,
       type: /part[- ]?time/i.test(`${j.position} ${(j.tags || []).join(" ")}`) ? "part-time" : "",
       location: j.location,
       salary: j.salary_min ? `$${Number(j.salary_min).toLocaleString()}–$${Number(j.salary_max || j.salary_min).toLocaleString()} / yr` : "",

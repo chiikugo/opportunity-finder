@@ -22,7 +22,7 @@
    aka:   alternate spellings / related words found in resumes
    👉 Add your own here. Keep words lower-case.
    -------------------------------------------------------------------------- */
-const SKILLS = [
+export const SKILLS = [
   // tech
   { word: "python", field: "tech", aka: ["pandas", "numpy", "django", "flask"] },
   { word: "javascript", field: "tech", aka: ["typescript", "node", "node.js"] },
@@ -132,12 +132,12 @@ const STOPWORDS = new Set(("a an and are as at be but by can do for from get hav
   "full where what which who how not no yes ok please help").split(" "));
 
 /** Make text lower-case and squash punctuation so matching is simpler. */
-function normalize(text) {
+export function normalize(text) {
   return " " + String(text || "").toLowerCase().replace(/[^a-z0-9+#./\- ]+/g, " ").replace(/\s+/g, " ") + " ";
 }
 
 /** True if `phrase` appears in `text` as whole word(s), not inside another word. */
-function hasPhrase(text, phrase) {
+export function hasPhrase(text, phrase) {
   // escape regex symbols like "+" in "c++"
   const p = phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return new RegExp(`(^|[^a-z0-9])${p}([^a-z0-9]|$)`).test(text);

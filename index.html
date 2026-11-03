@@ -7,7 +7,7 @@
        header      → title + one-line intro
        #ask        → the prompt box, example buttons and resume upload
        #profile    → chips showing what the matcher understood (filled by JS)
-       #results    → filters + the four tabs (filled by JS)
+       #results    → filters + the six tabs (filled by JS; Tailor by js/tailor-ui.js)
        footer      → when the list was checked, data credits, privacy
      ========================================================================== -->
 <html lang="en">
@@ -105,20 +105,24 @@
 
       <div class="tabs" role="tablist">
         <button role="tab" data-tab="programs">Fellowships &amp; programs <span class="count" id="count-programs"></span></button>
+        <button role="tab" data-tab="fresh">New finds <span class="count" id="count-fresh"></span></button>
         <button role="tab" data-tab="live">Live remote jobs <span class="count" id="count-live"></span></button>
         <button role="tab" data-tab="boards">More places to search</button>
+        <button role="tab" data-tab="tailor">Tailor resume</button>
         <button role="tab" data-tab="saved">My list <span class="count" id="count-saved"></span></button>
       </div>
 
       <div id="panel-programs" class="panel" role="tabpanel"></div>
+      <div id="panel-fresh" class="panel" role="tabpanel" hidden></div>
       <div id="panel-live" class="panel" role="tabpanel" hidden></div>
       <div id="panel-boards" class="panel" role="tabpanel" hidden></div>
+      <div id="panel-tailor" class="panel" role="tabpanel" hidden></div>
       <div id="panel-saved" class="panel" role="tabpanel" hidden></div>
     </section>
   </main>
 
   <footer class="wrap footer">
-    <p>Fellowship list hand-checked <span id="last-checked"></span>. Dates change — always confirm on the official page.</p>
+    <p>Fellowship list hand-checked <span id="last-checked"></span>; “New finds” refresh automatically every day. Dates change — always confirm on the official page.</p>
     <p>Your resume, searches and saved list stay in this browser. Nothing is uploaded.
       Live jobs come from <a href="https://remotive.com" target="_blank" rel="noopener">Remotive</a>,
       <a href="https://jobicy.com" target="_blank" rel="noopener">Jobicy</a> and

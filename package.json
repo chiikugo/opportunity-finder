@@ -1,0 +1,7 @@
+{
+  "name": "opportunity-finder",
+  "private": true,
+  "type": "module",
+  "description": "Lets Node read the js/ files as modules (used by scripts/scrape.mjs). The website itself needs no install or build.",
+  "scripts": { "scrape": "node scripts/scrape.mjs", "start": "python3 -m http.server 5180" }
+}
