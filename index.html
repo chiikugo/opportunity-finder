@@ -1,0 +1,130 @@
+<!doctype html>
+<!-- ==========================================================================
+     index.html — the page layout. Plain HTML: the parts you see, top to
+     bottom. The behaviour lives in js/app.js and the look in styles.css.
+
+     Sections:
+       header      → title + one-line intro
+       #ask        → the prompt box, example buttons and resume upload
+       #profile    → chips showing what the matcher understood (filled by JS)
+       #results    → filters + the four tabs (filled by JS)
+       footer      → when the list was checked, data credits, privacy
+     ========================================================================== -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Call</title>
+  <meta name="description" content="Find remote fellowships, residencies, research roles and part-time work across tech, art and fashion — matched to your resume.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="kicker">Tech · Art · Fashion · Research</p>
+      <h1>Open <em>Call</em></h1>
+      <p class="lede">Fellowships, residencies, research roles and part-time work — mostly remote, matched to your resume.
+        Tech stays paid-only; art, fashion and research can include free roles.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- 1. Tell it what you want -------------------------------------------->
+    <section id="ask" class="ask" aria-label="What are you looking for">
+      <div class="ask-prompt">
+        <label for="prompt" class="label">What are you looking for?</label>
+        <textarea id="prompt" rows="3" placeholder="e.g. a paid remote research fellowship in fashion history, or a part-time creative coding job"></textarea>
+        <div class="examples" aria-label="Example searches">
+          <span class="muted">Try:</span>
+          <button class="pill" data-example="paid remote research fellowship in art history or archives">Art research fellowship</button>
+          <button class="pill" data-example="part-time remote creative coding or design job">Part-time creative tech</button>
+          <button class="pill" data-example="fashion textiles research, grants or internships">Fashion research</button>
+          <button class="pill" data-example="paid tech fellowship for recent grads, open source or AI">Paid tech fellowship</button>
+          <button class="pill" data-example="online art residency, net art, digital art">Online residency</button>
+        </div>
+      </div>
+
+      <div class="ask-resume">
+        <span class="label">Your resume <span class="muted">(optional, sharpens matches)</span></span>
+        <label id="dropzone" class="dropzone" for="resume-file">
+          <input id="resume-file" type="file" accept=".pdf,.docx,.txt,.md,.rtf" hidden>
+          <span class="drop-icon" aria-hidden="true">⇪</span>
+          <span><b>Drop a PDF or Word file</b><br><span class="muted">or click to choose</span></span>
+        </label>
+        <details class="paste">
+          <summary>…or paste the text</summary>
+          <textarea id="resume-paste" rows="5" placeholder="Paste your resume or a list of your skills"></textarea>
+        </details>
+        <p id="resume-status" class="small muted"></p>
+      </div>
+
+      <button id="go" class="btn btn-big">Find opportunities</button>
+    </section>
+
+    <!-- 2. What the matcher understood (filled in by app.js) ------------------>
+    <section id="profile" class="profile" hidden aria-live="polite"></section>
+
+    <!-- 3. Filters + results ------------------------------------------------->
+    <section id="results" class="results" aria-label="Results">
+      <div class="filters">
+        <div class="filter-group" role="group" aria-label="Fields">
+          <span class="filter-label">Fields</span>
+          <button class="toggle" data-field="tech">Tech</button>
+          <button class="toggle" data-field="art">Art</button>
+          <button class="toggle" data-field="fashion">Fashion</button>
+          <button class="toggle" data-field="research">Research</button>
+        </div>
+        <div class="filter-group" role="group" aria-label="Type">
+          <span class="filter-label">Type</span>
+          <button class="toggle" data-kind="">All</button>
+          <button class="toggle" data-kind="fellowship">Fellowships</button>
+          <button class="toggle" data-kind="residency">Residencies</button>
+          <button class="toggle" data-kind="grant">Grants</button>
+          <button class="toggle" data-kind="internship">Internships</button>
+          <button class="toggle" data-kind="part-time">Part-time</button>
+          <button class="toggle" data-kind="volunteer">Volunteer</button>
+        </div>
+        <div class="filter-group switches">
+          <label class="switch"><input type="checkbox" id="f-remote"> Remote-friendly only</label>
+          <label class="switch"><input type="checkbox" id="f-unpaid"> Include free art / fashion / research</label>
+          <label class="switch"><input type="checkbox" id="f-closed"> Hide rounds &gt; 4 months away</label>
+          <label class="switch"><input type="checkbox" id="f-senior"> Hide senior jobs</label>
+          <label class="switch sort">Sort
+            <select id="f-sort">
+              <option value="match">Best match</option>
+              <option value="deadline">Deadline first</option>
+            </select>
+          </label>
+          <button class="link" id="f-reset">Reset filters</button>
+        </div>
+      </div>
+
+      <div class="tabs" role="tablist">
+        <button role="tab" data-tab="programs">Fellowships &amp; programs <span class="count" id="count-programs"></span></button>
+        <button role="tab" data-tab="live">Live remote jobs <span class="count" id="count-live"></span></button>
+        <button role="tab" data-tab="boards">More places to search</button>
+        <button role="tab" data-tab="saved">My list <span class="count" id="count-saved"></span></button>
+      </div>
+
+      <div id="panel-programs" class="panel" role="tabpanel"></div>
+      <div id="panel-live" class="panel" role="tabpanel" hidden></div>
+      <div id="panel-boards" class="panel" role="tabpanel" hidden></div>
+      <div id="panel-saved" class="panel" role="tabpanel" hidden></div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Fellowship list hand-checked <span id="last-checked"></span>. Dates change — always confirm on the official page.</p>
+    <p>Your resume, searches and saved list stay in this browser. Nothing is uploaded.
+      Live jobs come from <a href="https://remotive.com" target="_blank" rel="noopener">Remotive</a>,
+      <a href="https://jobicy.com" target="_blank" rel="noopener">Jobicy</a> and
+      <a href="https://remoteok.com" target="_blank" rel="noopener">Remote OK</a>.</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
