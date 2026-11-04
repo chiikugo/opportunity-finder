@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:01:16.278Z",
+ "updated": "2026-11-04T01:33:22.415Z",
  "sources": [
   {
    "name": "NYU ITP / IMA opportunities",
@@ -89,17 +89,17 @@
      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     }
    ],
-   "checked": "2026-11-04T00:51:48.010Z"
+   "checked": "2026-11-04T01:02:21.230Z"
   },
   "outreachy": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T00:51:48.271Z"
+   "checked": "2026-11-04T01:02:21.844Z"
   },
   "gsoc": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T00:51:48.422Z"
+   "checked": "2026-11-04T01:02:21.972Z"
   },
   "mlh-fellowship": {
    "open": true,
@@ -111,7 +111,7 @@
      "url": "https://fellowship.mlh.com/"
     }
    ],
-   "checked": "2026-11-04T00:51:49.114Z"
+   "checked": "2026-11-04T01:02:22.465Z"
   },
   "codepath-instructor": {
    "open": true,
@@ -128,62 +128,62 @@
      "location": "Remote, United States"
     }
    ],
-   "checked": "2026-11-04T00:51:49.190Z"
+   "checked": "2026-11-04T01:02:22.562Z"
   },
   "venture-for-america": {
    "open": false,
    "reason": "page didn't load for our check (fetch failed)",
-   "checked": "2026-11-04T00:51:51.325Z"
+   "checked": "2026-11-04T01:02:24.846Z"
   },
   "techcongress": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-04T00:51:51.452Z"
+   "checked": "2026-11-04T01:02:24.986Z"
   },
   "loc-junior-fellows": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-04T00:51:51.596Z"
+   "checked": "2026-11-04T01:02:25.081Z"
   },
   "smithsonian-internships": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-04T00:51:51.596Z"
+   "checked": "2026-11-04T01:02:25.082Z"
   },
   "fulbright": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-04T00:51:52.050Z"
+   "checked": "2026-11-04T01:02:25.372Z"
   },
   "craft-research-fund": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-04T00:51:52.261Z"
+   "checked": "2026-11-04T01:02:25.820Z"
   },
   "warhol-arts-writers": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T00:51:52.810Z"
+   "checked": "2026-11-04T01:02:26.643Z"
   },
   "pasold": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-04T00:51:52.810Z"
+   "checked": "2026-11-04T01:02:26.643Z"
   },
   "met-costume-institute": {
    "open": false,
    "reason": "page didn't load for our check (429)",
-   "checked": "2026-11-04T00:51:52.974Z"
+   "checked": "2026-11-04T01:02:26.836Z"
   },
   "arttable-fellowship": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-04T00:51:53.078Z"
+   "checked": "2026-11-04T01:02:27.053Z"
   },
   "processing-fellowship": {
    "open": false,
    "reason": "the open window's end date has passed",
-   "checked": "2026-11-04T00:51:53.531Z"
+   "checked": "2026-11-04T01:02:27.384Z"
   },
   "eyebeam-agency": {
    "open": true,
@@ -194,27 +194,27 @@
      "url": "https://eyebeam.org/articles/agency-residency-open-call"
     }
    ],
-   "checked": "2026-11-04T00:51:53.935Z"
+   "checked": "2026-11-04T01:02:27.859Z"
   },
   "solitude-web-residencies": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-04T00:51:53.935Z"
+   "checked": "2026-11-04T01:02:27.859Z"
   },
   "lacma-art-tech": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T00:51:54.007Z"
+   "checked": "2026-11-04T01:02:28.455Z"
   },
   "rhizome-microgrants": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-04T00:51:54.174Z"
+   "checked": "2026-11-04T01:02:28.739Z"
   },
   "creative-capital": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T00:51:54.463Z"
+   "checked": "2026-11-04T01:02:28.865Z"
   },
   "fashion-trust-us": {
    "open": true,
@@ -225,7 +225,7 @@
      "url": "https://fashiontrustus.com/apply"
     }
    ],
-   "checked": "2026-11-04T00:51:54.630Z"
+   "checked": "2026-11-04T01:02:29.029Z"
   },
   "outschool": {
    "open": true,
@@ -236,7 +236,7 @@
      "url": "https://teach.outschool.com/"
     }
    ],
-   "checked": "2026-11-04T00:51:55.157Z"
+   "checked": "2026-11-04T01:02:29.412Z"
   },
   "smithsonian-transcription": {
    "open": true,
@@ -247,7 +247,7 @@
      "url": "https://transcription.si.edu/"
     }
    ],
-   "checked": "2026-11-04T00:51:55.292Z"
+   "checked": "2026-11-04T01:02:29.587Z"
   },
   "loc-by-the-people": {
    "open": true,
@@ -258,7 +258,7 @@
      "url": "https://crowd.loc.gov/"
     }
    ],
-   "checked": "2026-11-04T00:51:55.511Z"
+   "checked": "2026-11-04T01:02:29.675Z"
   },
   "zooniverse": {
    "open": true,
@@ -269,7 +269,7 @@
      "url": "https://www.zooniverse.org/projects?discipline=arts"
     }
    ],
-   "checked": "2026-11-04T00:51:56.058Z"
+   "checked": "2026-11-04T01:02:30.108Z"
   }
  },
  "removed": {
@@ -277,11 +277,11 @@
    "no link to an actual application": 19,
    "news round-up, not a listing": 14,
    "charges an application / entry fee": 1,
-   "no sign on the page that it's open": 5,
-   "page blocks automated checks and has no future deadline we can confirm": 2,
+   "no sign on the page that it's open": 4,
+   "page blocks automated checks and has no future deadline we can confirm": 3,
    "deadline passed": 13,
    "application page is dead": 2,
-   "scam cross-check not finished yet": 120
+   "scam cross-check not finished yet": 114
   },
   "flagged": [
    {
@@ -342,16 +342,6 @@
    {
     "title": "Software Engineer, Quality & Automation",
     "org": "Fieldguide",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Open Call for Founders / Founding Teams - Product Management and Engineering",
-    "org": "Mercury",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Marketing Engineer",
-    "org": "Mercury",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -425,23 +415,8 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Frontend Engineer - Design Systems",
-    "org": "Mercury",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
     "title": "Accounting and Implementation Manager",
     "org": "Aprio",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "AI Trainer - Video Annotation",
-    "org": "iMerit Technology",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Accounting & Finance Manager",
-    "org": "Political Asylum Lawyers",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -483,9 +458,254 @@
     "title": "APAC Python",
     "org": "Kodland",
     "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Project and Quality Administrator Work From Home Dayshift",
+    "org": "Twoconnect",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Payment Operations Specialist",
+    "org": "Utopia",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Graphic Designer & Video Editor",
+    "org": "BlueTuskr",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Remote Office Assistant",
+    "org": "Coalition Technologies ",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Marketing and Sales Administrator",
+    "org": "Hunt St",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
    }
   ]
  },
- "items": [],
- "seen": {}
+ "items": [
+  {
+   "id": "f-1dkjydy",
+   "title": "Open Call for Founders / Founding Teams - Product Management and Engineering",
+   "org": "Mercury",
+   "url": "https://jobicy.com/jobs/158675-open-call-for-founders-founding-teams-product-management-and-engineering",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-03T14:21:37+00:00",
+   "blurb": "Open call for Founders / Founding Teams (Product Management / Engineering roles) In 1973 at Xerox PARC, Bob Metcalfe sketched a way for many computers to share a single wire — borrowing the throughput math from his study of Hawaii's…",
+   "fullText": "Open call for Founders / Founding Teams (Product Management / Engineering roles)\nIn 1973 at Xerox PARC, Bob Metcalfe sketched a way for many computers to share a single wire — borrowing the throughput math from his study of Hawaii's ALOHAnet — and he and David Boggs built it and measured it until it held. Behind Ethernet was a two-person team that turned a contested idea into the measured standard now carrying almost all the world's wired traffic.\nAt Mercury , we’re looking to accelerate several of our AI products that our customers love like Command, CLI, and MCP. We’re building for ambitious people of all kinds, and are a company made of founders and small technical teams trying to change the world - as part of that, we’re taking open applications for founders or small technical teams (Eng+) that want to work together on building the AI products of the future. This isn't a fixed role. We expect the nature of work is changing, and small teams of people paired with AI product surface and autonomy to build can create 10x outcomes. Apply as a small team or as an individual\nHere are some things you’ll do on the job:\n• Find the problem. Work close enough to customers that you spot what matters before anyone assigns it to you — then decide it's worth building.\n• Build and automate the workflow end to end using Command, CLI, MCP, and the rest of our AI stack.\n• Ship to customers fast — quick understanding, tight iteration, deploy.\n• Measure the impact honestly, then do the next one. Kill what didn't move; double down on what did.\n• Run as an autonomous team — pick the target, ship the thing, own the outcome.\nYou should:\n• Have shipped something real - a product, a tool, a company, or an open-source project people actually use.\n• Be dangerous across the stack: PMs who can prototype, engineers with product taste.\n• Have strong opinions about AI products and the judgment to recognize fast when one of them is wrong.\n• Hands experience building AI products with AI, and knowledge about RAG, evals, agent harnesses a plus\n• Move fast and measure. Expect most experiments to fail and treat that as the price of finding the ones that don't.\n• Care about craft where it's impactful and resist polishing what isn't.\n• Communicate clearly and own outcomes - we want real business impact, customer time/pain saved, and a path to scaling what works\nLearn more about what we're building:\n• Mercury Command — Complete financial work end-to-end with AI. Tell Mercury what to do in natural language; it stages the action and executes with your approval.\n• Mercury MCP & CLI — Give your AI agents direct access to verified financial data, or work with your Mercury account straight from the terminal.\n• The bank of the future knows your business — Immad on what we're building toward and why now is the moment.\nWhat happens next?\nSubmit your application and our recruiting team will follow up. We're genuinely open to connecting with founders and teams at any stage — whether you're a strong fit for something we're actively building toward right now, or this is the start of a longer relationship we pick back up when the opportunity is right. If you're building, we want to know you.\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers. As this is a general interest application, compensation ranges will be shared by our recruiting team if you move forward for a specific role.\nMercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.",
+   "tags": [
+    "product",
+    "software engineering",
+    "data",
+    "ai",
+    "open source",
+    "craft",
+    "research",
+    "survey"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 0 day(s) ago and still listed as active",
+   "checked": "2026-11-04T01:02:49.394Z",
+   "repNote": "no posts calling “Mercury” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T01:33:22.415Z"
+  },
+  {
+   "id": "f-s8ycgk",
+   "title": "Marketing Engineer",
+   "org": "Mercury",
+   "url": "https://jobicy.com/jobs/158669-marketing-engineer-2",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-03T14:21:09+00:00",
+   "blurb": "Good marketing depends on systems that work: conversion signals that arrive accurately, audiences that stay current, and tools that make new ideas easier to try. We’re hiring a Marketing Engineer to build and maintain those systems at…",
+   "fullText": "Good marketing depends on systems that work: conversion signals that arrive accurately, audiences that stay current, and tools that make new ideas easier to try.\nWe’re hiring a Marketing Engineer to build and maintain those systems at Mercury . You’ll work directly with marketers to understand what they need, turn those needs into working integrations and tools, and keep what you build reliable after launch.\nYou’ll report to our Head of Growth Marketing as a hands-on individual contributor, partnering closely with Performance Marketing, Lifecycle, SEO, Data, and Engineering.\nYou’ll own the connections between our marketing platforms, including implementation, testing, deployment, monitoring, and maintenance. Data owns the shared customer-data foundation, warehouse pipelines and transformations, attribution methodology, and analytical models. Growth Engineering builds and maintains our GTM orchestration layer. You’ll work with both teams to make those systems useful in marketing.\nHere are some of the things you’ll do:\n• Build and operate marketing integrations. Connect customer engagement, advertising, analytics, and other marketing platforms using APIs, webhooks, integration tools, and custom code. Test and deploy changes using Mercury’s shared development tools and review practices, and own monitoring and recovery when something breaks.\n• Own marketing tracking and conversion delivery. Maintain campaign tagging, cross-domain measurement, and browser- and server-side tracking. Investigate missing events, duplicate conversions, and discrepancies between platforms. Partner with Web and Product Engineering when fixes require changes to shared website or application code.\n• Make customer data usable in marketing. Connect approved attributes, audiences, and conversion signals to marketing platforms using tools such as Segment and Polytomic. Use SQL to validate results and trace problems across systems. Work with Data on source-data requirements and the return of marketing activity to shared datasets.\n• Maintain measurement and experimentation tools. Own GA4 configuration, including events, custom dimensions, platform connections, and reporting setup. Implement measurement definitions agreed with Data across tools such as GA4 and Rockerbox. Support website forms, experimentation tools, and the technical setup for SEO and AI-search experiments.\n• Set priorities and improve reliability. Own the roadmap for marketing integrations, tracking, and platform improvements with Growth Marketing leaders. Address recurring failures, manage platform configuration and access, document how systems work, and build reusable tools that help marketers launch and learn faster.\nWe’re looking for someone with:\n• A track record of independently building and maintaining software or integrations for marketing teams. You can write, test, debug, deploy, and maintain code — and explain the choices you made.\n• Hands-on experience with GA4, website event tracking, and advertising conversion integrations, including browser- and server-side implementations. You understand how identity, consent, and data quality affect measurement.\n• Practical SQL skills. You can inspect source data, validate an audience or conversion feed, and trace a discrepancy from the original event to its destination.\n• Experience connecting customer engagement, advertising, or marketing automation platforms through APIs and webhooks. You know how to handle authentication, failed requests, duplicate events, and changing platform requirements.\n• Clear communication and sound judgment. You can turn a marketer’s goal into technical requirements, prioritize competing requests, and work with Data and Engineering to resolve dependencies and ownership questions.\nOur current stack includes Snowflake, Segment, Polytomic, Customer.io, Salesforce, Dato, GA4, Rockerbox, and major search and social advertising platforms. Experience with comparable systems is valuable; we don’t expect you to have used every tool.\n*Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.\n#LI-RQ1\nTotal Rewards\nThe total rewards package at Mercury includes base salary, equity (stock options/RSUs), and benefits.\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers.\nOur target new hire base salary ranges for this role are the following :\nUS employees in New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n$158,200—$197,800 USD\nUS employees outside of New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n$142,400—$178,000 USD\nCanadian employees (any location):\n$149,500—$186,900 CAD",
+   "tags": [
+    "data",
+    "web development",
+    "software engineering",
+    "coding",
+    "sql",
+    "ai",
+    "product",
+    "social media",
+    "survey"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 0 day(s) ago and still listed as active",
+   "checked": "2026-11-04T01:02:49.394Z",
+   "repNote": "no posts calling “Mercury” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T01:33:22.415Z"
+  },
+  {
+   "id": "f-cc686y",
+   "title": "Frontend Engineer - Design Systems",
+   "org": "Mercury",
+   "url": "https://job-boards.greenhouse.io/mercury/jobs/6233910004",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "SF · Remote in USA · NYC · Portland, OR · Remote in Canada",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-10-23T23:00:21.000Z",
+   "blurb": "Software role for new",
+   "fullText": "Software role for new grads.",
+   "tags": [
+    "web development",
+    "design"
+   ],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-04T01:02:53.726Z",
+   "repNote": "no posts calling “Mercury” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T01:33:22.415Z"
+  },
+  {
+   "id": "f-lon5kt",
+   "title": "AI Trainer - Video Annotation",
+   "org": "iMerit Technology",
+   "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
+   "source": "Remotive",
+   "sourceUrl": "https://remotive.com",
+   "kind": "contract",
+   "jobType": "freelance",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Worldwide",
+   "payNote": "70K-80K",
+   "deadline": null,
+   "date": "2026-10-22T18:40:19",
+   "blurb": "AI Trainer - Video Annotation Remote | Independent Contractor Prove your skills. Get certified. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are…",
+   "fullText": "AI Trainer - Video Annotation\nRemote | Independent Contractor\nProve your skills. Get certified.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects.\n▌ What you will do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\n▌ What you bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\n▌ What the work looks like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nPlease note: We currently have three projects open, and completing the certification process will allow us to evaluate which project may be the best fit for you.",
+   "tags": [
+    "data",
+    "ai",
+    "machine learning",
+    "video"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 12 day(s) ago and still listed as active",
+   "checked": "2026-11-04T01:02:49.393Z",
+   "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T01:33:22.415Z"
+  },
+  {
+   "id": "f-1gpr4t3",
+   "title": "Accounting & Finance Manager",
+   "org": "Political Asylum Lawyers",
+   "url": "https://remoteOK.com/remote-jobs/remote-accounting-finance-manager-political-asylum-lawyers-1137555",
+   "source": "Remote OK",
+   "sourceUrl": "https://remoteok.com",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-10-22T00:00:21+00:00",
+   "blurb": "Who We Are Political Asylum Lawyers is a Houston-based immigration law firm focused on asylum cases. We help immigrants all over the United States secure their futures here through asylum, combining exceptional standards with deep respect…",
+   "fullText": "Who We Are Political Asylum Lawyers is a Houston-based immigration law firm focused on asylum cases. We help immigrants all over the United States secure their futures here through asylum, combining exceptional standards with deep respect for the human reality behind every case.Â\nOur work changes lives. The standards we maintain, the discipline behind our work, and the way we show up every day can determine whether someone is able to stay safe and build a stable future in the United States. That is why we operate with integrity, urgency, and excellence, and why we expect every team member to take full ownership of their role.\nEverything we do is guided by our core values: integrity, excellence, accountability, teamwork and passion.\nWorking here means:\n• High-stakes responsibility: our work is of great consequence for our clients\n• Deeply meaningful outcomes: our work changes lives for the better\n• Emotionally demanding moments: resilience and maturity are essential\n• High standards and constant growth: excellence and continuous improvement are expected\n• Mission-driven teamwork: weâre passionate about helping immigrants secure their future in the United States through asylum, and we know that meeting our high standards requires each of us to take ownership, communicate proactively, and support one another\nIf you want a career where your skills create tangible change in the world, this is it.\nLearn more about what itâs like to work with us here:Â politicalasylumlawyers.com/careers\nThe Role In this role, you'll be an integral part of our team's mission of helping immigrants secure their future in the United States through asylum. We believe that those fleeing persecution deserve expert guidance and unwavering support as they seek safety and a new beginning in the United States.Â\nThe Accounting & Finance Manager (Hands-on) is responsible for managing the firmâs financial operations, accounting systems, billing, accounts receivable, cash flow forecasting, financial reporting, trust accounting compliance, payroll oversight, tax reporting coordination, internal controls, and finance-related operational projects.Â\nThis role serves as the firmâs first level of financial analysis and operational financial control. The Accounting & Finance Manager ensures that financial records are accurate, timely, compliant, and useful for decisions. This is a hands-on role. The initial focus is to learn the firmâs systems, work with existing staff and providers, and establish accurate, reliable financial operations.\nRecurring accounting and billing work will be delegated progressively, while the manager retains responsibility for controls, review, quality, and results. As readiness and scope are agreed with leadership and current senior finance support, the manager will gradually assume selected planning and reporting responsibilities from that support.\nThe Accounting & Finance Manager must explain complex financial information in plain English, identify financial risks, recommend corrective action, and follow approved actions through implementation and verified results. The role supports leadership decisions on budgeting, profitability, cash management, pricing, collections, and strategic planning.Â\nWhat You'll Do Your day-to-day responsibilities will vary based on the firmâs needs, but will include a combination of the following:\nFinancial Operations ManagementÂ\n• Perform and manage day-to-day financial operations, working with existing staff and service providers and documenting procedures so the work is completed accurately and on time.\n• Follow financial issues through to resolution: identify who is responsible for each next step and its deadline, follow up, raise problems with recommended solutions, and confirm that the agreed actions were completed correctly.\n• Ensure accurate execution of accounting, billing, A/R, A/P, payroll, trust accounting, collections, tax coordination, and general ledger maintenance.Â Â\n• Maintain clean and current financial records in the accounting system.Â Â\n• Ensure the legal team is supported with accurate financial information related to client matters, billing, retainers, and collections.Â Â\n• Monitor daily cash balances, bank accounts, credit card activity, merchant activity, and other key financial accounts.Â Â\n• Ensure bills, vendor payments, check requests, and reimbursements are processed accurately and on time.\nFinancial Reporting, Budgeting, and ForecastingÂ\n• Prepare, review, and analyze monthly financial statements and key financial reports on time.\n• Validate supporting records, calculations, and assumptions; investigate material inconsistencies and disclose unresolved limitations.Â Â\n• Ensure monthly financial reports are completed accurately and on time.Â Â\n• Prepare annual and periodic budgets and forecasts as required throughout the year. Provide budget variance reports and explain the results to the Owner/CFO in clear business language, including conclusions, recommendations, and decisions needed.\n• Support the creation, maintenance, and monitoring of the annual budget.Â Â\n• Maintain a forward-looking cash flow forecast to help leadership anticipate shortfalls, plan distributions, and manage working capital.Â Â\n• Track year-over-year revenue growth, gross profit, operating profit, and other key financial trends.Â Â\n• Provide analysis that supports strategic planning, operational planning, and financial decision-making.Â Â\nBilling, Collections, and Accounts ReceivableÂ\n• Own and continuously improve the firmâs billing and collections process.Â Â\n• Supervise timely preparation and delivery of client invoices.Â Â\n• Monitor payment plans and ensure clients comply with payment terms.Â Â\n• Track, measure, and report accounts receivable aging.Â Â\n• Ensure collection protocols are followed consistently and professionally.Â Â\n• Work with billing staff and leadership to prevent A/R from accruing unnecessarily.Â Â\n• Address client billing questions and payment concerns professionally while protecting the firmâs financial interests.Â Â\n• Own the operational handling of chargebacks, refund requests, billing disputes, and merchant service issues through documented resolution.Â\n• Review billing records, payment history and related correspondence to understand and resolve chargebacks, refund requests and billing disputes. Coordinate follow-up, obtain required approvals, and confirm that any approved refunds, credits or other adjustments are correctly recorded in the relevant systems and account balances.\n• Recommend process improvements to increase collection rate and reduce financial leakage.Â Â\nTrust Accounting and ComplianceÂ\n• Ensure trust/IOLTA account activity is properly monitored, reconciled, and documented.Â Â\n• Own or review three-way trust reconciliations.Â Â\n• Identify and resolve trust accounting discrepancies with urgency.Â Â\n• Ensure compliance with applicable legal, ethical, and accounting requirements.Â Â\n• Work with the Owner/CFO and CPA to correct accounting or reporting issues.Â Â\n• Maintain strong internal controls to protect the integrity of firm financials.Â Â\nInternal Controls and Risk ManagementÂ\n• Design, recommend, and enforce financial controls that protect the firm.Â Â\n• Identify financial risks, reporting gaps, compliance issues, cash flow risks, billing breakdowns, and process weaknesses.Â Â\n• Recommend practical corrective actions to leadership and work within approved policies and authority limits.Â Â\n• Support audits, tax preparation, financial reviews, and outside accounting reviews.Â Â\n• Ensure balance sheet reconciliations, payroll liability reconciliations, and bank reconciliations are completed accurately.Â Â\n• Monitor payroll taxes, tax liabilities, vendor obligations, debt obligations, and compliance deadlines.Â Â\nFinance Team and Vendor OversightÂ\n• Oversee existing staff and providers formally assigned to the role, including the bookkeeper, billing specialist, payroll provider",
+   "tags": [
+    "data",
+    "museum",
+    "coding",
+    "ai",
+    "policy",
+    "privacy",
+    "design",
+    "craft",
+    "writing",
+    "art criticism"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 13 day(s) ago and still listed as active",
+   "checked": "2026-11-04T01:02:49.394Z",
+   "repNote": "no posts calling “Political Asylum Lawyers” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T01:33:22.415Z"
+  },
+  {
+   "id": "f-lnxfa7",
+   "title": "AI Trainer",
+   "org": "iMerit Technology",
+   "url": "https://remoteOK.com/remote-jobs/remote-ai-trainer-imerit-technology-1137513",
+   "source": "Remote OK",
+   "sourceUrl": "https://remoteok.com",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "US, UK, Canada, Australia + 35 other countries",
+   "payNote": "$50,000–$70,000 / yr",
+   "deadline": null,
+   "date": "2026-10-14T14:44:21+00:00",
+   "blurb": "Remote | Independent Contractor | Get certified for future project opportunities Prove your skills. Get certified. Be ready for what comes next. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better…",
+   "fullText": "Remote | Independent Contractor | Get certified for future project opportunities\nProve your skills. Get certified. Be ready for what comes next.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available.\nWhat You Will Do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\nWhat You Bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\nWhat the Work Looks Like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nWhy Get Certified Now\nCompleting certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become available.\nPlease note: Certification does not guarantee a project engagement, assignment or paid work. Future opportunities depend on project availability and applicable selection criteria.\nPlease mention the word **SUPREME** and tag RMTA0LjIxMC4xMzQuMTEy when applying to show you read the job post completely (#RMTA0LjIxMC4xMzQuMTEy). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "tags": [
+    "data",
+    "ai",
+    "video"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 20 day(s) ago and still listed as active",
+   "checked": "2026-11-04T01:02:49.394Z",
+   "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T01:33:22.415Z"
+  }
+ ],
+ "seen": {
+  "f-1dkjydy": "2026-11-04T01:33:22.415Z",
+  "f-s8ycgk": "2026-11-04T01:33:22.415Z",
+  "f-cc686y": "2026-11-04T01:33:22.415Z",
+  "f-lon5kt": "2026-11-04T01:33:22.415Z",
+  "f-1gpr4t3": "2026-11-04T01:33:22.415Z",
+  "f-lnxfa7": "2026-11-04T01:33:22.415Z"
+ }
 }

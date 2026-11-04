@@ -2,56 +2,223 @@
  "supabase": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:52:47.568Z",
+  "checked": "2026-11-04T01:03:12.033Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "wpromote": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:53:53.493Z",
+  "checked": "2026-11-04T01:04:13.327Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "liftoff": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:54:54.284Z",
+  "checked": "2026-11-04T01:05:21.692Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "chainguard": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:56:00.726Z",
+  "checked": "2026-11-04T01:06:22.671Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "stripe": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:57:01.955Z",
+  "checked": "2026-11-04T01:07:24.130Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "socure": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:58:13.005Z",
+  "checked": "2026-11-04T01:08:33.943Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "openai": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T00:59:13.942Z",
+  "checked": "2026-11-04T01:09:34.780Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "titan": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:00:16.274Z",
+  "checked": "2026-11-04T01:10:35.931Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "nebius": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:11:36.906Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "fieldguide": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:12:37.924Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mercury": {
+  "verdict": "clean",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Mercury bank is scammer !!!",
+    "url": "https://www.reddit.com/r/Scams/comments/1uw9zfa"
+   }
+  ],
+  "checked": "2026-11-04T01:14:03.464Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "netdocuments": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:14:11.911Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "bayesian health": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:15:12.830Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "burkland associates": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:16:13.909Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "docusketch": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:17:15.182Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mecka": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:18:16.333Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "adaptyv": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:19:17.241Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "polaroid": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:20:17.977Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "drug hunter": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:21:18.753Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "fluence international, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:22:19.259Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "asian cultural council grant opportunities": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:23:20.213Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "edconic": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:24:21.485Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "pinstripeworld": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:25:23.406Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "huzzle": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:26:24.674Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "onebrief": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:27:34.904Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "aprio": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:28:35.860Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "imerit technology": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-04T01:29:58.159Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "political asylum lawyers": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-04T01:30:18.432Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "orbis operations": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:30:19.873Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "penumbra": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:31:21.327Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "pavago": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-04T01:32:22.400Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
