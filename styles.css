@@ -223,6 +223,14 @@ textarea {
   border-radius: 4px; padding: 0 5px; margin-right: 2px; letter-spacing: .04em;
 }
 
+.verified { margin: 0; font-size: 12px; color: var(--ok); }
+.listings { display: grid; gap: 3px; font-size: 13px; }
+.listings b { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.removed { margin-top: 18px; font-size: 13px; color: var(--muted); }
+.removed summary { cursor: pointer; font-weight: 600; }
+.removed ul { margin: 6px 0; padding-left: 18px; }
+.saved-row.is-closed { opacity: .65; }
+
 /* ---------- tailor tab ---------- */
 .tailor { display: grid; gap: 16px; }
 .tailor .panel-note { margin: 0; }

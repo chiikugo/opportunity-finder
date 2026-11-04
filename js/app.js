@@ -2,32 +2,39 @@
    app.js — the "glue": reads what you type / upload, runs the matcher,
    applies the filters, and draws the cards on the page.
    --------------------------------------------------------------------------
+   THE STRICT RULE
+   The page only shows listings that passed TODAY's checks by the daily
+   scraper (scripts/scrape.mjs → data/fresh.json): a real application page
+   that's live and open, no scam red flags, and no one calling the org a
+   scam on Reddit / Hacker News. Closed, expired, "next round" or
+   unverifiable = not shown. If today's file can't load, nothing is shown.
+
    MAP OF THIS FILE
      state ............ everything the page remembers (filters, saved list…)
      save/load ........ keeps that in your browser between visits
+     loadVerified() ... reads data/fresh.json (today's verified listings)
      runSearch() ...... the "Find opportunities" button
-     renderPrograms() . tab 1: curated fellowships & programs
-     renderLive() ..... tab 2: live remote jobs
-     renderBoards() ... tab 3: more places to search
-     renderFresh() .... tab 2: new finds collected by the daily scraper
+     renderPrograms() . tab 1: hand-picked programs that are open today
+     renderCalls() .... tab 2: open calls, fellowships & residencies
+     renderJobs() ..... tab 3: remote jobs
+     renderBoards() ... tab 4: more places to search (links, not listings)
      renderSaved() .... "My list": your saved items / application tracker
      (the Tailor resume tab lives in js/tailor-ui.js)
      card() ........... the HTML for one opportunity card
 
    I WANT TO…                                  → EDIT
-     add/fix a fellowship                       → js/data/opportunities.js
+     add/fix a hand-picked program              → js/data/opportunities.js
      add a job site to "More places to search"  → js/data/boards.js
      make the matcher smarter                   → js/match.js (SKILLS, WEIGHTS)
      change colours / fonts                     → styles.css (top section)
      change default filters                     → DEFAULT_FILTERS below
-     change the daily scraper's sources         → scripts/scrape.mjs
+     change sources or strictness               → scripts/scrape.mjs, scripts/lib/verify.mjs
      change how resume tailoring works          → js/tailor.js
    ========================================================================== */
 
-import { OPPORTUNITIES, LAST_CHECKED } from "./data/opportunities.js";
+import { OPPORTUNITIES } from "./data/opportunities.js";
 import { BOARDS } from "./data/boards.js";
-import { buildProfile, scoreItem, timingOf } from "./match.js";
-import { fetchLiveJobs, pickTerms } from "./live.js";
+import { buildProfile, scoreItem } from "./match.js";
 import { readResume } from "./resume.js";
 import { initTailor, tailorFor, refreshTailorResume } from "./tailor-ui.js";
 
@@ -40,8 +47,6 @@ const DEFAULT_FILTERS = {
   kinds: [],                 // empty = every kind
   remoteFriendly: true,      // only remote + hybrid (you asked for mostly remote)
   includeUnpaid: true,       // show free art/fashion/research roles (tech unpaid is ALWAYS hidden)
-  hideClosed: false,         // hide things whose next round is far away
-  hideSenior: true,          // live jobs: hide senior / director titles
   sort: "match",             // "match" | "deadline"
 };
 
@@ -57,16 +62,16 @@ const state = {
   resumeName: "",
   filters: { ...DEFAULT_FILTERS },
   tab: "programs",
-  liveJobs: [],
-  liveErrors: [],
-  liveTerms: [],
-  liveLoading: false,
   saved: {},                 // { id: { item, status, note, savedAt } }
-  fresh: [],                 // new finds from data/fresh.json (daily scraper)
-  freshUpdated: "",          // when the scraper last ran
-  freshSources: [],          // [{ name, url, ok, count }]
-  linkCheck: {},             // { curatedId: HTTP status } from the daily scraper
   hasRun: false,
+  // from data/fresh.json (today's verified listings)
+  loaded: null,              // null = loading, true = ok, false = couldn't load
+  updated: "",               // when the scraper last ran
+  sources: [],               // [{ name, url, ok, count }]
+  programStatus: {},         // { programId: { open, reason, listings, deadline } }
+  calls: [],                 // verified open calls / fellowships / residencies
+  jobs: [],                  // verified open remote jobs
+  removed: { counts: {}, flagged: [] },
 };
 
 /* --------------------------------------------------------------------------
@@ -85,7 +90,8 @@ function restore() {
     const raw = localStorage.getItem(STORE_KEY);
     if (!raw) return;
     const s = JSON.parse(raw);
-    Object.assign(state, s, { filters: { ...DEFAULT_FILTERS, ...(s.filters || {}) } });
+    const tab = ["fresh", "live"].includes(s.tab) ? "programs" : s.tab; // old tab names
+    Object.assign(state, s, { tab, filters: { ...DEFAULT_FILTERS, ...(s.filters || {}) } });
   } catch { /* ignore */ }
 }
 
@@ -100,11 +106,11 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const FIELD_LABEL = { tech: "Tech", art: "Art", fashion: "Fashion", research: "Research" };
 const KIND_LABEL = {
   fellowship: "Fellowship", residency: "Residency", grant: "Grant", internship: "Internship",
-  "part-time": "Part-time", volunteer: "Volunteer", job: "Job", contract: "Contract",
+  "part-time": "Part-time", volunteer: "Volunteer", job: "Job", contract: "Contract", call: "Open call",
 };
-const PAY_LABEL = { paid: "Paid", stipend: "Stipend / award", unpaid: "Unpaid", unknown: "Pay: check" };
-const WHERE_LABEL = { remote: "Remote", hybrid: "Remote option", onsite: "On-site", unknown: "Location: check" };
-// Scraped items count as "new" for this many days after we first see them.
+const PAY_LABEL = { paid: "Paid", stipend: "Stipend / award", unpaid: "Unpaid", unknown: "Pay: see listing" };
+const WHERE_LABEL = { remote: "Remote", hybrid: "Remote option", onsite: "On-site", unknown: "Location: see listing" };
+// Listings count as "new" for this many days after the scraper first finds them.
 const NEW_DAYS = 7;
 
 /* ==========================================================================
@@ -123,57 +129,100 @@ function refreshProfile({ applyAsked = true } = {}) {
 }
 
 /* ==========================================================================
+   Today's verified listings (data/fresh.json, written by the daily scraper)
+   ========================================================================== */
+async function loadVerified() {
+  try {
+    const res = await fetch("data/fresh.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    state.updated = data.updated || "";
+    state.sources = data.sources || [];
+    state.programStatus = data.programs || {};
+    state.removed = data.removed || { counts: {}, flagged: [] };
+    const items = (data.items || []).map((x) => ({ ...x, scraped: true }));
+    state.calls = items.filter((x) => x.rep === "call");
+    state.jobs = items.filter((x) => x.rep === "job");
+    state.loaded = true;
+  } catch {
+    state.loaded = false;
+  }
+  renderAll();
+}
+
+/** The hand-picked programs that are open TODAY, pointed at their live listing. */
+function openPrograms() {
+  return OPPORTUNITIES.filter((p) => state.programStatus[p.id]?.open).map((p) => {
+    const st = state.programStatus[p.id];
+    return {
+      ...p,
+      url: st.listings?.[0]?.url || p.url,
+      listings: st.listings || [],
+      deadline: st.deadline || p.deadline,
+      verifyNote: st.reason,
+    };
+  });
+}
+
+/** Is this saved item still open today? */
+function stillOpen(id) {
+  return !!state.programStatus[id]?.open || state.calls.some((c) => c.id === id) || state.jobs.some((j) => j.id === id);
+}
+
+/* ==========================================================================
    Filtering — the rules every card has to pass
    ========================================================================== */
-function passes(item, timing) {
+function passes(item) {
   const f = state.filters;
   // field: at least one of the item's fields is switched on
   if (!item.fields.some((x) => f.fields.includes(x))) return false;
-  // kind. Live job posts are all "jobs", so the Type filter only touches
-  // them when you picked Part-time (then: part-time + contract posts only).
-  if (item.live) {
+  // kind. Jobs are all "jobs", so the Type filter only touches them when you
+  // picked Part-time (then: part-time + contract posts only).
+  if (item.rep === "job") {
     if (f.kinds.includes("part-time") && item.kind !== "part-time" && item.kind !== "contract") return false;
   } else if (f.kinds.length && !f.kinds.includes(item.kind)) return false;
   // remote-friendly
   if (f.remoteFriendly && item.where === "onsite") return false;
   // YOUR RULE: tech must be paid. An unpaid item that is ONLY tech is never shown.
-  const nonTech = item.fields.some((x) => x !== "tech");
-  if (item.pay === "unpaid" && !nonTech) return false;
+  if (item.pay === "unpaid" && item.fields.every((x) => x === "tech")) return false;
   // unpaid art / fashion / research — optional
   if (item.pay === "unpaid" && !f.includeUnpaid) return false;
-  // far-off rounds
-  if (f.hideClosed && timing && timing.state === "later") return false;
   return true;
+}
+
+/** Everything shown is open today, so timing is just "how long you have". */
+function timingOf(item) {
+  if (item.rep === "job") return { state: "rolling", label: "Hiring · posted " + ago(item.date) };
+  if (item.deadline) {
+    const days = Math.ceil((new Date(item.deadline + "T23:59:00") - new Date(new Date().toDateString())) / 864e5);
+    return { state: "open", label: days <= 0 ? "Closes today" : `Open · closes in ${days} day${days === 1 ? "" : "s"}`, days };
+  }
+  if (item.rolling) return { state: "rolling", label: "Open · apply any time" };
+  return { state: "open", label: "Open now" };
 }
 
 /** Score + filter + sort a list. Returns [{ item, timing, score, reasons }]. */
 function rank(list) {
   const out = [];
   for (const item of list) {
-    const timing = item.live ? { state: "rolling", label: "Posted " + ago(item.date) }
-      : item.fresh && !item.deadline ? { state: "unknown", label: "Found " + ago(item.firstSeen) }
-      : timingOf(item);
-    if (!passes(item, timing)) continue;
+    if (!passes(item)) continue;
+    const timing = timingOf(item);
     const { score, reasons } = scoreItem(item, profile, timing);
     out.push({ item, timing, score, reasons });
   }
-  if (state.filters.sort === "deadline") {
-    const order = { open: 0, soon: 1, rolling: 2, unknown: 3, later: 4 };
-    out.sort((a, b) => (order[a.timing.state] - order[b.timing.state]) || ((a.timing.days ?? 999) - (b.timing.days ?? 999)) || (b.score - a.score));
-  } else {
-    out.sort((a, b) => b.score - a.score);
-  }
+  if (state.filters.sort === "deadline") out.sort((a, b) => ((a.timing.days ?? 999) - (b.timing.days ?? 999)) || (b.score - a.score));
+  else out.sort((a, b) => b.score - a.score);
   return out;
 }
 
 function isNew(item) {
-  return item.fresh && item.firstSeen && (Date.now() - new Date(item.firstSeen).getTime()) / 864e5 <= NEW_DAYS;
+  return item.scraped && item.firstSeen && (Date.now() - new Date(item.firstSeen).getTime()) / 864e5 <= NEW_DAYS;
 }
 
 /** Find any opportunity by id, wherever it came from. */
 function findItem(id) {
-  return OPPORTUNITIES.find((o) => o.id === id) || state.liveJobs.find((j) => j.id === id)
-    || state.fresh.find((f) => f.id === id) || state.saved[id]?.item;
+  return openPrograms().find((o) => o.id === id) || state.calls.find((c) => c.id === id)
+    || state.jobs.find((j) => j.id === id) || state.saved[id]?.item;
 }
 
 function ago(iso) {
@@ -188,6 +237,7 @@ function ago(iso) {
 function card({ item, timing, reasons }, { showWhy = true } = {}) {
   const saved = !!state.saved[item.id];
   const payClass = item.pay === "unpaid" ? "tag-muted" : "tag-pay";
+  const checks = [item.verifyNote, item.repNote].filter(Boolean);
   return `
   <article class="card" data-id="${esc(item.id)}">
     <div class="card-top">
@@ -196,7 +246,7 @@ function card({ item, timing, reasons }, { showWhy = true } = {}) {
         title="${saved ? "Remove from My list" : "Save to My list"}">${saved ? "★ Saved" : "☆ Save"}</button>
     </div>
     <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
-    <p class="org">${esc(item.org || "")}${item.location && item.live ? ` · ${esc(item.location)}` : ""}</p>
+    <p class="org">${esc(item.org || "")}</p>
     <div class="tags">
       <span class="tag ${payClass}">${esc(PAY_LABEL[item.pay] || "Paid")}</span>
       <span class="tag">${esc(WHERE_LABEL[item.where] || "Remote")}</span>
@@ -208,107 +258,88 @@ function card({ item, timing, reasons }, { showWhy = true } = {}) {
       ${item.payNote ? `<div><dt>Money</dt><dd>${esc(item.payNote)}</dd></div>` : ""}
       ${item.whereNote ? `<div><dt>Where</dt><dd>${esc(item.whereNote)}</dd></div>` : ""}
       ${item.eligibility ? `<div><dt>Who</dt><dd>${esc(item.eligibility)}</dd></div>` : ""}
-      ${item.cycle ? `<div><dt>When</dt><dd>${esc(item.cycle)}</dd></div>` : ""}
+      ${item.deadline ? `<div><dt>Deadline</dt><dd>${esc(new Date(item.deadline + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }))}</dd></div>` : ""}
     </dl>
-    ${[0, 404, 410].includes(state.linkCheck[item.id]) && !item.live && !item.fresh
-      ? `<p class="warn small">This link didn't load in today's automatic check — the program may have moved. Search for it by name.</p>` : ""}
+    ${item.listings && item.listings.length > 1 ? `<div class="listings"><b>Open listings:</b>${item.listings.map((l) =>
+      `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}${l.location ? ` <span class="muted">· ${esc(l.location)}</span>` : ""}</a>`).join("")}</div>` : ""}
+    ${checks.length ? `<p class="verified" title="Checked by the daily scraper">✓ Checked today: ${esc(checks.join(" · "))}</p>` : ""}
     ${showWhy && reasons && reasons.length ? `<p class="why"><b>Why it fits:</b> ${esc(reasons.join(" · "))}</p>` : ""}
     <div class="card-foot">
       <span class="foot-btns">
-        <a class="btn btn-small" href="${esc(item.url)}" target="_blank" rel="noopener">Open ${item.live || item.fresh ? "listing" : "official page"} ↗</a>
+        <a class="btn btn-small" href="${esc(item.url)}" target="_blank" rel="noopener">Apply / view listing ↗</a>
         <button class="btn btn-small btn-ghost" data-tailor="${esc(item.id)}" title="Match your resume to this">Tailor resume</button>
       </span>
-      ${item.live || item.fresh ? `<span class="via">via <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener">${esc(item.source)}</a></span>` : ""}
+      ${item.scraped ? `<span class="via">via <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener">${esc(item.source)}</a></span>` : ""}
     </div>
   </article>`;
 }
 
+/** Shared top note + empty / failed states for the three listing tabs. */
+function listingPanel(ranked, { what, emptyMsg, extra = "", how = "live application page, no scam red flags, no scam reports" }) {
+  if (state.loaded === null) return `<div class="loading"></div>`;
+  if (state.loaded === false) return empty("Couldn't load today's verified listings, so nothing is shown (we never show unchecked listings). Try refreshing the page.");
+  const when = state.updated ? new Date(state.updated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "recently";
+  return `
+    <p class="panel-note">${ranked.length} ${what}, all verified open on ${esc(when)} — ${how}.${extra}</p>
+    <div class="grid">${ranked.map((r) => card(r, { showWhy: state.hasRun })).join("") || empty(emptyMsg)}</div>`;
+}
+
+/** "What we filtered out today" — so nothing disappears silently. */
+function removedNote() {
+  const c = state.removed.counts || {};
+  const total = Object.values(c).reduce((a, b) => a + b, 0);
+  if (!total) return "";
+  const rows = Object.entries(c).sort((a, b) => b[1] - a[1]).map(([why, n]) => `<li>${n} × ${esc(why)}</li>`).join("");
+  const flagged = (state.removed.flagged || []).slice(0, 15)
+    .map((f) => `<li><b>${esc(f.title)}</b>${f.org ? ` (${esc(f.org)})` : ""} — ${esc(f.why)}</li>`).join("");
+  return `<details class="removed"><summary>What today's check filtered out (${total})</summary>
+    <ul>${rows}</ul>${flagged ? `<p class="small"><b>Flagged as scams or pay-to-apply:</b></p><ul>${flagged}</ul>` : ""}</details>`;
+}
+
 /* ==========================================================================
-   Tab 1 — curated programs
+   Tab 1 — hand-picked programs (only the ones open today)
    ========================================================================== */
 function renderPrograms() {
-  const ranked = rank(OPPORTUNITIES);
-  const hidden = OPPORTUNITIES.length - ranked.length;
-  $("#panel-programs").innerHTML = `
-    <p class="panel-note">${ranked.length} hand-checked opportunit${ranked.length === 1 ? "y" : "ies"}${hidden ? ` · ${hidden} hidden by filters` : ""}.
-      Deadlines change every year — always confirm on the official page.</p>
-    <div class="grid">${ranked.map((r) => card(r, { showWhy: state.hasRun })).join("") || empty("Nothing passes these filters — try switching some back on.")}</div>`;
+  const ranked = rank(openPrograms());
+  const closed = OPPORTUNITIES.length - openPrograms().length;
+  $("#panel-programs").innerHTML = listingPanel(ranked, {
+    what: "hand-picked programs open right now",
+    how: "each checked on its official site or jobs board",
+    emptyMsg: "None of the hand-picked programs are open today and pass these filters. Check Open calls and Remote jobs.",
+    extra: closed ? ` ${closed} other hand-picked programs are closed or can't be verified today, so they're hidden until they open.` : "",
+  });
 }
 
 /* ==========================================================================
-   Tab 2 — new finds (collected daily by scripts/scrape.mjs → data/fresh.json)
+   Tab 2 — open calls, fellowships & residencies (scraped + verified daily)
    ========================================================================== */
-async function loadFresh() {
-  try {
-    const res = await fetch("data/fresh.json", { cache: "no-cache" });
-    if (!res.ok) throw new Error(res.status);
-    const data = await res.json();
-    state.fresh = (data.items || []).map((x) => ({ ...x, fresh: true }));
-    state.freshUpdated = data.updated || "";
-    state.freshSources = data.sources || [];
-    state.linkCheck = data.links || {};
-    renderPrograms();
-  } catch { state.fresh = []; }
-  renderFresh();
-  updateCounts();
-}
-
-function renderFresh() {
-  const el = $("#panel-fresh");
-  if (!state.fresh.length) {
-    el.innerHTML = empty("No new finds yet — the daily scraper fills this tab. Check back tomorrow.");
-    return;
-  }
-  const ranked = rank(state.fresh);
-  const newCount = ranked.filter((r) => isNew(r.item)).length;
-  const when = state.freshUpdated ? new Date(state.freshUpdated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "recently";
-  el.innerHTML = `
-    <p class="panel-note">Collected automatically every day (last run ${esc(when)}). ${ranked.length} shown, <b>${newCount} new this week</b>.
-      These aren't hand-checked — pay, location and eligibility are guessed from the listing, so read it before applying.</p>
-    <div class="grid">${ranked.map((r) => card(r, { showWhy: state.hasRun })).join("") || empty("Nothing new passes these filters — try switching some back on.")}</div>
-    <p class="credit">Sources: ${state.freshSources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.ok ? "" : " (didn't answer last run)"}`).join(", ")}.</p>`;
+function renderCalls() {
+  $("#panel-calls").innerHTML = listingPanel(rank(state.calls), {
+    what: "open calls, fellowships, grants and residencies",
+    emptyMsg: "Nothing open passes these filters right now — try switching some back on.",
+  }) + (state.loaded ? removedNote() + sourcesNote() : "");
 }
 
 /* ==========================================================================
-   Tab 3 — live jobs
+   Tab 3 — remote jobs (scraped + verified daily)
    ========================================================================== */
-async function loadLive() {
-  state.liveTerms = pickTerms(profile, state.filters.fields);
-  state.liveLoading = true;
-  renderLive();
-  const { jobs, errors } = await fetchLiveJobs(state.liveTerms, { hideSenior: state.filters.hideSenior });
-  state.liveJobs = jobs;
-  state.liveErrors = errors;
-  state.liveLoading = false;
-  renderLive();
-  updateCounts();
+function renderJobs() {
+  const ranked = rank(state.jobs);
+  const pt = ranked.filter((r) => ["part-time", "contract", "internship"].includes(r.item.kind)).length;
+  $("#panel-jobs").innerHTML = listingPanel(ranked, {
+    what: "remote jobs open to US applicants",
+    emptyMsg: "No jobs pass these filters right now — try switching some fields back on.",
+    extra: pt ? ` ${pt} are part-time, contract or internships (use Type → Part-time).` : "",
+  }) + (state.loaded ? sourcesNote() : "");
 }
 
-function renderLive() {
-  const el = $("#panel-live");
-  if (state.liveLoading) {
-    el.innerHTML = `<p class="panel-note">Searching Remotive, Jobicy and RemoteOK for “${esc(state.liveTerms.join("”, “"))}”…</p><div class="loading"></div>`;
-    return;
-  }
-  if (!state.liveJobs.length && !state.liveErrors.length) {
-    el.innerHTML = empty(`Press <b>Find opportunities</b> to pull live remote jobs.`);
-    return;
-  }
-  const ranked = rank(state.liveJobs);
-  const partTime = ranked.filter((r) => r.item.kind === "part-time" || r.item.kind === "contract" || r.item.kind === "internship");
-  el.innerHTML = `
-    <p class="panel-note">Live remote jobs open to US-based applicants, searched for
-      <b>“${esc(state.liveTerms.join("”, “"))}”</b>. ${ranked.length} shown${partTime.length ? `, ${partTime.length} part-time / contract / internship` : ""}.
-      All are paid. Change the words in the box above to search for something else.</p>
-    ${state.liveErrors.length ? `<p class="warn">Some feeds didn't answer: ${esc(state.liveErrors.join("; "))}. Results from the others are below.</p>` : ""}
-    <div class="grid">${ranked.map((r) => card(r)).join("") || empty("No live jobs passed the filters. Try different keywords or switch on more fields.")}</div>
-    <p class="credit">Job data from <a href="https://remotive.com" target="_blank" rel="noopener">Remotive</a>,
-      <a href="https://jobicy.com" target="_blank" rel="noopener">Jobicy</a> and
-      <a href="https://remoteok.com" target="_blank" rel="noopener">Remote OK</a>. Remotive posts appear 24h after publishing.</p>`;
+function sourcesNote() {
+  return `<p class="credit">Sources: ${state.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.ok ? "" : " (didn't answer last run)"}`).join(", ")}.
+    Scam cross-check: Reddit via <a href="https://arctic-shift.photon-reddit.com/" target="_blank" rel="noopener">Arctic Shift</a> and Hacker News search.</p>`;
 }
 
 /* ==========================================================================
-   Tab 4 — more places to search
+   Tab 4 — more places to search (links, not listings)
    ========================================================================== */
 function renderBoards() {
   // Build a search phrase from your prompt keywords or top skills.
@@ -317,7 +348,8 @@ function renderBoards() {
   const q = encodeURIComponent(words.join(" ") || state.filters.fields.join(" "));
   const boards = BOARDS.filter((b) => b.fields.some((f) => state.filters.fields.includes(f)));
   $("#panel-boards").innerHTML = `
-    <p class="panel-note">These sites don't share their listings, so each button opens a search on the site itself${words.length ? ` for <b>“${esc(words.join(" "))}”</b>` : ""}.</p>
+    <p class="panel-note">These are search links, not listings — we can't verify what these sites show, so check each posting yourself.
+      Each button opens a search on the site${words.length ? ` for <b>“${esc(words.join(" "))}”</b>` : ""}.</p>
     <div class="grid grid-boards">${boards.map((b) => `
       <article class="card board">
         <h3>${esc(b.name)}</h3>
@@ -328,7 +360,7 @@ function renderBoards() {
 }
 
 /* ==========================================================================
-   Tab 4 — My list (tracker)
+   My list (tracker)
    ========================================================================== */
 function renderSaved() {
   const rows = Object.entries(state.saved).sort((a, b) => b[1].savedAt - a[1].savedAt);
@@ -342,12 +374,12 @@ function renderSaved() {
       <button class="btn btn-small btn-ghost" id="export">Download as spreadsheet (CSV)</button>
     </div>
     <div class="saved-list">${rows.map(([id, s]) => {
-      const t = s.item.live ? { label: "Live job" } : timingOf(s.item);
+      const open = state.loaded ? stillOpen(id) : true;
       return `
-      <div class="saved-row" data-id="${esc(id)}">
+      <div class="saved-row ${open ? "" : "is-closed"}" data-id="${esc(id)}">
         <div class="saved-main">
           <a href="${esc(s.item.url)}" target="_blank" rel="noopener"><b>${esc(s.item.title)}</b></a>
-          <span class="org">${esc(s.item.org || "")} · ${esc(t.label)}</span>
+          <span class="org">${esc(s.item.org || "")} · ${open ? "Open today" : "<b>No longer open</b> (closed or failed today's check)"}</span>
         </div>
         <select data-status="${esc(id)}" aria-label="Status">${STATUSES.map((st) => `<option ${st === s.status ? "selected" : ""}>${st}</option>`).join("")}</select>
         <input data-note="${esc(id)}" value="${esc(s.note || "")}" placeholder="Notes (e.g. ask Prof. X for a reference)" aria-label="Notes">
@@ -361,7 +393,7 @@ function exportCsv() {
   const head = ["Title", "Organization", "Status", "Notes", "Pay", "Where", "Kind", "Deadline", "Link"];
   const cell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
   const lines = Object.values(state.saved).map(({ item, status, note }) =>
-    [item.title, item.org, status, note, item.payNote || item.pay, item.where, item.kind, item.deadline || item.cycle || "", item.url].map(cell).join(","));
+    [item.title, item.org, status, note, item.payNote || item.pay, item.where, item.kind, item.deadline || "", item.url].map(cell).join(","));
   const blob = new Blob([[head.join(","), ...lines].join("\n")], { type: "text/csv" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
@@ -400,26 +432,24 @@ function syncFilters() {
   $$("[data-kind]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.kind === "" ? f.kinds.length === 0 : f.kinds.includes(b.dataset.kind)));
   $("#f-remote").checked = f.remoteFriendly;
   $("#f-unpaid").checked = f.includeUnpaid;
-  $("#f-closed").checked = f.hideClosed;
-  $("#f-senior").checked = f.hideSenior;
   $("#f-sort").value = f.sort;
 }
 
 function updateCounts() {
-  $("#count-programs").textContent = rank(OPPORTUNITIES).length;
-  $("#count-live").textContent = state.liveJobs.length ? rank(state.liveJobs).length : "";
+  const n = (list) => (state.loaded ? rank(list).length : "");
+  $("#count-programs").textContent = n(openPrograms());
+  $("#count-calls").textContent = n(state.calls);
+  $("#count-jobs").textContent = n(state.jobs);
   $("#count-saved").textContent = Object.keys(state.saved).length || "";
-  const freshNew = state.fresh.filter(isNew).length;
-  $("#count-fresh").textContent = freshNew ? `${freshNew} new` : state.fresh.length || "";
 }
 
 function renderAll() {
   syncFilters();
   renderProfile();
   renderPrograms();
-  renderLive();
+  renderCalls();
+  renderJobs();
   renderBoards();
-  renderFresh();
   renderSaved();
   updateCounts();
   showTab(state.tab);
@@ -427,6 +457,7 @@ function renderAll() {
 }
 
 function showTab(name) {
+  if (!$(`#panel-${name}`)) name = "programs";
   state.tab = name;
   if (name === "tailor") refreshTailorResume();
   $$("[role=tab]").forEach((t) => t.setAttribute("aria-selected", t.dataset.tab === name));
@@ -438,14 +469,12 @@ function empty(html) { return `<div class="empty">${html}</div>`; }
 /* ==========================================================================
    runSearch — the big button
    ========================================================================== */
-async function runSearch() {
+function runSearch() {
   state.prompt = $("#prompt").value.trim();
   state.hasRun = true;
   refreshProfile();
   renderAll();
   $("#results").scrollIntoView({ behavior: "smooth", block: "start" });
-  await loadLive();
-  persist();
 }
 
 /* ==========================================================================
@@ -514,8 +543,6 @@ function wire() {
   }));
   $("#f-remote").addEventListener("change", (e) => { state.filters.remoteFriendly = e.target.checked; renderAll(); });
   $("#f-unpaid").addEventListener("change", (e) => { state.filters.includeUnpaid = e.target.checked; renderAll(); });
-  $("#f-closed").addEventListener("change", (e) => { state.filters.hideClosed = e.target.checked; renderAll(); });
-  $("#f-senior").addEventListener("change", (e) => { state.filters.hideSenior = e.target.checked; persist(); if (state.hasRun) loadLive(); });
   $("#f-sort").addEventListener("change", (e) => { state.filters.sort = e.target.value; renderAll(); });
   $("#f-reset").addEventListener("click", () => { state.filters = { ...DEFAULT_FILTERS }; renderAll(); });
 
@@ -549,8 +576,6 @@ function wire() {
     const id = e.target.dataset.note;
     if (id && state.saved[id]) { state.saved[id].note = e.target.value; persist(); }
   });
-
-  $("#last-checked").textContent = new Date(LAST_CHECKED + "T00:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 }
 
 /* --------------------------------------------------------------------------
@@ -567,5 +592,4 @@ initTailor({
   showTab: (name) => { showTab(name); persist(); },
 });
 renderAll();
-loadFresh();
-if (state.hasRun) loadLive();
+loadVerified();

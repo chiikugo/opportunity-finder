@@ -28,7 +28,7 @@
       <p class="kicker">Tech · Art · Fashion · Research</p>
       <h1>Open <em>Call</em></h1>
       <p class="lede">Fellowships, residencies, research roles and part-time work — mostly remote, matched to your resume.
-        Tech stays paid-only; art, fashion and research can include free roles.</p>
+        Only listings that are <b>open today</b>, verified live and scam-checked. Tech stays paid-only.</p>
     </div>
   </header>
 
@@ -91,8 +91,6 @@
         <div class="filter-group switches">
           <label class="switch"><input type="checkbox" id="f-remote"> Remote-friendly only</label>
           <label class="switch"><input type="checkbox" id="f-unpaid"> Include free art / fashion / research</label>
-          <label class="switch"><input type="checkbox" id="f-closed"> Hide rounds &gt; 4 months away</label>
-          <label class="switch"><input type="checkbox" id="f-senior"> Hide senior jobs</label>
           <label class="switch sort">Sort
             <select id="f-sort">
               <option value="match">Best match</option>
@@ -104,17 +102,17 @@
       </div>
 
       <div class="tabs" role="tablist">
-        <button role="tab" data-tab="programs">Fellowships &amp; programs <span class="count" id="count-programs"></span></button>
-        <button role="tab" data-tab="fresh">New finds <span class="count" id="count-fresh"></span></button>
-        <button role="tab" data-tab="live">Live remote jobs <span class="count" id="count-live"></span></button>
+        <button role="tab" data-tab="programs">Programs open now <span class="count" id="count-programs"></span></button>
+        <button role="tab" data-tab="calls">Open calls &amp; fellowships <span class="count" id="count-calls"></span></button>
+        <button role="tab" data-tab="jobs">Remote jobs <span class="count" id="count-jobs"></span></button>
         <button role="tab" data-tab="boards">More places to search</button>
         <button role="tab" data-tab="tailor">Tailor resume</button>
         <button role="tab" data-tab="saved">My list <span class="count" id="count-saved"></span></button>
       </div>
 
       <div id="panel-programs" class="panel" role="tabpanel"></div>
-      <div id="panel-fresh" class="panel" role="tabpanel" hidden></div>
-      <div id="panel-live" class="panel" role="tabpanel" hidden></div>
+      <div id="panel-calls" class="panel" role="tabpanel" hidden></div>
+      <div id="panel-jobs" class="panel" role="tabpanel" hidden></div>
       <div id="panel-boards" class="panel" role="tabpanel" hidden></div>
       <div id="panel-tailor" class="panel" role="tabpanel" hidden></div>
       <div id="panel-saved" class="panel" role="tabpanel" hidden></div>
@@ -122,11 +120,10 @@
   </main>
 
   <footer class="wrap footer">
-    <p>Fellowship list hand-checked <span id="last-checked"></span>; “New finds” refresh automatically every day. Dates change — always confirm on the official page.</p>
-    <p>Your resume, searches and saved list stay in this browser. Nothing is uploaded.
-      Live jobs come from <a href="https://remotive.com" target="_blank" rel="noopener">Remotive</a>,
-      <a href="https://jobicy.com" target="_blank" rel="noopener">Jobicy</a> and
-      <a href="https://remoteok.com" target="_blank" rel="noopener">Remote OK</a>.</p>
+    <p>Every listing is re-checked automatically every morning: its application page must be live and open, its wording must be free of scam
+      red flags and pay-to-apply fees, and the organization must not be called a scam on Reddit or Hacker News. Anything that fails is hidden.
+      No automated check is perfect — never pay to apply, and never share bank details before a real offer.</p>
+    <p>Your resume, searches and saved list stay in this browser. Nothing is uploaded.</p>
   </footer>
 
   <script type="module" src="js/app.js"></script>

@@ -36,6 +36,20 @@
      blurb       one or two sentences on what it is
      tags        keywords the matcher looks for in your resume / prompt
                  (lower-case; more specific = better matches)
+     check       HOW the daily scraper confirms it's open right now.
+                 A program is only shown on the site on days its check
+                 passes — closed, "next round" or unverifiable = hidden.
+                   { type: "greenhouse", board, title }  → open while a job
+                       whose title matches is posted on that Greenhouse board
+                       (the card then links straight to those postings)
+                   { type: "page", url?, open, closed }  → open when the page
+                       matches `open` and NOT `closed` (and any date right
+                       after the open wording hasn't passed)
+                   { type: "deadline", url?, confirm }   → open until
+                       `deadline`, while the page still mentions `confirm`
+                   { type: "rolling" }  → always-open sign-up; open while
+                       the page loads
+                   null  → can't be checked automatically, so never shown
    ========================================================================== */
 
 // The day these entries were last researched. Shown in the page footer.
@@ -64,6 +78,7 @@ export const OPPORTUNITIES = [
     cycle: "4-month cohorts a few times a year (next expected early 2027). Postings appear on Anthropic's careers page.",
     blurb: "Paid, full-time research fellowship on AI safety, plus tracks in economics & policy. Fellows work on a real research project with a mentor.",
     tags: ["ai", "machine learning", "python", "research", "ai safety", "policy", "economics", "llm", "data analysis"],
+    check: { type: "greenhouse", board: "anthropic", title: "fellows program" },
   },
   {
     id: "outreachy",
@@ -83,6 +98,7 @@ export const OPPORTUNITIES = [
     cycle: "Two cohorts a year (May & December). The December 2026 round just closed; May 2027 initial applications usually open late Jan – early Feb.",
     blurb: "Paid remote internships on open-source projects — not just coding: design, documentation, research, community and marketing projects too.",
     tags: ["open source", "coding", "javascript", "python", "documentation", "design", "ux", "research", "community", "git"],
+    check: { type: "page", url: "https://www.outreachy.org/", open: "initial applications (are )?(now )?open", closed: "initial applications (are )?(now )?closed" },
   },
   {
     id: "gsoc",
@@ -102,6 +118,7 @@ export const OPPORTUNITIES = [
     cycle: "Contributor applications usually open mid-March and close early April. Orgs are announced in late February — start talking to them early.",
     blurb: "Get paid to work on an open-source project over the summer with a mentor. Includes creative-coding orgs (e.g. Processing, p5.js, Blender, Inkscape).",
     tags: ["open source", "coding", "python", "javascript", "c++", "creative coding", "p5.js", "processing", "blender", "git"],
+    check: { type: "page", open: "contributor applications? (are |is )?(now )?open" },
   },
   {
     id: "mlh-fellowship",
@@ -121,10 +138,11 @@ export const OPPORTUNITIES = [
     cycle: "12-week batches start every few months; applications are open most of the year.",
     blurb: "A remote, internship-style program where small 'pods' contribute to real open-source projects with a mentor.",
     tags: ["open source", "software engineering", "javascript", "python", "react", "web development", "git", "hackathon"],
+    check: { type: "page", open: "apply now|apply today", closed: "applications (are )?(now )?closed" },
   },
   {
     id: "codepath-instructor",
-    title: "CodePath — Part-time Assistant Instructor / Project Coach",
+    title: "CodePath — remote mentoring, coaching & teaching roles",
     org: "CodePath",
     url: "https://job-boards.greenhouse.io/codepath",
     kind: "part-time",
@@ -137,9 +155,10 @@ export const OPPORTUNITIES = [
     deadline: null,
     opens: null,
     rolling: true,
-    cycle: "Hiring happens per term — Spring 2027 roles are typically posted in the fall.",
+    cycle: "Only shown while CodePath has a matching remote role posted.",
     blurb: "Teach or coach college students in CodePath's free tech courses. Great resume line and good pay for part-time.",
     tags: ["teaching", "mentoring", "python", "javascript", "web development", "software engineering", "ai", "java"],
+    check: { type: "greenhouse", board: "codepath", title: "mentor|coach|assistant instructor|teaching assistant|tutor|grant writer", exclude: "senior|director|head of|manager|lead", remote: true },
   },
   {
     id: "venture-for-america",
@@ -159,6 +178,7 @@ export const OPPORTUNITIES = [
     cycle: "Several application deadlines per year (historically ~Oct, Dec, Feb). Check the site for 2027 dates.",
     blurb: "A 2-year fellowship that places recent grads in jobs at early-stage startups, with a training camp and a big alumni network.",
     tags: ["startup", "entrepreneurship", "product", "operations", "marketing", "business", "tech"],
+    check: { type: "page", url: "https://ventureforamerica.org/apply", open: "apply now|applications? (are |is )?(now )?open", closed: "applications? (are |is )?(now )?closed" },
   },
   {
     id: "techcongress",
@@ -178,6 +198,7 @@ export const OPPORTUNITIES = [
     cycle: "The 2027 cohort closed in June 2026. The next call usually opens in spring.",
     blurb: "Work inside a congressional office as the tech expert, helping shape tech policy.",
     tags: ["policy", "government", "tech policy", "ai", "privacy", "data", "research", "writing"],
+    check: { type: "page", open: "applications? (for [^.]{0,40})?(are |is )?now open|apply now", closed: "(are|is) closed" },
   },
 
   /* ---------------------------------------------------------------------
@@ -201,6 +222,7 @@ export const OPPORTUNITIES = [
     cycle: "2027 applications were projected to open late Oct 2026 via USAJOBS and run ~4–5 weeks — check NOW.",
     blurb: "Research and work with the Library's collections — art, photos, maps, music, digital collections — on a real project with a curator.",
     tags: ["archives", "research", "art history", "digital humanities", "collections", "library", "curatorial", "history", "photography", "data"],
+    check: { type: "page", open: "applications? (are |is )?(now )?open|now accepting", closed: "applications? (are |is )?(now )?closed" },
   },
   {
     id: "smithsonian-internships",
@@ -220,6 +242,7 @@ export const OPPORTUNITIES = [
     cycle: "Summer 2027 applications open from Dec 1; most deadlines fall Jan 31 – Mar 15, 2027. Apply through the SOLAA portal.",
     blurb: "Research internships across 20+ museums (Cooper Hewitt design museum, American Art, African American History & Culture, Archives of American Art, Air & Space…).",
     tags: ["museum", "research", "art history", "curatorial", "archives", "design", "fashion history", "textiles", "education", "digital", "collections"],
+    check: null, // the SOLAA portal can't be read automatically — re-add a check when summer 2027 opens
   },
   {
     id: "fulbright",
@@ -239,6 +262,7 @@ export const OPPORTUNITIES = [
     cycle: "The 2027-28 deadline (Oct 6, 2026) has passed. The 2028-29 competition usually opens around April with an early-October deadline.",
     blurb: "A year abroad doing your own research or art project. One of the best-known 'research for non-academics' paths.",
     tags: ["research", "art", "international", "travel", "language", "fashion", "textiles", "craft", "writing", "art history"],
+    check: { type: "page", open: "(competition|application) (is )?now open", closed: "now closed" },
   },
   {
     id: "craft-research-fund",
@@ -258,6 +282,7 @@ export const OPPORTUNITIES = [
     cycle: "Deadline has historically been mid-October. Check the site for the next round.",
     blurb: "Funds new research on craft — including textiles, fiber and making practices — through writing OR art practice.",
     tags: ["craft", "textiles", "fiber", "research", "art", "writing", "material culture", "fashion", "sewing", "weaving"],
+    check: { type: "page", url: "https://www.centerforcraft.org/grants-and-fellowships/craft-research-fund-grant", open: "application is (now )?open|now accepting applications", closed: "application is (now )?closed" },
   },
   {
     id: "warhol-arts-writers",
@@ -277,6 +302,7 @@ export const OPPORTUNITIES = [
     cycle: "Opens April 1, due early May (May 6 in 2026).",
     blurb: "Supports writing and research about contemporary art — articles, books, blogs, podcasts.",
     tags: ["writing", "art criticism", "art history", "research", "journalism", "essays", "contemporary art"],
+    check: { type: "page", open: "application (is )?(now )?open\\b|apply now", closed: "application (is )?(now )?closed" },
   },
   {
     id: "pasold",
@@ -296,6 +322,7 @@ export const OPPORTUNITIES = [
     cycle: "Listed project-grant deadlines: Mar 1 and Oct 1, 2027 (third-party listing — confirm on pasold.co.uk).",
     blurb: "The main funder for dress & textile history research. Great if you want to start doing fashion research on your own.",
     tags: ["fashion history", "textiles", "dress history", "research", "archives", "costume", "material culture"],
+    check: null, // no reliable open/closed wording on the site
   },
   {
     id: "met-costume-institute",
@@ -315,6 +342,7 @@ export const OPPORTUNITIES = [
     cycle: "The current internship runs June 2026 – May 2027. The Met's long-term internship applications for the next year usually open in winter.",
     blurb: "A year inside the Met's fashion department — research, collections and exhibitions. One of the most direct fashion-research entry points.",
     tags: ["fashion history", "costume", "museum", "curatorial", "research", "archives", "textiles", "art history"],
+    check: { type: "page", open: "applications? (are |is )?(now )?open|apply now", closed: "applications? (are |is )?(now )?closed|not currently accepting" },
   },
   {
     id: "arttable-fellowship",
@@ -334,6 +362,7 @@ export const OPPORTUNITIES = [
     cycle: "Applications have usually been due in mid-March.",
     blurb: "Paid summer fellowships at museums, galleries and arts nonprofits, with mentoring from women leaders in the visual arts.",
     tags: ["museum", "gallery", "curatorial", "arts administration", "art history", "research", "visual arts"],
+    check: { type: "page", open: "applications? (are |is )?(now )?open|apply now", closed: "applications? (are |is )?(now )?closed" },
   },
 
   /* ---------------------------------------------------------------------
@@ -357,6 +386,7 @@ export const OPPORTUNITIES = [
     cycle: "2027 nominations ran Oct 7 – Nov 1, 2026 (just closed). Expect the next call around October 2027.",
     blurb: "An 8-month fellowship for building creative-coding tools and teaching resources (p5.js, Processing, etc.).",
     tags: ["creative coding", "p5.js", "processing", "javascript", "generative art", "open source", "education", "art", "design"],
+    check: { type: "page", open: "nominations (are )?open|applications (are )?open|now accepting", closed: "(nominations|applications) (are )?(now )?closed" },
   },
   {
     id: "eyebeam-agency",
@@ -376,6 +406,7 @@ export const OPPORTUNITIES = [
     cycle: "NYC track due Nov 15, 2026. Eyebeam runs several calls a year — watch for the next virtual one.",
     blurb: "A residency for artists working with technology — AR/VR, data, games, internet art, AI.",
     tags: ["art", "technology", "new media", "ai", "internet art", "vr", "ar", "games", "data visualization", "creative coding"],
+    check: { type: "deadline", url: "https://eyebeam.org/articles/agency-residency-open-call", confirm: "nyc residency" },
   },
   {
     id: "solitude-web-residencies",
@@ -395,6 +426,7 @@ export const OPPORTUNITIES = [
     cycle: "Several themed calls a year (Call No. 22 closed Aug 2026). Watch for Call No. 23.",
     blurb: "Short paid online residencies for net-based art, code and digital research, each around a theme.",
     tags: ["net art", "digital art", "ai", "creative coding", "writing", "research", "web", "internet culture"],
+    check: null, // calls are announced as news posts — they show up in New finds via the feeds
   },
   {
     id: "lacma-art-tech",
@@ -414,6 +446,7 @@ export const OPPORTUNITIES = [
     cycle: "Now every two years. The 2026 call closed in April 2026, so the next is likely early 2028.",
     blurb: "Big project grants for artists working with emerging tech, plus mentorship from tech partners.",
     tags: ["art", "technology", "ai", "vr", "ar", "robotics", "new media", "installation", "creative coding"],
+    check: { type: "page", open: "(request for proposals|applications?) (is |are )?(now )?open|submit (a|your) proposal", closed: "(proposals|applications?) (are |is )?(now )?closed" },
   },
   {
     id: "rhizome-microgrants",
@@ -433,6 +466,7 @@ export const OPPORTUNITIES = [
     cycle: "Has been an annual open call (last confirmed: Oct 2025). Check rhizome.org for a 2026/27 call.",
     blurb: "Small grants for net art and experiments in digital culture — a realistic first grant.",
     tags: ["net art", "digital art", "internet art", "web", "creative coding", "games", "video"],
+    check: { type: "page", open: "microgrants?.{0,60}(open|apply)", closed: "microgrants?.{0,60}closed" },
   },
   {
     id: "creative-capital",
@@ -452,6 +486,7 @@ export const OPPORTUNITIES = [
     cycle: "The 2027 open call closed Apr 2, 2026. Next cycle dates TBA — sign up for their newsletter.",
     blurb: "One of the best-known grants for ambitious, experimental art projects, including technology-based work.",
     tags: ["art", "visual arts", "film", "performance", "technology", "writing", "multidisciplinary"],
+    check: { type: "page", open: "open call (is )?(now )?open|applications? (are |is )?(now )?open|apply now", closed: "(portal|open call|applications?) (is |are )?(now )?closed" },
   },
 
   /* ---------------------------------------------------------------------
@@ -469,31 +504,13 @@ export const OPPORTUNITIES = [
     where: "remote",
     whereNote: "Apply online; for US-based designers",
     eligibility: "US-based designers running their own label (check the brand-age / sales requirements).",
-    deadline: "2026-11-30",
+    deadline: "2026-12-01",
     opens: null,
     rolling: false,
-    cycle: "Applications are open from June through the end of November.",
+    cycle: "Application deadline is December 1, 2026.",
     blurb: "Grants and mentorship for emerging American fashion designers. Best if you already have (or are starting) a label.",
     tags: ["fashion design", "designer", "brand", "sustainability", "sewing", "pattern making", "collection"],
-  },
-  {
-    id: "cfda-programs",
-    title: "CFDA programs, grants & fellowships",
-    org: "Council of Fashion Designers of America",
-    url: "https://cfda.com/programs",
-    kind: "fellowship",
-    fields: ["fashion", "tech"],
-    pay: "stipend",
-    payNote: "Varies — grants, scholarships and paid fellowships",
-    where: "hybrid",
-    whereNote: "Mix of virtual and in-person (mostly New York)",
-    eligibility: "Varies by program; several target emerging designers and students/recent grads.",
-    deadline: null,
-    opens: null,
-    rolling: false,
-    cycle: "Programs open at different times (e.g. the CFDA × Google Fashion Fellowship, AAPI Design & Innovation Grant). Check the programs page monthly.",
-    blurb: "The CFDA runs a rotating set of grants, fellowships and scholarships — including a fashion × tech fellowship with Google.",
-    tags: ["fashion design", "fashion", "tech", "ai", "sustainability", "designer", "brand"],
+    check: { type: "deadline", url: "https://fashiontrustus.com/apply", confirm: "deadline is december 1" },
   },
 
   /* ---------------------------------------------------------------------
@@ -517,25 +534,7 @@ export const OPPORTUNITIES = [
     cycle: "Apply any time.",
     blurb: "Design and teach small live classes for kids & teens — fashion sketching, drawing, digital art, coding. 'Instructor' is a solid resume line.",
     tags: ["teaching", "art", "drawing", "illustration", "fashion design", "sewing", "coding", "scratch", "python", "curriculum"],
-  },
-  {
-    id: "ai-training-creative",
-    title: "AI training & evaluation work for artists, designers and coders",
-    org: "e.g. Outlier, Mercor, DataAnnotation",
-    url: "https://www.google.com/search?q=AI+trainer+art+design+expert+remote+part-time",
-    kind: "part-time",
-    fields: ["tech", "art", "research"],
-    pay: "paid",
-    payNote: "Hourly; often $20–$60+/hr for specialist (art, design, writing, coding) projects",
-    where: "remote",
-    whereNote: "Fully remote, flexible hours",
-    eligibility: "Usually a skills test. Availability of work can be uneven — read recent reviews first.",
-    deadline: null,
-    opens: null,
-    rolling: true,
-    cycle: "Continuous hiring.",
-    blurb: "Review and write examples that teach AI models about art, design, fashion or code. Frame it on a resume as 'AI model evaluation'.",
-    tags: ["ai", "evaluation", "writing", "art", "design", "coding", "python", "research", "fashion"],
+    check: { type: "rolling" },
   },
 
   /* ---------------------------------------------------------------------
@@ -559,6 +558,7 @@ export const OPPORTUNITIES = [
     cycle: "Ongoing.",
     blurb: "Transcribe artists' letters, diaries and archive documents (incl. the Archives of American Art). Real archival research experience.",
     tags: ["archives", "research", "art history", "transcription", "history", "museum"],
+    check: { type: "rolling" },
   },
   {
     id: "loc-by-the-people",
@@ -578,25 +578,7 @@ export const OPPORTUNITIES = [
     cycle: "Ongoing.",
     blurb: "Help make the Library's historic documents searchable. Pairs well with applying to the Junior Fellows program.",
     tags: ["archives", "research", "history", "transcription", "library"],
-  },
-  {
-    id: "art-feminism",
-    title: "Art+Feminism edit-a-thons",
-    org: "Art+Feminism",
-    url: "https://artandfeminism.org/",
-    kind: "volunteer",
-    fields: ["art", "research", "fashion"],
-    pay: "unpaid",
-    payNote: "Volunteer",
-    where: "remote",
-    whereNote: "Virtual and in-person events",
-    eligibility: "Anyone.",
-    deadline: null,
-    opens: null,
-    rolling: true,
-    cycle: "Events year-round, biggest push around March. You can also organize one.",
-    blurb: "Research and write Wikipedia articles about women, trans and non-binary artists and designers. Builds research + writing chops.",
-    tags: ["writing", "research", "art history", "wikipedia", "feminism", "fashion history", "community"],
+    check: { type: "rolling" },
   },
   {
     id: "zooniverse",
@@ -616,24 +598,6 @@ export const OPPORTUNITIES = [
     cycle: "Ongoing.",
     blurb: "Contribute to real academic research projects — many in art history, museums and archives. Projects credit volunteers.",
     tags: ["research", "citizen science", "art history", "archives", "data", "museum"],
-  },
-  {
-    id: "fashion-revolution",
-    title: "Fashion Revolution — volunteer & community",
-    org: "Fashion Revolution",
-    url: "https://www.fashionrevolution.org/",
-    kind: "volunteer",
-    fields: ["fashion", "research"],
-    pay: "unpaid",
-    payNote: "Volunteer",
-    where: "remote",
-    whereNote: "Mostly online; local events too",
-    eligibility: "Anyone.",
-    deadline: null,
-    opens: null,
-    rolling: true,
-    cycle: "Ongoing; Fashion Revolution Week is every April.",
-    blurb: "The global fashion-transparency movement. Volunteer with campaigns, events and research like the Fashion Transparency Index.",
-    tags: ["fashion", "sustainability", "research", "advocacy", "events", "writing", "social media"],
+    check: { type: "rolling" },
   },
 ];

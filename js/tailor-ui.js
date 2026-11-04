@@ -125,7 +125,7 @@ export function tailorFor(item) {
   $("#t-org").value = t.org;
   $("#t-job").value = t.jobText;
   $("#t-results").innerHTML = "";
-  $("#t-job-note").innerHTML = item.live && item.fullText
+  $("#t-job-note").innerHTML = item.fullText
     ? `Loaded the posting text from ${esc(item.source)}. <a href="${esc(item.url)}" target="_blank" rel="noopener">Open the original</a> to check nothing's missing.`
     : `This is only a summary. For a real match, <a href="${esc(item.url)}" target="_blank" rel="noopener">open the official page</a> and paste the full posting above.`;
   deps.showTab("tailor");
