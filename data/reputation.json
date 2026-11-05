@@ -2,7 +2,7 @@
  "supabase": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:03:12.033Z",
+  "checked": "2026-11-05T20:54:13.592Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -28,16 +28,27 @@
   "throttled": true
  },
  "stripe": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-04T01:07:24.130Z",
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "[US] Possible Stripe Scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1teb7bd"
+   },
+   {
+    "where": "r/Scams",
+    "title": "[Global] Beware of stripe processor fraud scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1jh7oxs"
+   }
+  ],
+  "checked": "2026-11-05T20:46:53.752Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "socure": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:08:33.943Z",
+  "checked": "2026-11-05T20:47:54.509Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -58,7 +69,7 @@
  "nebius": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:11:36.906Z",
+  "checked": "2026-11-05T20:51:10.425Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -99,70 +110,70 @@
  "burkland associates": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:46:07.426Z",
+  "checked": "2026-11-05T20:59:28.374Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "docusketch": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:47:42.446Z",
+  "checked": "2026-11-05T21:00:32.305Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "mecka": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:48:43.291Z",
+  "checked": "2026-11-05T21:01:33.608Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "adaptyv": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:49:44.319Z",
+  "checked": "2026-11-05T21:02:34.343Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "polaroid": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-04T20:50:45.264Z",
+  "checked": "2026-11-05T21:03:56.542Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:51:46.483Z",
+  "checked": "2026-11-05T21:03:57.396Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "fluence international, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:52:47.458Z",
+  "checked": "2026-11-05T21:04:58.817Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "asian cultural council grant opportunities": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:53:48.348Z",
+  "checked": "2026-11-05T21:05:59.901Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "edconic": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:54:49.379Z",
+  "checked": "2026-11-05T21:07:00.664Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "pinstripeworld": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:55:59.619Z",
+  "checked": "2026-11-05T21:08:01.621Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -176,7 +187,7 @@
  "onebrief": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:58:10.999Z",
+  "checked": "2026-11-05T21:09:02.676Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -204,14 +215,14 @@
  "orbis operations": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:30:19.873Z",
+  "checked": "2026-11-05T21:10:03.754Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "penumbra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:31:21.327Z",
+  "checked": "2026-11-05T21:11:14.511Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -239,7 +250,7 @@
  "elevenlabs": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:30:29.143Z",
+  "checked": "2026-11-05T20:44:37.154Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -330,14 +341,14 @@
  "kyra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:44:05.771Z",
+  "checked": "2026-11-05T20:57:26.329Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "calabrio": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:45:06.806Z",
+  "checked": "2026-11-05T20:58:27.539Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -347,5 +358,117 @@
   "checked": "2026-11-04T20:47:31.269Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": false
+ },
+ "alphasense": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T20:43:22.290Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "welo global": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T20:45:38.286Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "instructure": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T20:48:55.671Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "reddit": {
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Reddit scammers?or Genuine",
+    "url": "https://www.reddit.com/r/Scams/comments/1x61g5t"
+   },
+   {
+    "where": "r/Scams",
+    "title": "REDDIT SCAMMER - I got scammed out of $50",
+    "url": "https://www.reddit.com/r/Scams/comments/1x2m8uv"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Is this a reddit scam?",
+    "url": "https://www.reddit.com/r/Scams/comments/1x1sws4"
+   },
+   {
+    "where": "r/Scams",
+    "title": "[AL] Could this be a Reddit scam?",
+    "url": "https://www.reddit.com/r/Scams/comments/1wv0iom"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Reddit Scam - Fake Reports",
+    "url": "https://www.reddit.com/r/Scams/comments/1wurnsq"
+   }
+  ],
+  "checked": "2026-11-05T20:50:09.365Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "keyfactor, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T20:52:11.876Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "magicschool ai": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T20:53:12.619Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "kong inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T20:55:24.055Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "claims": {
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "Hacker News",
+    "title": "'Mars One' finalist breaks silence, claims organization is a total scam",
+    "url": "https://news.ycombinator.com/item?id=9219810"
+   },
+   {
+    "where": "Hacker News",
+    "title": "'Mars One' finalist breaks silence, claims organization is a total scam",
+    "url": "https://news.ycombinator.com/item?id=9220921"
+   },
+   {
+    "where": "Hacker News",
+    "title": "'Mars One' finalist breaks silence, claims organization is a total scam",
+    "url": "https://news.ycombinator.com/item?id=9220702"
+   }
+  ],
+  "checked": "2026-11-05T20:56:25.114Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "askable": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T21:12:15.773Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "curtins": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-05T21:13:16.895Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
  }
 }

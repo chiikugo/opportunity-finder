@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:59:11.015Z",
+ "updated": "2026-11-05T21:14:16.911Z",
  "sources": [
   {
    "name": "NYU ITP / IMA opportunities",
@@ -47,7 +47,7 @@
    "name": "Remotive",
    "url": "https://remotive.com",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   {
    "name": "Jobicy",
@@ -59,13 +59,13 @@
    "name": "Remote OK",
    "url": "https://remoteok.com",
    "ok": true,
-   "count": 63
+   "count": 53
   },
   {
    "name": "SimplifyJobs new-grad list",
    "url": "https://github.com/SimplifyJobs/New-Grad-Positions",
    "ok": true,
-   "count": 82
+   "count": 83
   }
  ],
  "programs": {
@@ -89,17 +89,17 @@
      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     }
    ],
-   "checked": "2026-11-04T20:27:26.507Z"
+   "checked": "2026-11-05T20:42:39.001Z"
   },
   "outreachy": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T20:27:26.899Z"
+   "checked": "2026-11-05T20:42:39.670Z"
   },
   "gsoc": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T20:27:27.057Z"
+   "checked": "2026-11-05T20:42:39.779Z"
   },
   "mlh-fellowship": {
    "open": true,
@@ -111,7 +111,7 @@
      "url": "https://fellowship.mlh.com/"
     }
    ],
-   "checked": "2026-11-04T20:27:27.589Z"
+   "checked": "2026-11-05T20:42:40.333Z"
   },
   "codepath-instructor": {
    "open": true,
@@ -128,62 +128,62 @@
      "location": "Remote, United States"
     }
    ],
-   "checked": "2026-11-04T20:27:27.650Z"
+   "checked": "2026-11-05T20:42:40.376Z"
   },
   "venture-for-america": {
    "open": false,
    "reason": "page didn't load for our check (fetch failed)",
-   "checked": "2026-11-04T20:27:29.875Z"
+   "checked": "2026-11-05T20:42:42.491Z"
   },
   "techcongress": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-04T20:27:30.168Z"
+   "checked": "2026-11-05T20:42:42.799Z"
   },
   "loc-junior-fellows": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-04T20:27:30.249Z"
+   "checked": "2026-11-05T20:42:42.845Z"
   },
   "smithsonian-internships": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-04T20:27:30.249Z"
+   "checked": "2026-11-05T20:42:42.846Z"
   },
   "fulbright": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-04T20:27:30.751Z"
+   "checked": "2026-11-05T20:42:43.296Z"
   },
   "craft-research-fund": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-04T20:27:31.084Z"
+   "checked": "2026-11-05T20:42:43.381Z"
   },
   "warhol-arts-writers": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T20:27:32.035Z"
+   "checked": "2026-11-05T20:42:44.341Z"
   },
   "pasold": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-04T20:27:32.035Z"
+   "checked": "2026-11-05T20:42:44.342Z"
   },
   "met-costume-institute": {
    "open": false,
    "reason": "page didn't load for our check (429)",
-   "checked": "2026-11-04T20:27:32.160Z"
+   "checked": "2026-11-05T20:42:44.680Z"
   },
   "arttable-fellowship": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-04T20:27:32.446Z"
+   "checked": "2026-11-05T20:42:45.023Z"
   },
   "processing-fellowship": {
    "open": false,
    "reason": "the open window's end date has passed",
-   "checked": "2026-11-04T20:27:32.946Z"
+   "checked": "2026-11-05T20:42:45.533Z"
   },
   "eyebeam-agency": {
    "open": true,
@@ -194,27 +194,27 @@
      "url": "https://eyebeam.org/articles/agency-residency-open-call"
     }
    ],
-   "checked": "2026-11-04T20:27:33.246Z"
+   "checked": "2026-11-05T20:42:45.911Z"
   },
   "solitude-web-residencies": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-04T20:27:33.246Z"
+   "checked": "2026-11-05T20:42:45.911Z"
   },
   "lacma-art-tech": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T20:27:33.469Z"
+   "checked": "2026-11-05T20:42:46.836Z"
   },
   "rhizome-microgrants": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-04T20:27:33.689Z"
+   "checked": "2026-11-05T20:42:47.036Z"
   },
   "creative-capital": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-04T20:27:33.950Z"
+   "checked": "2026-11-05T20:42:47.112Z"
   },
   "fashion-trust-us": {
    "open": true,
@@ -225,7 +225,7 @@
      "url": "https://fashiontrustus.com/apply"
     }
    ],
-   "checked": "2026-11-04T20:27:34.192Z"
+   "checked": "2026-11-05T20:42:47.481Z"
   },
   "outschool": {
    "open": true,
@@ -236,7 +236,7 @@
      "url": "https://teach.outschool.com/"
     }
    ],
-   "checked": "2026-11-04T20:27:34.613Z"
+   "checked": "2026-11-05T20:42:47.939Z"
   },
   "smithsonian-transcription": {
    "open": true,
@@ -247,7 +247,7 @@
      "url": "https://transcription.si.edu/"
     }
    ],
-   "checked": "2026-11-04T20:27:34.757Z"
+   "checked": "2026-11-05T20:42:47.988Z"
   },
   "loc-by-the-people": {
    "open": true,
@@ -258,7 +258,7 @@
      "url": "https://crowd.loc.gov/"
     }
    ],
-   "checked": "2026-11-04T20:27:34.838Z"
+   "checked": "2026-11-05T20:42:48.043Z"
   },
   "zooniverse": {
    "open": true,
@@ -269,12 +269,12 @@
      "url": "https://www.zooniverse.org/projects?discipline=arts"
     }
    ],
-   "checked": "2026-11-04T20:27:35.337Z"
+   "checked": "2026-11-05T20:42:48.676Z"
   }
  },
  "removed": {
   "counts": {
-   "no link to an actual application": 21,
+   "no link to an actual application": 17,
    "news round-up, not a listing": 14,
    "charges an application / entry fee": 1,
    "scam red flags": 1,
@@ -282,7 +282,8 @@
    "page blocks automated checks and has no future deadline we can confirm": 3,
    "deadline passed": 13,
    "application page is dead": 2,
-   "scam cross-check not finished yet": 95
+   "scam cross-check not finished yet": 79,
+   "called a scam on Reddit / Hacker News": 6
   },
   "flagged": [
    {
@@ -291,139 +292,124 @@
     "why": "charges an application / entry fee"
    },
    {
-    "title": "GTM Engineer, Marketing",
-    "org": "Tremendous",
-    "why": "scam red flags: asks you to buy things"
+    "title": "Brazilian Subject Matter Expert in Religion or Philosophy",
+    "org": "Welo Global",
+    "why": "scam red flags: interview or contact over a chat app"
    },
    {
-    "title": "Maintenance Planner",
-    "org": "Gatik AI",
+    "title": "Customer Operations Manager, Gainsight",
+    "org": "AlphaSense",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Financial Analyst",
-    "org": "Canonical",
+    "title": "Compliance Analyst (Night Shift- Pacific Time)",
+    "org": "AlphaSense",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Developer Advocate",
+    "title": "Cloud Support Engineer",
+    "org": "AlphaSense",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Full-Stack Engineer - Ads Engine",
     "org": "Elevenlabs",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Product Manager, Agent",
-    "org": "Customer.io",
+    "title": "Brazilian Subject Matter Expert in History",
+    "org": "Welo Global",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Vertical Sales Strategy and Operations",
-    "org": "Elevenlabs",
+    "title": "Designer, Web Presence & Platform",
+    "org": "Stripe",
+    "why": "called a scam on Reddit / Hacker News (2 posts)"
+   },
+   {
+    "title": "Legal Counsel, Identity & Trust Products",
+    "org": "Socure",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Partnerships Strategy & Operations",
-    "org": "Elevenlabs",
+    "title": "AI Engineer, Marketing",
+    "org": "Instructure",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full-Stack Engineer (Backend Leaning) - Payments Engineering",
-    "org": "Elevenlabs",
+    "title": "Machine Learning Manager, Feed Relevance (Retrieval)",
+    "org": "Reddit",
+    "why": "called a scam on Reddit / Hacker News (5 posts)"
+   },
+   {
+    "title": "Technical Content Marketing Manager",
+    "org": "Socure",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full-Stack Engineer (Backend Leaning) - Platform Engineering",
-    "org": "Elevenlabs",
+    "title": "Frontend Engineer - User Interface",
+    "org": "Nebius",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Product Marketing - Agents - Government",
-    "org": "Elevenlabs",
+    "title": "Machine Learning Manager, Feed Ecosystems",
+    "org": "Reddit",
+    "why": "called a scam on Reddit / Hacker News (5 posts)"
+   },
+   {
+    "title": "Machine Learning Engineering Manager - Core Ads Ranking",
+    "org": "Reddit",
+    "why": "called a scam on Reddit / Hacker News (5 posts)"
+   },
+   {
+    "title": "Sales Enablement and Training Manager",
+    "org": "Socure",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "People Partner Engineering & Product",
-    "org": "Elevenlabs",
+    "title": "Machine Learning Engineer, Answers Relevance",
+    "org": "Reddit",
+    "why": "called a scam on Reddit / Hacker News (5 posts)"
+   },
+   {
+    "title": "L1 Support Engineer - Portuguese (Part-time)",
+    "org": "Instructure",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full-Stack Engineer (Backend Leaning) - Studio",
-    "org": "Elevenlabs",
+    "title": "Product Marketing Manager",
+    "org": "Keyfactor, Inc.",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Observability Engineering Manager",
-    "org": "Canonical",
+    "title": "L1 Support Engineer - Spanish Backup",
+    "org": "Instructure",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Paid Media Influencer Analyst",
-    "org": "hims &#038; hers",
+    "title": "Communications Designer, Developer Experience",
+    "org": "Nebius",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Automation Engineer, Agentic Orchestration",
-    "org": "StackAdapt",
+    "title": "Professional Learning Facilitator (Contract)",
+    "org": "MagicSchool AI",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Product at Nash",
-    "org": "Nash",
+    "title": "Engineering Manager",
+    "org": "Supabase",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "AI Application Security Engineer",
-    "org": "Brain Co.",
+    "title": "Site Reliability Engineer 2",
+    "org": "Kong Inc.",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Telehealth Board Certified Behavior Analyst (BCBA)",
-    "org": "Centria Autism",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Mentor, Claude Corps",
-    "org": "CodePath",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Customer Research Advisor",
-    "org": "dscout",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Grant Writer",
-    "org": "CodePath",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Financial Analyst (P2) - Temp to FTE Opportunity",
-    "org": "Salesloft",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "AI Research Engineer",
-    "org": "dscout",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Manager, Return To Vendor (RTV)",
-    "org": "Quince",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Technical Support Engineer",
-    "org": "Kustomer",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "1775 RPG/AS400 & JD Edwards EnterpriseOne Developer",
-    "org": "Softgic",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
+    "title": "Software Engineer",
+    "org": "Claims",
+    "why": "called a scam on Reddit / Hacker News (3 posts)"
    },
    {
     "title": "Paid Media Manager US ",
@@ -456,11 +442,6 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Country Manager Canada",
-    "org": "Polaroid",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
     "title": "Research Associate - Data Curation",
     "org": "Drug Hunter",
     "why": "scam cross-check not finished yet (retried tomorrow)"
@@ -484,10 +465,70 @@
     "title": "Pinstripe World Founding Artists (through Nov 30)",
     "org": "",
     "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Solutions Engineer",
+    "org": "Onebrief",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Research Engineer - AI",
+    "org": "Orbis Operations",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Clinical Data Manager",
+    "org": "Penumbra",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Software Engineer, AI Coding Tasks",
+    "org": "Askable",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
    }
   ]
  },
  "items": [
+  {
+   "id": "f-zkhnqy",
+   "title": "Country Manager Canada",
+   "org": "Polaroid",
+   "url": "https://remoteOK.com/remote-jobs/remote-country-manager-canada-polaroid-1137602",
+   "source": "Remote OK",
+   "sourceUrl": "https://remoteok.com",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-10-30T00:00:10+00:00",
+   "blurb": "Hello. Weâre Polaroid. An iconic brand, built by passionate people Polaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is…",
+   "fullText": "Hello. Weâre Polaroid. An iconic brand, built by passionate people\nPolaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is manifestly important and nearly impossible.â\nIn 2008, Polaroid produced its last pack of instant film. But a group of passionate fans refused to let instant photography disappear. What started as The Impossible Project grew into a mission to preserve and reinvent analogue photography for a new generation. More than a decade later, that same startup acquired the Polaroid brand and continues to shape its future today.\nAt Polaroid, we create products and experiences that spark emotion, fuel creativity, and bring people closer together. At the intersection of art and technology, we believe in the power of analogue moments and genuine human connection in an increasingly digital world.\nThe Role\nAs the Country Manager, Canada - you will play a pivotal role in managing and expanding our footprint with National Retailers and Independents alike. We are looking for an experienced account manager that has excellent business and execution skills to deliver profitable customer plans and market share growth. In addition to channel and operational management responsibilities, this role will also collaborate with internal stakeholders from sales operations, finance, demand planning, product management, and marketing.\nKey Responsibilities:\n• Canada Market Leadership: Serve as the commercial lead for Polaroid in Canada, owning the Canadian wholesale plan and accountability for revenue and market growth. Be the in-market face of the business and the primary point of leadership for the Canadian commercial team and stakeholders.\n• National Account Ownership: Act as the strategic lead for all national wholesale accounts, ensuring long-term scalability, commercial profitability, and a premium Polaroid brand presence across every brick-and-mortar and digital retail touchpoint.\n• Account Partnership: Build and hold trusted relationships with the most senior buyers, merchants, and decision-makers across national accounts. Lead joint business planning and negotiate mutually beneficial terms that create sustainable, multi-year growth.\n• Team & Cross-Functional Leadership: Lead and coordinate the Canadian commercial plan, including setting priorities and coaching supporting team members. Partner closely with US-based planning, finance, retail marketing, and product teams.\n• Forecasting, Demand Planning & SKU Transition: Translate market data into actionable inventory strategies. Lead seasonal forecasting and rolling monthly projections and manage SKU EOL transitions to protect sell-through. Track consumer trends and identify opportunities to capitalize or course-correct.\n• Sell-Through & Brand Activation: Shift the focus from sell-in to sell-through. Partner with retail marketing and activation teams to execute high-impact programs, elevate in-store positioning and shelf execution, and consistently use retail assets to drive account performance.\n• Brand Ambassador & Product Evangelism: Act as the face of Polaroid by demonstrating our world-class products at trade shows, training events, and major national account meetings.\nWhat You'll Need to Succeed\n• Experience: Demonstrable progressive, high-impact sales and account management experience within a consumer goods, consumer electronics, or premium hardware retail environment, including experience leading a market, a team, or a portfolio with meaningful autonomy. A proven track record of managing multi-million-dollar national retail portfolios is essential.\n• Canadian Retailer Depth: Deep familiarity with the Canadian retail landscape and established senior-level relationships across major national chains.\n• Commercial & Analytical Literacy: Strong command of retail math, inventory pipelines, pricing elasticity, and promotional mechanics. Comfortable evaluating complex financial models and partnering closely with finance and operations leaders.\n• Strategic Influence: Excellent stakeholder management and communication skills, with a proven track record of influencing external executive leadership and aligning internal cross-functional teams around a shared growth vision.\n• Self-Directed Leadership: Able to operate as the senior Polaroid presence in-market: setting direction and making decisions while staying tightly connected to the North American strategy.\nAI in our hiring process\nOur recruitment team reviews every application, including your CV. We may use AI-assisted technology to support the initial review process and help our recruiters work more efficiently. Your application is always reviewed by a recruiter and all our hiring decisions are made by people. Learn more in our Privacy Policy: https://www.polaroid.com/legal/careers-job-applicant-privacy-policy\nÂ\nOur Approach to AI\nAt Polaroid we believe two things can be true at once: technology can help us move forward, while human creativity, craft, judgement and real-world connection matter more than ever.\nSince our beginning, we've embraced technology to create meaningful human experiences. Today that means exploring new tools, including AI, with curiosity and care, using them where they help us work better and build a stronger business, while staying true to what defines our brand.\nPlease mention the word **RESOURCEFULNESS** and tag RNC4xNDkuMjM4LjExNg== when applying to show you read the job post completely (#RNC4xNDkuMjM4LjExNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "tags": [
+    "product",
+    "craft",
+    "data",
+    "ai",
+    "policy",
+    "privacy",
+    "startup",
+    "art",
+    "photography",
+    "video"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 7 day(s) ago and still listed as active",
+   "checked": "2026-11-05T20:43:10.279Z",
+   "repNote": "no posts calling “Polaroid” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-05)",
+   "firstSeen": "2026-11-05T21:14:16.911Z"
+  },
   {
    "id": "f-1edteh1",
    "title": "Freelance Copywriter",
@@ -524,8 +565,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 2 day(s) ago and still listed as active",
-   "checked": "2026-11-04T20:27:58.087Z",
+   "verifyNote": "posted 3 day(s) ago and still listed as active",
+   "checked": "2026-11-05T20:43:10.279Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   },
@@ -564,41 +605,10 @@
     "design"
    ],
    "rep": "job",
-   "verifyNote": "posted 24 day(s) ago and still listed as active",
-   "checked": "2026-11-04T20:27:58.087Z",
+   "verifyNote": "posted 25 day(s) ago and still listed as active",
+   "checked": "2026-11-05T20:43:10.279Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
-  },
-  {
-   "id": "f-cc686y",
-   "title": "Frontend Engineer - Design Systems",
-   "org": "Mercury",
-   "url": "https://job-boards.greenhouse.io/mercury/jobs/6233910004",
-   "source": "SimplifyJobs new-grad list",
-   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
-   "kind": "job",
-   "jobType": "",
-   "fields": [
-    "tech",
-    "art"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "SF · Remote in USA · NYC · Portland, OR · Remote in Canada",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-10-23T23:00:21.000Z",
-   "blurb": "Software role for new",
-   "fullText": "Software role for new grads.",
-   "tags": [
-    "web development",
-    "design"
-   ],
-   "rep": "job",
-   "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-04T20:28:02.556Z",
-   "repNote": "no posts calling “Mercury” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
-   "firstSeen": "2026-11-04T01:33:22.415Z"
   },
   {
    "id": "f-lon5kt",
@@ -628,49 +638,9 @@
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 13 day(s) ago and still listed as active",
-   "checked": "2026-11-04T20:27:58.087Z",
-   "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
-   "firstSeen": "2026-11-04T01:33:22.415Z"
-  },
-  {
-   "id": "f-1gpr4t3",
-   "title": "Accounting & Finance Manager",
-   "org": "Political Asylum Lawyers",
-   "url": "https://remoteOK.com/remote-jobs/remote-accounting-finance-manager-political-asylum-lawyers-1137555",
-   "source": "Remote OK",
-   "sourceUrl": "https://remoteok.com",
-   "kind": "job",
-   "jobType": "",
-   "fields": [
-    "tech",
-    "art",
-    "research"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "Remote",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-10-22T00:00:21+00:00",
-   "blurb": "Who We Are Political Asylum Lawyers is a Houston-based immigration law firm focused on asylum cases. We help immigrants all over the United States secure their futures here through asylum, combining exceptional standards with deep respect…",
-   "fullText": "Who We Are Political Asylum Lawyers is a Houston-based immigration law firm focused on asylum cases. We help immigrants all over the United States secure their futures here through asylum, combining exceptional standards with deep respect for the human reality behind every case.Â\nOur work changes lives. The standards we maintain, the discipline behind our work, and the way we show up every day can determine whether someone is able to stay safe and build a stable future in the United States. That is why we operate with integrity, urgency, and excellence, and why we expect every team member to take full ownership of their role.\nEverything we do is guided by our core values: integrity, excellence, accountability, teamwork and passion.\nWorking here means:\n• High-stakes responsibility: our work is of great consequence for our clients\n• Deeply meaningful outcomes: our work changes lives for the better\n• Emotionally demanding moments: resilience and maturity are essential\n• High standards and constant growth: excellence and continuous improvement are expected\n• Mission-driven teamwork: weâre passionate about helping immigrants secure their future in the United States through asylum, and we know that meeting our high standards requires each of us to take ownership, communicate proactively, and support one another\nIf you want a career where your skills create tangible change in the world, this is it.\nLearn more about what itâs like to work with us here:Â politicalasylumlawyers.com/careers\nThe Role In this role, you'll be an integral part of our team's mission of helping immigrants secure their future in the United States through asylum. We believe that those fleeing persecution deserve expert guidance and unwavering support as they seek safety and a new beginning in the United States.Â\nThe Accounting & Finance Manager (Hands-on) is responsible for managing the firmâs financial operations, accounting systems, billing, accounts receivable, cash flow forecasting, financial reporting, trust accounting compliance, payroll oversight, tax reporting coordination, internal controls, and finance-related operational projects.Â\nThis role serves as the firmâs first level of financial analysis and operational financial control. The Accounting & Finance Manager ensures that financial records are accurate, timely, compliant, and useful for decisions. This is a hands-on role. The initial focus is to learn the firmâs systems, work with existing staff and providers, and establish accurate, reliable financial operations.\nRecurring accounting and billing work will be delegated progressively, while the manager retains responsibility for controls, review, quality, and results. As readiness and scope are agreed with leadership and current senior finance support, the manager will gradually assume selected planning and reporting responsibilities from that support.\nThe Accounting & Finance Manager must explain complex financial information in plain English, identify financial risks, recommend corrective action, and follow approved actions through implementation and verified results. The role supports leadership decisions on budgeting, profitability, cash management, pricing, collections, and strategic planning.Â\nWhat You'll Do Your day-to-day responsibilities will vary based on the firmâs needs, but will include a combination of the following:\nFinancial Operations ManagementÂ\n• Perform and manage day-to-day financial operations, working with existing staff and service providers and documenting procedures so the work is completed accurately and on time.\n• Follow financial issues through to resolution: identify who is responsible for each next step and its deadline, follow up, raise problems with recommended solutions, and confirm that the agreed actions were completed correctly.\n• Ensure accurate execution of accounting, billing, A/R, A/P, payroll, trust accounting, collections, tax coordination, and general ledger maintenance.Â Â\n• Maintain clean and current financial records in the accounting system.Â Â\n• Ensure the legal team is supported with accurate financial information related to client matters, billing, retainers, and collections.Â Â\n• Monitor daily cash balances, bank accounts, credit card activity, merchant activity, and other key financial accounts.Â Â\n• Ensure bills, vendor payments, check requests, and reimbursements are processed accurately and on time.\nFinancial Reporting, Budgeting, and ForecastingÂ\n• Prepare, review, and analyze monthly financial statements and key financial reports on time.\n• Validate supporting records, calculations, and assumptions; investigate material inconsistencies and disclose unresolved limitations.Â Â\n• Ensure monthly financial reports are completed accurately and on time.Â Â\n• Prepare annual and periodic budgets and forecasts as required throughout the year. Provide budget variance reports and explain the results to the Owner/CFO in clear business language, including conclusions, recommendations, and decisions needed.\n• Support the creation, maintenance, and monitoring of the annual budget.Â Â\n• Maintain a forward-looking cash flow forecast to help leadership anticipate shortfalls, plan distributions, and manage working capital.Â Â\n• Track year-over-year revenue growth, gross profit, operating profit, and other key financial trends.Â Â\n• Provide analysis that supports strategic planning, operational planning, and financial decision-making.Â Â\nBilling, Collections, and Accounts ReceivableÂ\n• Own and continuously improve the firmâs billing and collections process.Â Â\n• Supervise timely preparation and delivery of client invoices.Â Â\n• Monitor payment plans and ensure clients comply with payment terms.Â Â\n• Track, measure, and report accounts receivable aging.Â Â\n• Ensure collection protocols are followed consistently and professionally.Â Â\n• Work with billing staff and leadership to prevent A/R from accruing unnecessarily.Â Â\n• Address client billing questions and payment concerns professionally while protecting the firmâs financial interests.Â Â\n• Own the operational handling of chargebacks, refund requests, billing disputes, and merchant service issues through documented resolution.Â\n• Review billing records, payment history and related correspondence to understand and resolve chargebacks, refund requests and billing disputes. Coordinate follow-up, obtain required approvals, and confirm that any approved refunds, credits or other adjustments are correctly recorded in the relevant systems and account balances.\n• Recommend process improvements to increase collection rate and reduce financial leakage.Â Â\nTrust Accounting and ComplianceÂ\n• Ensure trust/IOLTA account activity is properly monitored, reconciled, and documented.Â Â\n• Own or review three-way trust reconciliations.Â Â\n• Identify and resolve trust accounting discrepancies with urgency.Â Â\n• Ensure compliance with applicable legal, ethical, and accounting requirements.Â Â\n• Work with the Owner/CFO and CPA to correct accounting or reporting issues.Â Â\n• Maintain strong internal controls to protect the integrity of firm financials.Â Â\nInternal Controls and Risk ManagementÂ\n• Design, recommend, and enforce financial controls that protect the firm.Â Â\n• Identify financial risks, reporting gaps, compliance issues, cash flow risks, billing breakdowns, and process weaknesses.Â Â\n• Recommend practical corrective actions to leadership and work within approved policies and authority limits.Â Â\n• Support audits, tax preparation, financial reviews, and outside accounting reviews.Â Â\n• Ensure balance sheet reconciliations, payroll liability reconciliations, and bank reconciliations are completed accurately.Â Â\n• Monitor payroll taxes, tax liabilities, vendor obligations, debt obligations, and compliance deadlines.Â Â\nFinance Team and Vendor OversightÂ\n• Oversee existing staff and providers formally assigned to the role, including the bookkeeper, billing specialist, payroll provider",
-   "tags": [
-    "data",
-    "museum",
-    "coding",
-    "ai",
-    "policy",
-    "privacy",
-    "design",
-    "craft",
-    "writing",
-    "art criticism"
-   ],
-   "rep": "job",
    "verifyNote": "posted 14 day(s) ago and still listed as active",
-   "checked": "2026-11-04T20:27:58.087Z",
-   "repNote": "no posts calling “Political Asylum Lawyers” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "checked": "2026-11-05T20:43:10.279Z",
+   "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T01:33:22.415Z"
   },
   {
@@ -693,15 +663,15 @@
    "deadline": null,
    "date": "2026-10-14T14:44:21+00:00",
    "blurb": "Remote | Independent Contractor | Get certified for future project opportunities Prove your skills. Get certified. Be ready for what comes next. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better…",
-   "fullText": "Remote | Independent Contractor | Get certified for future project opportunities\nProve your skills. Get certified. Be ready for what comes next.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available.\nWhat You Will Do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\nWhat You Bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\nWhat the Work Looks Like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nWhy Get Certified Now\nCompleting certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become available.\nPlease note: Certification does not guarantee a project engagement, assignment or paid work. Future opportunities depend on project availability and applicable selection criteria.\nPlease mention the word **SUPREME** and tag RMjAuMTY5LjEwMC4xNjE= when applying to show you read the job post completely (#RMjAuMTY5LjEwMC4xNjE=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "Remote | Independent Contractor | Get certified for future project opportunities\nProve your skills. Get certified. Be ready for what comes next.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available.\nWhat You Will Do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\nWhat You Bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\nWhat the Work Looks Like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nWhy Get Certified Now\nCompleting certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become available.\nPlease note: Certification does not guarantee a project engagement, assignment or paid work. Future opportunities depend on project availability and applicable selection criteria.\nPlease mention the word **SUPREME** and tag RNC4xNDkuMjM4LjExNg== when applying to show you read the job post completely (#RNC4xNDkuMjM4LjExNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "data",
     "ai",
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 21 day(s) ago and still listed as active",
-   "checked": "2026-11-04T20:27:58.087Z",
+   "verifyNote": "posted 22 day(s) ago and still listed as active",
+   "checked": "2026-11-05T20:43:10.279Z",
    "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T01:33:22.415Z"
   }
@@ -714,6 +684,7 @@
   "f-1gpr4t3": "2026-11-04T01:33:22.415Z",
   "f-lnxfa7": "2026-11-04T01:33:22.415Z",
   "f-1edteh1": "2026-11-04T20:59:11.015Z",
-  "f-64ndgo": "2026-11-04T20:59:11.015Z"
+  "f-64ndgo": "2026-11-04T20:59:11.015Z",
+  "f-zkhnqy": "2026-11-05T21:14:16.911Z"
  }
 }
