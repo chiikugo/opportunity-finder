@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-05T21:14:16.911Z",
+ "updated": "2026-11-06T20:30:33.420Z",
  "sources": [
   {
    "name": "NYU ITP / IMA opportunities",
    "url": "https://itp.nyu.edu/opportunities/",
    "ok": true,
-   "count": 6
+   "count": 7
   },
   {
    "name": "Hyperallergic opportunities",
@@ -29,7 +29,7 @@
    "name": "Surface Design Association",
    "url": "https://www.surfacedesign.org/",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   {
    "name": "Fashionista",
@@ -47,7 +47,7 @@
    "name": "Remotive",
    "url": "https://remotive.com",
    "ok": true,
-   "count": 10
+   "count": 12
   },
   {
    "name": "Jobicy",
@@ -59,13 +59,13 @@
    "name": "Remote OK",
    "url": "https://remoteok.com",
    "ok": true,
-   "count": 53
+   "count": 58
   },
   {
    "name": "SimplifyJobs new-grad list",
    "url": "https://github.com/SimplifyJobs/New-Grad-Positions",
    "ok": true,
-   "count": 83
+   "count": 86
   }
  ],
  "programs": {
@@ -89,17 +89,17 @@
      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     }
    ],
-   "checked": "2026-11-05T20:42:39.001Z"
+   "checked": "2026-11-06T19:58:55.454Z"
   },
   "outreachy": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-05T20:42:39.670Z"
+   "checked": "2026-11-06T19:58:55.888Z"
   },
   "gsoc": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-05T20:42:39.779Z"
+   "checked": "2026-11-06T19:58:55.999Z"
   },
   "mlh-fellowship": {
    "open": true,
@@ -111,7 +111,7 @@
      "url": "https://fellowship.mlh.com/"
     }
    ],
-   "checked": "2026-11-05T20:42:40.333Z"
+   "checked": "2026-11-06T19:58:56.408Z"
   },
   "codepath-instructor": {
    "open": true,
@@ -128,62 +128,62 @@
      "location": "Remote, United States"
     }
    ],
-   "checked": "2026-11-05T20:42:40.376Z"
+   "checked": "2026-11-06T19:58:56.447Z"
   },
   "venture-for-america": {
    "open": false,
    "reason": "page didn't load for our check (fetch failed)",
-   "checked": "2026-11-05T20:42:42.491Z"
+   "checked": "2026-11-06T19:58:58.552Z"
   },
   "techcongress": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-05T20:42:42.799Z"
+   "checked": "2026-11-06T19:58:58.897Z"
   },
   "loc-junior-fellows": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-05T20:42:42.845Z"
+   "checked": "2026-11-06T19:58:58.961Z"
   },
   "smithsonian-internships": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-05T20:42:42.846Z"
+   "checked": "2026-11-06T19:58:58.961Z"
   },
   "fulbright": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-05T20:42:43.296Z"
+   "checked": "2026-11-06T19:58:59.412Z"
   },
   "craft-research-fund": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-05T20:42:43.381Z"
+   "checked": "2026-11-06T19:59:00.567Z"
   },
   "warhol-arts-writers": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-05T20:42:44.341Z"
+   "checked": "2026-11-06T19:59:01.392Z"
   },
   "pasold": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-05T20:42:44.342Z"
+   "checked": "2026-11-06T19:59:01.392Z"
   },
   "met-costume-institute": {
    "open": false,
    "reason": "page didn't load for our check (429)",
-   "checked": "2026-11-05T20:42:44.680Z"
+   "checked": "2026-11-06T19:59:01.487Z"
   },
   "arttable-fellowship": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-05T20:42:45.023Z"
+   "checked": "2026-11-06T19:59:01.829Z"
   },
   "processing-fellowship": {
    "open": false,
    "reason": "the open window's end date has passed",
-   "checked": "2026-11-05T20:42:45.533Z"
+   "checked": "2026-11-06T19:59:02.199Z"
   },
   "eyebeam-agency": {
    "open": true,
@@ -194,27 +194,27 @@
      "url": "https://eyebeam.org/articles/agency-residency-open-call"
     }
    ],
-   "checked": "2026-11-05T20:42:45.911Z"
+   "checked": "2026-11-06T19:59:02.643Z"
   },
   "solitude-web-residencies": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-05T20:42:45.911Z"
+   "checked": "2026-11-06T19:59:02.643Z"
   },
   "lacma-art-tech": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-05T20:42:46.836Z"
+   "checked": "2026-11-06T19:59:02.762Z"
   },
   "rhizome-microgrants": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-05T20:42:47.036Z"
+   "checked": "2026-11-06T19:59:02.846Z"
   },
   "creative-capital": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-05T20:42:47.112Z"
+   "checked": "2026-11-06T19:59:03.137Z"
   },
   "fashion-trust-us": {
    "open": true,
@@ -225,7 +225,7 @@
      "url": "https://fashiontrustus.com/apply"
     }
    ],
-   "checked": "2026-11-05T20:42:47.481Z"
+   "checked": "2026-11-06T19:59:03.575Z"
   },
   "outschool": {
    "open": true,
@@ -236,7 +236,7 @@
      "url": "https://teach.outschool.com/"
     }
    ],
-   "checked": "2026-11-05T20:42:47.939Z"
+   "checked": "2026-11-06T19:59:03.993Z"
   },
   "smithsonian-transcription": {
    "open": true,
@@ -247,7 +247,7 @@
      "url": "https://transcription.si.edu/"
     }
    ],
-   "checked": "2026-11-05T20:42:47.988Z"
+   "checked": "2026-11-06T19:59:04.115Z"
   },
   "loc-by-the-people": {
    "open": true,
@@ -258,7 +258,7 @@
      "url": "https://crowd.loc.gov/"
     }
    ],
-   "checked": "2026-11-05T20:42:48.043Z"
+   "checked": "2026-11-06T19:59:04.175Z"
   },
   "zooniverse": {
    "open": true,
@@ -269,21 +269,21 @@
      "url": "https://www.zooniverse.org/projects?discipline=arts"
     }
    ],
-   "checked": "2026-11-05T20:42:48.676Z"
+   "checked": "2026-11-06T19:59:04.811Z"
   }
  },
  "removed": {
   "counts": {
-   "no link to an actual application": 17,
-   "news round-up, not a listing": 14,
+   "no link to an actual application": 16,
+   "news round-up, not a listing": 15,
    "charges an application / entry fee": 1,
-   "scam red flags": 1,
-   "no sign on the page that it's open": 5,
+   "no sign on the page that it's open": 4,
    "page blocks automated checks and has no future deadline we can confirm": 3,
    "deadline passed": 13,
    "application page is dead": 2,
-   "scam cross-check not finished yet": 79,
-   "called a scam on Reddit / Hacker News": 6
+   "scam cross-check not finished yet": 91,
+   "no organization name to cross-check": 1,
+   "called a scam on Reddit / Hacker News": 1
   },
   "flagged": [
    {
@@ -292,124 +292,144 @@
     "why": "charges an application / entry fee"
    },
    {
-    "title": "Brazilian Subject Matter Expert in Religion or Philosophy",
-    "org": "Welo Global",
-    "why": "scam red flags: interview or contact over a chat app"
-   },
-   {
-    "title": "Customer Operations Manager, Gainsight",
-    "org": "AlphaSense",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Compliance Analyst (Night Shift- Pacific Time)",
-    "org": "AlphaSense",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Cloud Support Engineer",
-    "org": "AlphaSense",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Full-Stack Engineer - Ads Engine",
-    "org": "Elevenlabs",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Brazilian Subject Matter Expert in History",
-    "org": "Welo Global",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Designer, Web Presence & Platform",
-    "org": "Stripe",
-    "why": "called a scam on Reddit / Hacker News (2 posts)"
-   },
-   {
-    "title": "Legal Counsel, Identity & Trust Products",
-    "org": "Socure",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "AI Engineer, Marketing",
-    "org": "Instructure",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Machine Learning Manager, Feed Relevance (Retrieval)",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
-   },
-   {
-    "title": "Technical Content Marketing Manager",
-    "org": "Socure",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Frontend Engineer - User Interface",
-    "org": "Nebius",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Machine Learning Manager, Feed Ecosystems",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
-   },
-   {
-    "title": "Machine Learning Engineering Manager - Core Ads Ranking",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
-   },
-   {
-    "title": "Sales Enablement and Training Manager",
-    "org": "Socure",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Machine Learning Engineer, Answers Relevance",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
-   },
-   {
-    "title": "L1 Support Engineer - Portuguese (Part-time)",
-    "org": "Instructure",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Product Marketing Manager",
-    "org": "Keyfactor, Inc.",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "L1 Support Engineer - Spanish Backup",
-    "org": "Instructure",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Communications Designer, Developer Experience",
-    "org": "Nebius",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Professional Learning Facilitator (Contract)",
-    "org": "MagicSchool AI",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Engineering Manager",
+    "title": "OrioleDB Deployment Engineer",
     "org": "Supabase",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Site Reliability Engineer 2",
-    "org": "Kong Inc.",
+    "title": "SDK Engineer - Python",
+    "org": "Supabase",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "FinOps Engineer",
+    "org": "Supabase",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Platform Engineer, Edge & Networking",
+    "org": "Supabase",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Manager, Nonsterile Production Planning",
+    "org": "hims &#038; hers",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Product Manager - Strategic Partner Integrations (regular travel to Bay Area)",
+    "org": "Supabase",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Medical Research Mentor",
+    "org": "Inspira Education",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Legal Research Mentor",
+    "org": "Inspira Education",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Law School Admissions Consultant",
+    "org": "Inspira Education",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Model Partnerships - ElevenCreative",
+    "org": "Elevenlabs",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Mobile Engineer - ElevenMusic",
+    "org": "Elevenlabs",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Sales Operations Analyst",
+    "org": "Canonical",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Full-Stack Engineer - Productions",
+    "org": "Elevenlabs",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Data Scientist",
+    "org": "Solace",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Dental Field Trainer - Detroit",
+    "org": "Dandy",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Forward Deployed Engineer (FDE) C-UAS",
+    "org": "Defense Unicorns",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Database Programmer",
+    "org": "Alimentiv",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Security Engineer - Product Security",
+    "org": "Spotify",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Full Stack Engineer - Music",
+    "org": "Spotify",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Paid Social Video Producer",
+    "org": "Quince",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "School of Product Management - Accelerator Mentor",
+    "org": "Udacity",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Feltsense AI Engineer",
+    "org": "Silver.dev",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Operations Expert with Python for AI Supply Chain Task Design",
+    "org": "Toptal",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM)",
+    "org": "Toptal",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "AI Content Reviewer Video Annotation",
+    "org": "iMerit",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Freelance Writer",
+    "org": "IAPWE",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
     "title": "Software Engineer",
     "org": "Claims",
     "why": "called a scam on Reddit / Hacker News (3 posts)"
+   },
+   {
+    "title": "Content Reviewer - United States",
+    "org": "TELUS Digital",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
     "title": "Paid Media Manager US ",
@@ -429,11 +449,6 @@
    {
     "title": "AI ML Engineer",
     "org": "Docusketch",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Partner Operations Manager",
-    "org": "Mecka",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -458,7 +473,7 @@
    },
    {
     "title": "Front End Developer",
-    "org": "Edconic",
+    "org": "Cambridge Information Group",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -470,25 +485,89 @@
     "title": "Solutions Engineer",
     "org": "Onebrief",
     "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Research Engineer - AI",
-    "org": "Orbis Operations",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Clinical Data Manager",
-    "org": "Penumbra",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Software Engineer, AI Coding Tasks",
-    "org": "Askable",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
    }
   ]
  },
  "items": [
+  {
+   "id": "f-15y4yih",
+   "title": "Commercial Data Scientist",
+   "org": "Doximity",
+   "url": "https://jobicy.com/jobs/154739-commercial-data-scientist",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-06T03:20:12+00:00",
+   "blurb": "Commercial Data Scientist Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of U.S. physicians and 300+ health systems. Doximity's…",
+   "fullText": "Commercial Data Scientist\nDoximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of U.S. physicians and 300+ health systems. Doximity's mission is to help clinicians be more productive so they can provide better care for their patients.\nAt Doximity, we value curiosity, ownership, inclusion, and a commitment to making a meaningful impact. If you're excited about solving complex problems that improve healthcare, we'd love to hear from you.\nThis role can be filled in the Northeast (New York, NJ, Philadelphia, Boston), our San Francisco headquarters, OR other remote locations in the U.S.\nAs a Commercial Data Scientist , you’ll work within cross-functional delivery teams alongside other analysts, engineers, and commercial stakeholders in discovering data insights to help improve healthcare.\nHow you’ll make an impact:\n• Deliver novel and impactful insights for client organizations using machine learning and AI technologies.\n• Work closely with our Product, Platform Data, Insights & Strategy, and Sales teams to create client-facing analyses.\n• Showcase your engineering skills by creating data products from scratch and automating code so they can be re-used by other teammates and future projects.\n• Leverage Doximity's extensive datasets to identify and classify behavioral patterns of medical professionals on our platform.\n• Embrace the challenge of a fast-paced environment to exceed client expectations\nThe Core Values of the Client Intelligence team\nAs an organization we value diversity - in backgrounds and in experiences. Healthcare is a universal concern, and we need people from all backgrounds to help build a better future for all. Below are additional core values specific to the Insights Team.\n• Collaboration —The best candidates and teammates are not only strong in their own aptitudes but care deeply about supporting each other's growth.\n• Passion for Data —You’re going to help our clients and team members with data-driven decision making. We need someone that can manipulate millions of rows of data and also ask the right questions to find the important insights.\n• Reliability – Our team is efficient, flexible, and agile only because we trust the reliability of each member. We need self-starters and goal-oriented individuals for our continued success.\n• Curiosity – Continuous learning is a cornerstone at Doximity, and curious individuals thrive in our environment. We’re looking for someone who is curious enough about data to go above-and-beyond the task for the true insight.\n• Respect – A key dynamic that allows our team to flourish is respect: for ourselves and our quality of work, for our teammates, and for our internal clients who are under the pressure of deadlines and finance goals.\nAbout you:\n• At least 4 years of professional experience as a Data Scientist or other related roles working with complex, high-volume, structured and unstructured datasets.\n• Prior experience in a data science consulting role at firms such as ZS, Trinity, IQVIA, BlueMatter, etc., where you thrived in a fast-paced environment\n• Advanced knowledge of statistical concepts — particularly exploratory data analysis, experimental design, and probability theory.\n• Deep understanding of modern machine learning techniques\n• Proven ability to design, train, and evaluate large-scale production models using frameworks such as PyTorch or TensorFlow.\n• Advanced SQL proficiency — skilled at writing and optimizing complex queries across multiple tables and data relationships.\n• Advanced Python skills, including understanding of object-oriented programming, production-grade code design, and modern data science libraries.\n• Hands-on experience with distributed data processing tools and concepts for scalable analysis and model training.\n• Excellent data visualization and storytelling abilities, with the capacity to translate technical insights into clear, compelling narratives for internal and client stakeholders.\n• Curious, fast learner with a demonstrated passion for data, continuous learning, and staying current with advances in machine learning research.\nFun Facts About the Client Intelligence team\n• We have access to one of the richest healthcare datasets in the world, with deep information on hundreds of thousands of clinicians and their connections.\n• Business decisions at Doximity are driven by our data, analyses, and insights.\n• The members of our team bring a diverse set of technical and cultural backgrounds.\n• We like to have fun - company outings, team lunches, and other social events!\nCompensation\nThe anticipated total compensation for this role is $119,333 - $172,800 depending on factors such as experience, skills, location, and internal equity.\nOur total compensation package may include:\n• Base salary\n• Equity (where applicable)\n• Annual bonus or incentive compensation (where applicable)\nSpecific compensation details will be discussed during the interview process.\nBenefits\nIn addition to competitive compensation, Doximity offers a comprehensive benefits package for full time employees. Some of our offerings include:\n• Medical, dental, and vision insurance\n• 401(k) with company match\n• Flexible paid time off and company holidays\n• Paid parental leave\n• Professional development and learning opportunities\n• Wellness and mental health resources\n• Remote work support and home office stipend (where applicable)\nWhy You'll Love Working Here\nAt Doximity, you'll join a mission-driven company where your work has a meaningful impact on healthcare. We believe great ideas come from empowered teams, and we're committed to creating an environment where people can do their best work.\n• Make a real impact. Help build products that support over a million healthcare professionals and ultimately improve patient care.\n• Work with exceptional teammates. Collaborate with thoughtful, talented colleagues who value curiosity, humility, and continuous learning.\n• Enjoy flexibility and trust. We support flexible ways of working and empower employees with the autonomy to own their work.\n• Grow your career. Take on meaningful challenges, develop new skills, and shape your career through mentorship and professional development.\n• Bring your authentic self. We're committed to fostering an inclusive culture where diverse perspectives are welcomed, respected, and celebrated.\nOur Hiring Process & AI Tools\nDoximity may use artificial intelligence (AI)-enabled tools throughout the hiring process to help improve the candidate experience and support our recruiting team. These tools may assist with administrative tasks such as scheduling, general communication, interview coordination, note-taking, or summarizing interview feedback. Human recruiters and hiring managers make all hiring decisions. We are committed to using AI responsibly, transparently, and in accordance with applicable laws.\nEqual Employment Opportunity\nDoximity is proud to be an Equal Opportunity Employer. We are committed to creating an inclusive workplace where everyone can thrive. We consider all qualified applicants without regard to race, color, religion, creed, sex, gender identity or expression, sexual orientation, national origin, ancestry, age, disability, veteran status, genetic information, marital status, or any other characteristic protected by applicable federal, state, or local law.\nIf you require a reasonable accommodation during the application or interview process, please let us know so we can support your participation.",
+   "tags": [
+    "data",
+    "machine learning",
+    "coding",
+    "ai",
+    "python",
+    "software engineering",
+    "sql",
+    "data analysis",
+    "product",
+    "policy"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
+   "repNote": "no posts calling “Doximity” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-06)",
+   "firstSeen": "2026-11-06T20:30:33.420Z"
+  },
+  {
+   "id": "f-1xj5rwc",
+   "title": "Partner Operations Manager",
+   "org": "Mecka",
+   "url": "https://remoteOK.com/remote-jobs/remote-partner-operations-manager-mecka-1137609",
+   "source": "Remote OK",
+   "sourceUrl": "https://remoteok.com",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote",
+   "payNote": "$80,000–$100,000 / yr",
+   "deadline": null,
+   "date": "2026-11-01T00:00:08+00:00",
+   "blurb": "About Mecka AI Mecka AI is building the data infrastructure layer for robotics and embodied AI. We design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics…",
+   "fullText": "About Mecka AI\nMecka AI is building the data infrastructure layer for robotics and embodied AI.\nWe design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics companies to train and validate humanoid and embodied AI systems.\nWe work closely with frontier robotics teams to bridge real-world data, simulation, learning-based systems, and deployed hardware.\nAbout the Role\nSigning a capture partner is the start of the work. Getting that partner to steady, high-quality output takes onboarding, training, hardware, support, and reporting, and every step has to run on time.\nAs Partnership Operations Manager, you will own that path for our regional partnership leads so they can focus on finding and signing partners. This is a new function, so you will set the standards and tooling yourself and make them repeatable across regions.\nWhat You Will Do\n• Deal support: Prepare proposals and agreements from approved templates and keep a clean record of every partnerâs rates, volumes, and term dates.\n• Onboarding: Set partners up on the platform, issue devices and accounts, and train their teams on capture standards so they reach full output quickly.\n• Hardware: Manage device allocation, tracking, replacements, and returns with our hardware and logistics teams, and keep inventory records accurate.\n• Partner support: Be the first point of contact for partners, and run the support channel to clear service levels. Resolve problems yourself or route them to product, engineering, or finance before capture is disrupted, and pass on what partners need from the platform and devices.\n• Performance and reporting: Monitor daily performance and quality across partners, including recorded, approved, and deliverable hours, recording counts, and QA rejection rates. Act when numbers slip, and raise anything commercial with the partnerâs regional lead. Keep scorecards, business reviews, and the data behind them current.\n• Payments: Own partner payments and reconciliation, making sure hours are approved correctly and paid accurately and on time.\n• Playbook: Build and improve the processes, checklists, and tools that keep partner operations running as the network grows.\nWhat You Bring\n• Experience: 3 to 5+ years in partner or vendor operations, supply or merchant onboarding, business operations, program or project management, or account management, ideally at a high-growth marketplace, delivery, or BPO company.\n• Execution: A record of running many partner launches at once across time zones, with clear process and tight follow-up.\n• Organization: Highly organized and detail-focused, able to manage many partners and tasks at once without letting things slip.\n• AI fluency: You use AI tools in your day-to-day work to pull and analyze data, draft partner communications, and streamline your own processes.\n• Problem solving: A practical problem-solver who stays calm under pressure and sees problems through to resolution.\n• Relationships: Strong interpersonal skills. You work well with both partners and internal teams.\n• Agency: A high degree of initiative and comfort with ambiguity. This is an early and unstructured role, so you will set your own priorities, work without an established playbook, and build processes where none yet exists.\nEven better if you have\n• Industry: Background in data collection, AI training data, or BPO services.\n• Field deployment: Experience with device deployment and inventory tracking across partner sites.\n• Multi-country: Experience running partner operations across several countries and time zones.\n• Languages: Working fluency in one or more of our regionsâ main business languages, alongside professional English.\nIf you don't check every box above but believe you can do the job, we encourage you to apply â we're looking for capability and trajectory, not a perfect checklist match.\nWe strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, we will partner with you to meet your needs.\nWe may use AI-assisted tools to help evaluate applications against the requirements of this role. These tools support our recruiting team in identifying qualified candidates but do not replace human judgment or limit which applications may be reviewed or considered.\nPlease mention the word **UPLIFTMENT** and tag RNC4xNTQuMTY2LjQ= when applying to show you read the job post completely (#RNC4xNTQuMTY2LjQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "tags": [
+    "data",
+    "ai",
+    "product",
+    "design",
+    "museum",
+    "craft",
+    "art criticism",
+    "teaching",
+    "social media",
+    "fashion design"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 6 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
+   "repNote": "no posts calling “Mecka” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-06)",
+   "firstSeen": "2026-11-06T20:30:33.420Z"
+  },
   {
    "id": "f-zkhnqy",
    "title": "Country Manager Canada",
@@ -510,7 +589,7 @@
    "deadline": null,
    "date": "2026-10-30T00:00:10+00:00",
    "blurb": "Hello. Weâre Polaroid. An iconic brand, built by passionate people Polaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is…",
-   "fullText": "Hello. Weâre Polaroid. An iconic brand, built by passionate people\nPolaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is manifestly important and nearly impossible.â\nIn 2008, Polaroid produced its last pack of instant film. But a group of passionate fans refused to let instant photography disappear. What started as The Impossible Project grew into a mission to preserve and reinvent analogue photography for a new generation. More than a decade later, that same startup acquired the Polaroid brand and continues to shape its future today.\nAt Polaroid, we create products and experiences that spark emotion, fuel creativity, and bring people closer together. At the intersection of art and technology, we believe in the power of analogue moments and genuine human connection in an increasingly digital world.\nThe Role\nAs the Country Manager, Canada - you will play a pivotal role in managing and expanding our footprint with National Retailers and Independents alike. We are looking for an experienced account manager that has excellent business and execution skills to deliver profitable customer plans and market share growth. In addition to channel and operational management responsibilities, this role will also collaborate with internal stakeholders from sales operations, finance, demand planning, product management, and marketing.\nKey Responsibilities:\n• Canada Market Leadership: Serve as the commercial lead for Polaroid in Canada, owning the Canadian wholesale plan and accountability for revenue and market growth. Be the in-market face of the business and the primary point of leadership for the Canadian commercial team and stakeholders.\n• National Account Ownership: Act as the strategic lead for all national wholesale accounts, ensuring long-term scalability, commercial profitability, and a premium Polaroid brand presence across every brick-and-mortar and digital retail touchpoint.\n• Account Partnership: Build and hold trusted relationships with the most senior buyers, merchants, and decision-makers across national accounts. Lead joint business planning and negotiate mutually beneficial terms that create sustainable, multi-year growth.\n• Team & Cross-Functional Leadership: Lead and coordinate the Canadian commercial plan, including setting priorities and coaching supporting team members. Partner closely with US-based planning, finance, retail marketing, and product teams.\n• Forecasting, Demand Planning & SKU Transition: Translate market data into actionable inventory strategies. Lead seasonal forecasting and rolling monthly projections and manage SKU EOL transitions to protect sell-through. Track consumer trends and identify opportunities to capitalize or course-correct.\n• Sell-Through & Brand Activation: Shift the focus from sell-in to sell-through. Partner with retail marketing and activation teams to execute high-impact programs, elevate in-store positioning and shelf execution, and consistently use retail assets to drive account performance.\n• Brand Ambassador & Product Evangelism: Act as the face of Polaroid by demonstrating our world-class products at trade shows, training events, and major national account meetings.\nWhat You'll Need to Succeed\n• Experience: Demonstrable progressive, high-impact sales and account management experience within a consumer goods, consumer electronics, or premium hardware retail environment, including experience leading a market, a team, or a portfolio with meaningful autonomy. A proven track record of managing multi-million-dollar national retail portfolios is essential.\n• Canadian Retailer Depth: Deep familiarity with the Canadian retail landscape and established senior-level relationships across major national chains.\n• Commercial & Analytical Literacy: Strong command of retail math, inventory pipelines, pricing elasticity, and promotional mechanics. Comfortable evaluating complex financial models and partnering closely with finance and operations leaders.\n• Strategic Influence: Excellent stakeholder management and communication skills, with a proven track record of influencing external executive leadership and aligning internal cross-functional teams around a shared growth vision.\n• Self-Directed Leadership: Able to operate as the senior Polaroid presence in-market: setting direction and making decisions while staying tightly connected to the North American strategy.\nAI in our hiring process\nOur recruitment team reviews every application, including your CV. We may use AI-assisted technology to support the initial review process and help our recruiters work more efficiently. Your application is always reviewed by a recruiter and all our hiring decisions are made by people. Learn more in our Privacy Policy: https://www.polaroid.com/legal/careers-job-applicant-privacy-policy\nÂ\nOur Approach to AI\nAt Polaroid we believe two things can be true at once: technology can help us move forward, while human creativity, craft, judgement and real-world connection matter more than ever.\nSince our beginning, we've embraced technology to create meaningful human experiences. Today that means exploring new tools, including AI, with curiosity and care, using them where they help us work better and build a stronger business, while staying true to what defines our brand.\nPlease mention the word **RESOURCEFULNESS** and tag RNC4xNDkuMjM4LjExNg== when applying to show you read the job post completely (#RNC4xNDkuMjM4LjExNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "Hello. Weâre Polaroid. An iconic brand, built by passionate people\nPolaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is manifestly important and nearly impossible.â\nIn 2008, Polaroid produced its last pack of instant film. But a group of passionate fans refused to let instant photography disappear. What started as The Impossible Project grew into a mission to preserve and reinvent analogue photography for a new generation. More than a decade later, that same startup acquired the Polaroid brand and continues to shape its future today.\nAt Polaroid, we create products and experiences that spark emotion, fuel creativity, and bring people closer together. At the intersection of art and technology, we believe in the power of analogue moments and genuine human connection in an increasingly digital world.\nThe Role\nAs the Country Manager, Canada - you will play a pivotal role in managing and expanding our footprint with National Retailers and Independents alike. We are looking for an experienced account manager that has excellent business and execution skills to deliver profitable customer plans and market share growth. In addition to channel and operational management responsibilities, this role will also collaborate with internal stakeholders from sales operations, finance, demand planning, product management, and marketing.\nKey Responsibilities:\n• Canada Market Leadership: Serve as the commercial lead for Polaroid in Canada, owning the Canadian wholesale plan and accountability for revenue and market growth. Be the in-market face of the business and the primary point of leadership for the Canadian commercial team and stakeholders.\n• National Account Ownership: Act as the strategic lead for all national wholesale accounts, ensuring long-term scalability, commercial profitability, and a premium Polaroid brand presence across every brick-and-mortar and digital retail touchpoint.\n• Account Partnership: Build and hold trusted relationships with the most senior buyers, merchants, and decision-makers across national accounts. Lead joint business planning and negotiate mutually beneficial terms that create sustainable, multi-year growth.\n• Team & Cross-Functional Leadership: Lead and coordinate the Canadian commercial plan, including setting priorities and coaching supporting team members. Partner closely with US-based planning, finance, retail marketing, and product teams.\n• Forecasting, Demand Planning & SKU Transition: Translate market data into actionable inventory strategies. Lead seasonal forecasting and rolling monthly projections and manage SKU EOL transitions to protect sell-through. Track consumer trends and identify opportunities to capitalize or course-correct.\n• Sell-Through & Brand Activation: Shift the focus from sell-in to sell-through. Partner with retail marketing and activation teams to execute high-impact programs, elevate in-store positioning and shelf execution, and consistently use retail assets to drive account performance.\n• Brand Ambassador & Product Evangelism: Act as the face of Polaroid by demonstrating our world-class products at trade shows, training events, and major national account meetings.\nWhat You'll Need to Succeed\n• Experience: Demonstrable progressive, high-impact sales and account management experience within a consumer goods, consumer electronics, or premium hardware retail environment, including experience leading a market, a team, or a portfolio with meaningful autonomy. A proven track record of managing multi-million-dollar national retail portfolios is essential.\n• Canadian Retailer Depth: Deep familiarity with the Canadian retail landscape and established senior-level relationships across major national chains.\n• Commercial & Analytical Literacy: Strong command of retail math, inventory pipelines, pricing elasticity, and promotional mechanics. Comfortable evaluating complex financial models and partnering closely with finance and operations leaders.\n• Strategic Influence: Excellent stakeholder management and communication skills, with a proven track record of influencing external executive leadership and aligning internal cross-functional teams around a shared growth vision.\n• Self-Directed Leadership: Able to operate as the senior Polaroid presence in-market: setting direction and making decisions while staying tightly connected to the North American strategy.\nAI in our hiring process\nOur recruitment team reviews every application, including your CV. We may use AI-assisted technology to support the initial review process and help our recruiters work more efficiently. Your application is always reviewed by a recruiter and all our hiring decisions are made by people. Learn more in our Privacy Policy: https://www.polaroid.com/legal/careers-job-applicant-privacy-policy\nÂ\nOur Approach to AI\nAt Polaroid we believe two things can be true at once: technology can help us move forward, while human creativity, craft, judgement and real-world connection matter more than ever.\nSince our beginning, we've embraced technology to create meaningful human experiences. Today that means exploring new tools, including AI, with curiosity and care, using them where they help us work better and build a stronger business, while staying true to what defines our brand.\nPlease mention the word **RESOURCEFULNESS** and tag RNC4xNTQuMTY2LjQ= when applying to show you read the job post completely (#RNC4xNTQuMTY2LjQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "product",
     "craft",
@@ -524,8 +603,8 @@
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 7 day(s) ago and still listed as active",
-   "checked": "2026-11-05T20:43:10.279Z",
+   "verifyNote": "posted 8 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
    "repNote": "no posts calling “Polaroid” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-05)",
    "firstSeen": "2026-11-05T21:14:16.911Z"
   },
@@ -565,8 +644,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 3 day(s) ago and still listed as active",
-   "checked": "2026-11-05T20:43:10.279Z",
+   "verifyNote": "posted 4 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   },
@@ -605,8 +684,8 @@
     "design"
    ],
    "rep": "job",
-   "verifyNote": "posted 25 day(s) ago and still listed as active",
-   "checked": "2026-11-05T20:43:10.279Z",
+   "verifyNote": "posted 26 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   },
@@ -638,8 +717,8 @@
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 14 day(s) ago and still listed as active",
-   "checked": "2026-11-05T20:43:10.279Z",
+   "verifyNote": "posted 15 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
    "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T01:33:22.415Z"
   },
@@ -663,15 +742,15 @@
    "deadline": null,
    "date": "2026-10-14T14:44:21+00:00",
    "blurb": "Remote | Independent Contractor | Get certified for future project opportunities Prove your skills. Get certified. Be ready for what comes next. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better…",
-   "fullText": "Remote | Independent Contractor | Get certified for future project opportunities\nProve your skills. Get certified. Be ready for what comes next.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available.\nWhat You Will Do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\nWhat You Bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\nWhat the Work Looks Like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nWhy Get Certified Now\nCompleting certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become available.\nPlease note: Certification does not guarantee a project engagement, assignment or paid work. Future opportunities depend on project availability and applicable selection criteria.\nPlease mention the word **SUPREME** and tag RNC4xNDkuMjM4LjExNg== when applying to show you read the job post completely (#RNC4xNDkuMjM4LjExNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "Remote | Independent Contractor | Get certified for future project opportunities\nProve your skills. Get certified. Be ready for what comes next.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available.\nWhat You Will Do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\nWhat You Bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\nWhat the Work Looks Like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nWhy Get Certified Now\nCompleting certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become available.\nPlease note: Certification does not guarantee a project engagement, assignment or paid work. Future opportunities depend on project availability and applicable selection criteria.\nPlease mention the word **SUPREME** and tag RNC4xNTQuMTY2LjQ= when applying to show you read the job post completely (#RNC4xNTQuMTY2LjQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "data",
     "ai",
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 22 day(s) ago and still listed as active",
-   "checked": "2026-11-05T20:43:10.279Z",
+   "verifyNote": "posted 23 day(s) ago and still listed as active",
+   "checked": "2026-11-06T19:59:28.020Z",
    "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T01:33:22.415Z"
   }
@@ -685,6 +764,8 @@
   "f-lnxfa7": "2026-11-04T01:33:22.415Z",
   "f-1edteh1": "2026-11-04T20:59:11.015Z",
   "f-64ndgo": "2026-11-04T20:59:11.015Z",
-  "f-zkhnqy": "2026-11-05T21:14:16.911Z"
+  "f-zkhnqy": "2026-11-05T21:14:16.911Z",
+  "f-15y4yih": "2026-11-06T20:30:33.420Z",
+  "f-1xj5rwc": "2026-11-06T20:30:33.420Z"
  }
 }
