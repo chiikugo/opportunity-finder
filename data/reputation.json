@@ -9,7 +9,7 @@
  "wpromote": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:04:13.327Z",
+  "checked": "2026-11-07T18:16:24.516Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -69,7 +69,7 @@
  "nebius": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T20:51:10.425Z",
+  "checked": "2026-11-07T18:12:15.015Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -96,7 +96,7 @@
  "netdocuments": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:14:11.911Z",
+  "checked": "2026-11-07T18:10:13.267Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -110,14 +110,14 @@
  "burkland associates": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:19:56.896Z",
+  "checked": "2026-11-07T18:29:35.120Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "docusketch": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:20:57.937Z",
+  "checked": "2026-11-07T18:30:37.252Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -131,7 +131,7 @@
  "adaptyv": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:22:16.436Z",
+  "checked": "2026-11-07T18:31:38.512Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,21 +145,21 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:23:17.536Z",
+  "checked": "2026-11-07T18:32:40.454Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "fluence international, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:24:28.123Z",
+  "checked": "2026-11-07T18:33:41.649Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "asian cultural council grant opportunities": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:25:29.134Z",
+  "checked": "2026-11-07T18:34:51.656Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -285,7 +285,7 @@
  "brain co.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:35:33.730Z",
+  "checked": "2026-11-07T18:19:36.820Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -341,16 +341,16 @@
  "kyra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:17:47.932Z",
+  "checked": "2026-11-07T18:28:15.579Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "calabrio": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-06T20:18:48.758Z",
+  "checked": "2026-11-07T18:29:34.119Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "coalition technologies": {
   "verdict": "clean",
@@ -536,42 +536,139 @@
  "silver.dev": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:12:42.963Z",
+  "checked": "2026-11-07T18:23:42.468Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:13:43.980Z",
+  "checked": "2026-11-07T18:24:43.702Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "imerit": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:14:44.834Z",
+  "checked": "2026-11-07T18:25:44.860Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "iapwe": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-06T20:15:45.906Z",
+  "verdict": "clean",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "[US] Freelance writers-beware of IAPWE/CS Apptrack email scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1v1zipk"
+   }
+  ],
+  "checked": "2026-11-07T18:27:13.628Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:16:46.987Z",
+  "checked": "2026-11-07T18:27:14.472Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "cambridge information group": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:26:30.167Z",
+  "checked": "2026-11-07T18:35:52.731Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "ashby": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:06:00.593Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "zone &#038; co": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:07:01.539Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "language services associates": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:08:02.533Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "deepgram": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:09:03.647Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "impact.com": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:11:14.158Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "oddball": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:13:16.206Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "tripactions": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:14:17.416Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "perfectserve": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:15:18.438Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "roboflow": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:17:32.789Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "gitlab": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:18:35.784Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "relationalai": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:20:37.643Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "meya holdings": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:21:39.339Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "caringhand home health solutions, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-07T18:22:40.307Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
