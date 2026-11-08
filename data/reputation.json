@@ -117,7 +117,7 @@
  "docusketch": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:30:37.252Z",
+  "checked": "2026-11-08T18:40:08.756Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -131,7 +131,7 @@
  "adaptyv": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:31:38.512Z",
+  "checked": "2026-11-08T18:41:17.333Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,23 +145,23 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:32:40.454Z",
+  "checked": "2026-11-08T18:42:24.729Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "fluence international, inc.": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-07T18:33:41.649Z",
+  "checked": "2026-11-08T18:43:40.298Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "asian cultural council grant opportunities": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-07T18:34:51.656Z",
+  "checked": "2026-11-08T18:43:56.307Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "edconic": {
   "verdict": "pending",
@@ -173,7 +173,7 @@
  "pinstripeworld": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:27:31.125Z",
+  "checked": "2026-11-08T18:45:07.480Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -187,7 +187,7 @@
  "onebrief": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:28:32.095Z",
+  "checked": "2026-11-08T18:46:08.524Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -213,16 +213,16 @@
   "throttled": false
  },
  "orbis operations": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-06T20:29:33.412Z",
+  "checked": "2026-11-08T18:47:25.689Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "penumbra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T21:11:14.511Z",
+  "checked": "2026-11-08T18:47:26.968Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -250,7 +250,7 @@
  "elevenlabs": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:03:12.806Z",
+  "checked": "2026-11-08T18:26:08.547Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -341,7 +341,7 @@
  "kyra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:28:15.579Z",
+  "checked": "2026-11-08T18:39:06.801Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -460,21 +460,21 @@
  "askable": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T21:12:15.773Z",
+  "checked": "2026-11-08T18:48:27.602Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "curtins": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T21:13:16.895Z",
+  "checked": "2026-11-08T18:49:28.824Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "inspira education": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:01:57.604Z",
+  "checked": "2026-11-08T18:25:07.380Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -536,23 +536,29 @@
  "silver.dev": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:23:42.468Z",
+  "checked": "2026-11-08T18:35:37.263Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:24:43.702Z",
+  "checked": "2026-11-08T18:36:38.390Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "imerit": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-07T18:25:44.860Z",
+  "verdict": "clean",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "iMerit is a SCAM - they stole 27 hours of my work and won’t pay",
+    "url": "https://www.reddit.com/r/Scams/comments/1rm68mo"
+   }
+  ],
+  "checked": "2026-11-08T18:38:05.133Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "iapwe": {
   "verdict": "clean",
@@ -570,14 +576,14 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:27:14.472Z",
+  "checked": "2026-11-08T18:38:05.983Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "cambridge information group": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:35:52.731Z",
+  "checked": "2026-11-08T18:44:05.614Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -661,14 +667,119 @@
  "meya holdings": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:21:39.339Z",
+  "checked": "2026-11-08T18:33:27.611Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "caringhand home health solutions, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:22:40.307Z",
+  "checked": "2026-11-08T18:34:28.411Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "binance": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "Hacker News",
+    "title": "A Market Saturated with Binance Scams: How Its Shaping Current Crypto Landscape",
+    "url": "https://news.ycombinator.com/item?id=46821839"
+   }
+  ],
+  "checked": "2026-11-08T18:27:09.522Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "cribl": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:28:10.352Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "think academy us": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:29:11.221Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "dataiku": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:30:15.738Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "discord": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "Hacker News",
+    "title": "8% of images on Discord are scams: Blocking Mr. Beast scams",
+    "url": "https://news.ycombinator.com/item?id=48934524"
+   }
+  ],
+  "checked": "2026-11-08T18:31:20.753Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "salvo software": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:32:22.026Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "kodland": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:50:30.034Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "miaplaza": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:51:39.744Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "infisical": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:52:40.738Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "socket": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-08T18:53:41.919Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "engine": {
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "[US] Engine scams - Whales auto parts",
+    "url": "https://www.reddit.com/r/Scams/comments/1rh6n1j"
+   },
+   {
+    "where": "r/Scams",
+    "title": "[US] Wallpaper Engine Scam? Or overly nice guy",
+    "url": "https://www.reddit.com/r/Scams/comments/1lkqf9q"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Beware of these Car Scammers in Orange County, CA. Oil on Engine Scam.",
+    "url": "https://www.reddit.com/r/Scams/comments/1j3k12n"
+   }
+  ],
+  "checked": "2026-11-08T18:54:57.554Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
