@@ -16,14 +16,14 @@
  "liftoff": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:05:21.692Z",
+  "checked": "2026-11-09T23:08:46.352Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "chainguard": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:06:22.671Z",
+  "checked": "2026-11-09T23:09:57.367Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -117,7 +117,7 @@
  "docusketch": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:40:08.756Z",
+  "checked": "2026-11-09T23:30:15.334Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -131,7 +131,7 @@
  "adaptyv": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:41:17.333Z",
+  "checked": "2026-11-09T23:31:16.092Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:42:24.729Z",
+  "checked": "2026-11-09T23:32:26.493Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -243,14 +243,14 @@
  "canonical": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:04:13.883Z",
+  "checked": "2026-11-09T23:20:08.807Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "elevenlabs": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:26:08.547Z",
+  "checked": "2026-11-09T23:07:29.281Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -264,7 +264,7 @@
  "hims &#038; hers": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:00:56.542Z",
+  "checked": "2026-11-09T23:19:07.938Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -341,7 +341,7 @@
  "kyra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:39:06.801Z",
+  "checked": "2026-11-09T23:29:12.477Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -534,16 +534,16 @@
   "throttled": true
  },
  "silver.dev": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-08T18:35:37.263Z",
+  "checked": "2026-11-09T23:26:49.992Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:36:38.390Z",
+  "checked": "2026-11-09T23:26:55.589Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -576,7 +576,7 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:38:05.983Z",
+  "checked": "2026-11-09T23:27:56.894Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -667,14 +667,14 @@
  "meya holdings": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:33:27.611Z",
+  "checked": "2026-11-09T23:24:31.239Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "caringhand home health solutions, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:34:28.411Z",
+  "checked": "2026-11-09T23:25:31.946Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -728,7 +728,7 @@
  "salvo software": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:32:22.026Z",
+  "checked": "2026-11-09T23:23:20.231Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -780,6 +780,110 @@
    }
   ],
   "checked": "2026-11-08T18:54:57.554Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "databricks": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:02:23.641Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "quest analytics": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:03:24.811Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "1password": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:04:26.179Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "teamworks": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:05:27.107Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "clipboard": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:06:28.044Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "instacart": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "[US] Instacart Scam? Items added to order, then removed, order not delivered",
+    "url": "https://www.reddit.com/r/Scams/comments/1qkdmb3"
+   }
+  ],
+  "checked": "2026-11-09T23:11:13.453Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "datadog": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:12:27.637Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "juniper square": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:13:28.611Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "good inside": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:14:44.253Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "deleteme": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:15:45.322Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "cresta": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:16:55.945Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "givebutter": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:17:56.897Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "yipitdata": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:21:09.768Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "harvey": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-09T23:22:10.873Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
