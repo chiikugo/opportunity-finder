@@ -2,7 +2,7 @@
  "supabase": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T19:59:41.276Z",
+  "checked": "2026-11-10T20:49:21.694Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -103,7 +103,7 @@
  "bayesian health": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T01:15:12.830Z",
+  "checked": "2026-11-10T20:47:19.766Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -341,7 +341,7 @@
  "kyra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:29:12.477Z",
+  "checked": "2026-11-10T20:59:36.687Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -416,7 +416,7 @@
  "keyfactor, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T20:52:11.876Z",
+  "checked": "2026-11-10T20:37:13.901Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -543,7 +543,7 @@
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:26:55.589Z",
+  "checked": "2026-11-10T20:57:29.405Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -576,7 +576,7 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:27:56.894Z",
+  "checked": "2026-11-10T20:58:35.722Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -604,7 +604,7 @@
  "language services associates": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:08:02.533Z",
+  "checked": "2026-11-10T20:43:39.457Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -646,7 +646,7 @@
  "roboflow": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:17:32.789Z",
+  "checked": "2026-11-10T20:41:36.811Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -667,14 +667,14 @@
  "meya holdings": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:24:31.239Z",
+  "checked": "2026-11-10T20:55:27.763Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "caringhand home health solutions, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:25:31.946Z",
+  "checked": "2026-11-10T20:56:28.486Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -728,7 +728,7 @@
  "salvo software": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:23:20.231Z",
+  "checked": "2026-11-10T20:54:26.758Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -883,7 +883,132 @@
  "harvey": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:22:10.873Z",
+  "checked": "2026-11-10T20:53:25.746Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "neuroscale ai": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:30:29.015Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "zuora": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:31:39.281Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "reedsy": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-10T20:33:09.014Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "contentstack": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:33:10.125Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "upstart": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:34:11.035Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "quilter": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:35:11.927Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "cantina labs": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:36:13.010Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "qventus": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:38:19.897Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "xbow": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:39:34.807Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "walkme": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:40:35.873Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "harness": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:42:38.092Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "clickup": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:44:50.559Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "zip": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Your incorrect Zip Code Text/Email is a Scam - Look at the URL",
+    "url": "https://www.reddit.com/r/Scams/comments/1hcqhvu"
+   }
+  ],
+  "checked": "2026-11-10T20:46:13.616Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "beyond finance": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:48:20.979Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "crossfit": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:50:22.811Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "allara": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:51:23.858Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "certik": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-10T20:52:24.950Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
