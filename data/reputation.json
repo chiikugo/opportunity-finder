@@ -2,7 +2,7 @@
  "supabase": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-10T20:49:21.694Z",
+  "checked": "2026-11-12T20:55:30.051Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:44:16.255Z",
+  "checked": "2026-11-12T21:24:46.399Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -243,7 +243,7 @@
  "canonical": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:32:27.424Z",
+  "checked": "2026-11-12T20:58:53.363Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -292,7 +292,7 @@
  "centria autism": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:36:34.661Z",
+  "checked": "2026-11-12T21:03:17.460Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -543,7 +543,7 @@
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:41:02.515Z",
+  "checked": "2026-11-12T21:22:44.250Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -576,7 +576,7 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:42:03.657Z",
+  "checked": "2026-11-12T21:23:45.284Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -653,7 +653,7 @@
  "gitlab": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:18:35.784Z",
+  "checked": "2026-11-12T20:57:52.517Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -667,14 +667,14 @@
  "meya holdings": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:39:00.148Z",
+  "checked": "2026-11-12T21:20:41.722Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "caringhand home health solutions, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:40:01.139Z",
+  "checked": "2026-11-12T21:21:43.002Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -701,7 +701,7 @@
  "think academy us": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:29:11.221Z",
+  "checked": "2026-11-12T20:56:51.249Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -728,7 +728,7 @@
  "salvo software": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:37:48.340Z",
+  "checked": "2026-11-12T21:19:40.533Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -832,11 +832,11 @@
   "throttled": true
  },
  "datadog": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-09T23:12:27.637Z",
+  "checked": "2026-11-12T21:10:55.307Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "juniper square": {
   "verdict": "pending",
@@ -883,7 +883,7 @@
  "harvey": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:36:47.306Z",
+  "checked": "2026-11-12T21:18:39.708Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1001,14 +1001,14 @@
  "allara": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:35:39.416Z",
+  "checked": "2026-11-12T21:16:13.489Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": false
+  "throttled": true
  },
  "certik": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:35:46.251Z",
+  "checked": "2026-11-12T21:17:23.053Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1071,7 +1071,7 @@
  "particle41": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:26:12.639Z",
+  "checked": "2026-11-12T21:01:15.434Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1113,7 +1113,91 @@
  "addepto": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:33:28.697Z",
+  "checked": "2026-11-12T21:15:12.296Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "neros technologies": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T20:59:58.289Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "standard bots": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:02:16.343Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "latent": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:04:18.590Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "veracyte": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:05:19.683Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "dropbox": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:06:20.843Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "pylon": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:07:22.530Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "influ2": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:08:23.578Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "duckduckgo": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:09:24.497Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "bask health": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:11:05.485Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "shyftoff": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:12:06.778Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "boston scientific": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:13:08.372Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mento": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-12T21:14:09.346Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
