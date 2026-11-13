@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:25:46.414Z",
+ "updated": "2026-11-13T21:02:23.518Z",
  "sources": [
   {
    "name": "NYU ITP / IMA opportunities",
@@ -22,8 +22,9 @@
   {
    "name": "Opportunity Desk",
    "url": "https://opportunitydesk.org/",
-   "ok": true,
-   "count": 0
+   "ok": false,
+   "count": 0,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "Surface Design Association",
@@ -47,7 +48,7 @@
    "name": "Remotive",
    "url": "https://remotive.com",
    "ok": true,
-   "count": 14
+   "count": 16
   },
   {
    "name": "Jobicy",
@@ -89,17 +90,17 @@
      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     }
    ],
-   "checked": "2026-11-12T20:54:44.891Z"
+   "checked": "2026-11-13T20:30:50.471Z"
   },
   "outreachy": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-12T20:54:45.426Z"
+   "checked": "2026-11-13T20:30:51.086Z"
   },
   "gsoc": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-12T20:54:45.511Z"
+   "checked": "2026-11-13T20:30:51.206Z"
   },
   "mlh-fellowship": {
    "open": true,
@@ -111,7 +112,7 @@
      "url": "https://fellowship.mlh.com/"
     }
    ],
-   "checked": "2026-11-12T20:54:45.824Z"
+   "checked": "2026-11-13T20:30:51.541Z"
   },
   "codepath-instructor": {
    "open": true,
@@ -123,62 +124,62 @@
      "location": "Remote, United States"
     }
    ],
-   "checked": "2026-11-12T20:54:45.869Z"
+   "checked": "2026-11-13T20:30:51.590Z"
   },
   "venture-for-america": {
    "open": false,
    "reason": "page didn't load for our check (fetch failed)",
-   "checked": "2026-11-12T20:54:48.109Z"
+   "checked": "2026-11-13T20:30:53.631Z"
   },
   "techcongress": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-12T20:54:48.249Z"
+   "checked": "2026-11-13T20:30:54.189Z"
   },
   "loc-junior-fellows": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-12T20:54:48.279Z"
+   "checked": "2026-11-13T20:30:54.226Z"
   },
   "smithsonian-internships": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-12T20:54:48.279Z"
+   "checked": "2026-11-13T20:30:54.226Z"
   },
   "fulbright": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-12T20:54:48.623Z"
+   "checked": "2026-11-13T20:30:54.654Z"
   },
   "craft-research-fund": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-12T20:54:48.702Z"
+   "checked": "2026-11-13T20:30:55.394Z"
   },
   "warhol-arts-writers": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-12T20:54:49.234Z"
+   "checked": "2026-11-13T20:30:56.084Z"
   },
   "pasold": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-12T20:54:49.234Z"
+   "checked": "2026-11-13T20:30:56.084Z"
   },
   "met-costume-institute": {
    "open": false,
    "reason": "page didn't load for our check (429)",
-   "checked": "2026-11-12T20:54:49.298Z"
+   "checked": "2026-11-13T20:30:56.120Z"
   },
   "arttable-fellowship": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-12T20:54:49.519Z"
+   "checked": "2026-11-13T20:30:56.179Z"
   },
   "processing-fellowship": {
    "open": false,
    "reason": "the open window's end date has passed",
-   "checked": "2026-11-12T20:54:49.875Z"
+   "checked": "2026-11-13T20:30:56.309Z"
   },
   "eyebeam-agency": {
    "open": true,
@@ -189,27 +190,27 @@
      "url": "https://eyebeam.org/articles/agency-residency-open-call"
     }
    ],
-   "checked": "2026-11-12T20:54:50.138Z"
+   "checked": "2026-11-13T20:30:56.647Z"
   },
   "solitude-web-residencies": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-12T20:54:50.138Z"
+   "checked": "2026-11-13T20:30:56.647Z"
   },
   "lacma-art-tech": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-12T20:54:50.293Z"
+   "checked": "2026-11-13T20:30:56.749Z"
   },
   "rhizome-microgrants": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-12T20:54:50.468Z"
+   "checked": "2026-11-13T20:30:56.813Z"
   },
   "creative-capital": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-12T20:54:50.644Z"
+   "checked": "2026-11-13T20:30:56.899Z"
   },
   "fashion-trust-us": {
    "open": true,
@@ -220,7 +221,7 @@
      "url": "https://fashiontrustus.com/apply"
     }
    ],
-   "checked": "2026-11-12T20:54:50.820Z"
+   "checked": "2026-11-13T20:30:57.146Z"
   },
   "outschool": {
    "open": true,
@@ -231,7 +232,7 @@
      "url": "https://teach.outschool.com/"
     }
    ],
-   "checked": "2026-11-12T20:54:51.060Z"
+   "checked": "2026-11-13T20:30:57.546Z"
   },
   "smithsonian-transcription": {
    "open": true,
@@ -242,7 +243,7 @@
      "url": "https://transcription.si.edu/"
     }
    ],
-   "checked": "2026-11-12T20:54:51.097Z"
+   "checked": "2026-11-13T20:30:57.657Z"
   },
   "loc-by-the-people": {
    "open": true,
@@ -253,7 +254,7 @@
      "url": "https://crowd.loc.gov/"
     }
    ],
-   "checked": "2026-11-12T20:54:51.132Z"
+   "checked": "2026-11-13T20:30:57.707Z"
   },
   "zooniverse": {
    "open": true,
@@ -264,12 +265,12 @@
      "url": "https://www.zooniverse.org/projects?discipline=arts"
     }
    ],
-   "checked": "2026-11-12T20:54:51.682Z"
+   "checked": "2026-11-13T20:30:58.182Z"
   }
  },
  "removed": {
   "counts": {
-   "no link to an actual application": 16,
+   "no link to an actual application": 15,
    "news round-up, not a listing": 15,
    "charges an application / entry fee": 1,
    "scam red flags": 1,
@@ -279,7 +280,7 @@
    "application page is dead": 2,
    "application page says it's closed": 1,
    "scam cross-check not finished yet": 102,
-   "called a scam on Reddit / Hacker News": 2
+   "called a scam on Reddit / Hacker News": 3
   },
   "flagged": [
    {
@@ -293,6 +294,116 @@
     "why": "scam red flags: unusual payment method"
    },
    {
+    "title": "Technical Oversight - Underwriting",
+    "org": "Pylon",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Embedded Software Engineer – Tool Qualification",
+    "org": "Quest Defense Systems &#038; Solutions, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Embedded Software Engineer - Real-Time Systems",
+    "org": "Quest Defense Systems &#038; Solutions, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Embedded Software Engineer - Multicore Platforms & Avionics Networking",
+    "org": "Quest Defense Systems &#038; Solutions, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Embedded Software Engineer – Flight Management System (FMS)",
+    "org": "Quest Defense Systems &#038; Solutions, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "org": "Quest Defense Systems &#038; Solutions, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Application Security Engineer — Secure Mission Systems",
+    "org": "Rackner",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "AI/ML Engineer — Generative AI Mission Systems",
+    "org": "Rackner",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Dispatch Specialist",
+    "org": "Proof",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Founding Sales Engineer",
+    "org": "Tracebit",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Content Marketing Manager",
+    "org": "Wpromote",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Forward Deployed Engineer",
+    "org": "Safe Security",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Forward Deployed Engineer",
+    "org": "Kong Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Network Operations Manager, Contracting",
+    "org": "Maven Clinic",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Front End Engineer",
+    "org": "Oddball",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Sensing OPIR Engineer – SME #899",
+    "org": "Allen Integrated Solutions",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Sensing OPIR Engineer - Mid Level #900",
+    "org": "Allen Integrated Solutions",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Sensing OPIR Engineer - #898",
+    "org": "Allen Integrated Solutions",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Sensing OPIR Engineer - #897",
+    "org": "Allen Integrated Solutions",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Software Engineer, Systems Architecture",
+    "org": "Valinor Enterprises, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Software Engineer, Backend (Platform)",
+    "org": "Valinor Enterprises, Inc.",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Video Editor",
+    "org": "Kalshi",
+    "why": "called a scam on Reddit / Hacker News (3 posts)"
+   },
+   {
     "title": "FinOps Data Engineer",
     "org": "Supabase",
     "why": "scam cross-check not finished yet (retried tomorrow)"
@@ -303,108 +414,8 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Early Childhood Teacher (PT)",
-    "org": "Think Academy US",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Data Scientist, Enterprise Analytics",
-    "org": "GitLab",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Linux Cryptography and Security Engineer",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Junior Ubuntu Software Engineer",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Customer Success Engineer",
-    "org": "GitLab",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Engineering Manager - MLOps & Analytics",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Engineering Manager - App Stores",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Field Instructor",
-    "org": "Neros Technologies",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Embedded & Desktop Linux Systems Engineer - Optimisation",
-    "org": "Canonical",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Data Consultant",
-    "org": "Particle41",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Applications Engineering Manager (West Coast)",
-    "org": "Standard Bots",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "PM Telehealth Board Certified Behavior Analyst (BCBA)",
-    "org": "Centria Autism",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Board Certified Behavior Analyst (BCBA) (On the Ground)",
-    "org": "Centria Autism",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Applications Engineering Manager (Boston)",
-    "org": "Standard Bots",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Security Engineer",
-    "org": "Latent",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Manager, Business Analytics",
-    "org": "Veracyte",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Security Engineer, IAM",
-    "org": "Dropbox",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Technical Oversight - Processing",
-    "org": "Pylon",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Content Marketing Manager",
-    "org": "Influ2",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Procurement Advisory Services (contract)",
-    "org": "DuckDuckGo",
+    "title": "Research Engineer Privacy and Anonymization",
+    "org": "Pragmatike",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -413,8 +424,8 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Customer Service Representative",
-    "org": "ShyftOff",
+    "title": "Research Engineer - Synthetic Data",
+    "org": "Pragmatike",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -430,11 +441,6 @@
    {
     "title": "Data Engineer",
     "org": "Addepto",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Telehealth Endocrinologist Evenings Fridays and or Weekends",
-    "org": "Allara",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -476,26 +482,22 @@
     "title": "Software Engineer",
     "org": "Claims",
     "why": "called a scam on Reddit / Hacker News (3 posts)"
-   },
-   {
-    "title": "Content Reviewer - United States",
-    "org": "TELUS Digital",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
    }
   ]
  },
  "items": [
   {
-   "id": "f-1037c33",
-   "title": "Regional Manager, Sales Engineering - Key Accounts (West)",
-   "org": "Datadog",
-   "url": "https://jobicy.com/jobs/161512-regional-manager-sales-engineering-key-accounts-west",
+   "id": "f-13zubt5",
+   "title": "Product Designer",
+   "org": "Gather AI",
+   "url": "https://jobicy.com/jobs/162056-product-designer-3",
    "source": "Jobicy",
    "sourceUrl": "https://jobicy.com",
    "kind": "job",
    "jobType": "Full-Time",
    "fields": [
     "tech",
+    "art",
     "research"
    ],
    "pay": "paid",
@@ -503,63 +505,129 @@
    "whereNote": "USA",
    "payNote": "",
    "deadline": null,
-   "date": "2026-11-12T09:30:09+00:00",
-   "blurb": "As a Regional Manager, Sales Engineering, you will lead a team of Sales Engineers and frontline leaders, driving technical execution, operational excellence, and team development across your region. You’ll act as a force multiplier by…",
-   "fullText": "As a Regional Manager, Sales Engineering, you will lead a team of Sales Engineers and frontline leaders, driving technical execution, operational excellence, and team development across your region.\nYou’ll act as a force multiplier by owning team performance, shaping execution standards, and partnering closely with Sales leadership to influence strategy, improve outcomes, and scale impact beyond individual deals.\nAt Datadog , we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\nWhat You’ll Do:\n• Lead, coach, and develop a team of Sales Engineers, driving performance, engagement, and long-term career growth through regular feedback and structured development\n• Partner confidently with senior Sales leadership on regional strategy, multi-quarter planning, annual capacity planning, and forecast alignment operating 2-3 quarters ahead to anticipate resourcing needs and business priorities\n• Own in-field execution at a regional level by taking an executive presence role in strategic and high-impact opportunities and providing senior-level stakeholder alignment and technical credibility alongside your team\n• Oversee consistent, high-quality delivery across technical sales cycles in the region, including evaluations, customer engagements, and deal progression\n• Hire and onboard top talent across ICs and manager-level roles, building a high-performing team and accelerating ramp through structured onboarding and enablement\n• Manage regional operations including resource allocation, utilization, KPI tracking, productivity, and skills development to ensure effective coverage across the territory\n• c cross-functionally with Sales, Product, Marketing, Enablement, and Support at a senior level to align on regional strategy, GTM execution, and customer experience\n• Drive operational excellence across the region by improving processes, maintaining data quality, scaling evaluation frameworks, and contributing to initiatives that improve team effectiveness and business impact\nWho You Are:\n• 3+ years of experience leading Sales Engineers and/or frontline leaders in a customer-facing technical organization with proven ability to manage team performance, develop team members, and scale high-performing teams\n• 7+ years of experience in Sales Engineering, Solutions Engineering, or a technical customer-facing role\n• Proven ability to partner with senior Sales leadership on regional strategy, long-range planning, and forecast alignment as a strategic peer\n• Ability to operate at both strategic and operational levels, balancing multi-quarter planning with day to day team execution and priorities\n• Strong cross-functional collaborator with the ability to influence across teams and at senior levels\n• Background in public cloud (AWS, Azure, GCP), Kubernetes, APM/tracing, security, developer experience, observability\n• Demonstrated capability of utilizing AI tooling and scaling it\n• Growth mindset of embracing change and being curious\n• Willingness to travel as needed to support customer engagements\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\nBenefits and Growth:\n• Best-in-breed onboarding\n• Generous global benefits\n• Intra-departmental mentor and buddy program for in-house networking\n• New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n• Continuous professional development, product training, and career pathing\n• An inclusive company culture, able to join our Community Guilds and Inclusion Talks\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\nThe reasonably estimated yearly salary for this role at Datadog is:\n$150,000—$200,000 USD\nAbout Datadog:\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram , LinkedIn, and Datadog Learning Center.\nEqual Opportunity at Datadog:\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form . This form is for accommodation requests only and cannot be used to inquire about the status of applications.\nPrivacy and AI Guidelines:\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice . For information on our AI policy, please visit Interviewing at Datadog AI Guidelines .",
+   "date": "2026-11-13T15:47:58+00:00",
+   "blurb": "About Us Gather AI is the Physical AI platform for logistics. We give the companies that run the world’s warehouses ground truth on every product and every movement, dock to dock. Our platform reads the warehouse floor through autonomous…",
+   "fullText": "About Us\nGather AI is the Physical AI platform for logistics. We give the companies that run the world’s warehouses ground truth on every product and every movement, dock to dock.\nOur platform reads the warehouse floor through autonomous drones and cameras mounted on material handling equipment, then turns what it sees into intelligence and action. Facilities run safer and more accurately, with fewer ladders and fewer manual counts. If you want to do the defining design work for a new category in a vital industry, we’d like to meet you.\nAbout the Team\nProduct at Gather AI sits at an unusual intersection: we build software for people who work on warehouse floors, not at desks. Our users are associates checking inventory on a tablet from the seat of a forklift, shift teams running drone workflows, field technicians troubleshooting on site, and facility leaders reading AI-generated insights in Sage.\nDesign here is about more than pixels, though craft matters a lot. It starts with understanding how people work under pressure, and it ends with software that gets out of their way and looks as advanced as the technology behind it.\nAbout the Role\nMost design roles ask you to improve something that already exists. This one asks you to define what good looks like for a new category of product.\nYou’ll be Gather AI’s first and only designer. You’ll own design end to end, from field research and information architecture to visual craft and working prototypes. Your work spans the apps floor teams use alongside our drones and MHE Vision systems, and Sage, our AI insights layer. The job is to help the product team ship products that solve real problems and happen to be very well designed, not to make screens for their own sake.\nYou won’t design from assumptions. You’ll stand next to the people using our software and let what you see shape what you build.\nWe’d love you near our Pittsburgh office, and we’ll seriously consider strong candidates anywhere in the US. The role includes about 20% travel, roughly one trip a month, to customer sites in Houston and Dallas and to our Pittsburgh office.\nThere’s no established design team to slot into, and that’s the point. You’ll set the standard and build the foundations, with a visible path to Director of UX as design at Gather AI grows.\nWhat You’ll Do\n• Own design for the MHEV app: ramp fast and propose a v2 concept by month 3, then take full ownership of the product line\n• Design interfaces for people working directly with drones and forklifts: tablet experiences used mid-shift, in noisy environments and under time pressure, where clarity is the whole job\n• Expand into the Sage dashboard as your second product line, shaping an AI insights product that’s early enough for your decisions to define its direction\n• Build on the foundations of the Gather design system and own it across our dashboards and apps\n• Travel to customer sites to observe how people use our products in the field, and bring that context into every design decision\n• Partner closely with mobile and front-end engineering in Pittsburgh and Noida, from MHEV stand-ups and weekly requirements planning through handoffs that remove ambiguity rather than create it\n• Use Claude and other AI tools to move from concept to functioning prototype, and design with an eye to how engineers will use your work with AI to build front ends faster. The team moves fast and expects you to as well\n• Over time, extend your work to internal tools and the occasional piece of marketing material\nWhat You’ll Need\n• Visual craft: a portfolio with strong, simple, modern design that holds up even in data-dense interfaces. We look closely at typography and layout\n• Analytical rigor: you turn data and requirements into clear information hierarchy, and you can show how you knew a design worked, through measures like task time, error rates or training time\n• Experience shipping real products at scale, with users in real workflows, where we can see the thinking behind the screens\n• A desire to be the only designer: you want to own design end to end now, without a larger design team around you\n• Comfort using Claude or other AI tools to build working prototypes, not just static Figma designs\n• Experience designing through user research: you’ve watched people work and changed what you built because of it\n• Figma fluency, or deep experience with a comparable design and prototyping tool\n• The ability to work without a lot of structure: spot what needs designing before you’re asked, and ask good questions when you’re stuck\n• Willingness to travel about 20% of the time (roughly one trip a month) to customer warehouses and our Pittsburgh office\nNice to Have\n• Experience designing interfaces for physical systems such as robotics, drones, industrial machinery or other non-desk environments\n• Founding or sole designer experience, ideally building 0-to-1 at a startup\n• A blend of consumer-grade polish and enterprise analytical depth\n• Experience building or maintaining a design system\n• Background in warehouse, logistics or fulfillment\n• 5 to 10 years of product or UX design experience. Strong candidates with less tenure who have shipped real products at scale are encouraged to apply\n• Experience with generative UI tools beyond Claude, or a software development background",
    "tags": [
-    "policy",
-    "privacy",
-    "mentoring",
-    "social media",
+    "ux",
+    "figma",
+    "design",
     "web development",
-    "software engineering",
     "data",
     "ai",
-    "product"
+    "product",
+    "startup",
+    "generative art",
+    "craft"
    ],
    "rep": "job",
    "verifyNote": "posted 0 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
-   "repNote": "no posts calling “Datadog” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-12)",
-   "firstSeen": "2026-11-12T21:25:46.414Z"
+   "checked": "2026-11-13T20:32:00.784Z",
+   "repNote": "no posts calling “Gather AI” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-13T21:02:23.518Z"
   },
   {
-   "id": "f-o7abbr",
-   "title": "Regional Manager, Sales Engineering - Key Accounts (East)",
-   "org": "Datadog",
-   "url": "https://jobicy.com/jobs/161510-regional-manager-sales-engineering-key-accounts-east",
+   "id": "f-1rdri5p",
+   "title": "Research Engineer",
+   "org": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/154024-research-engineer",
    "source": "Jobicy",
    "sourceUrl": "https://jobicy.com",
    "kind": "job",
    "jobType": "Full-Time",
    "fields": [
     "tech",
+    "art",
     "research"
    ],
    "pay": "paid",
    "where": "remote",
-   "whereNote": "USA",
+   "whereNote": "Bulgaria,  Germany,  Poland,  UK,  USA",
    "payNote": "",
    "deadline": null,
-   "date": "2026-11-12T09:30:07+00:00",
-   "blurb": "As a Regional Manager, Sales Engineering, you will lead a team of Sales Engineers and frontline leaders, driving technical execution, operational excellence, and team development across your region. You’ll act as a force multiplier by…",
-   "fullText": "As a Regional Manager, Sales Engineering, you will lead a team of Sales Engineers and frontline leaders, driving technical execution, operational excellence, and team development across your region.\nYou’ll act as a force multiplier by owning team performance, shaping execution standards, and partnering closely with Sales leadership to influence strategy, improve outcomes, and scale impact beyond individual deals.\nWhat You’ll Do:\n• Lead, coach, and develop a team of Sales Engineers, driving performance, engagement, and long-term career growth through regular feedback and structured development\n• Partner confidently with senior Sales leadership on regional strategy, multi-quarter planning, annual capacity planning, and forecast alignment operating 2-3 quarters ahead to anticipate resourcing needs and business priorities\n• Own in-field execution at a regional level by taking an executive presence role in strategic and high-impact opportunities and providing senior-level stakeholder alignment and technical credibility alongside your team\n• Oversee consistent, high-quality delivery across technical sales cycles in the region, including evaluations, customer engagements, and deal progression\n• Hire and onboard top talent across ICs and manager-level roles, building a high-performing team and accelerating ramp through structured onboarding and enablement\n• Manage regional operations including resource allocation, utilization, KPI tracking, productivity, and skills development to ensure effective coverage across the territory\n• c cross-functionally with Sales, Product, Marketing, Enablement, and Support at a senior level to align on regional strategy, GTM execution, and customer experience\n• Drive operational excellence across the region by improving processes, maintaining data quality, scaling evaluation frameworks, and contributing to initiatives that improve team effectiveness and business impact\nWho You Are:\n• 3+ years of experience leading Sales Engineers and/or frontline leaders in a customer-facing technical organization with proven ability to manage team performance, develop team members, and scale high-performing teams\n• 7+ years of experience in Sales Engineering, Solutions Engineering, or a technical customer-facing role\n• Proven ability to partner with senior Sales leadership on regional strategy, long-range planning, and forecast alignment as a strategic peer\n• Ability to operate at both strategic and operational levels, balancing multi-quarter planning with day to day team execution and priorities\n• Strong cross-functional collaborator with the ability to influence across teams and at senior levels\n• Background in public cloud (AWS, Azure, GCP), Kubernetes, APM/tracing, security, developer experience, observability\n• Demonstrated capability of utilizing AI tooling and scaling it\n• Growth mindset of embracing change and being curious\n• Willingness to travel as needed to support customer engagements\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\nBenefits and Growth:\n• Best-in-breed onboarding\n• Generous global benefits\n• Intra-departmental mentor and buddy program for in-house networking\n• New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n• Continuous professional development, product training, and career pathing\n• An inclusive company culture, able to join our Community Guilds and Inclusion Talks\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\nThe reasonably estimated yearly salary for this role at Datadog is:\n$150,000—$200,000 USD\nAbout Datadog:\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram , LinkedIn, and Datadog Learning Center.\nEqual Opportunity at Datadog:\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form . This form is for accommodation requests only and cannot be used to inquire about the status of applications.\nPrivacy and AI Guidelines:\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice . For information on our AI policy, please visit Interviewing at Datadog AI Guidelines .",
+   "date": "2026-11-13T03:10:17+00:00",
+   "blurb": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of…",
+   "fullText": "About ElevenLabs\nElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always.\nWe have expanded from voice into three main platforms:\n•\nElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n•\nElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n•\nElevenAPI gives developers access to our leading AI audio foundational models.\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\nHow we work\n•\nHigh-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n•\nImpact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n•\nAI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n•\nExcellence everywhere: Everything we do should match the quality of our AI models.\n•\nGlobal team: We prioritize your talent, not your location.\nWhat we offer\n•\nInnovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n•\nGrowth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n•\nLearning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.\n•\nSocial travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n•\nAnnual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.\n•\nCo-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\nAbout the role\nWe are looking for a Research Engineer to join the research team at ElevenLabs. You'll work at the frontier of audio AI, shaping the models behind products used by millions of people. You will thrive in this role if you enjoy:\n•\nTraining state-of-the-art models - across any modality.\n•\nPushing existing models further through post-training, data curation, architectural improvements, and novel training paradigms.\n•\nDesigning rigorous benchmarks and evaluations that tell us whether a new model iteration is genuinely better - and why.\nRequirements\nWe do not require any formal certifications or degrees. Instead, we are seeking enthusiastic engineers who can showcase solving impressively hard problems with artifacts such as past projects, designs, or GitHub contributions. Ideally you bring:\n•\n3+ years of experience in the field of AI, with an emphasis on implementing, training, and improving machine learning models.\n•\nDemonstrated capacity to autonomously evaluate novel concepts or enhance existing machine learning projects, potentially contributing to published work.\n•\nExperience conducting exploratory research to improve the quality of gathered data.\nLocation\nThis role is remote and can be executed globally. If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.\n#LI-Remote\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
    "tags": [
-    "policy",
-    "privacy",
-    "mentoring",
-    "social media",
-    "web development",
-    "software engineering",
     "data",
     "ai",
-    "product"
+    "machine learning",
+    "open source",
+    "git",
+    "product",
+    "art",
+    "video",
+    "writing",
+    "research"
    ],
    "rep": "job",
-   "verifyNote": "posted 0 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
-   "repNote": "no posts calling “Datadog” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-12)",
-   "firstSeen": "2026-11-12T21:25:46.414Z"
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
+   "repNote": "no posts calling “Elevenlabs” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-13T21:02:23.518Z"
+  },
+  {
+   "id": "f-jbvzfw",
+   "title": "Customer Service Representative",
+   "org": "ShyftOff",
+   "url": "https://remotive.com/remote-jobs/customer-service/customer-service-representative-2091171",
+   "source": "Remotive",
+   "sourceUrl": "https://remotive.com",
+   "kind": "contract",
+   "jobType": "contract",
+   "fields": [
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "USA",
+   "payNote": "$14 - $20/hour",
+   "deadline": null,
+   "date": "2026-11-11T09:11:58",
+   "blurb": "ShyftOff connects independent customer service professionals with opportunities to support leading brands across industries like healthcare, financial services, insurance, retail, and technology. As an independent agent on the ShyftOff…",
+   "fullText": "ShyftOff connects independent customer service professionals with opportunities to support leading brands across industries like healthcare, financial services, insurance, retail, and technology.\nAs an independent agent on the ShyftOff platform, you'll have opportunities to help customers answer questions, resolve issues, and deliver exceptional service, all from the comfort of your home.\nCompensation: $14–$20 per hour, depending on the program and applicable compensation structure.\nWhy Join ShyftOff?\n• Choose your own schedule: Select available shifts in 30-minute increments. Accept opportunities that fit your life, with no minimum hour commitments.\n• 100% remote: Provide customer service from home, without a commute or traditional office schedule.\n• Competitive earnings: Access opportunities with competitive, program-specific compensation rates disclosed before you commit.\n• Weekly payments: Get paid weekly for completed services, subject to program terms.\n• Multiple opportunities: Explore customer service programs across a variety of industries based on your qualifications and availability.\n• Priority Boarding: Top-performing, reliable agents receive priority access to available shifts, helping maximize their earning opportunities.\n• Work on your terms: Operate as a 1099 independent contractor with the freedom to choose which opportunities you accept.\nQualifications\nWe're looking for dependable, customer-focused independent professionals who take pride in delivering great service.\n• 3+ years of customer service experience preferred.\n• Excellent verbal and written communication skills.\n• Strong problem-solving abilities, empathy, and active listening skills.\n• Ability to fulfill accepted service commitments and meet client quality standards.\n• Comfortable navigating multiple computer systems and learning new technology.\n• Modern computer, USB headset, and reliable hard-wired internet connection (25 Mbps minimum).\n• Quiet, professional workspace suitable for customer calls.\n• Ability to complete program-specific qualifications, certifications, and onboarding requirements.\nLocation: Remote, United States only. Eligibility is limited to ShyftOff-approved states.\nHow to Get Started\n• Sign up: Create your free ShyftOff account, complete your application, and submit your video interview.\n• Explore opportunities: Review available programs, compensation rates, and qualification requirements to find the right fit.\n• Get qualified: Complete any required program-specific certifications or onboarding.\n• Choose your shifts: Select available 30-minute shifts that work for your schedule.\n• Get paid weekly: Earn money by delivering great customer service.\nJoin 26,000+ agents who have discovered a more flexible way to work. Sign up today at https://app.shyftoff.com/r/QPFQWH\nIndependent Contractor Disclosure: ShyftOff provides opportunities for independent contractors, not traditional employment. Agents choose whether to accept available opportunities and are responsible for their own taxes, equipment, and business expenses. Compensation, qualifications, and available hours vary by program and are not guaranteed. There is no fee to join ShyftOff. When you opt into a specific client program, you pay for that program's non-refundable background check ($40 for most programs; $199 for the Financial Services program). Program-specific certification and onboarding requirements are explained in the ShyftOff app.",
+   "tags": [
+    "video",
+    "merchandising"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 2 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
+   "repNote": "no posts calling “ShyftOff” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-13T21:02:23.518Z"
+  },
+  {
+   "id": "f-1bgt9dc",
+   "title": "Telehealth Endocrinologist Evenings Fridays and or Weekends",
+   "org": "Allara",
+   "url": "https://remoteOK.com/remote-jobs/remote-telehealth-endocrinologist-evenings-fridays-and-or-weekends-allara-1137709",
+   "source": "Remote OK",
+   "sourceUrl": "https://remoteok.com",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-09T16:00:06+00:00",
+   "blurb": "Allara is a comprehensive womenâs health provider that specializes in expert, longitudinal care that supports women through every life stage. Trusted by thousands of women nationwide, Allara makes expert healthcare accessible by…",
+   "fullText": "Allara is a comprehensive womenâs health provider that specializes in expert, longitudinal care that supports women through every life stage. Trusted by thousands of women nationwide, Allara makes expert healthcare accessible by connecting patients with multidisciplinary care teams that have a deep understanding of hormonal, metabolic, and reproductive care. Allara provides ongoing support for hormonal conditions like PCOS, chronic conditions like insulin resistance, and life stages like perimenopause, helping patients see improved health outcomes . As one of the fastest-growing womenâs health platforms in the U.S., Allara is bridging long-overlooked gaps in healthcare for women.\nThe Opportunity\nWe're hiring board-eligible Endocrinologists who want to focus on what matters most: delivering exceptional care to women who have historically been underserved. To learn more about our mission and clinical approach, visit allarahealth.com .\nLocation: Fully remote within the U.S.\nYour Impact\n• Conduct thorough patient assessments and develop personalized treatment plans via video visits\n• Collaborate with a multidisciplinary care team to deliver the highest standards of care\n• Complete required training(s) and uphold Allara's clinical policies, standards, and best practices\n• Educate patients on preventative care and wellness using evidence-based strategies\n• Maintain accurate, up-to-date patient records and complete charting in a timely manner\n• Respond to patient questions and administrative messages and tasks with clarity and care\n• Dedicate a minimum of 10 patient-facing hours per week , including consultations and medical guidance, with prescribing when clinically appropriate\nRequired Qualifications\n• Degree: MD or DO from an accredited institution\n• Board Certification: Active ABIM board certification in Internal Medicine.\n• Endocrinology Fellowship Training & Board Eligibility:\n• Successful completion of an ACGME-accredited Endocrinology fellowship.\n• Board-eligible in Endocrinology through the American Board of Internal Medicine (ABIM).\n• Commitment to obtain ABIM board certification in Endocrinology within one year of hire .\n• Experience: All board-eligible Endocrinologists are encouraged to apply\n• Women's health experience is a plus!\n• Clinical Independence: Proven ability to function as an autonomous provider with strong diagnostic judgment and critical thinking skills\n• Communication: Exceptional written and verbal communication, with an emphasis on compassion and clarity\n• Webside Manner: A natural ability to build trust and connection with patients in a virtual setting\n• Evidence-Based Practice: A genuine commitment to delivering care rooted in current clinical research\n• Technical Proficiency: Comfortable working across multiple platforms including EMR systems, text expanders, Gmail, Google Calendar, Zoom, and scheduling tools\n• Telemedicine Experience: Prior telehealth experience is a plus\n• State License Requirements & Hiring Considerations: An active, unrestricted, and unencumbered professional license in at least one U.S. state is required.\nA note on state licensing: All active and pending licenses held at the time of application are collected and reviewed during our process. Hiring decisions reflect current state-level needs, which evolve over time. Applicants may not move forward immediately if there is no active need in their licensed states. We regularly revisit candidates as needs expand and when experience, licensure, and role requirements align.\nSchedule Requirements\n• Evenings, Fridays, and/or Weekends: A minimum of 80% of weekly contracted hours must fall within the following windows:\n• Evenings (any day): 5:00 PM â 9:00 PM\n• Fridays: 8:00 AM â 9:00 PM\n• Saturdays & Sundays: 8:00 AM â 6:00 PM\nAll hours are scheduled in the time zone of your active state license(s).\nWhat Allara Offers\n• 1099 Contract: The flexibility and autonomy of an independent contractor arrangement\n• 1099 Longevity Recognition Bonus\n• Competitive Compensation: Per-visit rates plus additional pay for charting, administrative tasks, and other patient-related work\n• Fully Remote: Work from anywhere in the U.S.\n• Malpractice Insurance: Comprehensive coverage provided at no cost to you\n• Mission-Driven Work: Help transform the standard of care for women living with conditions that have historically been underdiagnosed and undertreated\n• Collaborative Provider Network: Connect with and learn from a community of skilled, like-minded Allara clinicians\n• Inclusive Culture: Join a supportive, diverse team that values innovation, equity, and belonging\nAt Allara , we believe in celebrating everything that makes us human and are proud to be an equal-opportunity workplace. We embrace diversity and are committed to building a team that represents a variety of backgrounds, perspectives, and skills. We believe that the more inclusive we are, the better we can serve our members. Weâre an Equal Opportunity Employer and do not discriminate against candidates or patients based on race, color, gender, sexual orientation, gender identity or expression, age, religion, disability, national origin, protected veteran status, or any other status protected by applicable federal, state, or local law.\nPlease mention the word **SOFT** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "tags": [
+    "policy",
+    "video",
+    "teaching",
+    "research"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 4 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
+   "repNote": "no posts calling “Allara” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-13T21:02:23.518Z"
   },
   {
    "id": "f-1yy3xzc",
@@ -582,7 +650,7 @@
    "deadline": null,
    "date": "2026-11-03T16:00:12+00:00",
    "blurb": "About Kyra Kyra is an enterprise influencer marketing platform working with brands like SharkNinja, Coach, H&M, Ray-Ban, and Converse. Our platform manages the full lifecycle â creator discovery, campaign management, content review,…",
-   "fullText": "About Kyra\nKyra is an enterprise influencer marketing platform working with brands like SharkNinja, Coach, H&M, Ray-Ban, and Converse. Our platform manages the full lifecycle â creator discovery, campaign management, content review, payments, analytics, and AI-powered intelligence across TikTok, Instagram, and YouTube.\nThe Paid Media Manager will work closely with our Director of Paid Strategy to continually optimise paid campaign performance across different channels for internal and external stakeholders.\nYouâll be responsible for:\n• Planning, managing and implementing digital campaigns across key paid channels, with a main focus on TikTok and Meta\n• Activating campaigns and analysing results to make optimisations and maximise performance\n• Using a âtest and learnâ approach to continually improve campaign performance against KPIs\n• Building and maintaining strong relationships across departments and with clients\n• Presenting findings to clients regularly and reporting on campaign performance\n• Making data-led recommendations to enhance performance\n• Staying up to date with channel updates and suggesting changes to campaigns where needed\nWhat Youâll Need to Thrive\n• Deep understanding of the paid social advertising landscape\n• 3+ years of experience in digital paid media roles (TikTok / Meta / YouTube)\n• Proven track record of improving campaign performance through data analysis\n• Confidence managing paid media budgets of $500k+\n• High proficiency in Excel\n• Strong numeracy and analytical skills\n• Ownership mindset and high attention to detail on administrative tasks\n• Ability to make and justify decisions that drive client performance\n• Comfort working with clients and teams across multiple countries and time zones\nBenefits\nð Weâre a remote-first team , giving you the flexibility to work from wherever you do your best work\nð´ Annual Time Off: 25 days PTO + bank holidays, 4 company-wide days off (Kyra Days), 3 wellness days, and paid sick leave each year\nð Growth: Annual Learning & Development budget to invest in your skills.\nð° Rewards: Annual bonus scheme to recognise great work\nð©º Healthcare coverage for US-based team members\nAI is core to how we operate. Use it to elevate your work. But everything in your application should reflect your own judgement and experience.\nð Support\nIf you have a condition or require an adjustment to our interview process - please let us know so we can make adjustments to support you. Please note that when you submit an application or resume, your data will be processed in line with our privacy policy .\nPlease mention the word **COMPLIMENT** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "About Kyra\nKyra is an enterprise influencer marketing platform working with brands like SharkNinja, Coach, H&M, Ray-Ban, and Converse. Our platform manages the full lifecycle â creator discovery, campaign management, content review, payments, analytics, and AI-powered intelligence across TikTok, Instagram, and YouTube.\nThe Paid Media Manager will work closely with our Director of Paid Strategy to continually optimise paid campaign performance across different channels for internal and external stakeholders.\nYouâll be responsible for:\n• Planning, managing and implementing digital campaigns across key paid channels, with a main focus on TikTok and Meta\n• Activating campaigns and analysing results to make optimisations and maximise performance\n• Using a âtest and learnâ approach to continually improve campaign performance against KPIs\n• Building and maintaining strong relationships across departments and with clients\n• Presenting findings to clients regularly and reporting on campaign performance\n• Making data-led recommendations to enhance performance\n• Staying up to date with channel updates and suggesting changes to campaigns where needed\nWhat Youâll Need to Thrive\n• Deep understanding of the paid social advertising landscape\n• 3+ years of experience in digital paid media roles (TikTok / Meta / YouTube)\n• Proven track record of improving campaign performance through data analysis\n• Confidence managing paid media budgets of $500k+\n• High proficiency in Excel\n• Strong numeracy and analytical skills\n• Ownership mindset and high attention to detail on administrative tasks\n• Ability to make and justify decisions that drive client performance\n• Comfort working with clients and teams across multiple countries and time zones\nBenefits\nð Weâre a remote-first team , giving you the flexibility to work from wherever you do your best work\nð´ Annual Time Off: 25 days PTO + bank holidays, 4 company-wide days off (Kyra Days), 3 wellness days, and paid sick leave each year\nð Growth: Annual Learning & Development budget to invest in your skills.\nð° Rewards: Annual bonus scheme to recognise great work\nð©º Healthcare coverage for US-based team members\nAI is core to how we operate. Use it to elevate your work. But everything in your application should reflect your own judgement and experience.\nð Support\nIf you have a condition or require an adjustment to our interview process - please let us know so we can make adjustments to support you. Please note that when you submit an application or resume, your data will be processed in line with our privacy policy .\nPlease mention the word **COMPLIMENT** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "data",
     "social media",
@@ -595,8 +663,8 @@
     "mentoring"
    ],
    "rep": "job",
-   "verifyNote": "posted 9 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 10 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “Kyra” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-11)",
    "firstSeen": "2026-11-11T20:46:17.832Z"
   },
@@ -621,7 +689,7 @@
    "deadline": null,
    "date": "2026-11-02T10:43:35+00:00",
    "blurb": "The fastest-growing European SaaS company is searching for anÂ AI/ML Engineer ! You can be our perfect match! About DocuSketch: DocuSketch, with its European Headquarters in Potsdam, Germany, is a leading European software technology…",
-   "fullText": "The fastest-growing European SaaS company is searching for anÂ AI/ML Engineer !\nYou can be our perfect match!\nAbout DocuSketch:\nDocuSketch, with its European Headquarters in Potsdam, Germany, is a leading European software technology provider for the digital real estate economy. With our product brands Immoviewer and DocuSketch, we have become one of the most successful and fastest-growing software vendors in the rapidly expanding property tech sector. Our enthusiastic customer base is located across Europe and North America. DocuSketch's groundbreaking digital technology greatly facilitates real estate companies and building restoration companies to digitize, visualize, and virtualize real estate properties. Our solutions help our clients realize tremendous cost-saving potentials, process optimization, and revenue growth.Â\nYouâll be working in a team that drives the company's AI development to developÂ algorithms for a variety of different use cases. This includes e.g. working withÂ equirectangular, phone, or satellite images to detect doors, windows, or other objects insideÂ of buildings or finding facets on the roof. Youâll be challenged by solving complex 3DÂ geometry problems and working closely with our labeling team to ensure the best possibleÂ data quality.\nResponsibilities and Duties:\nÂ·Â Research, train and deploy state-of-the-art machine learning models for objectÂ detection and 3D perception on equirectangular images\nÂ·Â Quickly prototype new ideas/technologies to create proof of concept and demos\nQualifications:\nÂ·Â Bachelorâs Degree in Computer Science or equivalent experience\nÂ·Â Excellent math skills\nÂ·Â Experience with 3D computer vision algorithms\nÂ·Â Preferably 5+ years of experience developing and training machine learning models\nÂ·Â StrongÂ Experience with Deep ML frameworks (PyTorch)\nÂ·Â Strong Experience in Python\nÂ·Â Self-motivated and energetic team player with a strong work ethic and cooperativeÂ attitude\nÂ·Â Excellent communication and organizational skills\nPlus:\nÂ·Â Familiarity with building big data systems\nÂ·Â Training very large models using multiple GPUs in the cloud\nÂ·Â Experience with training machine learning models on equirectangular images\nWe are seeking a performance-driven, high-energy personality who has several years of experience in the field. Since you will work intensely with teams from many countries solid command of the English language is a prerequisite. We offer attractive compensation, unlimited career opportunities, and the possibility to work in one of the most exciting software companies in the industry. The position will be remote in any location of choice in Europe (outside Russia, Belarus, and Ukraine). Our headquarters are in Berlin, Germany, with major offices in Belgrade, Serbia, Lakeland, Florida, and in Canada.\nWe look forward to receiving your application!\nPlease mention the word **REGAL** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "The fastest-growing European SaaS company is searching for anÂ AI/ML Engineer !\nYou can be our perfect match!\nAbout DocuSketch:\nDocuSketch, with its European Headquarters in Potsdam, Germany, is a leading European software technology provider for the digital real estate economy. With our product brands Immoviewer and DocuSketch, we have become one of the most successful and fastest-growing software vendors in the rapidly expanding property tech sector. Our enthusiastic customer base is located across Europe and North America. DocuSketch's groundbreaking digital technology greatly facilitates real estate companies and building restoration companies to digitize, visualize, and virtualize real estate properties. Our solutions help our clients realize tremendous cost-saving potentials, process optimization, and revenue growth.Â\nYouâll be working in a team that drives the company's AI development to developÂ algorithms for a variety of different use cases. This includes e.g. working withÂ equirectangular, phone, or satellite images to detect doors, windows, or other objects insideÂ of buildings or finding facets on the roof. Youâll be challenged by solving complex 3DÂ geometry problems and working closely with our labeling team to ensure the best possibleÂ data quality.\nResponsibilities and Duties:\nÂ·Â Research, train and deploy state-of-the-art machine learning models for objectÂ detection and 3D perception on equirectangular images\nÂ·Â Quickly prototype new ideas/technologies to create proof of concept and demos\nQualifications:\nÂ·Â Bachelorâs Degree in Computer Science or equivalent experience\nÂ·Â Excellent math skills\nÂ·Â Experience with 3D computer vision algorithms\nÂ·Â Preferably 5+ years of experience developing and training machine learning models\nÂ·Â StrongÂ Experience with Deep ML frameworks (PyTorch)\nÂ·Â Strong Experience in Python\nÂ·Â Self-motivated and energetic team player with a strong work ethic and cooperativeÂ attitude\nÂ·Â Excellent communication and organizational skills\nPlus:\nÂ·Â Familiarity with building big data systems\nÂ·Â Training very large models using multiple GPUs in the cloud\nÂ·Â Experience with training machine learning models on equirectangular images\nWe are seeking a performance-driven, high-energy personality who has several years of experience in the field. Since you will work intensely with teams from many countries solid command of the English language is a prerequisite. We offer attractive compensation, unlimited career opportunities, and the possibility to work in one of the most exciting software companies in the industry. The position will be remote in any location of choice in Europe (outside Russia, Belarus, and Ukraine). Our headquarters are in Berlin, Germany, with major offices in Belgrade, Serbia, Lakeland, Florida, and in Canada.\nWe look forward to receiving your application!\nPlease mention the word **REGAL** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "machine learning",
     "ai",
@@ -634,8 +702,8 @@
     "research"
    ],
    "rep": "job",
-   "verifyNote": "posted 10 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 11 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “Docusketch” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-11)",
    "firstSeen": "2026-11-11T20:46:17.832Z"
   },
@@ -660,7 +728,7 @@
    "deadline": null,
    "date": "2026-10-31T00:00:04+00:00",
    "blurb": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they…",
-   "fullText": "Adaptyv is building an automated lab that lets AI agents run biology experiments.\nWe're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world.\nWe are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today.\nOur automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development.\nWeâre growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentation.\nAbout the role\nThis is a hybrid sales and customer success role for someone with real scientific depth. You'll be the primary point of contact for customers â from first conversation through ongoing engagement. That means understanding what a protein design team is actually trying to achieve, helping them pick the right assays, making sure their experiments are set up correctly, and translating results back into language that's useful for their programs.\nThe day-to-day:\n• Running technical sales calls where you discuss binding kinetics, expression systems, and assay design, not just pricing\n• Onboarding new customers and helping them design their first experiments on the platform\n• Monitoring ongoing accounts, flagging issues early, and proactively suggesting next steps based on their results\n• Working with the biology team to troubleshoot when a customer's experiment doesn't go as expected\n• Identifying expansion opportunities within existing accounts â new targets, new assay types, larger campaigns\nYou won't be handed a script. You'll need to understand the science well enough to earn trust from PhD-level protein engineers and CSOs, while also being commercially sharp enough to close deals and grow accounts.\nResponsibilities\n• Own the full customer lifecycle: prospecting, technical sales conversations, deal closing, onboarding, and ongoing account management.\n• Serve as the technical point of contact for customers. Understand their protein engineering goals and recommend the right experiments (binding, expression, thermostability, enzyme activity).\n• Understand and explain our assay capabilities in depth: BLI, SPR, cell-free expression, and emerging assay types. Know when each is appropriate and what the data means.\n• Work closely with the biology team to ensure experiments are designed correctly and results are communicated clearly.\n• Build and maintain a pipeline of commercial opportunities across customer segments: AI-driven protein design companies, biotech startups, pharma R&D teams, and academic labs.\n• Develop proposals and quotes tailored to customer needs, from small pilot experiments to large-scale data generation campaigns.\n• Represent Adaptyv at conferences and industry events. Be able to have deep technical conversations at the booth, not just hand out brochures.\n• Feed customer insights back to the product and biology teams: what assays are people asking for, what's missing, where are we losing deals.\nWhat we're looking for\n• Scientific background in protein engineering, biochemistry, biophysics, or a related field. You should be comfortable discussing binding kinetics (KD, kon, koff), expression systems, and assay design without needing to look things up.\n• Experience in a customer-facing technical role: field application scientist, technical sales, scientific account management, or similar. CRO or biotech vendor experience is a strong plus.\n• Commercially driven. You care about revenue, pipeline, and closing deals, not just having interesting scientific conversations.\n• Strong communicator who can adapt to the audience: detailed and technical with a scientist, concise and business-focused with a VP.\n• Self-starter who can manage their own pipeline and priorities without heavy oversight.\n• Genuine interest in AI-driven protein design and the companies working in this space. You follow what's happening in the field.\nApplication deadline\nWe are reviewing applicants on a rolling basis.\nPlease mention the word **ILLUMINATI** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "Adaptyv is building an automated lab that lets AI agents run biology experiments.\nWe're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world.\nWe are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today.\nOur automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development.\nWeâre growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentation.\nAbout the role\nThis is a hybrid sales and customer success role for someone with real scientific depth. You'll be the primary point of contact for customers â from first conversation through ongoing engagement. That means understanding what a protein design team is actually trying to achieve, helping them pick the right assays, making sure their experiments are set up correctly, and translating results back into language that's useful for their programs.\nThe day-to-day:\n• Running technical sales calls where you discuss binding kinetics, expression systems, and assay design, not just pricing\n• Onboarding new customers and helping them design their first experiments on the platform\n• Monitoring ongoing accounts, flagging issues early, and proactively suggesting next steps based on their results\n• Working with the biology team to troubleshoot when a customer's experiment doesn't go as expected\n• Identifying expansion opportunities within existing accounts â new targets, new assay types, larger campaigns\nYou won't be handed a script. You'll need to understand the science well enough to earn trust from PhD-level protein engineers and CSOs, while also being commercially sharp enough to close deals and grow accounts.\nResponsibilities\n• Own the full customer lifecycle: prospecting, technical sales conversations, deal closing, onboarding, and ongoing account management.\n• Serve as the technical point of contact for customers. Understand their protein engineering goals and recommend the right experiments (binding, expression, thermostability, enzyme activity).\n• Understand and explain our assay capabilities in depth: BLI, SPR, cell-free expression, and emerging assay types. Know when each is appropriate and what the data means.\n• Work closely with the biology team to ensure experiments are designed correctly and results are communicated clearly.\n• Build and maintain a pipeline of commercial opportunities across customer segments: AI-driven protein design companies, biotech startups, pharma R&D teams, and academic labs.\n• Develop proposals and quotes tailored to customer needs, from small pilot experiments to large-scale data generation campaigns.\n• Represent Adaptyv at conferences and industry events. Be able to have deep technical conversations at the booth, not just hand out brochures.\n• Feed customer insights back to the product and biology teams: what assays are people asking for, what's missing, where are we losing deals.\nWhat we're looking for\n• Scientific background in protein engineering, biochemistry, biophysics, or a related field. You should be comfortable discussing binding kinetics (KD, kon, koff), expression systems, and assay design without needing to look things up.\n• Experience in a customer-facing technical role: field application scientist, technical sales, scientific account management, or similar. CRO or biotech vendor experience is a strong plus.\n• Commercially driven. You care about revenue, pipeline, and closing deals, not just having interesting scientific conversations.\n• Strong communicator who can adapt to the audience: detailed and technical with a scientist, concise and business-focused with a VP.\n• Self-starter who can manage their own pipeline and priorities without heavy oversight.\n• Genuine interest in AI-driven protein design and the companies working in this space. You follow what's happening in the field.\nApplication deadline\nWe are reviewing applicants on a rolling basis.\nPlease mention the word **ILLUMINATI** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "data",
     "ai",
@@ -672,8 +740,8 @@
     "research"
    ],
    "rep": "job",
-   "verifyNote": "posted 13 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 14 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “Adaptyv” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-11)",
    "firstSeen": "2026-11-11T20:46:17.832Z"
   },
@@ -697,7 +765,7 @@
    "deadline": null,
    "date": "2026-11-05T16:00:07+00:00",
    "blurb": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and…",
-   "fullText": "About the company\nWe raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2.\nWe're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses.\nOur system identifies business opportunities through market signals, validates ideas with live ad tests, builds and launches software products, and brings in human experts wherever agents fall short. That loop already runs end to end: from idea to launched product to first revenue.\nOver the next 12 months, our focus is on reliability, throughput, and self-improvement, making every launch better than the last.\nAbout the role\nWe're looking for a hands-on AI Engineer to take ownership of the architecture and development of our autonomous agent system.\nYou'll lead the technical direction of the platform, building multi-agent orchestration systems, self-improving agent harnesses, and AI-powered backend services. This is a highly technical leadership role that combines architectural decision-making with hands-on engineering.\nYou'll be expected to ship production code, make key technical decisions, improve agent behavior in production, and help establish the engineering standards as the company scales.\nResponsibilities\n• Own the system architecture and make key technical decisions across the platform.\n• Design and build multi-agent systems and orchestration infrastructure that take products from idea to launch.\n• Develop self-improving agent harnesses, including feedback loops, evaluation systems, and memory.\n• Build and maintain AI-powered backend services on top of LLM APIs such as Anthropic, OpenAI, and Gemini.\n• Write production code, particularly around agent runtime and orchestration.\n• Debug and improve AI behavior in production through prompt engineering, structured outputs, retries, and fallbacks.\n• Break down complex technical challenges into actionable milestones and prioritize the engineering roadmap.\n• Establish engineering standards around code reviews, testing, observability, and release processes.\n• Lead and support the engineering team while remaining deeply involved in implementation.\nRequirements\n• 4+ years of professional software engineering experience.\n• Previous technical leadership experience at an early-stage company (Founding Engineer, Tech Lead, Head of Engineering, or similar).\n• Hands-on experience building and shipping multi-agent systems and orchestration frameworks to production.\n• Experience developing self-improving or self-evolving agent harnesses.\n• Strong backend engineering skills, including designing and maintaining APIs, services, and data flows.\n• Experience working with LLM-based systems, including prompt engineering, model configuration, structured outputs, embeddings, retrieval, and evaluation.\n• Daily hands-on experience with AI coding agents such as Claude Code, Cursor, OpenAI Codex, or similar tools. You should know how to delegate work to agents, review their output, and verify what they build.\nNice to have\n• Strong TypeScript and Node.js experience.\n• Experience with Vercel AI SDK, Claude Agent SDK, or building custom agent runtimes.\n• Experience with PostgreSQL, Supabase, and pgvector.\n• Familiarity with background job systems such as Inngest or Pub/Sub.\n• Experience with Zod, Vitest, and GCP Cloud Run.\n• Experience growing or restructuring distributed engineering teams.\n• Interest in AI evaluation, safety, and observability.\nPlease mention the word **AMELIORATE** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "About the company\nWe raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2.\nWe're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses.\nOur system identifies business opportunities through market signals, validates ideas with live ad tests, builds and launches software products, and brings in human experts wherever agents fall short. That loop already runs end to end: from idea to launched product to first revenue.\nOver the next 12 months, our focus is on reliability, throughput, and self-improvement, making every launch better than the last.\nAbout the role\nWe're looking for a hands-on AI Engineer to take ownership of the architecture and development of our autonomous agent system.\nYou'll lead the technical direction of the platform, building multi-agent orchestration systems, self-improving agent harnesses, and AI-powered backend services. This is a highly technical leadership role that combines architectural decision-making with hands-on engineering.\nYou'll be expected to ship production code, make key technical decisions, improve agent behavior in production, and help establish the engineering standards as the company scales.\nResponsibilities\n• Own the system architecture and make key technical decisions across the platform.\n• Design and build multi-agent systems and orchestration infrastructure that take products from idea to launch.\n• Develop self-improving agent harnesses, including feedback loops, evaluation systems, and memory.\n• Build and maintain AI-powered backend services on top of LLM APIs such as Anthropic, OpenAI, and Gemini.\n• Write production code, particularly around agent runtime and orchestration.\n• Debug and improve AI behavior in production through prompt engineering, structured outputs, retries, and fallbacks.\n• Break down complex technical challenges into actionable milestones and prioritize the engineering roadmap.\n• Establish engineering standards around code reviews, testing, observability, and release processes.\n• Lead and support the engineering team while remaining deeply involved in implementation.\nRequirements\n• 4+ years of professional software engineering experience.\n• Previous technical leadership experience at an early-stage company (Founding Engineer, Tech Lead, Head of Engineering, or similar).\n• Hands-on experience building and shipping multi-agent systems and orchestration frameworks to production.\n• Experience developing self-improving or self-evolving agent harnesses.\n• Strong backend engineering skills, including designing and maintaining APIs, services, and data flows.\n• Experience working with LLM-based systems, including prompt engineering, model configuration, structured outputs, embeddings, retrieval, and evaluation.\n• Daily hands-on experience with AI coding agents such as Claude Code, Cursor, OpenAI Codex, or similar tools. You should know how to delegate work to agents, review their output, and verify what they build.\nNice to have\n• Strong TypeScript and Node.js experience.\n• Experience with Vercel AI SDK, Claude Agent SDK, or building custom agent runtimes.\n• Experience with PostgreSQL, Supabase, and pgvector.\n• Familiarity with background job systems such as Inngest or Pub/Sub.\n• Experience with Zod, Vitest, and GCP Cloud Run.\n• Experience growing or restructuring distributed engineering teams.\n• Interest in AI evaluation, safety, and observability.\nPlease mention the word **AMELIORATE** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "javascript",
     "coding",
@@ -711,8 +779,8 @@
     "design"
    ],
    "rep": "job",
-   "verifyNote": "posted 7 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 8 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “Silver.dev” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-09)",
    "firstSeen": "2026-11-09T23:33:26.496Z"
   },
@@ -737,7 +805,7 @@
    "deadline": null,
    "date": "2026-11-04T22:25:19+00:00",
    "blurb": "100% Remote | Independent Contractor | 35 - 40 USD/hour Help shape the future of AI. Artificial Intelligence is evolving rapidly, and high-quality data plays a key role in making it smarter. We're looking for detail-oriented individuals to…",
-   "fullText": "100% Remote | Independent Contractor | 35 - 40 USD/hour\nHelp shape the future of AI.\nArtificial Intelligence is evolving rapidly, and high-quality data plays a key role in making it smarter. We're looking for detail-oriented individuals to contribute to exciting AI projects by reviewing and annotating video content.\nThis is your opportunity to get involved in the world of AI, gain hands-on experience, and contribute to technologies shaping the future.\nNo previous AI or robotics experience required!\nWhat you'll do\n• Review and annotate short video clips, identifying objects, actions, and events.\n• Evaluate video clarity, quality, and camera angles.\n• Assess movements and interactions based on project guidelines.\n• Ensure annotations are accurate and consistent.\nWhat we're looking for\n• Excellent attention to detail and analytical thinking.\n• Good written English and ability to follow instructions.\n• Reliability and ability to work independently.\n• No previous AI, robotics, or annotation experience needed.\nWhy join?\n• EarnÂ 35 - 40 USD/hour, depending on your country.\n• Work remotely from your location.\n• Gain hands-on experience supporting AI development.\n• Contribute to projects at the forefront of technology.\nGet started\nWe currently have three projects open! Complete our certification process to demonstrate your skills and be considered for the opportunity that best matches your profile.\nYour attention to detail could help shape what's next in AI!\nThis is an independent contractor opportunity. Project assignment and work availability are subject to certification results and project requirements.\nPlease mention the word **BENEVOLENT** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "100% Remote | Independent Contractor | 35 - 40 USD/hour\nHelp shape the future of AI.\nArtificial Intelligence is evolving rapidly, and high-quality data plays a key role in making it smarter. We're looking for detail-oriented individuals to contribute to exciting AI projects by reviewing and annotating video content.\nThis is your opportunity to get involved in the world of AI, gain hands-on experience, and contribute to technologies shaping the future.\nNo previous AI or robotics experience required!\nWhat you'll do\n• Review and annotate short video clips, identifying objects, actions, and events.\n• Evaluate video clarity, quality, and camera angles.\n• Assess movements and interactions based on project guidelines.\n• Ensure annotations are accurate and consistent.\nWhat we're looking for\n• Excellent attention to detail and analytical thinking.\n• Good written English and ability to follow instructions.\n• Reliability and ability to work independently.\n• No previous AI, robotics, or annotation experience needed.\nWhy join?\n• EarnÂ 35 - 40 USD/hour, depending on your country.\n• Work remotely from your location.\n• Gain hands-on experience supporting AI development.\n• Contribute to projects at the forefront of technology.\nGet started\nWe currently have three projects open! Complete our certification process to demonstrate your skills and be considered for the opportunity that best matches your profile.\nYour attention to detail could help shape what's next in AI!\nThis is an independent contractor opportunity. Project assignment and work availability are subject to certification results and project requirements.\nPlease mention the word **BENEVOLENT** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "ai",
     "data",
@@ -746,8 +814,8 @@
     "writing"
    ],
    "rep": "job",
-   "verifyNote": "posted 8 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 9 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “iMerit” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-08)",
    "firstSeen": "2026-11-08T18:55:57.571Z"
   },
@@ -786,8 +854,8 @@
     "machine learning"
    ],
    "rep": "job",
-   "verifyNote": "posted 14 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 15 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
    "repNote": "no posts calling “Fluence International, Inc.” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-08)",
    "firstSeen": "2026-11-08T18:55:57.571Z"
   },
@@ -820,7 +888,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-12T20:55:22.599Z",
+   "checked": "2026-11-13T20:32:06.902Z",
    "repNote": "no posts calling “Orbis Operations” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-08)",
    "firstSeen": "2026-11-08T18:55:57.571Z"
   },
@@ -850,8 +918,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 8 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 9 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
    "repNote": "no posts calling “IAPWE” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-07)",
    "firstSeen": "2026-11-07T18:36:52.748Z"
   },
@@ -875,7 +943,7 @@
    "deadline": null,
    "date": "2026-11-01T00:00:08+00:00",
    "blurb": "About Mecka AI Mecka AI is building the data infrastructure layer for robotics and embodied AI. We design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics…",
-   "fullText": "About Mecka AI\nMecka AI is building the data infrastructure layer for robotics and embodied AI.\nWe design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics companies to train and validate humanoid and embodied AI systems.\nWe work closely with frontier robotics teams to bridge real-world data, simulation, learning-based systems, and deployed hardware.\nAbout the Role\nSigning a capture partner is the start of the work. Getting that partner to steady, high-quality output takes onboarding, training, hardware, support, and reporting, and every step has to run on time.\nAs Partnership Operations Manager, you will own that path for our regional partnership leads so they can focus on finding and signing partners. This is a new function, so you will set the standards and tooling yourself and make them repeatable across regions.\nWhat You Will Do\n• Deal support: Prepare proposals and agreements from approved templates and keep a clean record of every partnerâs rates, volumes, and term dates.\n• Onboarding: Set partners up on the platform, issue devices and accounts, and train their teams on capture standards so they reach full output quickly.\n• Hardware: Manage device allocation, tracking, replacements, and returns with our hardware and logistics teams, and keep inventory records accurate.\n• Partner support: Be the first point of contact for partners, and run the support channel to clear service levels. Resolve problems yourself or route them to product, engineering, or finance before capture is disrupted, and pass on what partners need from the platform and devices.\n• Performance and reporting: Monitor daily performance and quality across partners, including recorded, approved, and deliverable hours, recording counts, and QA rejection rates. Act when numbers slip, and raise anything commercial with the partnerâs regional lead. Keep scorecards, business reviews, and the data behind them current.\n• Payments: Own partner payments and reconciliation, making sure hours are approved correctly and paid accurately and on time.\n• Playbook: Build and improve the processes, checklists, and tools that keep partner operations running as the network grows.\nWhat You Bring\n• Experience: 3 to 5+ years in partner or vendor operations, supply or merchant onboarding, business operations, program or project management, or account management, ideally at a high-growth marketplace, delivery, or BPO company.\n• Execution: A record of running many partner launches at once across time zones, with clear process and tight follow-up.\n• Organization: Highly organized and detail-focused, able to manage many partners and tasks at once without letting things slip.\n• AI fluency: You use AI tools in your day-to-day work to pull and analyze data, draft partner communications, and streamline your own processes.\n• Problem solving: A practical problem-solver who stays calm under pressure and sees problems through to resolution.\n• Relationships: Strong interpersonal skills. You work well with both partners and internal teams.\n• Agency: A high degree of initiative and comfort with ambiguity. This is an early and unstructured role, so you will set your own priorities, work without an established playbook, and build processes where none yet exists.\nEven better if you have\n• Industry: Background in data collection, AI training data, or BPO services.\n• Field deployment: Experience with device deployment and inventory tracking across partner sites.\n• Multi-country: Experience running partner operations across several countries and time zones.\n• Languages: Working fluency in one or more of our regionsâ main business languages, alongside professional English.\nIf you don't check every box above but believe you can do the job, we encourage you to apply â we're looking for capability and trajectory, not a perfect checklist match.\nWe strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, we will partner with you to meet your needs.\nWe may use AI-assisted tools to help evaluate applications against the requirements of this role. These tools support our recruiting team in identifying qualified candidates but do not replace human judgment or limit which applications may be reviewed or considered.\nPlease mention the word **UPLIFTMENT** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "About Mecka AI\nMecka AI is building the data infrastructure layer for robotics and embodied AI.\nWe design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics companies to train and validate humanoid and embodied AI systems.\nWe work closely with frontier robotics teams to bridge real-world data, simulation, learning-based systems, and deployed hardware.\nAbout the Role\nSigning a capture partner is the start of the work. Getting that partner to steady, high-quality output takes onboarding, training, hardware, support, and reporting, and every step has to run on time.\nAs Partnership Operations Manager, you will own that path for our regional partnership leads so they can focus on finding and signing partners. This is a new function, so you will set the standards and tooling yourself and make them repeatable across regions.\nWhat You Will Do\n• Deal support: Prepare proposals and agreements from approved templates and keep a clean record of every partnerâs rates, volumes, and term dates.\n• Onboarding: Set partners up on the platform, issue devices and accounts, and train their teams on capture standards so they reach full output quickly.\n• Hardware: Manage device allocation, tracking, replacements, and returns with our hardware and logistics teams, and keep inventory records accurate.\n• Partner support: Be the first point of contact for partners, and run the support channel to clear service levels. Resolve problems yourself or route them to product, engineering, or finance before capture is disrupted, and pass on what partners need from the platform and devices.\n• Performance and reporting: Monitor daily performance and quality across partners, including recorded, approved, and deliverable hours, recording counts, and QA rejection rates. Act when numbers slip, and raise anything commercial with the partnerâs regional lead. Keep scorecards, business reviews, and the data behind them current.\n• Payments: Own partner payments and reconciliation, making sure hours are approved correctly and paid accurately and on time.\n• Playbook: Build and improve the processes, checklists, and tools that keep partner operations running as the network grows.\nWhat You Bring\n• Experience: 3 to 5+ years in partner or vendor operations, supply or merchant onboarding, business operations, program or project management, or account management, ideally at a high-growth marketplace, delivery, or BPO company.\n• Execution: A record of running many partner launches at once across time zones, with clear process and tight follow-up.\n• Organization: Highly organized and detail-focused, able to manage many partners and tasks at once without letting things slip.\n• AI fluency: You use AI tools in your day-to-day work to pull and analyze data, draft partner communications, and streamline your own processes.\n• Problem solving: A practical problem-solver who stays calm under pressure and sees problems through to resolution.\n• Relationships: Strong interpersonal skills. You work well with both partners and internal teams.\n• Agency: A high degree of initiative and comfort with ambiguity. This is an early and unstructured role, so you will set your own priorities, work without an established playbook, and build processes where none yet exists.\nEven better if you have\n• Industry: Background in data collection, AI training data, or BPO services.\n• Field deployment: Experience with device deployment and inventory tracking across partner sites.\n• Multi-country: Experience running partner operations across several countries and time zones.\n• Languages: Working fluency in one or more of our regionsâ main business languages, alongside professional English.\nIf you don't check every box above but believe you can do the job, we encourage you to apply â we're looking for capability and trajectory, not a perfect checklist match.\nWe strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, we will partner with you to meet your needs.\nWe may use AI-assisted tools to help evaluate applications against the requirements of this role. These tools support our recruiting team in identifying qualified candidates but do not replace human judgment or limit which applications may be reviewed or considered.\nPlease mention the word **UPLIFTMENT** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "data",
     "ai",
@@ -889,8 +957,8 @@
     "fashion design"
    ],
    "rep": "job",
-   "verifyNote": "posted 12 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 13 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “Mecka” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-06)",
    "firstSeen": "2026-11-06T20:30:33.420Z"
   },
@@ -915,7 +983,7 @@
    "deadline": null,
    "date": "2026-10-30T00:00:10+00:00",
    "blurb": "Hello. Weâre Polaroid. An iconic brand, built by passionate people Polaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is…",
-   "fullText": "Hello. Weâre Polaroid. An iconic brand, built by passionate people\nPolaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is manifestly important and nearly impossible.â\nIn 2008, Polaroid produced its last pack of instant film. But a group of passionate fans refused to let instant photography disappear. What started as The Impossible Project grew into a mission to preserve and reinvent analogue photography for a new generation. More than a decade later, that same startup acquired the Polaroid brand and continues to shape its future today.\nAt Polaroid, we create products and experiences that spark emotion, fuel creativity, and bring people closer together. At the intersection of art and technology, we believe in the power of analogue moments and genuine human connection in an increasingly digital world.\nThe Role\nAs the Country Manager, Canada - you will play a pivotal role in managing and expanding our footprint with National Retailers and Independents alike. We are looking for an experienced account manager that has excellent business and execution skills to deliver profitable customer plans and market share growth. In addition to channel and operational management responsibilities, this role will also collaborate with internal stakeholders from sales operations, finance, demand planning, product management, and marketing.\nKey Responsibilities:\n• Canada Market Leadership: Serve as the commercial lead for Polaroid in Canada, owning the Canadian wholesale plan and accountability for revenue and market growth. Be the in-market face of the business and the primary point of leadership for the Canadian commercial team and stakeholders.\n• National Account Ownership: Act as the strategic lead for all national wholesale accounts, ensuring long-term scalability, commercial profitability, and a premium Polaroid brand presence across every brick-and-mortar and digital retail touchpoint.\n• Account Partnership: Build and hold trusted relationships with the most senior buyers, merchants, and decision-makers across national accounts. Lead joint business planning and negotiate mutually beneficial terms that create sustainable, multi-year growth.\n• Team & Cross-Functional Leadership: Lead and coordinate the Canadian commercial plan, including setting priorities and coaching supporting team members. Partner closely with US-based planning, finance, retail marketing, and product teams.\n• Forecasting, Demand Planning & SKU Transition: Translate market data into actionable inventory strategies. Lead seasonal forecasting and rolling monthly projections and manage SKU EOL transitions to protect sell-through. Track consumer trends and identify opportunities to capitalize or course-correct.\n• Sell-Through & Brand Activation: Shift the focus from sell-in to sell-through. Partner with retail marketing and activation teams to execute high-impact programs, elevate in-store positioning and shelf execution, and consistently use retail assets to drive account performance.\n• Brand Ambassador & Product Evangelism: Act as the face of Polaroid by demonstrating our world-class products at trade shows, training events, and major national account meetings.\nWhat You'll Need to Succeed\n• Experience: Demonstrable progressive, high-impact sales and account management experience within a consumer goods, consumer electronics, or premium hardware retail environment, including experience leading a market, a team, or a portfolio with meaningful autonomy. A proven track record of managing multi-million-dollar national retail portfolios is essential.\n• Canadian Retailer Depth: Deep familiarity with the Canadian retail landscape and established senior-level relationships across major national chains.\n• Commercial & Analytical Literacy: Strong command of retail math, inventory pipelines, pricing elasticity, and promotional mechanics. Comfortable evaluating complex financial models and partnering closely with finance and operations leaders.\n• Strategic Influence: Excellent stakeholder management and communication skills, with a proven track record of influencing external executive leadership and aligning internal cross-functional teams around a shared growth vision.\n• Self-Directed Leadership: Able to operate as the senior Polaroid presence in-market: setting direction and making decisions while staying tightly connected to the North American strategy.\nAI in our hiring process\nOur recruitment team reviews every application, including your CV. We may use AI-assisted technology to support the initial review process and help our recruiters work more efficiently. Your application is always reviewed by a recruiter and all our hiring decisions are made by people. Learn more in our Privacy Policy: https://www.polaroid.com/legal/careers-job-applicant-privacy-policy\nÂ\nOur Approach to AI\nAt Polaroid we believe two things can be true at once: technology can help us move forward, while human creativity, craft, judgement and real-world connection matter more than ever.\nSince our beginning, we've embraced technology to create meaningful human experiences. Today that means exploring new tools, including AI, with curiosity and care, using them where they help us work better and build a stronger business, while staying true to what defines our brand.\nPlease mention the word **RESOURCEFULNESS** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "Hello. Weâre Polaroid. An iconic brand, built by passionate people\nPolaroid was founded in 1937 by one of the 20th centuryâs most influential innovators, Edwin Land, whose philosophy was: âDonât undertake a project unless it is manifestly important and nearly impossible.â\nIn 2008, Polaroid produced its last pack of instant film. But a group of passionate fans refused to let instant photography disappear. What started as The Impossible Project grew into a mission to preserve and reinvent analogue photography for a new generation. More than a decade later, that same startup acquired the Polaroid brand and continues to shape its future today.\nAt Polaroid, we create products and experiences that spark emotion, fuel creativity, and bring people closer together. At the intersection of art and technology, we believe in the power of analogue moments and genuine human connection in an increasingly digital world.\nThe Role\nAs the Country Manager, Canada - you will play a pivotal role in managing and expanding our footprint with National Retailers and Independents alike. We are looking for an experienced account manager that has excellent business and execution skills to deliver profitable customer plans and market share growth. In addition to channel and operational management responsibilities, this role will also collaborate with internal stakeholders from sales operations, finance, demand planning, product management, and marketing.\nKey Responsibilities:\n• Canada Market Leadership: Serve as the commercial lead for Polaroid in Canada, owning the Canadian wholesale plan and accountability for revenue and market growth. Be the in-market face of the business and the primary point of leadership for the Canadian commercial team and stakeholders.\n• National Account Ownership: Act as the strategic lead for all national wholesale accounts, ensuring long-term scalability, commercial profitability, and a premium Polaroid brand presence across every brick-and-mortar and digital retail touchpoint.\n• Account Partnership: Build and hold trusted relationships with the most senior buyers, merchants, and decision-makers across national accounts. Lead joint business planning and negotiate mutually beneficial terms that create sustainable, multi-year growth.\n• Team & Cross-Functional Leadership: Lead and coordinate the Canadian commercial plan, including setting priorities and coaching supporting team members. Partner closely with US-based planning, finance, retail marketing, and product teams.\n• Forecasting, Demand Planning & SKU Transition: Translate market data into actionable inventory strategies. Lead seasonal forecasting and rolling monthly projections and manage SKU EOL transitions to protect sell-through. Track consumer trends and identify opportunities to capitalize or course-correct.\n• Sell-Through & Brand Activation: Shift the focus from sell-in to sell-through. Partner with retail marketing and activation teams to execute high-impact programs, elevate in-store positioning and shelf execution, and consistently use retail assets to drive account performance.\n• Brand Ambassador & Product Evangelism: Act as the face of Polaroid by demonstrating our world-class products at trade shows, training events, and major national account meetings.\nWhat You'll Need to Succeed\n• Experience: Demonstrable progressive, high-impact sales and account management experience within a consumer goods, consumer electronics, or premium hardware retail environment, including experience leading a market, a team, or a portfolio with meaningful autonomy. A proven track record of managing multi-million-dollar national retail portfolios is essential.\n• Canadian Retailer Depth: Deep familiarity with the Canadian retail landscape and established senior-level relationships across major national chains.\n• Commercial & Analytical Literacy: Strong command of retail math, inventory pipelines, pricing elasticity, and promotional mechanics. Comfortable evaluating complex financial models and partnering closely with finance and operations leaders.\n• Strategic Influence: Excellent stakeholder management and communication skills, with a proven track record of influencing external executive leadership and aligning internal cross-functional teams around a shared growth vision.\n• Self-Directed Leadership: Able to operate as the senior Polaroid presence in-market: setting direction and making decisions while staying tightly connected to the North American strategy.\nAI in our hiring process\nOur recruitment team reviews every application, including your CV. We may use AI-assisted technology to support the initial review process and help our recruiters work more efficiently. Your application is always reviewed by a recruiter and all our hiring decisions are made by people. Learn more in our Privacy Policy: https://www.polaroid.com/legal/careers-job-applicant-privacy-policy\nÂ\nOur Approach to AI\nAt Polaroid we believe two things can be true at once: technology can help us move forward, while human creativity, craft, judgement and real-world connection matter more than ever.\nSince our beginning, we've embraced technology to create meaningful human experiences. Today that means exploring new tools, including AI, with curiosity and care, using them where they help us work better and build a stronger business, while staying true to what defines our brand.\nPlease mention the word **RESOURCEFULNESS** and tag RNDAuNzUuMTMxLjIz when applying to show you read the job post completely (#RNDAuNzUuMTMxLjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "product",
     "craft",
@@ -929,10 +997,50 @@
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 14 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 15 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.785Z",
    "repNote": "no posts calling “Polaroid” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-05)",
    "firstSeen": "2026-11-05T21:14:16.911Z"
+  },
+  {
+   "id": "f-64ndgo",
+   "title": "Remote Office Assistant",
+   "org": "Coalition Technologies ",
+   "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+   "source": "Remotive",
+   "sourceUrl": "https://remotive.com",
+   "kind": "job",
+   "jobType": "full-time",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Worldwide",
+   "payNote": "$35,3k- $52k",
+   "deadline": null,
+   "date": "2026-11-11T20:17:48",
+   "blurb": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role is ideal for…",
+   "fullText": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role is ideal for someone with strong communication skills, discretion, attention to detail, and a willingness to learn and grow within a fast-paced remote work environment.\nAs an Office Assistant, you will help support daily administrative operations, assist with entry-level bookkeeping, organize client documents, support internal reporting, and help maintain accurate company records. This position offers strong growth potential for the right candidate, including opportunities for advancement within the Accounting team or other departments.\nWe are looking for talented and diligent candidates who perform well on our skills assessments. Strong skills test performance may be considered even if a candidate does not meet every preferred experience or educational background requirement.\nWhy Join Coalition Technologies?\nCoalition Technologies is committed to delivering high-quality work for our clients while providing our team with a fun, thriving, innovative, and growth-focused work environment. We offer:\n• 100% remote work with a company that has supported remote team members for more than a decade\n• Competitive profit-sharing bonus plan, with up to 50% of company profits paid to full-time employees each month\n• Competitive Paid Time Off plan that supports work-life balance\n• Subsidized gym memberships\n• Medical, dental, vision, and life insurance packages for eligible US-based team members\n• International Health Insurance Reimbursement Program for eligible international team members\n• Device upgrade and learning reimbursement programs\n• Career development plans with clearly defined goals and rewards\n• Additional job-specific incentives and bonuses\nOffice Assistant Responsibilities\nAs an Office Assistant, your duties will include:\n• Answering phones and emails\n• Completing entry-level bookkeeping tasks, including recording expenses, organizing receipts, and maintaining transaction records\n• Resolving billing issues with clients and internal team members\n• Providing account access, usage reports, data analysis, and other ad hoc support for team members\n• Supporting quality assurance checks for internal and client-facing reports\n• Organizing new client contracts, creating invoices, and processing client payments\n• Contributing to internal database maintenance, upkeep, and data entry\n• Researching, ordering, and distributing company-wide gifts two to three times per year\n• Organizing company events, competitions, and special projects throughout the year\n• Facilitating company holiday calendars, time-off calendars, and schedule variation calendars\nRequired Skills and Qualifications\nThe ideal candidate will have:\n• Willingness to learn, grow, and collaborate with the team and company as a whole\n• Excellent verbal and written communication skills\n• High level of discretion, ethics, and trustworthiness\n• Strong attention to detail and organizational skills\n• Ability to support administrative, bookkeeping, billing, reporting, and data entry tasks\n• Innovative thinking and willingness to challenge existing methods when improvement is possible\n• Availability to work 40 hours per week, Monday through Friday, 9:00 a.m. to 6:00 p.m. Pacific Time\n• Reliable remote workspace with a fast computer, quality internet, camera, microphone, and speakers\nPreferred Skills\n• The following experience is preferred but not required:\n• Intermediate spreadsheet skills\n• Experience with bookkeeping or financial record keeping\n• Experience with Google Sheets, Microsoft Excel, QuickBooks Online, and Google Workspace\n• Experience supporting billing, invoicing, reporting, data entry, or administrative operations\nRemote Work Environment\nCoalition Technologies is a fully remote company. Our team works remotely with the support of time tracking software, structured communication, and a company culture designed to help remote team members succeed. We have supported remote team members for more than a decade and welcome qualified applicants from around the world.\nGrowth Opportunity\nThis position offers a strong opportunity for growth. Successful Office Assistants at Coalition Technologies have advanced quickly and earned promotions within the Accounting team and across other departments.\nCompensation\nFor candidates located in California, New York, Washington, and Colorado, the starting base pay for this position ranges from $15 to $25 per hour. Compensation may vary based on factors such as experience, qualifications, skills test performance, geographic location, and seniority of the position offered. For candidates outside of California, New York, Washington, and Colorado, compensation may fall outside the listed range.",
+   "tags": [
+    "web development",
+    "sql",
+    "data",
+    "data analysis",
+    "git",
+    "startup",
+    "creative coding",
+    "processing",
+    "illustration",
+    "design"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 2 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
+   "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
+   "firstSeen": "2026-11-04T20:59:11.015Z"
   },
   {
    "id": "f-1edteh1",
@@ -970,8 +1078,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 10 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 11 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   },
@@ -1003,40 +1111,8 @@
     "video"
    ],
    "rep": "job",
-   "verifyNote": "posted 21 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
-   "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
-   "firstSeen": "2026-11-04T01:33:22.415Z"
-  },
-  {
-   "id": "f-lnxfa7",
-   "title": "AI Trainer",
-   "org": "iMerit Technology",
-   "url": "https://remoteOK.com/remote-jobs/remote-ai-trainer-imerit-technology-1137513",
-   "source": "Remote OK",
-   "sourceUrl": "https://remoteok.com",
-   "kind": "job",
-   "jobType": "",
-   "fields": [
-    "tech",
-    "art"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "US, UK, Canada, Australia + 35 other countries",
-   "payNote": "$50,000–$70,000 / yr",
-   "deadline": null,
-   "date": "2026-10-14T14:44:21+00:00",
-   "blurb": "Remote | Independent Contractor | Get certified for future project opportunities Prove your skills. Get certified. Be ready for what comes next. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better…",
-   "fullText": "Remote | Independent Contractor | Get certified for future project opportunities\nProve your skills. Get certified. Be ready for what comes next.\nRobotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available.\nWhat You Will Do\nAs part of the certification process, you will demonstrate your ability to:\n• Annotate short video clips by identifying objects, actions and events.\n• Evaluate video quality, relevance and accuracy against established guidelines.\n• Assess the clarity and plausibility of movements.\n• Apply instructions consistently and identify potential quality issues.\nWhat You Bring\n• Strong attention to detail and analytical thinking.\n• Strong written English and the ability to follow detailed instructions independently.\n• A commitment to accuracy and consistency.\n• No previous AI or robotics experience required.\nWhat the Work Looks Like\nYou may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible.\nWhy Get Certified Now\nCompleting certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become available.\nPlease note: Certification does not guarantee a project engagement, assignment or paid work. Future opportunities depend on project availability and applicable selection criteria.\nPlease mention the word **SUPREME** and tag RMTcyLjIxNC4xNTUuMjI4 when applying to show you read the job post completely (#RMTcyLjIxNC4xNTUuMjI4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-   "tags": [
-    "data",
-    "ai",
-    "video"
-   ],
-   "rep": "job",
-   "verifyNote": "posted 29 day(s) ago and still listed as active",
-   "checked": "2026-11-12T20:55:18.493Z",
+   "verifyNote": "posted 22 day(s) ago and still listed as active",
+   "checked": "2026-11-13T20:32:00.784Z",
    "repNote": "no posts calling “iMerit Technology” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T01:33:22.415Z"
   }
@@ -1068,6 +1144,10 @@
   "f-1fqveta": "2026-11-11T20:46:17.832Z",
   "f-77xxa0": "2026-11-11T20:46:17.832Z",
   "f-1037c33": "2026-11-12T21:25:46.414Z",
-  "f-o7abbr": "2026-11-12T21:25:46.414Z"
+  "f-o7abbr": "2026-11-12T21:25:46.414Z",
+  "f-13zubt5": "2026-11-13T21:02:23.518Z",
+  "f-1rdri5p": "2026-11-13T21:02:23.518Z",
+  "f-jbvzfw": "2026-11-13T21:02:23.518Z",
+  "f-1bgt9dc": "2026-11-13T21:02:23.518Z"
  }
 }

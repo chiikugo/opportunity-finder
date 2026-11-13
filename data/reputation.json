@@ -2,14 +2,14 @@
  "supabase": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T20:55:30.051Z",
+  "checked": "2026-11-13T20:46:40.757Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "wpromote": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:16:24.516Z",
+  "checked": "2026-11-13T20:37:52.008Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:24:46.399Z",
+  "checked": "2026-11-13T21:01:23.499Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -248,11 +248,11 @@
   "throttled": true
  },
  "elevenlabs": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-09T23:07:29.281Z",
+  "checked": "2026-11-13T20:46:39.673Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "customer.io": {
   "verdict": "pending",
@@ -430,7 +430,7 @@
  "kong inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T20:55:24.055Z",
+  "checked": "2026-11-13T20:39:53.819Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -543,7 +543,7 @@
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:22:44.250Z",
+  "checked": "2026-11-13T20:59:00.480Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -576,7 +576,7 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:23:45.284Z",
+  "checked": "2026-11-13T21:00:04.122Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -625,7 +625,7 @@
  "oddball": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:13:16.206Z",
+  "checked": "2026-11-13T20:41:55.336Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -667,14 +667,14 @@
  "meya holdings": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:20:41.722Z",
+  "checked": "2026-11-13T20:56:58.493Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "caringhand home health solutions, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:21:43.002Z",
+  "checked": "2026-11-13T20:57:59.344Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -728,7 +728,7 @@
  "salvo software": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:19:40.533Z",
+  "checked": "2026-11-13T20:55:57.566Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -883,7 +883,7 @@
  "harvey": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:18:39.708Z",
+  "checked": "2026-11-13T20:54:50.723Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -999,16 +999,16 @@
   "throttled": true
  },
  "allara": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-12T21:16:13.489Z",
+  "checked": "2026-11-13T20:53:40.065Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "certik": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:17:23.053Z",
+  "checked": "2026-11-13T20:53:49.860Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1104,16 +1104,32 @@
   "throttled": true
  },
  "kalshi": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-11T20:31:25.609Z",
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Is Kalshi.com a Scam? I deposited money and decided not to gamble, but they won't give it back and won't respond.",
+    "url": "https://www.reddit.com/r/Scams/comments/1ryndt8"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Heads up about Kalshi scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1rm85rl"
+   },
+   {
+    "where": "r/Scams",
+    "title": "(USA) Anyone has gotten scammed by Kalshi?",
+    "url": "https://www.reddit.com/r/Scams/comments/1j0nvjz"
+   }
+  ],
+  "checked": "2026-11-13T20:45:10.846Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "addepto": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:15:12.296Z",
+  "checked": "2026-11-13T20:52:20.779Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1155,7 +1171,7 @@
  "pylon": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:07:22.530Z",
+  "checked": "2026-11-13T20:32:31.281Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1176,28 +1192,104 @@
  "bask health": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:11:05.485Z",
+  "checked": "2026-11-13T20:48:56.985Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "shyftoff": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-12T21:12:06.778Z",
+  "checked": "2026-11-13T20:50:18.064Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "boston scientific": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:13:08.372Z",
+  "checked": "2026-11-13T20:50:19.224Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "mento": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:14:09.346Z",
+  "checked": "2026-11-13T20:51:20.130Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "gather ai": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-13T20:32:30.155Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "quest defense systems &#038; solutions, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:33:31.887Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "rackner": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:34:40.519Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "proof": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "Hacker News",
+    "title": "Moltbook is proof that GenAI was a scam",
+    "url": "https://news.ycombinator.com/item?id=46873117"
+   }
+  ],
+  "checked": "2026-11-13T20:35:41.538Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "tracebit": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:36:43.085Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "safe security": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:38:52.953Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "maven clinic": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:40:54.442Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "allen integrated solutions": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:42:56.251Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "valinor enterprises, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:43:57.301Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "pragmatike": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-13T20:47:41.709Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
