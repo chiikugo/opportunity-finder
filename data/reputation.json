@@ -2,7 +2,7 @@
  "supabase": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T18:56:48.144Z",
+  "checked": "2026-11-15T19:34:59.096Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:07:47.891Z",
+  "checked": "2026-11-15T19:43:07.816Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -187,7 +187,7 @@
  "onebrief": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:10:50.559Z",
+  "checked": "2026-11-15T19:46:12.450Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -220,11 +220,11 @@
   "throttled": false
  },
  "penumbra": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-14T19:11:51.369Z",
+  "checked": "2026-11-15T19:47:33.733Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "pavago": {
   "verdict": "pending",
@@ -416,7 +416,7 @@
  "keyfactor, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-10T20:37:13.901Z",
+  "checked": "2026-11-15T19:31:41.241Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -467,7 +467,7 @@
  "curtins": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:13:10.335Z",
+  "checked": "2026-11-15T19:47:34.653Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -543,7 +543,7 @@
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:05:46.205Z",
+  "checked": "2026-11-15T19:41:06.005Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -576,14 +576,14 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:06:47.121Z",
+  "checked": "2026-11-15T19:42:06.911Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "cambridge information group": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:08:48.822Z",
+  "checked": "2026-11-15T19:44:08.586Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -665,11 +665,11 @@
   "throttled": true
  },
  "meya holdings": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-14T19:04:45.090Z",
+  "checked": "2026-11-15T19:41:04.921Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "caringhand home health solutions, inc.": {
   "verdict": "pending",
@@ -881,11 +881,11 @@
   "throttled": true
  },
  "harvey": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-14T19:02:37.819Z",
+  "checked": "2026-11-15T19:40:47.550Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "neuroscale ai": {
   "verdict": "pending",
@@ -916,11 +916,11 @@
   "throttled": true
  },
  "upstart": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-10T20:34:11.035Z",
+  "checked": "2026-11-15T19:52:11.036Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "quilter": {
   "verdict": "pending",
@@ -1006,11 +1006,11 @@
   "throttled": false
  },
  "certik": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-14T19:01:36.678Z",
+  "checked": "2026-11-15T19:40:20.805Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "motive": {
   "verdict": "pending",
@@ -1192,7 +1192,7 @@
  "bask health": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T18:58:13.275Z",
+  "checked": "2026-11-15T19:37:01.007Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1206,14 +1206,14 @@
  "boston scientific": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T18:59:14.267Z",
+  "checked": "2026-11-15T19:38:01.829Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "mento": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:00:17.368Z",
+  "checked": "2026-11-15T19:39:02.834Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1268,7 +1268,7 @@
  "maven clinic": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-13T20:40:54.442Z",
+  "checked": "2026-11-15T19:27:35.408Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1352,7 +1352,7 @@
  "xai": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T19:09:49.732Z",
+  "checked": "2026-11-15T19:45:11.337Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1362,5 +1362,110 @@
   "checked": "2026-11-14T19:16:44.979Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": false
+ },
+ "carrot": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:25:33.255Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "quartzy": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:26:34.277Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "nerdwallet": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:28:36.230Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "smartsheet": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:29:37.098Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "samsara": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:30:40.311Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "worldly": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:32:42.322Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "above and beyond therapy": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:33:43.350Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "metics media": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:36:00.104Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "empowerly": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:48:43.291Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "affirm": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:49:44.198Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "wash u": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:50:45.235Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "marketbridge": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:52:11.869Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "multi media": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:53:12.810Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "ao globe life": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:54:13.792Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "circuit clinical": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-15T19:55:14.693Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
  }
 }
