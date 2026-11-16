@@ -1,10 +1,10 @@
 {
  "supabase": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-15T19:34:59.096Z",
+  "checked": "2026-11-16T23:11:33.621Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "wpromote": {
   "verdict": "pending",
@@ -23,7 +23,7 @@
  "chainguard": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:09:57.367Z",
+  "checked": "2026-11-16T22:59:09.626Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:43:07.816Z",
+  "checked": "2026-11-16T23:17:18.306Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -187,7 +187,7 @@
  "onebrief": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:46:12.450Z",
+  "checked": "2026-11-16T23:20:21.816Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -543,7 +543,7 @@
  "toptal": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:41:06.005Z",
+  "checked": "2026-11-16T23:14:55.308Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -575,22 +575,28 @@
  },
  "telus digital": {
   "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-15T19:42:06.911Z",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Telus Digital Is a Scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1owxpcf"
+   }
+  ],
+  "checked": "2026-11-16T23:16:08.056Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "cambridge information group": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:44:08.586Z",
+  "checked": "2026-11-16T23:18:18.916Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "ashby": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:17:21.208Z",
+  "checked": "2026-11-16T23:07:26.190Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -701,7 +707,7 @@
  "think academy us": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T18:46:35.460Z",
+  "checked": "2026-11-16T23:08:27.105Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1015,7 +1021,7 @@
  "motive": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:15:18.756Z",
+  "checked": "2026-11-16T23:06:24.795Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1192,7 +1198,7 @@
  "bask health": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:37:01.007Z",
+  "checked": "2026-11-16T23:11:34.543Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1206,14 +1212,14 @@
  "boston scientific": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:38:01.829Z",
+  "checked": "2026-11-16T23:12:44.767Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "mento": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:39:02.834Z",
+  "checked": "2026-11-16T23:13:54.674Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1352,7 +1358,7 @@
  "xai": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:45:11.337Z",
+  "checked": "2026-11-16T23:19:19.994Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1364,11 +1370,11 @@
   "throttled": false
  },
  "carrot": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-15T19:25:33.255Z",
+  "checked": "2026-11-16T23:09:56.660Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "quartzy": {
   "verdict": "pending",
@@ -1415,49 +1421,55 @@
  "metics media": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:36:00.104Z",
+  "checked": "2026-11-16T23:10:09.708Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "empowerly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:48:43.291Z",
+  "checked": "2026-11-16T23:21:30.843Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "affirm": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-15T19:49:44.198Z",
+  "verdict": "clean",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "The old call and give verification Affirm Scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1iqokcw"
+   }
+  ],
+  "checked": "2026-11-16T23:22:53.777Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "wash u": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:50:45.235Z",
+  "checked": "2026-11-16T23:23:02.706Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "marketbridge": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:52:11.869Z",
+  "checked": "2026-11-16T23:24:03.310Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "multi media": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:53:12.810Z",
+  "checked": "2026-11-16T23:25:03.954Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "ao globe life": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:54:13.792Z",
+  "checked": "2026-11-16T23:26:04.687Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1465,6 +1477,62 @@
   "verdict": "pending",
   "reports": [],
   "checked": "2026-11-15T19:55:14.693Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "amplify": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T22:57:01.067Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "huntress": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T22:58:02.077Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "datavant": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T23:00:14.540Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "cologix, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T23:01:19.631Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "oklo inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T23:02:20.513Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "rush street interactive": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T23:03:21.449Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "classdojo": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T23:04:22.626Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "coursecareers": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-16T23:05:23.693Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
