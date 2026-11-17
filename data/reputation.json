@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:17:18.306Z",
+  "checked": "2026-11-17T22:14:02.399Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -187,7 +187,7 @@
  "onebrief": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:20:21.816Z",
+  "checked": "2026-11-17T22:16:29.726Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -306,7 +306,7 @@
  "dscout": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:38:41.370Z",
+  "checked": "2026-11-17T22:05:26.010Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -369,7 +369,7 @@
  "welo global": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T20:45:38.286Z",
+  "checked": "2026-11-17T21:56:26.157Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -529,7 +529,7 @@
  "udacity": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-06T20:11:41.605Z",
+  "checked": "2026-11-17T22:03:13.427Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -541,11 +541,22 @@
   "throttled": false
  },
  "toptal": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-16T23:14:55.308Z",
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Trexi Nova Hub and Toptal scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1vp37mu"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Is TOPTAL COMPANY a scam?",
+    "url": "https://www.reddit.com/r/Scams/comments/1r94jpw"
+   }
+  ],
+  "checked": "2026-11-17T22:12:59.770Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "imerit": {
   "verdict": "clean",
@@ -575,21 +586,15 @@
  },
  "telus digital": {
   "verdict": "pending",
-  "reports": [
-   {
-    "where": "r/Scams",
-    "title": "Telus Digital Is a Scam",
-    "url": "https://www.reddit.com/r/Scams/comments/1owxpcf"
-   }
-  ],
-  "checked": "2026-11-16T23:16:08.056Z",
+  "reports": [],
+  "checked": "2026-11-17T22:13:00.912Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "cambridge information group": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:18:18.916Z",
+  "checked": "2026-11-17T22:15:03.517Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -610,7 +615,7 @@
  "language services associates": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-10T20:43:39.457Z",
+  "checked": "2026-11-17T22:01:57.406Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -645,7 +650,7 @@
  "perfectserve": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:15:18.438Z",
+  "checked": "2026-11-17T22:04:25.007Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -762,7 +767,7 @@
  "socket": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:53:41.919Z",
+  "checked": "2026-11-17T22:06:34.572Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -806,14 +811,14 @@
  "1password": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:04:26.179Z",
+  "checked": "2026-11-17T21:54:24.517Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "teamworks": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:05:27.107Z",
+  "checked": "2026-11-17T21:55:25.118Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1163,7 +1168,7 @@
  "veracyte": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-12T21:05:19.683Z",
+  "checked": "2026-11-17T21:53:22.644Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1198,7 +1203,7 @@
  "bask health": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:11:34.543Z",
+  "checked": "2026-11-17T22:09:37.875Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1212,14 +1217,14 @@
  "boston scientific": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:12:44.767Z",
+  "checked": "2026-11-17T22:10:38.956Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "mento": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:13:54.674Z",
+  "checked": "2026-11-17T22:11:40.072Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1233,7 +1238,7 @@
  "quest defense systems &#038; solutions, inc.": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-13T20:33:31.887Z",
+  "checked": "2026-11-17T21:59:53.081Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1356,11 +1361,17 @@
   "throttled": true
  },
  "xai": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-16T23:19:19.994Z",
+  "verdict": "clean",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "URGENT WARNING: XAI-presale Scam | I lost my all money | XAI317k - XAI207 - XAI799K",
+    "url": "https://www.reddit.com/r/Scams/comments/1hsivvc"
+   }
+  ],
+  "checked": "2026-11-17T22:16:28.830Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "h2o.ai": {
   "verdict": "clean",
@@ -1421,14 +1432,14 @@
  "metics media": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:10:09.708Z",
+  "checked": "2026-11-17T22:08:36.660Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "empowerly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:21:30.843Z",
+  "checked": "2026-11-17T22:19:10.091Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1448,14 +1459,14 @@
  "wash u": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:23:02.706Z",
+  "checked": "2026-11-17T22:20:11.987Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "marketbridge": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:24:03.310Z",
+  "checked": "2026-11-17T22:21:12.838Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1535,5 +1546,82 @@
   "checked": "2026-11-16T23:05:23.693Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
+ },
+ "tekmetric": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T21:51:20.271Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "qualia": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T21:52:21.341Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "thumbtack": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T21:57:27.141Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "lemonade": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T21:58:42.915Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mythic": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T22:00:56.125Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "lincolncenter": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T22:07:35.841Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "plusai": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-17T22:17:39.456Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "microsoft": {
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "[US] MICROSOFT SCAM-Check “I’m not a robot” box from website https://messageuwui9l.z13.web.core.windows.net/?domain=",
+    "url": "https://www.reddit.com/r/Scams/comments/1xyouea"
+   },
+   {
+    "where": "r/Scams",
+    "title": "[US] Beware of Microsoft Web Scam!",
+    "url": "https://www.reddit.com/r/Scams/comments/1xyoceq"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Did we just get a Microsoft scam?",
+    "url": "https://www.reddit.com/r/Scams/comments/1u3bg1s"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Unusual sign in activity microsoft scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1sg6lsf"
+   }
+  ],
+  "checked": "2026-11-17T22:19:08.877Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
  }
 }
