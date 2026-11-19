@@ -145,7 +145,7 @@
  "drug hunter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:47:21.126Z",
+  "checked": "2026-11-19T22:04:29.409Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -187,7 +187,7 @@
  "onebrief": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:49:42.298Z",
+  "checked": "2026-11-19T22:06:31.940Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -369,7 +369,7 @@
  "welo global": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:38:52.855Z",
+  "checked": "2026-11-19T21:57:33.473Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -587,14 +587,14 @@
  "telus digital": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:46:10.846Z",
+  "checked": "2026-11-19T22:03:28.541Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "cambridge information group": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:48:31.030Z",
+  "checked": "2026-11-19T22:05:30.655Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -657,7 +657,7 @@
  "roboflow": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-10T20:41:36.811Z",
+  "checked": "2026-11-19T21:52:09.920Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -724,17 +724,37 @@
   "throttled": true
  },
  "discord": {
-  "verdict": "pending",
+  "verdict": "reported",
   "reports": [
    {
-    "where": "Hacker News",
-    "title": "8% of images on Discord are scams: Blocking Mr. Beast scams",
-    "url": "https://news.ycombinator.com/item?id=48934524"
+    "where": "r/Scams",
+    "title": "[US] The \"can you test my game?\" Discord scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1y0dzk7"
+   },
+   {
+    "where": "r/Scams",
+    "title": "MMO Kings Discord Scammers",
+    "url": "https://www.reddit.com/r/Scams/comments/1xs3mcm"
+   },
+   {
+    "where": "r/Scams",
+    "title": "[US] Possible discord scam(?)",
+    "url": "https://www.reddit.com/r/Scams/comments/1xqe0ak"
+   },
+   {
+    "where": "r/Scams",
+    "title": "zapbot discord view bot is a scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1xmw5fn"
+   },
+   {
+    "where": "r/Scams",
+    "title": "[UK] Elaborate Minecraft + discord scam: https://minecraft-community.net/",
+    "url": "https://www.reddit.com/r/Scams/comments/1xhu229"
    }
   ],
-  "checked": "2026-11-08T18:31:20.753Z",
+  "checked": "2026-11-19T21:51:00.516Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "salvo software": {
   "verdict": "pending",
@@ -825,7 +845,7 @@
  "clipboard": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T18:52:16.315Z",
+  "checked": "2026-11-19T22:08:33.982Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1047,7 +1067,7 @@
  "trm labs": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:19:59.228Z",
+  "checked": "2026-11-19T21:49:32.860Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1201,11 +1221,11 @@
   "throttled": true
  },
  "bask health": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-18T21:43:06.762Z",
+  "checked": "2026-11-19T22:01:17.484Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "shyftoff": {
   "verdict": "clean",
@@ -1217,14 +1237,14 @@
  "boston scientific": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:44:07.888Z",
+  "checked": "2026-11-19T22:01:26.598Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "mento": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:45:09.882Z",
+  "checked": "2026-11-19T22:02:27.841Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1404,7 +1424,7 @@
  "smartsheet": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-15T19:29:37.098Z",
+  "checked": "2026-11-19T21:40:55.108Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1430,11 +1450,11 @@
   "throttled": true
  },
  "metics media": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-18T21:42:05.544Z",
+  "checked": "2026-11-19T22:00:55.874Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "empowerly": {
   "verdict": "pending",
@@ -1585,7 +1605,7 @@
  "lincolncenter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:39:53.879Z",
+  "checked": "2026-11-19T21:58:34.209Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1676,7 +1696,7 @@
  "clera": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:40:54.734Z",
+  "checked": "2026-11-19T21:59:35.009Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1698,6 +1718,125 @@
   "verdict": "pending",
   "reports": [],
   "checked": "2026-11-18T21:53:02.984Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "cloudbeds": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:39:54.197Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "pear vc": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:42:03.057Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "acutech group, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:43:03.644Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "luxury presence": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:44:04.235Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "inspiren": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:45:13.198Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "valdera": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:46:13.711Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "automox": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:47:14.469Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "enumerate": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-19T21:48:31.011Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "sigma computing": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:48:32.203Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "fleetio": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:51:01.285Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "fanatics": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:53:10.869Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "treatwell": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-19T21:54:29.655Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "gravie": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:54:30.255Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "stedi": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:55:31.320Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "maya htt": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T21:56:32.419Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "journal technologies": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T22:07:32.955Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "keysight technologies": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-19T22:09:34.714Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
