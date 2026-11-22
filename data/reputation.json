@@ -474,7 +474,7 @@
  "inspira education": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-08T18:25:07.380Z",
+  "checked": "2026-11-22T20:31:26.779Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -586,14 +586,8 @@
  },
  "telus digital": {
   "verdict": "pending",
-  "reports": [
-   {
-    "where": "r/Scams",
-    "title": "Telus Digital Is a Scam",
-    "url": "https://www.reddit.com/r/Scams/comments/1owxpcf"
-   }
-  ],
-  "checked": "2026-11-21T20:34:58.014Z",
+  "reports": [],
+  "checked": "2026-11-22T20:46:10.150Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -670,7 +664,7 @@
  "gitlab": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:29:27.821Z",
+  "checked": "2026-11-22T20:44:08.062Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -711,7 +705,7 @@
  "cribl": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:27:13.547Z",
+  "checked": "2026-11-22T20:42:05.249Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -911,11 +905,11 @@
   "throttled": true
  },
  "yipitdata": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-20T21:20:41.907Z",
+  "checked": "2026-11-22T20:32:49.626Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "harvey": {
   "verdict": "clean",
@@ -1004,7 +998,7 @@
  "clickup": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-10T20:44:50.559Z",
+  "checked": "2026-11-22T20:34:57.497Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1430,7 +1424,7 @@
  "smartsheet": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-19T21:40:55.108Z",
+  "checked": "2026-11-22T20:24:19.830Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1611,7 +1605,7 @@
  "lincolncenter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:38:27.433Z",
+  "checked": "2026-11-22T20:47:11.003Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1737,7 +1731,7 @@
  "pear vc": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-19T21:42:03.057Z",
+  "checked": "2026-11-22T20:26:21.463Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1751,7 +1745,7 @@
  "luxury presence": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-19T21:44:04.235Z",
+  "checked": "2026-11-22T20:36:59.579Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1835,14 +1829,14 @@
  "journal technologies": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-19T22:07:32.955Z",
+  "checked": "2026-11-22T20:51:14.684Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "keysight technologies": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-19T22:09:34.714Z",
+  "checked": "2026-11-22T20:52:23.791Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1989,7 +1983,7 @@
  "future plc": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:19:17.417Z",
+  "checked": "2026-11-22T20:35:58.499Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2010,35 +2004,119 @@
  "launchdarkly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:24:49.941Z",
+  "checked": "2026-11-22T20:40:03.399Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "sumo logic": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:26:01.947Z",
+  "checked": "2026-11-22T20:41:04.357Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "tebra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:28:26.808Z",
+  "checked": "2026-11-22T20:43:07.014Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "fp markets": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:30:29.155Z",
+  "checked": "2026-11-22T20:45:09.172Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "milliman": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-21T20:39:28.483Z",
+  "checked": "2026-11-22T20:48:11.833Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "cogstate": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:25:20.653Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "tenable": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:27:22.472Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "flosports, inc.": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:28:23.308Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "life360": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:29:24.347Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mural": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:30:25.838Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "vultr": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:32:55.547Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "skyslope": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:33:56.461Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mirantis": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:38:00.531Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "mixpanel": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:39:01.564Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "usable life": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:49:12.683Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "neurohire.ai": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:50:13.686Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "graymatter robotics": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-22T20:53:24.780Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
