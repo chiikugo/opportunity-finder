@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:54:24.782Z",
+ "updated": "2026-11-24T01:31:04.009Z",
  "sources": [
   {
    "name": "NYU ITP / IMA opportunities",
@@ -47,7 +47,7 @@
    "name": "Remotive",
    "url": "https://remotive.com",
    "ok": true,
-   "count": 16
+   "count": 15
   },
   {
    "name": "Jobicy",
@@ -59,13 +59,13 @@
    "name": "Remote OK",
    "url": "https://remoteok.com",
    "ok": true,
-   "count": 79
+   "count": 75
   },
   {
    "name": "SimplifyJobs new-grad list",
    "url": "https://github.com/SimplifyJobs/New-Grad-Positions",
    "ok": true,
-   "count": 101
+   "count": 100
   }
  ],
  "programs": {
@@ -89,17 +89,17 @@
      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     }
    ],
-   "checked": "2026-11-22T20:23:30.994Z"
+   "checked": "2026-11-24T00:59:49.484Z"
   },
   "outreachy": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-22T20:23:31.346Z"
+   "checked": "2026-11-24T00:59:50.082Z"
   },
   "gsoc": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-22T20:23:31.499Z"
+   "checked": "2026-11-24T00:59:50.196Z"
   },
   "mlh-fellowship": {
    "open": true,
@@ -111,97 +111,97 @@
      "url": "https://fellowship.mlh.com/"
     }
    ],
-   "checked": "2026-11-22T20:23:32.123Z"
+   "checked": "2026-11-24T00:59:50.624Z"
   },
   "codepath-instructor": {
    "open": false,
    "reason": "no matching postings on their jobs board",
-   "checked": "2026-11-22T20:23:32.176Z"
+   "checked": "2026-11-24T00:59:50.690Z"
   },
   "venture-for-america": {
    "open": false,
    "reason": "page didn't load for our check (fetch failed)",
-   "checked": "2026-11-22T20:23:34.368Z"
+   "checked": "2026-11-24T00:59:52.870Z"
   },
   "techcongress": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-22T20:23:34.585Z"
+   "checked": "2026-11-24T00:59:53.161Z"
   },
   "loc-junior-fellows": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-22T20:23:34.645Z"
+   "checked": "2026-11-24T00:59:53.260Z"
   },
   "smithsonian-internships": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-22T20:23:34.645Z"
+   "checked": "2026-11-24T00:59:53.260Z"
   },
   "fulbright": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-22T20:23:35.012Z"
+   "checked": "2026-11-24T00:59:53.540Z"
   },
   "craft-research-fund": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-22T20:23:35.136Z"
+   "checked": "2026-11-24T00:59:53.709Z"
   },
   "warhol-arts-writers": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-22T20:23:35.703Z"
+   "checked": "2026-11-24T00:59:54.310Z"
   },
   "pasold": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-22T20:23:35.704Z"
+   "checked": "2026-11-24T00:59:54.311Z"
   },
   "met-costume-institute": {
    "open": false,
    "reason": "page didn't load for our check (429)",
-   "checked": "2026-11-22T20:23:35.837Z"
+   "checked": "2026-11-24T00:59:54.490Z"
   },
   "arttable-fellowship": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-22T20:23:35.918Z"
+   "checked": "2026-11-24T00:59:54.602Z"
   },
   "processing-fellowship": {
    "open": false,
    "reason": "the open window's end date has passed",
-   "checked": "2026-11-22T20:23:36.147Z"
+   "checked": "2026-11-24T00:59:54.859Z"
   },
   "eyebeam-agency": {
    "open": false,
    "reason": "deadline has passed",
-   "checked": "2026-11-22T20:23:36.471Z"
+   "checked": "2026-11-24T00:59:55.135Z"
   },
   "solitude-web-residencies": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-22T20:23:36.471Z"
+   "checked": "2026-11-24T00:59:55.135Z"
   },
   "lacma-art-tech": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-22T20:23:36.568Z"
+   "checked": "2026-11-24T00:59:55.334Z"
   },
   "rhizome-microgrants": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-22T20:23:36.650Z"
+   "checked": "2026-11-24T00:59:55.456Z"
   },
   "creative-capital": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-22T20:23:36.804Z"
+   "checked": "2026-11-24T00:59:55.567Z"
   },
   "fashion-trust-us": {
    "open": false,
    "reason": "page no longer mentions this call",
-   "checked": "2026-11-22T20:23:36.984Z"
+   "checked": "2026-11-24T00:59:55.701Z"
   },
   "outschool": {
    "open": true,
@@ -212,7 +212,7 @@
      "url": "https://teach.outschool.com/"
     }
    ],
-   "checked": "2026-11-22T20:23:37.304Z"
+   "checked": "2026-11-24T00:59:56.071Z"
   },
   "smithsonian-transcription": {
    "open": true,
@@ -223,7 +223,7 @@
      "url": "https://transcription.si.edu/"
     }
    ],
-   "checked": "2026-11-22T20:23:37.416Z"
+   "checked": "2026-11-24T00:59:56.201Z"
   },
   "loc-by-the-people": {
    "open": true,
@@ -234,7 +234,7 @@
      "url": "https://crowd.loc.gov/"
     }
    ],
-   "checked": "2026-11-22T20:23:37.491Z"
+   "checked": "2026-11-24T00:59:56.300Z"
   },
   "zooniverse": {
    "open": true,
@@ -245,21 +245,22 @@
      "url": "https://www.zooniverse.org/projects?discipline=arts"
     }
    ],
-   "checked": "2026-11-22T20:23:37.787Z"
+   "checked": "2026-11-24T00:59:56.579Z"
   }
  },
  "removed": {
   "counts": {
-   "no link to an actual application": 18,
+   "no link to an actual application": 17,
    "news round-up, not a listing": 15,
    "charges an application / entry fee": 1,
+   "scam red flags": 1,
    "no sign on the page that it's open": 7,
    "page blocks automated checks and has no future deadline we can confirm": 3,
    "deadline passed": 13,
    "application page is dead": 2,
    "application page says it's closed": 1,
-   "scam cross-check not finished yet": 70,
-   "called a scam on Reddit / Hacker News": 4
+   "scam cross-check not finished yet": 60,
+   "called a scam on Reddit / Hacker News": 5
   },
   "flagged": [
    {
@@ -268,99 +269,104 @@
     "why": "charges an application / entry fee"
    },
    {
-    "title": "Software Engineer I (Remote Eligible)",
-    "org": "Smartsheet",
+    "title": "Client Strategy Associate",
+    "org": "Rithum",
+    "why": "scam red flags: asks you to buy things"
+   },
+   {
+    "title": "Software Engineer, AI Transformation",
+    "org": "Goodleap",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Financial Analyst",
-    "org": "Cogstate",
+    "title": "Growth Product Leader",
+    "org": "iFIT",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Founding Software Engineer - Vimes",
-    "org": "Pear VC",
+    "title": "GTM Systems Engineer",
+    "org": "Roboflow",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Security Engineer (Pre-Sales) DFW Area",
-    "org": "Tenable",
+    "title": "Procurement Specialist",
+    "org": "Huntress",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Content & Social Contractor, FloElite",
-    "org": "FloSports, Inc.",
+    "title": "IT Systems DevOps Engineer",
+    "org": "Cologix, Inc.",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Legal Counsel, Product & Privacy, Ads",
-    "org": "Life360",
+    "title": "Data Engineering Intern",
+    "org": "Wurl",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Product Design Manager, Growth and Engagement",
-    "org": "Mural",
+    "title": "Product Owner",
+    "org": "Makai Labs",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full-Time LSAT Tutor",
-    "org": "Inspira Education",
+    "title": "AI Engineer",
+    "org": "Makai Labs",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "BS/MD Admissions Consultant",
-    "org": "Inspira Education",
+    "title": "Software Engineer, Security, Stablecoin",
+    "org": "Ramp",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Data Center Site Selection Manager",
-    "org": "Vultr",
+    "title": "Solutions Engineer - Critical Infrastructure",
+    "org": "Echodyne",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Linux Systems Administrator",
-    "org": "Vultr",
+    "title": "Manager, Professional Services Federal",
+    "org": "Collibra",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Security Engineering Manager",
-    "org": "SkySlope",
+    "title": "Cybersecurity Engineer",
+    "org": "dscout",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "RMA Systems Engineer",
-    "org": "Vultr",
+    "title": "Regional General Manager, Market Performance Central US",
+    "org": "Luna Physical Therapy",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Technical Support Engineer",
-    "org": "Vultr",
+    "title": "Risk Intelligence Manager",
+    "org": "Signifyd",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "GTM DevOps Engineer",
-    "org": "ClickUp",
+    "title": "Engineering Leader, Platform Engineering",
+    "org": "ClassDojo",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full-Stack Growth Engineer",
-    "org": "Future PLC",
+    "title": "Regional General Manager, Market Performance Western US",
+    "org": "Luna Physical Therapy",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Engineering Manager, Maps & Search - US",
-    "org": "Luxury Presence",
+    "title": "AWS Data Engineer (Associate)",
+    "org": "Mactores",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Technical Product Marketer, k0rdent AI - remote in the US",
-    "org": "Mirantis",
+    "title": "Software Engineer, AI/ML Infrastructure (US-Based)",
+    "org": "Thumbtack",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Engineering Manager (Frontend)",
-    "org": "ClickUp",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
+    "title": "Product Manager, Developer Ecosystem",
+    "org": "Reddit",
+    "why": "called a scam on Reddit / Hacker News (5 posts)"
    },
    {
     "title": "Deal Desk Analyst (Eastern Time Zone Preferred)",
@@ -418,16 +424,6 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Customer Success Engineer",
-    "org": "GitLab",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Business Development Specialist Arabic speaker",
-    "org": "FP Markets",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
     "title": "Content Reviewer - United States",
     "org": "TELUS Digital",
     "why": "scam cross-check not finished yet (retried tomorrow)"
@@ -443,13 +439,8 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Founding Engineer - Abacus",
-    "org": "Pear VC",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "AI Product Engineer",
-    "org": "Milliman",
+    "title": "Solutions Engineer",
+    "org": "infisical",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
@@ -458,18 +449,101 @@
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Python Developer",
-    "org": "neurohire.ai",
+    "title": "AI Productivity Specialist - Corporate Communications",
+    "org": "Keysight Technologies",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Forward Deployed Engineer",
+    "org": "GrayMatter Robotics",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Embedded Firmware Engineer",
+    "org": "Utilidata",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    }
   ]
  },
  "items": [
   {
-   "id": "f-1mjxy0h",
-   "title": "Research Engineer - Web Crawlers",
-   "org": "Elevenlabs",
-   "url": "https://jobicy.com/jobs/156436-research-engineer-web-crawlers",
+   "id": "f-tpisoo",
+   "title": "System Software Engineer - GCC/LLVM compiler, tooling, and ecosystem",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/164022-system-software-engineer-gcc-llvm-compiler-tooling-and-ecosystem",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art",
+    "fashion",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "LATAM,  Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T18:31:54+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\nThe company is founder led, profitable and growing.\nWe are hiring a System Software Engineer for GCC/LLVM compiler, tooling, and ecosystem\nWe are building a team to focus on the modern C and C++ programming language and their ecosystem on Ubuntu. They will deliver the best possible GCC and LLVM runtimes, developer experience and supporting tooling in Ubuntu. They will ensure that the cutting edge of modern programming languages innovation is available to Ubuntu users, to lay the foundation for future inventions and open source communities.\nThis is an exciting opportunity for a software engineer with a strong passion for compilers, runtimes and tool chains. You will have excellent competencies in modern C/C++, Linux distributions, software architectures and open source software. Come build a rewarding, meaningful career working with the best and brightest people in open source technology at Canonical, a growing international software company and make Ubuntu the best operating system to develop and run C/C++ applications in the cloud, in datacenters, in containers, directly on the operating system, and anywhere Ubuntu can run.\nThe Ubuntu Foundations Team delivers the core Ubuntu system, the base for the entire Ubuntu family of products and services. Ubuntu strives to deliver the latest-best free software components, in an easy to use and highly reliable form. We build on the technical excellence of keystone open source software like GNU and Debian and bring additional focus and shape to the solutions we offer the industry.\nPart of the Ubuntu Foundations team, you will work on one of the most critical toolchains involved in the making of Ubuntu and the pillars of the modern software ecosystem. You will leverage your competencies and experience in C, C++ to make Ubuntu the best platform to develop, distribute and consume software built with GCC and LLVM. You will be passionate about the future of C, C++, of Ubuntu, mindful of the dynamics of the open-source ecosystem, and equally aware of the needs of large but innovative organizations. You will drive the best in class integration in Ubuntu from desktop to cloud in a secure, reliable, performing, efficient and future-proof fashion.\nYou will be discussing design with other team members , mentor less senior engineers, and participate in code reviews and design reviews. You will also be working with other teams to ensure architecture decisions improve the overall performance and experience of Ubuntu. Your role as part of the Ubuntu Foundations team will have an impact on every aspect of Ubuntu from Desktop, Server, Ubuntu Core and also cloud images.\nLocation: This role will be based remotely in the AMERICAS region\nThe role entails\nBased on the first round of interviews, we identify specific teams where you might be an excellent fit and conduct second-round interviews with those teams. Our engineers are:\n• Collaborate proactively with a distributed team\n• Select, integrate and package best-of-breed tooling with Ubuntu to improve developer and operator experience with GCC and LLVM\n• Write high-quality code to create new features\n• Debug issues and produce high-quality code to fix them\n• Review code produced by other engineers\n• Discuss ideas and collaborate on finding good solutions\n• Work from home with global travel 2 to 4 weeks a year for internal and external events\nWhat we are looking for in you\n• You have relevant GCC or LLVM experience, ideally in the world of cloud-native software and Linux\n• You have experience in packaging software for Debian and Ubuntu\n• You are a long-time Linux user\n• Exceptional academic track record from both high school and university\n• Undergraduate degree in a technical subject or a compelling narrative about your alternative chosen path\n• You love technology and working with brilliant people\n• You are passionate, curious, flexible, articulate, and accountable\n• You value soft skills and are passionate, enterprising, thoughtful, and self-motivated\n• Ability to travel internationally twice a year for company events up to two weeks long\nNice-to-have skills\n• Experience with Linux distributions and distribution engineering\n• Experience with software packaging and distribution mechanisms\n• Understanding of build systems and toolchains, including for cross-compilation\n• Performance or Security Engineering experience\nWhat we offer you\nWe consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.\n• Distributed work environment with twice-yearly team sprints in person\n• Personal learning and development budget of USD 2,000 per year\n• Annual compensation review\n• Recognition rewards\n• Annual holiday leave\n• Maternity and paternity leave\n• Team Member Assistance Program & Wellness Platform\n• Opportunity to travel to new locations to meet colleagues\n• Priority Pass, and travel upgrades for long haul company events\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Canonical has been a remote-first company since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.",
+   "tags": [
+    "software engineering",
+    "coding",
+    "data",
+    "open source",
+    "c++",
+    "ai",
+    "privacy",
+    "startup",
+    "design",
+    "craft"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 0 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1jfcky6",
+   "title": "Software Engineer - Ubuntu Server Certification",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/164021-software-engineer-ubuntu-server-certification",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "LATAM,  Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T18:31:52+00:00",
+   "blurb": "Canonical is hiring a software engineer to join the Server Certification team. The Certification team develops Python based testing tools used to test Ubuntu Server on the latest enterprise hardware ensuring Ubuntu users have the best…",
+   "fullText": "Canonical is hiring a software engineer to join the Server Certification team. The Certification team develops Python based testing tools used to test Ubuntu Server on the latest enterprise hardware ensuring Ubuntu users have the best experience with their hardware. We work at the interface of hardware and software, so the ideal candidate is a Python developer with a problem solving mindset, familiar with hardware.\nServer Certification team represents Canonical to our datacenter hardware partners. We work together with silicon companies, OEMs, ODMs and teams within Canonical to ensure a smooth, secure out of the box Ubuntu experience, with success in this role leading to a great Ubuntu experience being offered on more and more devices. We focus on the interaction between server hardware and Ubuntu Linux, so the ideal candidate has software development experience and a good understanding of configuring and troubleshooting server hardware running Linux.\nThis is an excellent opportunity for someone who wants to have a meaningful impact on the adoption of Linux on enterprise server hardware across multiple industries. Canonical offers a fun, fast-paced team environment and a career full of learning and development opportunities. This team is centered in North and South American time zones.\nWhat you’ll do\n• Contribute to Canonical’s open source testing tools such as Checkbox and Testflinger .\n• Troubleshoot issues related to hardware compatibility, functionality, and performance.\n• Technically support Canonical’s hardware partners in their hardware certification efforts.\n• Educate the partner about Canonical’s tools, processes, and product roadmaps.\n• Support Canonical’s internal teams on customer deployments of Canonical’s suite of Datacenter and Cloud products that utilize the partner’s hardware.\n• Work from home with global travel 2 to 4 times per year for internal and external events.\nWho you are\n• You have a good knowledge of Python and shell scripting.\n• You have knowledge of server-class hardware.\n• You know your way around Ubuntu, virtualization, and cloud computing concepts.\n• You are confident in a customer-facing role.\nDesired skills and experience\n• Experience with test automation tools for validating hardware compatibility.\n• Knowledge of CI/CD concepts.\n• Comfortable with some virtualization or container technologies such as QEMU, KVM, LXC / LXD, Docker.\nWe are proud to foster a workplace free from discrimination. We truly believe that diversity of experience, perspectives, and background will lead to a better environment for our employees and a better platform for our users and customers. This is something we value deeply and we encourage everyone to come be a part of the world of Ubuntu.\n#LI-REMOTE",
+   "tags": [
+    "software engineering",
+    "python",
+    "open source",
+    "product"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 0 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-114z486",
+   "title": "Software Engineer (Python/Linux/Packaging)",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/164020-software-engineer-python-linux-packaging",
    "source": "Jobicy",
    "sourceUrl": "https://jobicy.com",
    "kind": "job",
@@ -481,35 +555,144 @@
    ],
    "pay": "paid",
    "where": "remote",
-   "whereNote": "Bulgaria,  Poland,  UK,  USA",
+   "whereNote": "LATAM,  Canada,  USA",
    "payNote": "",
    "deadline": null,
-   "date": "2026-11-22T04:00:23+00:00",
-   "blurb": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of…",
-   "fullText": "About ElevenLabs\nElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\nWe have expanded from voice into three main platforms:\n•\nElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n•\nElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n•\nElevenAPI gives developers access to our leading AI audio foundational models.\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\nHow we work\n•\nHigh-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n•\nImpact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n•\nAI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n•\nExcellence everywhere: Everything we do should match the quality of our AI models.\n•\nGlobal team: We prioritize your talent, not your location.\nWhat we offer\n•\nInnovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n•\nGrowth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n•\nLearning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.\n•\nSocial travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n•\nAnnual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.\n•\nCo-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\nAbout the role\nWe are looking for a Research Engineer to join the research team at ElevenLabs, focused on large-scale web crawling for our frontier AI models. The quality of our models is bounded by the quality and scale of the data behind them, and you will own the crawling systems that source world-class data from the open web. You will thrive in this role if you enjoy:\n•\nBuilding and operating large-scale, distributed web crawlers that discover, fetch, and extract data across billions of pages reliably and efficiently.\n•\nSolving hard crawling problems such as content extraction from messy HTML, deduplication at web scale, freshness and recrawl strategies, and politeness and rate-limit handling.\n•\nDesigning targeted crawling pipelines that find high-value data sources, including audio, video, and multilingual content, and turn them into clean training-ready datasets.\n•\nCreating tooling and infrastructure that lets researchers request, monitor, and explore newly crawled web data quickly and reliably.\nRequirements\nWe do not require any formal certifications or degrees. Instead, we are seeking enthusiastic engineers who can showcase solving impressively hard problems with artifacts such as past projects, designs, or GitHub contributions. Ideally, you bring:\n•\nHands-on experience building and scaling web crawlers or scraping systems, ideally in support of machine learning training data.\n•\nStrong engineering skills in distributed systems at scale (e.g., Kubernetes, queue-based architectures, or custom pipelines processing billions of documents).\n•\nThe capacity to autonomously evaluate the quality, coverage, and compliance of crawled data, and to build the tooling to measure it.\nLocation\nThis role is remote and can be executed globally. If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.\n#LI-Remote\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+   "date": "2026-11-23T18:31:32+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\nThe company is founder-led, profitable, and growing.\nWe are hiring talented Software Engineers with strong Python, Packaging and Linux skills and who want to have a positive impact on the day-to-day workflow of thousands of snap, rock and charm publishers. To be successful on this team you'll need to be interested in packaging formats, build systems and automation that can simplify the lives of developers and engineers trying to ship software to the widest possible audience.\nWe design and maintain specialist Python tools to support the developer build and publication process. The team takes responsibility for tooling that builds snaps , charms and more recently, rocks .\nSnapcraft allows developers to deliver app updates to millions of Linux systems automatically, eliminating the long tail of supported releases and complex install instructions. Snapcraft enables thousands of applications from over a thousand developers, including well-recognised names like Spotify, Slack, and Microsoft.\nLikewise, Charmcraft enables collaboration between charmed operator developers, and publication on Charmhub , home of the Charmed Operator Collection. Charmed Operators enable developers to package software like databases, event queues, caches, observability tools, identity tools and more, right alongside the operations code that enables teams to integrate and operate that software at scale from Day 0 to Day 1,000, and beyond.\nAnd Rockcraft provides the means for container developers to build production-grade Ubuntu-based container images, regardless of their experience as a software developer. These container images are called Rocks and can be found in various popular container registries, like Docker Hub, offering an opinionated and consistent design that focus on security while providing an homogeneous user experience across all rocks.\nWhat we are looking for in you\n• You have expertise in Python.\n• You have a strong understanding of the makeup of a modern GNU/Linux distribution.\n• You have a good understanding of build systems and toolchains, including for cross-compilation.\n• Experience working with container technology, such as Docker, Kubernetes and LXD.\n• Use your familiarity with languages, toolchains, frameworks, integrations, and CI systems to extend the snap build ecosystem\n• Work with external open source and commercial projects to understand how we can better serve community needs.\nWhat we offer you\nYour base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workforce.\nIn addition to a competitive base pay, we provide all team members with additional benefits, which reflect our values and ideals. Please note that additional benefits may apply depending on the work location and, for more information on these, you can ask in the later stages of the recruitment process.\n• Fully remote working environment - we’ve been working remotely since 2004!\n• Personal learning and development budget of 2,000USD per annum\n• Annual compensation review\n• Recognition rewards\n• Annual holiday leave\n• Parental Leave\n• Employee Assistance Programme\n• Opportunity to travel to new locations to meet colleagues at ‘sprints’\n• Priority Pass for travel and travel upgrades for long haul company events\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.\n#LI-remote",
    "tags": [
-    "web development",
     "software engineering",
     "data",
-    "ai",
-    "machine learning",
     "open source",
-    "git",
-    "product",
-    "creative coding",
-    "processing"
+    "python",
+    "coding",
+    "ai",
+    "ux",
+    "privacy",
+    "startup",
+    "design"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 0 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-l9psma",
+   "title": "Software Engineer - Python - Cloud - graduate level",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/164019-software-engineer-python-cloud-graduate-level",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "LATAM,  Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T18:31:30+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\nThe company is founder-led, profitable, and growing.\nWe are hiring a Software Engineer to develop, test and release improvements to the Ubuntu on public clouds.\nThe quality and stability of the Ubuntu is critically important, since it's available on every public cloud. You’ll work with teams across Canonical working on Ubuntu team, alongside major cloud partners to develop, test and release improvements to the Ubuntu cloud images. You will also be a voice in communication with our users, ensuring their needs are met.\nThis role requires quality-oriented software engineering in Python and a focus on software interoperability over a vast range of target releases and environments. Excellent Python skills are a key requirement, with previous contributions to open source Python projects being an advantage. This role involves creating and managing Ubuntu images; therefore, experience in configuring apt, and knowledge of deb packaging and general system administration is advantageous in this role.\nApplicants should be passionate about the Ubuntu project and its values and about building tools that are used by millions of people around the world. A personal interest and emphasis on quality, thinking of edge cases, ease of use, documentation, and careful community coordination is important. Ubuntu is used for all kinds of users, from mission-critical environments to hobbyist Ubuntu users; applicants should be ready to work with the whole spectrum of end users and help guide engineering best practices with all of them in mind.\nThe role entails\n• Collaborate proactively with a distributed team\n• Write high quality code, with unit and functional tests, to create new features\n• Debug issues and produce high quality code to fix them\n• Review code produced by other engineers\n• Discuss ideas and investigate to find good solutions\n• Work from home, with global travel 2 to 4 weeks per year for internal and external events\nWhat we are looking for in you\n• You love technology and working with brilliant people\n• You are curious, flexible, articulate, and accountable\n• You value soft skills and are passionate, enterprising, thoughtful, and self-motivated\n• You have a Bachelor’s or equivalent in Computer Science, STEM or similar degree\n• You have extensive experience with Python on Linux\n• You have interest in and experience with two or more of the following: Ubuntu Linux systems administration, continuous integration, end-system contract management, Debian packaging, working with public or on premise clouds\n• Bonus points if you have experience engaging with the open source community\nWhat we offer colleagues\nWe consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.\n• Distributed work environment with twice-yearly team sprints in person\n• Personal learning and development budget of USD 2,000 per year\n• Annual compensation review\n• Recognition rewards\n• Annual holiday leave\n• Maternity and paternity leave\n• Team Member Assistance Program & Wellness Platform\n• Opportunity to travel to new locations to meet colleagues\n• Priority Pass and travel upgrades for long-haul company events\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.\n#LI-remote",
+   "tags": [
+    "software engineering",
+    "data",
+    "open source",
+    "python",
+    "coding",
+    "ai",
+    "startup"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 0 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-4bg074",
+   "title": "Engineering Manager- Ceph & Distributed Storage",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/156571-engineering-manager-ceph-distributed-storage-2",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "EMEA,  LATAM,  Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:52+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\nThe company is founder-led, profitable, and growing.\nWe are hiring an Engineering Manager for Ceph & Distributed Storage. The world creates more than 2.5 quintillion bytes of data every day! We want to help teams to store data in open source storage on commodity hardware - safely, cheaply and simply.\nOur goal is to make Ceph easy to install, manage and use - from large enterprise data center installations to half-rack edge sites. We believe that distributed storage shouldn’t be hard - and to keep up with the increasing data storage demands, it needs to be easier than ever before. We have a range of tools to bring to bear on the problem, and we're excited to make distributed Ceph easy enough that everyone does it.\nAs an engineering manager at Canonical you must be technically strong, but your responsibility is to run an effective team and develop the colleagues you manage. You are expected to help them grow as engineers, do important work, do it outstandingly well, find professional and personal satisfaction, and work well with colleagues and community. Technical leadership experience and a background in software engineering are necessary prerequisites for this role. You will be expected to lead, challenge, and develop strong engineers, positively influence the culture, facilitate technical delivery, and work with your team on strategy and execution. You will be responsible for sound software architecture and best practices in software quality, testing and documentation.\nWhat you’ll do\n• You will lead a team building a Ceph focused software defined storage solution\n• You will build and manage a globally distributed team of engineers\n• You’ll develop your team through coaching, mentoring and feedback\n• You will demonstrate sound engineering principles by directly contributing toward your team’s goals\n• Set reasonable schedules based on considered estimates, with feedback loops for improvement\n• Set and manage expectations with other engineering teams and external stakeholders\n• Advance modern, agile software development practices\n• Maintain a culture of quality and engineering excellence\n• Grow a healthy, collaborative engineering culture in line with the company values\n• Be an active part of the leadership team and collaborate with other leaders in the organisation\n• Work from home with global travel up to 20% for internal and external events\nWho you are\n• You have a software engineering background, preferably with Python and C++ experience\n• You have experience operating scale out storage clusters on Linux in production environments, preferably with Ceph\n• You love embracing new technologies and pushing the boundaries of what is possibleYou love developing and growing people and have a track record of doing it\n• You have an interest in building products that improve how people operate software and infrastructure everywhere\n• You are knowledgeable and passionate about software development\n• You have experience in leading, managing, coaching and mentoring software developers towards delivering timely, high quality software together\n• You have solid experience working in an agile development environment\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.\n#LI-remote",
+   "tags": [
+    "data",
+    "open source",
+    "mentoring",
+    "python",
+    "software engineering",
+    "c++",
+    "ai",
+    "startup"
    ],
    "rep": "job",
    "verifyNote": "posted 1 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
-   "repNote": "no posts calling “Elevenlabs” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
-   "firstSeen": "2026-11-22T20:54:24.782Z"
+   "checked": "2026-11-24T01:00:16.222Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
   },
   {
-   "id": "f-1hnjp9x",
-   "title": "Group Product Manager, Data Feeds",
+   "id": "f-1chpdt4",
+   "title": "Business Services Team Manager",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/156580-business-services-team-manager",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Anywhere",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:42+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in more than 80 countries and very few roles based in offices.\nThe company is founder led, profitable and growing. We are hiring a Business Services Team Manager to lead efficient and effective travel, logistics, event, scheduling, expense policy and administration.\nThis executive role requires outstanding coordination, planning, decision-making, budgeting, procurement, reporting and management. It is a fast-paced and complex operation in the tech industry.\nWe coordinate large-scale company events which involve travel for hundreds of people from 80+ countries. We run such events four times a year, a significant investment in our ability to shape culture, teamwork, execution plans and strategy. Our team is responsible for travel procurement and logistics, ensuring that these events run efficiently and safely. Visas, travel complications and unexpected situations make this a complex operation to run efficiently, demanding a rigorous approach and high work ethic in the team.\nThis team also serves as an independent check on expense claim approval, ensuring fairness and consistency across teams and countries. This requires integrity, transparency and accountability, and a willingness to set and politely defend the same expectations of the most senior and most junior colleagues.\nTogether these responsibilities amount to tens of millions in operational costs and a significant number of tactical and operational decisions.\nOur team also provides traditional 'EA' services for company leads, though they do this across departments and as a consistent service rather than as personal assistants; they set and deliver to expectations on specific kinds of work. They schedule meetings, coordinate monthly reports, handle delegated approvals for travel and expenses, work across teams, coordinate with suppliers, and run small projects or initiatives.\nLocation: Worldwide, home based, except in locations where we have an office, such as London, Taipei and Beijing\nLeadership and accountability\nThis team has a direct impact on every team at Canonical. It is important for them to have excellent judgment and interpersonal skills, the confidence to hold people accountable and defend positions of policy, and the work ethic to move quickly through a large volume of work. It is also essential that the team participate in every company event, from the planning and venue selection stages to scheduling, operations and safety reviews, to ensure that they establish personal relationships with team leaders and can ensure these events run smoothly.\nAs a manager, your team would be responsible for\n• Travel approvals, logistics and operations\n• Expense review in line with policies\n• Planning of complex company events four times a year\n• Company offices that provide executive briefing and operational facilities\n• Our global duty of care, health and safety programs with comprehensive policies and practices\nWhat we are looking for\n• An exceptional academic track record from both high school and university\n• An undergraduate degree in a technical or business subject\n• Drive, and a track record of going above-and-beyond expectations\n• Leadership and management skills\n• Demonstrable good judgement in matters involving money, policy and in-person interactions\n• Ability to work in a global, multicultural organisation\n• Excellent interpersonal skills, curiosity, flexibility\n• Responsibility, accountability, thoughtfulness and self-awareness\n• Result-oriented, with a personal drive to meet commitments\n• Ability to travel up to four times a year, for company events up to two weeks long\nAdditional skills that you might also bring\n• Travel industry experience\n• Project management experience\n• Event management and operations experience\n• Business and corporate administration experience\nWhat we offer you\nWe consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.\n• Distributed work environment with twice-yearly team sprints in person\n• Personal learning and development budget of USD 2,000 per year\n• Annual compensation review\n• Recognition rewards\n• Annual holiday leave\n• Maternity and paternity leave\n• Employee Assistance Programme\n• Opportunity to travel to new locations to meet colleagues\n• Priority Pass, and travel upgrades for long haul company events\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Canonical has been a remote-first company since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.\n#LI-remote",
+   "tags": [
+    "data",
+    "ai",
+    "open source",
+    "product",
+    "policy",
+    "startup",
+    "craft",
+    "art criticism"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-d9ii6n",
+   "title": "Insights Associate - Retail",
    "org": "YipitData",
-   "url": "https://jobicy.com/jobs/156399-group-product-manager-data-feeds",
+   "url": "https://jobicy.com/jobs/156625-insights-associate-retail",
    "source": "Jobicy",
    "sourceUrl": "https://jobicy.com",
    "kind": "job",
@@ -524,26 +707,543 @@
    "whereNote": "USA",
    "payNote": "",
    "deadline": null,
-   "date": "2026-11-22T03:55:42+00:00",
+   "date": "2026-11-23T03:40:36+00:00",
    "blurb": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of…",
-   "fullText": "About Us:\nYipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionable insights across sectors like software, AI, cloud, e-commerce, ridesharing, and payments.\nOur data and research teams transform raw data into strategic intelligence, delivering accurate, timely, and deeply contextualized analysis that our customers—ranging from the world’s top investment funds to Fortune 500 companies—depend on to drive high-stakes decisions. From sourcing and licensing novel datasets to rigorous analysis and expert narrative framing, our teams ensure clients get not just data, but clarity and confidence.\nWe operate globally with offices in the US, APAC, and India. Our award-winning, people-centric culture—recognized by Inc. as a Best Workplace for three consecutive years—emphasizes transparency, ownership, and continuous mastery.\nWhat It’s Like to Work at YipitData:\nYipitData isn’t a place for coasting—it’s a launchpad for ambitious, impact-driven professionals.\nFrom day one, you’ll take the lead on meaningful work, accelerate your growth, and gain exposure that shapes careers.\nWhy Top Talent Chooses YipitData:\n• Ownership That Matters : You’ll lead high-impact projects with real business outcomes\n• Rapid Growth : We compress years of learning into months\n• Merit Over Titles : Trust and responsibility are earned through execution, not tenure\n• Velocity with Purpose: We move fast, support each other, and aim high—always with purpose and intention\nIf your ambition is matched by your work ethic—and you're hungry for a place where growth, impact, and ownership are the norm—YipitData might be the opportunity you’ve been waiting for.\nAbout The Role:\nYipitData is building the default intelligence platform for anyone evaluating companies and markets. Our data feeds are central to that ambition, bringing proprietary and exclusively licensed data directly into our clients’ research, investment, and business workflows.\nWe’re looking for a Group Product Manager to lead and grow our Data Feeds product management team. You will own the strategy and performance of a portfolio of data products, develop a strong team of PMs, and help build a more connected, scalable feeds business serving fundamental investors, quantitative and systematic funds, and corporate customers.\nThis is a player-coach role . Alongside managing the team and setting portfolio direction, you will directly own a strategically important data feed or quant-focused feed initiative - from customer discovery and product strategy through development, launch, and ongoing performance. You should enjoy moving between portfolio decisions, coaching PMs, and working through the details of a product yourself.\nOur opportunity extends beyond bringing more datasets to market. We are building differentiated products around clear customer problems, combining data and capabilities where they create greater value, and making our feeds easier to evaluate, integrate, and use. You will help determine where we invest, how our products fit together, and how we translate our data advantage into durable growth.\nAs Our Group Product Manager, Data Feeds, You Will:\nLead and Develop the Product Team\n• Manage, coach, and grow a team of product managers, strengthening their customer discovery, strategic judgment, execution, and commercial ownership.\n• Establish clear product responsibilities, goals, and decision-making expectations, giving PMs the autonomy and support to own their products.\n• Build effective practices for planning, roadmap reviews, customer feedback, and performance measurement.\n• Recruit and develop talent as the team grows, while maintaining a high bar for product thinking and accountability.\nLead Product Portfolio Strategy and Execution\n• Own a cohesive product portfolio strategy aligned with the broader business direction set by the Head of Data Feeds, defining how our feeds fit together, serve customer needs, and deliver differentiated value.\n• Guide PMs in developing product visions and roadmaps that strengthen both their individual products and the overall portfolio.\n• Prioritize across product roadmaps and shared capabilities, balancing customer value, commercial opportunity, and available resources; partner with the Head of Data Feeds on broader investment decisions.\n• Work with PMs to validate use cases and commercial demand early, including during the evaluation of new data sources.\n• Identify portfolio gaps, overlap, and opportunities to combine datasets, reuse methodologies, and extend products across customer segments.\n• Use customer feedback and product performance to recommend which offerings to scale, improve, consolidate, or retire, and lead execution of agreed decisions.\nDirectly Own and Build Products\n• Serve as the hands-on PM for a strategically important data feed or quant-focused feed initiative, owning its vision, roadmap, requirements, and outcomes.\n• Lead customer discovery, investigate the underlying data, and translate customer needs into clear product decisions.\n• Partner with Data, Engineering, Data Science, and Quant Research to assess feasibility, shape requirements, and bring products to market.\n• Stay close to client evaluations and integrations, using feedback to improve the product and establish practices the broader team can reuse.\nDrive Commercial Performance\n• Share accountability with commercial partners for portfolio revenue growth, retention, expansion, and product economics.\n• Partner with Revenue, Client Strategy, Product Marketing, and Solutions Consulting on pricing, packaging, positioning, and effective sales and evaluation processes.\n• Build a clear portfolio story that helps customers understand which products meet their needs and how those products work together.\n• Balance near-term client requests with repeatable market opportunities, ensuring commitments inform a scalable roadmap.\n• Define and track success through customer adoption, evaluation conversion, time to value, retention, and commercial results.\nBuild a Consistent, Reliable Client Experience\n• Establish product expectations for data quality, coverage, timeliness, documentation, and delivery across the portfolio.\n• Partner with Data and Engineering on quality controls, monitoring, change management, and issue resolution.\n• Improve how customers discover, evaluate, onboard, integrate, and receive ongoing support for feeds, working with Applications and client-facing teams.\n• Ensure clients can understand each product’s methodology, limitations, historical changes, and appropriate use cases.\n• Help build a repeatable experience for quant and systematic customers, including the data history, consistency, and transparency required for rigorous evaluation.\nConnect Teams Around Shared Outcomes\n•\n• Align priorities and responsibilities across Product, Data, Engineering, Research, Quant, Applications, and commercial teams.\n• Partner with Quant Research on systematic investor requirements and research-informed product improvements.\n• Work with data sourcing and partnerships teams to evaluate opportunities against customer needs, licensing constraints, quality, and economics.\n• Communicate strategy, tradeoffs, progress, and risks clearly to leadership and cross-functional partners.\nYou Are Likely To Succeed If:\n• Significant product management experience, typically 7+ years, including ownership of commercial data products, data feeds, or similarly data-intensive B2B products.\n• Experience directly managing and developing product managers, with evidence of improving both team performance and individual growth.\n• A track record of taking products from customer discovery through launch and scaling, with measurable customer and business outcomes.\n• Strong portfolio judgment: you can prioritize across products, allocat",
+   "fullText": "About Us:\nYipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionable insights across sectors like software, AI, cloud, e-commerce, ridesharing, and payments.\nOur data and research teams transform raw data into strategic intelligence, delivering accurate, timely, and deeply contextualized analysis that our customers—ranging from the world’s top investment funds to Fortune 500 companies—depend on to drive high-stakes decisions. From sourcing and licensing novel datasets to rigorous analysis and expert narrative framing, our teams ensure clients get not just data, but clarity and confidence.\nWe operate globally with offices in the US (NYC, Austin, Miami, Mountain View), APAC (Hong Kong, Shanghai, Beijing, Guangzhou, Singapore), and India. Our award-winning, people-centric culture—recognized by Inc. as a Best Workplace for three consecutive years—emphasizes transparency, ownership, and continuous mastery.\nWhat It’s Like to Work at YipitData:\nYipitData isn’t a place for coasting—it’s a launchpad for ambitious, impact-driven professionals.\nFrom day one, you’ll take the lead on meaningful work, accelerate your growth, and gain exposure that shapes careers.\nWhy Top Talent Chooses YipitData:\n• Ownership That Matters : You’ll lead high-impact projects with real business outcomes\n• Rapid Growth : We compress years of learning into months\n• Merit Over Titles : Trust and responsibility are earned through execution, not tenure\n• Velocity with Purpose: We move fast, support each other, and aim high—always with purpose and intention\nIf your ambition is matched by your work ethic—and you're hungry for a place where growth, impact, and ownership are the norm—YipitData might be the opportunity you’ve been waiting for.\nAbout The Role:\nYipitData’s Corporate team collaborates directly with organizations like Summer Fridays, FanDuel, Uber, and Harbor Freight to help them make sense of the vast amounts of external data available. We source, clean, organize, and contextualize data to support our clients answer their key business questions. We are expanding our Insights team within the Corporate practice by welcoming an Insights Associate to develop and deliver data-driven insights for prospective clients.\nThis is a fantastic opportunity for someone with 2-4+ years of experience who wants to enhance their data analysis skills, gain exposure to executives, have a meaningful impact on the businesses we support, and get in on the ground floor of a rapidly growing team at YipitData. Insights Associates will collaborate closely with Marketing, Sales, and Data Product teams to create and communicate data-driven insights, leveraging a variety of data sources to inform prospective client decision-making.\nYou could be a good fit if you are comfortable with understanding, manipulating, visualizing, and articulating data to tell compelling business stories with immediately actionable recommendations.\nAs an Insights Associate, you’ll gain experience in:\n• Business Insights: Responsible for creating and delivering meaningful insights to prospective clients. Insights Associates will dive into secondary research (industry publications, public earnings, research reports) and work with the Sales team to isolate key pain points for prospective clients, and deliver actionable analysis to address those issues.\n• Customer Engagement & Impact: At the end of the day, all our efforts aim to provide actionable insights with a measurable positive impact on our customer’s business. Insights Associates consult with the prospective client to uncover business opportunities and provide actionable insights that guide decision-making. Associates walk through our capabilities, and identify areas where our data can help.\n• Go To Market Functions: Insights Associates are hearing pain points and identifying solutions with prospective clients - this enables them to think creatively on what we’re missing and how we can address different functions and industries. Associates will gain skills in identifying new opportunities, sizing up potential impact, and working closely with Marketing to establish and execute a go-to-market strategy.\nYou Are Likely To Succeed If You Have:\n• 3-4+ years of experience in business analytics or consulting\n• A talent for data-driven storytelling\n• A passion for data analysis; SQL and/or Python experience is preferred, not required, but a willingness to learn is highly valued\n• Ability to work collaboratively in an innovative, entrepreneurial, and dynamic environment\n• Experience in collaborating with brand manufacturers and/or retailers and an understanding of their business needs is preferred\nWhat We Offer:\nOur compensation package includes comprehensive benefits, perks, and a competitive salary:\n• The annual base salary for this position is anticipated to be $100k -110k. The final offer may be determined by a number of factors, including, but not limited to, the applicant's experience, knowledge, skills, and abilities, as well as internal team benchmarks.\n• This role may be performed fully remotely within the United States. Please note that our US headquarters are located in NYC. We also have office hubs in Austin, Miami, and Denver. If the remote work is performed outside of these offices, income may be subject to New York State tax withholding.\n• We care about your personal life and we mean it. We offer flexible work hours, flexible vacation, a generous 401K match, parental leave, team events, a wellness budget, learning reimbursement, and more!\n• Your growth at YipitData is determined by your impact, not by tenure, unnecessary facetime, or office politics. Everyone at YipitData is empowered to learn, self-improve, and master their skills in an environment focused on ownership, respect, and trust.\n• Please note that for this position, we are not able to consider candidates who currently or in the future will require visa sponsorship.\nWe are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender, gender identity or expression, or veteran status. We are proud to be an equal-opportunity employer.\nJob Applicant Privacy Notice",
    "tags": [
     "data",
-    "product",
-    "mentoring",
-    "history",
+    "merchandising",
     "python",
     "sql",
     "data analysis",
     "ai",
+    "product",
     "privacy",
-    "craft"
+    "craft",
+    "social media"
    ],
    "rep": "job",
    "verifyNote": "posted 1 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "checked": "2026-11-24T01:00:16.223Z",
    "repNote": "no posts calling “YipitData” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-22)",
-   "firstSeen": "2026-11-22T20:54:24.782Z"
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-118h3o5",
+   "title": "Cloud Platform Engineer",
+   "org": "Supabase",
+   "url": "https://jobicy.com/jobs/156583-cloud-platform-engineer",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Anywhere",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:28+00:00",
+   "blurb": "About the Role As a Cloud Platform Engineer at Supabase, you’ll join Cloud Engineering, part of Engineering Operations, and shape the foundations that let engineering teams build, ship, and operate infrastructure safely and independently…",
+   "fullText": "About the Role\nAs a Cloud Platform Engineer at Supabase, you’ll join Cloud Engineering, part of Engineering Operations, and shape the foundations that let engineering teams build, ship, and operate infrastructure safely and independently across AWS and GCP.\nThis is a role spanning cloud governance, platform engineering, and hands-on operations. You’ll work across AWS and GCP account structure, identity and access management, Infrastructure as Code (IaC), reusable platform primitives, security boundaries, and self-service workflows for engineers.\nYou’ll be joining at a point where many of these foundations are being actively defined or reworked. We’re looking for someone who can take ambiguous, messy, business-critical infrastructure problems and turn them into pragmatic systems, tools, standards, and written guidance that scale with the company and empower teams to go faster.\nWhat You’ll Be Responsible For\n•\nDesigning and implementing cloud governance across AWS and GCP, including identity, account organization, access controls, and guardrails.\n•\nBuilding reusable infrastructure and building blocks using Infrastructure as Code (IaC), enabling teams to provision and manage infrastructure safely and consistently.\n•\nCreating self-service capabilities that reduce organizational friction and let engineers move more quickly within sensible boundaries.\n•\nOwning resource governance and visibility: management tagging, a trustworthy inventory of what exists and who owns it, and consistent cross-account billing data.\n•\nDeveloping reusable security primitives, including secrets storage, KMS, certificate management, token vending, direct service-to-service authentication, mTLS, and related platform services.\n•\nOwning cloud-level network and operational primitives: IP address management, DNS, and health signals such as service-limit and quota alerting.\n•\nCombining software engineering with hands-on operations and total ownership: building, deploying, monitoring, troubleshooting, and improving what you own.\n•\nEstablishing and sharing cloud engineering best practices through documentation, internal tooling, examples, and enablement.\nYou Might Be a Good Fit If You\n•\nHave 5+ years of experience in cloud governance, platform engineering, and/or operations, have operated production systems at scale, and carried on-call for them.\n•\nHave previously undertaken a significant migration, e.g. rearchitected an AWS account topology, introduced IaC for existing infrastructure, centralized identity/SSO, or brought a second cloud under governance.\n•\nEnjoy building internal platform and self-service experiences for other engineers.\n•\nAre genuinely deep in at least one—ideally two—of the three strength areas below (and tell us which is your center of gravity):\n•\nTooling & ecosystem: You’re intimately familiar with the breadth of AWS services in general, and IAM/SSO in particular. You know their Well-Architected Framework, and when to reach outside. You have working knowledge of GCP. You use IaC routinely and have run it in production, whichever tool. You’ve probably collaborated with auditors on meeting compliance requirements.\n•\nSoftware engineering: You write real production code (Go, Rust, or a comparable systems language), and can build reliable, maintainable services. You thrive across all stages of the SDLC, set technical direction, know how to de-risk projects, and produce written artifacts such as RFCs.\n•\nOperations: You’ve run production infrastructure yourself: carried the pager, written the alerts and runbooks, used SLOs or similar to decide what to fix first, and made shared systems less risky over time. You like owning systems, simplifying complex infrastructure problems, and turning best practices into reusable building blocks.\n•\nAre comfortable treating infrastructure as software and have relevant experience with IaC and automation.\n•\nCommunicate clearly, work with a wide range of stakeholders, and thrive in async, globally distributed teams.\n•\nAre comfortable navigating ambiguity and iterating toward better systems over time.\nWhat We Offer\n•\nFully Remote\nWe hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world.\n•\nESOP\nEvery team member receives ESOP (equity ownership) in the company. We want everyone to share in the upside of what we’re building together.\n•\nTech Allowance\nUse this budget to set up your ideal work environment—laptop, monitor, headphones, or whatever helps you do your best work.\n•\nHealth Benefits\nSupabase covers 100% of health insurance for employees and 80% for dependents, wherever you are. Your wellbeing and your family’s health are important to us.\n•\nAnnual Off-Sites\nOnce a year, the entire company gathers in a new city for a week of connection, collaboration, and fun. It’s a highlight of our year.\n•\nFlexible Work\nWe operate asynchronously and trust you to manage your own time. You know what needs to be done and when.\n•\nProfessional Development\nEvery team member receives an annual education allowance to spend on learning—courses, books, conferences, or anything that supports your growth.\nAbout the Team\nSupabase was born-remote and open-source-first. We believe our globally distributed team is our secret weapon in building tools developers love.\n•\n~400 team members\n•\n60+ countries\n•\n20+ languages spoken\n•\nOver $1B raised (including our $500M Series F)\n•\n540,000+ community members\nWe move fast, build in public, and use what we ship. If it’s in your project, we probably use it in ours too. We believe deeply in the open-source ecosystem and strive to support—not replace—existing tools and communities.",
+   "tags": [
+    "software engineering",
+    "coding",
+    "data",
+    "open source",
+    "privacy",
+    "teaching"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Supabase” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1w7jfcj",
+   "title": "Performance Engineer - Benchmarking",
+   "org": "Supabase",
+   "url": "https://jobicy.com/jobs/156582-performance-engineer-benchmarking",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Anywhere",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:27+00:00",
+   "blurb": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are…",
+   "fullText": "About Supabase\nSupabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.\nAbout this role\nWe’re hiring experienced performance engineers to make performance measurement at Supabase rigorous, repeatable, and actionable by product teams. This role owns the benchmarking and profiling systems we use to detect regressions, explain performance changes, and publish credible numbers for customers and the market. You’ll build the tooling and the methodology and make it easy for product teams to use it correctly.\nYou’d join a new performance team as one of its first members, working alongside a deeply seasoned performance engineer, with the team growing to roughly six this year. There’s no legacy process to inherit — you’ll help define how we measure and communicate performance metrics at Supabase.\nWhat you’ll do\n•\nBuild and evolve benchmarking, profiling, and load-testing tooling (cloud, database, and end-to-end).\n•\nDefine benchmark suites and reference workloads that reflect real customer behavior (and evolve them as the products change).\n•\nEstablish performance baselines and regression gates across products (variance tracking, environment control, and detection of changes).\n•\nBuild mechanisms that turn benchmark results into action: triage workflows, owner routing, and clear, reproducible reports.\n•\nPartner closely with database teams (e.g. Multigres, OrioleDB) to identify bottlenecks and land concrete performance improvements.\n•\nEnable the company to publish credible, repeatable performance numbers for customers and the market.\n•\nHelp teams self-serve performance testing and make performance a first-class engineering concern.\nProblems you might work on\n•\nBuild our continuous benchmarking infrastructure so product teams can spot performance regressions early. Ideally, teams can run benchmarks directly on PRs or locally while developing a feature.\n•\nAnalyze and eliminate issues with load generators, workloads or benchmark environments to ensure that benchmarks are reliable indicators for actual product performance.\n•\nBuild regression triage tooling that pinpoints what changed (diffing, profiles/traces, query-level attribution).\n•\nHelp product teams so they can analyze the root cause of performance regressions in benchmark environments themselves.\nWhat we’re looking for\n•\nDeep experience in performance engineering, benchmarking, and profiling of complex distributed systems. Specifically, you have owned benchmarking systems where reproducibility and controlling variance mattered.\n•\nStrong systems intuition (databases, storage, networking, cloud infrastructure).\n•\nComfortable working across product, infra, and database teams.\n•\nPragmatic, tooling-oriented mindset with strong communication skills.\n•\nDepth on at least one end of that stack: Linux kernel internals (virtual memory, scheduling, networking, IO) or database internals (query planning, storage engines, buffer and WAL management)\nWhat We Offer\n•\nFully Remote\nWe hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world.\n•\nESOP\nEvery team member receives ESOP (equity ownership) in the company. We want everyone to share in the upside of what we’re building together.\n•\nTech Allowance\nUse this budget to set up your ideal work environment—laptop, monitor, headphones, or whatever helps you do your best work.\n•\nHealth Benefits\nSupabase covers 100% of health insurance for employees and 80% for dependents, wherever you are. Your wellbeing and your family’s health are important to us.\n•\nAnnual Off-Sites\nOnce a year, the entire company gathers in a new city for a week of connection, collaboration, and fun. It’s a highlight of our year.\n•\nFlexible Work\nWe operate asynchronously and trust you to manage your own time. You know what needs to be done and when.\n•\nProfessional Development\nEvery team member receives an annual education allowance to spend on learning—courses, books, conferences, or anything that supports your growth.\nAbout the Team\nSupabase was born-remote and open-source-first. We believe our globally distributed team is our secret weapon in building tools developers love.\n•\n~400 team members\n•\n60+ countries\n•\n20+ languages spoken\n•\nOver $1B raised (including our $500M Series F)\n•\n540,000+ community members\nWe move fast, build in public, and use what we ship. If it’s in your project, we probably use it in ours too. We believe deeply in the open-source ecosystem and strive to support—not replace—existing tools and communities.",
+   "tags": [
+    "sql",
+    "open source",
+    "product",
+    "teaching"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Supabase” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-4ae5fy",
+   "title": "Performance Engineer - Performance Analysis & Tuning",
+   "org": "Supabase",
+   "url": "https://jobicy.com/jobs/156581-performance-engineer-performance-analysis-tuning",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Anywhere",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:25+00:00",
+   "blurb": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are…",
+   "fullText": "About Supabase\nSupabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.\nAbout the Role\nWe're hiring experienced performance engineers to find and land performance wins across the Supabase stack — from the query optimiser to block device level, and across the network paths and cloud infrastructure that connect our distributed platform. This is a performance delivery role: real, measured improvements to our database, platform, and APIs as we scale toward enterprise and platform-grade workloads. The methodologies you develop and tooling you build exist to multiply that delivery.\nYou'd join a new performance team as one of its first members, working alongside a deeply seasoned performance engineer, with the team growing to roughly six this year. There's no legacy process to inherit — you'll help define how performance engineering works at Supabase.\nWhat you'll do\n•\nFind bottlenecks in live production systems and characterize them precisely enough that the owning team can act on them without you in the room.\n•\nPartner closely with database teams (e.g. Multigres, OrioleDB) and infra teams to land concrete performance improvements.\n•\nBuild, communicate, and evolve performance methodologies and tooling that turn live production data into actionable insight.\n•\nPartner with the observability team to capture the right signals and establish a unified view of platform performance (latency, throughput, tail behavior) across products.\n•\nHelp teams self-serve performance analysis and make performance a first-class engineering concern.\nProblems you might work on\n•\nTune the kernel's paging behavior to production workloads\n•\nReduce memory overhead in OrioleDB and Multigres\n•\nIdentify and eliminate sources of latency spikes from application to kernel level\n•\nIdentify scalability bottlenecks across the entire stack and work the appropriate teams in Supabase and the wider community to resolve them\nWhat we're looking for\n•\nDeep experience in performance engineering, specifically performance analysis of complex distributed systems.\n•\nYou can walk the whole stack: follow a tail-latency problem from the query optimizer through the syscall boundary to the IO scheduler — or across pooler hops, network paths, and availability zones — reading profiles and traces at every layer.\n•\nDepth on at least one end of that stack: Linux kernel internals (virtual memory, scheduling, networking, IO) or database internals (query planning, storage engines, buffer and WAL management)\n•\nStrong working knowledge of networking and cloud infrastructure performance: TCP behavior under load, network virtualization overhead, and the performance characteristics of AWS primitives (EBS throughput and IOPS, instance network limits, placement groups, cross-AZ latency).\n•\nProven ability to turn performance insights into real product and architecture improvements — including getting teams you don't belong to to prioritize and ship the fix.\n•\nStrong written communication: your problem characterisations are precise, reproducible, and compelling on their own.\n•\nPragmatic, tooling-oriented mindset; comfort working across product, infra, and database teams.\nWhat We Offer\n•\nFully Remote\nWe hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world.\n•\nESOP\nEvery team member receives ESOP (equity ownership) in the company. We want everyone to share in the upside of what we’re building together.\n•\nTech Allowance\nUse this budget to set up your ideal work environment—laptop, monitor, headphones, or whatever helps you do your best work.\n•\nHealth Benefits\nSupabase covers 100% of health insurance for employees and 80% for dependents, wherever you are. Your wellbeing and your family’s health are important to us.\n•\nAnnual Off-Sites\nOnce a year, the entire company gathers in a new city for a week of connection, collaboration, and fun. It’s a highlight of our year.\n•\nFlexible Work\nWe operate asynchronously and trust you to manage your own time. You know what needs to be done and when.\n•\nProfessional Development\nEvery team member receives an annual education allowance to spend on learning—courses, books, conferences, or anything that supports your growth.\nAbout the Team\nSupabase was born-remote and open-source-first. We believe our globally distributed team is our secret weapon in building tools developers love.\n•\n~400 team members\n•\n60+ countries\n•\n20+ languages spoken\n•\nOver $1B raised (including our $500M Series F)\n•\n540,000+ community members\nWe move fast, build in public, and use what we ship. If it’s in your project, we probably use it in ours too. We believe deeply in the open-source ecosystem and strive to support—not replace—existing tools and communities.",
+   "tags": [
+    "sql",
+    "software engineering",
+    "data",
+    "open source",
+    "product",
+    "teaching"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Supabase” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1ikgmhe",
+   "title": "Release Engineer",
+   "org": "Supabase",
+   "url": "https://jobicy.com/jobs/156579-release-engineer",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Anywhere",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:24+00:00",
+   "blurb": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are…",
+   "fullText": "About Supabase\nSupabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.\nAbout the Role\nWe're looking for a Release Engineer (SRE) to join our Release Engineering team (part of EngOps) — a production-operations expert who brings an SRE mindset to how Supabase ships and runs, making deploys safe, observable, and recoverable at scale.\nRelease Engineering's scope has grown well beyond build-and-ship: we increasingly own the operational reliability of the systems that deploy and run Supabase. In this role you'll treat our deployment pipelines, pre-production signal, and the control plane itself as production systems — with SLOs, error budgets, and on-call ownership — and you'll be the person teams lean on when reliability is on the line.\nThis is not a \"gatekeeper\" role. You'll make the reliable path the easy path: standardising how we deploy, instrumenting what we ship, and ensuring that when something breaks, we detect it quickly and recover quickly.\nWhat You'll Be Responsible For\nIn this role, you'll:\n•\nOwn the reliability of Supabase's deployment and release systems, and the control plane they run on, against clear SLOs and error budgets\n•\nTurn pre-production into a trustworthy signal — standardizing and instrumenting today's fragmented, ad-hoc deployment workflows\n•\nDrive disaster-recovery readiness, including making environments reproducibly deployable from scratch (untangling undocumented secrets, unclear configuration ownership, and circular service dependencies)\n•\nBuild and operate health and SLO monitoring for critical user flows, using synthetic testing to catch regressions before customers do\n•\nReduce mean-time-to-detect and mean-time-to-recover for deploy-related incidents — which account for a large share of our incident load\n•\nParticipate in on-call, lead blameless postmortems, and turn findings into runbooks, alerting, and automation that remove toil\n•\nImprove deployment observability and auditability — a clear record of what shipped where, when, and by whom\n•\nDocument operational procedures — break-glass paths, access models, and runbooks — so reliability knowledge isn't tribal\nReliability & Operations\n•\nDefine and track SLAs, SLOs, error budgets, and DORA delivery metrics — with meaningful alerting over noise\n•\nEnsure deployments fail fast and safely when health checks degrade\n•\nHarden access and break-glass workflows (e.g. scoped self-service) so the right people can act in an incident without unsafe workarounds\n•\nPartner with product engineering and platform teams to align release practices with reliability and availability targets\nYou Might Be a Good Fit If You\n•\nHave 5+ years in SRE, production operations, platform engineering, or release engineering\n•\nHave operated production systems at scale and carried on-call for them\n•\nAre fluent in SLAs, SLOs, error budgets, DORA metrics, and operational KPIs — and the observability tooling behind them (Prometheus, Grafana, Alertmanager, or similar)\n•\nHave led incident response with tooling like incident.io (or PagerDuty / Opsgenie), run blameless postmortems, and driven down MTTD/MTTR\n•\nOperate confidently on AWS (multiple accounts, IAM, VPC) in production\n•\nAre comfortable with infrastructure-as-code (Pulumi, Terraform) and Kubernetes\n•\nScript and automate to eliminate toil rather than absorb it\n•\nCommunicate clearly with both infrastructure specialists and product engineers\n•\nThrive in async, globally distributed teams\n•\nAre comfortable navigating ambiguity and iterating toward better systems over time\nWhat We Offer\n•\nFully Remote\nWe hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world.\n•\nESOP\nEvery team member receives ESOP (equity ownership) in the company. We want everyone to share in the upside of what we’re building together.\n•\nTech Allowance\nUse this budget to set up your ideal work environment—laptop, monitor, headphones, or whatever helps you do your best work.\n•\nHealth Benefits\nSupabase covers 100% of health insurance for employees and 80% for dependents, wherever you are. Your wellbeing and your family’s health are important to us.\n•\nAnnual Off-Sites\nOnce a year, the entire company gathers in a new city for a week of connection, collaboration, and fun. It’s a highlight of our year.\n•\nFlexible Work\nWe operate asynchronously and trust you to manage your own time. You know what needs to be done and when.\n•\nProfessional Development\nEvery team member receives an annual education allowance to spend on learning—courses, books, conferences, or anything that supports your growth.\nAbout the Team\nSupabase was born-remote and open-source-first. We believe our globally distributed team is our secret weapon in building tools developers love.\n•\n~400 team members\n•\n60+ countries\n•\n20+ languages spoken\n•\nOver $1B raised (including our $500M Series F)\n•\n540,000+ community members\nWe move fast, build in public, and use what we ship. If it’s in your project, we probably use it in ours too. We believe deeply in the open-source ecosystem and strive to support—not replace—existing tools and communities.",
+   "tags": [
+    "sql",
+    "coding",
+    "open source",
+    "product",
+    "craft",
+    "teaching",
+    "sustainability"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Supabase” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1t3p62f",
+   "title": "Engineering - Internal AI Transformation",
+   "org": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/156600-engineering-internal-ai-transformation-2",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Canada,  Germany,  Ireland,  Italy,  Poland,  Sweden,  UK,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:40:13+00:00",
+   "blurb": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of…",
+   "fullText": "About ElevenLabs\nElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\nWe have expanded from voice into three main platforms:\n•\nElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n•\nElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n•\nElevenAPI gives developers access to our leading AI audio foundational models.\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\nHow we work\n•\nHigh-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n•\nImpact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n•\nAI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n•\nExcellence everywhere: Everything we do should match the quality of our AI models.\n•\nGlobal team: We prioritize your talent, not your location.\nWhat we offer\n•\nInnovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n•\nGrowth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n•\nLearning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.\n•\nSocial travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n•\nAnnual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.\n•\nCo-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\nThe role / impact\nAs an Internal AI Engineer at ElevenLabs, you'll be embedded at the frontier of how we scale - acting as a forward-deployed engineer across our GTM, Operations, and Finance teams. You won't just build tools; you'll co-design and ship agentic AI workflows that eliminate manual toil and fundamentally reshape how our people operate.\nYour impact goes beyond the code. You'll own high-stakes automations from discovery to production, acting as a technical partner to internal teams. The patterns, guardrails, and tooling you define will become the blueprint other teams reach for - the standard for how ElevenLabs harnesses AI safely and at speed.\nThe team / how we work\nYou'll join a lean, high-velocity team with a shared obsession: turning broken, manual processes into elegant automated systems. We move fast through rapid experimentation, work closely with operators and business owners to uncover the real problem, and ship pragmatic solutions without waiting for perfect specs.\nWhat you'll actually be working on\n•\nDesigning and iterating on AI agents and workflow orchestrations using tools like ElevenAgents, Claude, and n8n.\n•\nIntegrating AI systems with our core business stack - Salesforce, Slack, Ashby, and more\n•\nBuilding reusable automation services, patterns and shared templates that multiply the output of every team you touch\n•\nOwning experiments end-to-end: spotting the opportunity, building the solution, and measuring the impact\n•\nDeveloping evaluation and monitoring frameworks so our AI-native workflows are reliable, auditable, and safe\nWhat we're looking for\n•\nProven experience building and shipping automations or applications in production - you know what it takes to go from fuzzy business pain to something real teams depend on\n•\nAI-First Instincts: Strong familiarity with LLM capabilities, prompting strategies, RAG patterns, and a genuine passion for building agentic workflows.\n•\nDeep Backend Expertise : Strong Python and SQL and system design patterns (APIs, webhooks, orchestration layers)\n•\nA systems-thinking mindset : you design with security, auditability, and blast radius in mind from the start\n•\nBuilder and AI-First instincts: you don't wait to be told what to build - you spot the pattern, propose the fix, and ship it.\n•\nInfra & DevOps Instincts: Hands-on experience operating cloud infrastructure (GCP preferred), Kubernetes, Docker, and enterprise authentication flows\nLocation\nThis role is remote and can be executed globally. If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw. Specific teams may have specific location preferences.\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+   "tags": [
+    "python",
+    "software engineering",
+    "coding",
+    "sql",
+    "ai",
+    "llm",
+    "product",
+    "privacy",
+    "video",
+    "design"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Elevenlabs” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-14roux7",
+   "title": "Engineering Manager - Distributed Systems, Python / Go",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/156573-engineering-manager-distributed-systems-python-go",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "EMEA,  LATAM,  Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:35:14+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is widely used in breakthrough enterprise initiatives such as public cloud, data science,…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, as well as industry leaders across many sectors.\nCanonical is a pioneer of global distributed collaboration, with 1,200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\nThe company is founder-led, profitable, and growing.\nWe are hiring an Engineering Manager for Distributed Systems Testing to lead a team responsible for the quality engineering platform that enables deployment and validation of distributed systems across Canonical's cloud portfolio.\nWe see quality engineering as a first-class engineering practice. Our Distributed Systems Testing team ensures the performance, correctness, resilience and interoperability of Canonical cloud solutions built with technologies such as Juju, Terraform, OpenStack and Kubernetes. These systems are deployed and tested across diverse environments, from bare-metal to the public cloud.\nAs Engineering Manager, you will combine strong software engineering judgement with people leadership. You will develop engineering talent, establish effective engineering practices, shape technical direction with senior engineers, and ensure the team delivers high-quality testing infrastructure and automation that enables engineering teams across Canonical to ship software with confidence.\nWe believe engineering managers should be outstanding engineers themselves. You should be comfortable reviewing patches, evaluating software design, debugging a distributed system, or discussing test architecture. You will contribute technically where appropriate to set a high standard, while recognizing that your greatest impact comes from shaping the direction, focus, effectiveness, and growth of the whole team.\nYou will work closely with senior engineers and engineering leaders across Canonical to define priorities, improve testing capabilities, and advance how we validate increasingly complex cloud-native and distributed systems.\nLocation: This is a globally remote role, typically leading a team concentrated within a major time zone such as EMEA or the Americas.\nWhat you'll do\n• Lead, coach, and develop a high-performing team of software and quality engineers, ranging from graduate to senior level\n• Set clear expectations, strengthen engineering practices, and ensure timely delivery against agreed goals\n• Partner with senior engineers to shape technical strategy, architecture, roadmap, and engineering standards\n• Guide the development of automated testing infrastructure for the reliability, interoperability, and resilience of distributed systems\n• Improve CI pipelines, testing tools, and reporting used to validate Canonical's products and solutions across bare-metal, private and public cloud environments\n• Enable engineering teams across Canonical to adopt effective distributed-systems testing practices and tooling\n• Contribute technical leadership through design and code reviews, debugging, and hands-on engineering where appropriate\n• Represent the team with stakeholders and collaborate across Canonical on quality engineering, infrastructure, and developer experience\nWhat we're looking for in you\n• An exceptional academic track record from both high school and university\n• Experience in leading, coaching, and mentoring software engineers\n• Professional software engineering experience with Python or Go\n• Expertise in distributed systems, cloud infrastructure, quality engineering, or a closely related domain\n• Strong knowledge of modern software testing processes, strategies, and automation\n• Experience with Linux (Debian or Ubuntu preferred)\n• Strong technical judgement and the ability to engage meaningfully in code reviews, architecture discussions, and software design\n• Experience working in an agile development environment with the ability to organize a team to deliver high-quality results\n• Professional written and spoken English with excellent communication and presentation skills\n• Great interpersonal skills, curiosity, flexibility, and accountability, demonstrating passion, thoughtfulness, and self-motivation\n• Ability to travel twice a year, for company events up to two weeks each\nAdditional skills we value\nExperience with any of the following:\n• Cloud technologies such as Kubernetes, OpenStack, Juju, Terraform, AWS, Google Cloud, or Azure\n• Designing testing strategies for distributed or cloud-native systems\n• Building or operating large-scale CI/CD and test infrastructure\n• Applying AI or machine learning to test analysis, failure classification, or engineering workflows\n• Deploying, operating, or debugging distributed systems\n• Leading globally distributed teams\nWhat we offer colleagues\nWe consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually, and more often for graduates and associates, to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus.\nWe provide all team members with additional benefits that reflect our values and ideals. We balance our programmes to meet local needs and ensure fairness globally.\n• Distributed work environment with twice-yearly team sprints in person\n• Personal learning and development budget of USD 2,000 per year\n• Annual compensation review\n• Recognition rewards\n• Annual holiday leave\n• Maternity and paternity leave\n• Employee Assistance Programme and wellness support\n• Opportunity to travel to new locations to meet colleagues\n• Priority Pass and travel upgrades for long-haul company events\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and a leading platform for AI, IoT, and the cloud, we are changing the world of software.\nWe recruit globally and set a very high standard for people joining the company. We expect excellence; to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004. Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.\nRequisition ID: 1361",
+   "tags": [
+    "mentoring",
+    "software engineering",
+    "data",
+    "python",
+    "coding",
+    "ai",
+    "machine learning",
+    "open source",
+    "startup",
+    "design"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1k2q47x",
+   "title": "IT Engineer",
+   "org": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/155006-it-engineer-2",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:30:41+00:00",
+   "blurb": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of…",
+   "fullText": "About ElevenLabs\nElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\nWe have expanded from voice into three main platforms:\n•\nElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n•\nElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n•\nElevenAPI gives developers access to our leading AI audio foundational models.\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\nHow we work\n•\nHigh-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n•\nImpact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n•\nAI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n•\nExcellence everywhere: Everything we do should match the quality of our AI models.\n•\nGlobal team: We prioritize your talent, not your location.\nWhat we offer\n•\nInnovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n•\nGrowth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n•\nLearning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.\n•\nSocial travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n•\nAnnual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.\n•\nCo-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\nAbout the role\nThis is a hands-on technical role. You will join during a period of high growth for the IT team as the company expands its headcount, global footprint and opens new offices.\nYou will work closely with the Security and Operations teams to keep our endpoints, offices, networks, and SaaS tools secure, while making sure people stay as productive as possible with the tools we have.\nYou'll own and deliver technical projects across identity, endpoint management, office infrastructure, automation, and compliance, helping us build scalable IT systems that support the company as it grows.\nRequirements\n•\nStrong hands-on background in IT Engineering, Technical Operations, or a DevOps-adjacent role, with an automation-first mindset and experience managing enterprise scale IT systems\n•\nStrong knowledge of identity and access management technologies (SAML, SCIM, OIDC) with tools such as Okta and Google Workspace\n•\nExpertise with Mobile Device Management tooling (e.g. Jamf, Kandji, Fleet) across a device fleet.\n•\nScripting skills (Python, Bash, or similar) with a proven track record of automating compliance checks, device configuration, and other IT security tasks.\n•\nExperience managing office network equipment (e.g. Cisco Meraki, Ubiquiti), including office buildouts.\n•\nProven ability to maintain compliance with SOC 2 / ISO 27001 (or similar) standards, paired with a friendly, end-user-focused attitude.\n•\nPrior experience in a high-growth or startup environment.\nBonus\n•\nExperience implement corporate security controls / previous security role experience\n•\nStrong hands-on experience with VPNs, firewalls, and secure network environments, including modern practices such as Zero Trust networking.\n•\nExperience with OSquery and Santa\n•\nTerraform or other infrastructure as code experience.\n•\nOpen source contributions (e.g. a tool you built to automate something).\nLocation\nThis role is remote and can be executed globally. If you prefer, you can work from our offices in London, New York, San Francisco, and Warsaw.\n#LI-Remote\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+   "tags": [
+    "python",
+    "coding",
+    "ai",
+    "open source",
+    "product",
+    "privacy",
+    "startup",
+    "video",
+    "craft",
+    "research"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Elevenlabs” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-mwt30p",
+   "title": "Support Engineer (AMER)",
+   "org": "Supabase",
+   "url": "https://jobicy.com/jobs/151300-support-engineer-amer",
+   "source": "Jobicy",
+   "sourceUrl": "https://jobicy.com",
+   "kind": "job",
+   "jobType": "Full-Time",
+   "fields": [
+    "tech",
+    "art"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Canada,  USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-23T03:30:25+00:00",
+   "blurb": "Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated…",
+   "fullText": "Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.\nWe are seeking Support Engineers to provide world-class developer support for anyone experiencing issues or seeking guidance when using Supabase. The support team is globally distributed with a strong focus on minimizing time to fix, and works closely with the product engineering and growth teams.\nYou will:\n•\nProvide initial and timely responses to all support cases for a variety of topics, from billing or pre-sales requests to optimization or implementation questions.\n•\nTriage support cases including directing users to previous answers, code examples, documentation, or escalating to specific technical or business team members.\n•\nMonitor multiple feedback channels, e.g. Github Issues & Discussions (check them here: https://github.com/supabase/supabase/issues ).\n•\nIdentify where internal tooling might be developed or obtained to improve support efficiency.\n•\nReproduce issues, create test cases and improve test coverage, if you have experience with testing.\nYou are:\n•\nExperienced in customer support, with 3+ years of experience providing developer support to technical customers.\n•\nProficient in SQL (ideally PostgreSQL). You feel comfortable with complex SQL queries. If you have a database administration experience, it’s a plus.\n•\nExcellent communication skills and fluency in English.\n•\nSkilled in using Linux/Unix operating systems and the command line.\n•\nExperienced working with GitHub Issues and Discussions.\n•\nBonus points if you're familiar with popular JavaScript frameworks like React, Vue, and Svelte and have some experience with Node.js.\n•\nHaving a degree in Computer Science is a plus too.\nTimezones & Logistics\n•\nIt’s a full-time position with a required location in North American time zones (we don’t believe in sustainability of overnight shifts).\nWhat We Offer\n•\nFully Remote\nWe hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world.\n•\nESOP\nEvery team member receives ESOP (equity ownership) in the company. We want everyone to share in the upside of what we’re building together.\n•\nTech Allowance\nUse this budget to set up your ideal work environment—laptop, monitor, headphones, or whatever helps you do your best work.\n•\nHealth Benefits\nSupabase covers 100% of health insurance for employees and 80% for dependents, wherever you are. Your wellbeing and your family’s health are important to us.\n•\nAnnual Off-Sites\nOnce a year, the entire company gathers in a new city for a week of connection, collaboration, and fun. It’s a highlight of our year.\n•\nFlexible Work\nWe operate asynchronously and trust you to manage your own time. You know what needs to be done and when.\n•\nProfessional Development\nEvery team member receives an annual education allowance to spend on learning—courses, books, conferences, or anything that supports your growth.\nAbout the Team\nSupabase was born-remote and open-source-first. We believe our globally distributed team is our secret weapon in building tools developers love.\n•\n~400 team members\n•\n60+ countries\n•\n20+ languages spoken\n•\nOver $1B raised (including our $500M Series F)\n•\n540,000+ community members\nWe move fast, build in public, and use what we ship. If it’s in your project, we probably use it in ours too. We believe deeply in the open-source ecosystem and strive to support—not replace—existing tools and communities.",
+   "tags": [
+    "javascript",
+    "sql",
+    "software engineering",
+    "open source",
+    "react",
+    "coding",
+    "git",
+    "product",
+    "teaching",
+    "sustainability"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 1 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “Supabase” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1wgmth5",
+   "title": "AI Product Engineer",
+   "org": "Milliman",
+   "url": "https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/OpportunityDetail?opportunityId=caa572e4-f514-48c0-80c6-620b7465a91e",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Brookfield, WI · Remote in USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-20T23:39:33.000Z",
+   "blurb": "Software role for new",
+   "fullText": "Software role for new grads.",
+   "tags": [
+    "ai",
+    "product"
+   ],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-24T01:00:30.833Z",
+   "repNote": "no posts calling “Milliman” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-17cc60h",
+   "title": "Python Developer",
+   "org": "neurohire.ai",
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/D9A059DF68/apply",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote in USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-20T23:04:09.000Z",
+   "blurb": "Software role for new",
+   "fullText": "Software role for new grads.",
+   "tags": [
+    "python",
+    "software engineering"
+   ],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-24T01:00:30.206Z",
+   "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-12ryogh",
+   "title": "Customer Success Engineer",
+   "org": "GitLab",
+   "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-gitlab-1137867",
+   "source": "Remote OK",
+   "sourceUrl": "https://remoteok.com",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech",
+    "art",
+    "research"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "US Only",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-20T00:30:12+00:00",
+   "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation.…",
+   "fullText": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our valuesÂ and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software.\n* Fortune 500Â® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.\nAn overview of this role\nAs a Customer Success Engineer , you'll help customers get real, measurable value from GitLab after the sale by providing technical product expertise and best practice guidance. You'll be part of the customer success engineer team that delivers GitLab's On-Demand Success Tier through webinars, hands-on labs, office hours, and on-demand engagements.\nThis is a pooled model, so you won't be dedicated to a specific set of accounts. You'll collaborate closely with Customer Success Managers, Account Executives, and Renewals Managers to support implementation, architecture, and use case adoption across GitLab's key workflows, including source code management, continuous integration and delivery, DevSecOps, and Agile Planning. You'll report to the Customer Success Engineer Team Manager , and your first-year outcomes will focus on building trusted advisor relationships, enabling successful customer implementations, and creating reusable workshops and technical content that helps customers adopt GitLab at scale.\nWhat you'll do\n• Engage with customers via Zoom calls and email as a technical consultant during the post-sales journey, providing product, solution, and best-practice guidance.\n• Partner with Customer Success Managers to go deep on GitLab use case implementation (for example: source code management, continuous integration, continuous delivery, DevSecOps, and Agile Planning).\n• Deliver practical, customer-specific enablement through webinars, hands-on labs, office hours, and on-demand engagements in a pooled support model (not dedicated to a single account)\n• Provide technical and architectural guidance that helps customers adopt GitLab capabilities and connect technical decisions to the outcomes they care about.\n• Align with Account Executives and Renewals Managers to share customer-facing subject matter expertise that supports customer business objectives\n• Develop and deliver workshops, demos, and other reusable enablement content in collaboration with cross-functional partners.\n• Build and maintain specialty competency in one or more technologies aligned to GitLab's market focus through training, certification, and creating working examples for internal and customer use.\n• Contribute to customer-facing learning resources, including GitLab documentation, YouTube content, and enablement programs such as the Digital Journey.\nWhat you'll bring\n• Experience supporting one or more GitLab use cases (source code management, continuous integration, continuous delivery, DevSecOps, or Agile Planning) and enabling customers with practical, in-depth guidance.\n• Proficiency with DevSecOps tools or adjacent highly technical tooling, with the ability to translate tool capabilities into customer outcomes.\n• Technical background in software development or systems engineering, including comfort discussing architecture, workflows, and implementation tradeoffs.\n• Ability to communicate complex technical and organizational topics clearly in writing and live settings (Zoom calls, workshops, and presentations).\n• Experience operating as a trusted technical advisor to customer and business stakeholders in a post-sales environment.\n• Strong time management and prioritization skills, including the ability to juggle multiple customer engagements and cross-functional requests in a pooled model.\n• Continuous learning mindset, including maintaining specialty competency through training, certification, documentation, or creation of reusable examples; we welcome transferable experience from related roles and backgrounds.\nAbout the team\nWe're a globally distributed customer success engineer (CSE) team supporting customers in GitLab's On-Demand Success Tier. We collaborate asynchronously and stay aligned through clear documentation and shared enablement assets. We continuously improve our content and delivery based on what we learn from customer engagements.\nThe base salary range for this roleâs listed level is currently for residents of theÂ United States only. This range is intended to reflect the role's base salary rate in locations throughout the US.Â Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data,Â and geographic location.Â The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary.\nUnited States Salary Range\n$93,600 â $158,400 USD\nHow GitLab Supports Full-Time Employees\n• Benefits to support your health, finances, and well-being\n• Flexible Paid Time OffÂ\n• Team Member Resource Groups\n• Equity Compensation & Employee Stock Purchase Plan\n• Growth and Development Fund\n• Parental Leave Â\nPlease note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.\nCountry Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.Â Â\nPrivacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us.\nGitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLabâs policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See alsoÂ GitLabâs EEO Policy Â andÂ EEO is the Law",
+   "tags": [
+    "policy",
+    "privacy",
+    "writing",
+    "teaching",
+    "software engineering",
+    "coding",
+    "data",
+    "ai",
+    "product",
+    "research"
+   ],
+   "rep": "job",
+   "verifyNote": "posted 4 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
+   "repNote": "no posts calling “GitLab” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-97wejn",
+   "title": "Forward Deployed Engineer",
+   "org": "neurohire.ai",
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466/apply",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote in USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-19T23:04:30.000Z",
+   "blurb": "Software role for new",
+   "fullText": "Software role for new grads.",
+   "tags": [],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-24T01:00:30.086Z",
+   "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-53e8n",
+   "title": "Data Scientist",
+   "org": "neurohire.ai",
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/FC707275E0/apply",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote in USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-11-06T15:20:31.000Z",
+   "blurb": "AI/ML/Data role for new",
+   "fullText": "AI/ML/Data role for new grads.",
+   "tags": [
+    "data",
+    "ai",
+    "machine learning"
+   ],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-24T01:00:20.663Z",
+   "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-1cshgqd",
+   "title": "Business Data Analyst",
+   "org": "neurohire.ai",
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/DE75CD20B8/apply",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote in USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-10-29T22:47:17.000Z",
+   "blurb": "AI/ML/Data role for new",
+   "fullText": "AI/ML/Data role for new grads.",
+   "tags": [
+    "data",
+    "ai",
+    "machine learning"
+   ],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-24T01:00:19.851Z",
+   "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
+  },
+  {
+   "id": "f-36ffn8",
+   "title": "Business Data Analyst",
+   "org": "neurohire.ai",
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/516C3CF516/apply",
+   "source": "SimplifyJobs new-grad list",
+   "sourceUrl": "https://github.com/SimplifyJobs/New-Grad-Positions",
+   "kind": "job",
+   "jobType": "",
+   "fields": [
+    "tech"
+   ],
+   "pay": "paid",
+   "where": "remote",
+   "whereNote": "Remote in USA",
+   "payNote": "",
+   "deadline": null,
+   "date": "2026-10-29T22:47:16.000Z",
+   "blurb": "AI/ML/Data role for new",
+   "fullText": "AI/ML/Data role for new grads.",
+   "tags": [
+    "data",
+    "ai",
+    "machine learning"
+   ],
+   "rep": "job",
+   "verifyNote": "listed as active and the posting page is live",
+   "checked": "2026-11-24T01:00:19.632Z",
+   "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
+   "firstSeen": "2026-11-24T01:31:04.009Z"
   },
   {
    "id": "f-1o6rfwk",
@@ -580,8 +1280,8 @@
     "data analysis"
    ],
    "rep": "job",
-   "verifyNote": "posted 2 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 3 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
    "repNote": "no posts calling “Carrot” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
    "firstSeen": "2026-11-22T20:54:24.782Z"
   },
@@ -610,7 +1310,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:11.192Z",
+   "checked": "2026-11-24T01:00:31.942Z",
    "repNote": "no posts calling “Affirm” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
    "firstSeen": "2026-11-21T20:40:28.498Z"
   },
@@ -635,7 +1335,7 @@
    "deadline": null,
    "date": "2026-11-20T08:40:14+00:00",
    "blurb": "About the Role As the Data Strategy and Operations Manager at Abnormal AI, you will own our go-to-market data quality strategy and serve as the steward of data across Salesforce and the systems around it. You will design the processes,…",
-   "fullText": "About the Role\nAs the Data Strategy and Operations Manager at Abnormal AI, you will own our go-to-market data quality strategy and serve as the steward of data across Salesforce and the systems around it. You will design the processes, controls, and intelligent workflows that keep data accurate, enriched, and trusted at scale, so Sales, Marketing, Customer Success, and Finance can give executive leadership reliable metrics. You will decide where AI agents and automation take over repetitive data work and where human judgment still matters, and partner with cross-functional teams to evaluate system changes that affect our data programs.\nWho you are\n• Data obsessed and just as obsessed with removing manual work, with a habit of automating any process that relies on fixing records by hand\n• Curious about AI and a daily user, with experience shipping workflows with LLMs, agents, or AI-assisted tooling, and able to tell a useful application from a demo\n• Eager to build and shape a program rather than only maintain one, and able to create systems that hold up at global scale\n• Highly analytical, able to see the big picture and spot trends and gaps, then zoom in with practical, specific recommendations\n• Steady when juggling multiple priorities in a constantly changing environment\n• A good teammate, dedicated to the mission, who likes to have fun along the way\nWhat you will do\n• Set the data governance strategy, standards, ownership model, and source-of-truth hierarchy for GTM data across Salesforce and connected systems\n• Establish policies, access controls, and field-level definitions, including record creation and deprecation rules, and monitor adherence\n• Ensure compliance and security of our data, and flag risks to IT, security, and leadership\n• Replace high-volume manual tasks (deduplication, enrichment, account matching, hierarchy mapping, routing, anomaly review) with automated and AI-assisted workflows\n• Design and maintain AI agents and LLM-powered workflows that classify, enrich, validate, and remediate data, with guardrails, human review points, and accuracy measurement\n• Build automated data quality monitoring that detects issues early, alerts the right owner, and fixes them without human intervention where appropriate\n• Evaluate and select AI, enrichment, and automation tooling, run pilots, and measure impact through time saved, accuracy gains, and coverage\n• Own the enrichment strategy and keep account firmographics accurate: hierarchies, employee count, location, industry, and Fortune ranking\n• Act as the subject matter expert for Business Ops, Marketing Ops, Customer Success, and Finance, run a defined feedback intake process, and support consistent reporting and dashboards\n• Manage a portfolio of data quality and automation projects with clear priorities, owners, and outcomes\nMust Haves\n• 5+ years in Sales Operations, Data Operations, or a similar analytical or systems role\n• Hands-on experience building automation with AI or LLM tools (agents, prompt-driven workflows, AI-assisted enrichment), with shipped examples you can easily share\n• Strong understanding of data lifecycle management, data modeling, master data management, and requirements gathering\n• Demonstrated understanding of Salesforce automation, including Flow and validation rules, and experience working closely with admins\n• Experience implementing and managing data and enrichment tools, including AI-native tools such as Clay, Kernel, Starbridge, and Onfire\n• Proficiency in Excel\n• Track record of leading data management projects from idea to result\n• Sound judgment about where AI is reliable and where it needs controls for privacy, security, and accuracy\n• Detail oriented, self-motivated, proactive, and quick to learn new tools\n• Strong written and verbal communication skills, including explaining technical and AI concepts to non-technical partners\n• Preferred: experience with workflow automation or integration platforms (such as Workato or Zapier), modern data stack tools (such as Snowflake or dbt), SQL, and a high-growth SaaS or security company\n#LI-EM3\nActual compensation will be determined based on several non-discriminatory factors including skills, experience, qualifications, and geographic location.\nIn addition to base salary, this role may be eligible for bonus or incentive compensation, equity, and a comprehensive benefits package.\nBase salary range:\n$107,100 â $154,000 USD\nA note on AI in our process:Â\nAbnormal AI uses AI-assisted tools to help our recruiting team prepare for candidate interviews. These tools analyze resume content and role requirements to suggest interview questions and areas for the interviewer to explore.They do not make hiring decisions or screen candidates automatically. Every decision about a candidacy is made by a person. Further, if your application is successful and Abnormal AI makes a conditional offer of employment, we will carry out pre-employment checks which must be successfully completed to progress to a final offer. All processes and pre-employment checks are in line with prevailing legislation and Abnormal AI's policies relevant to our security and privacy standards.\nAbnormal AI is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, protected veteran status or other characteristics protected by law. For our EEO policy statement please click here . If you would like more information on your EEO rights under the law, pleaseÂ click here .\nPlease mention the word **WONDER** and tag RNTIuMTc2LjM4Ljcy when applying to show you read the job post completely (#RNTIuMTc2LjM4Ljcy). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "fullText": "About the Role\nAs the Data Strategy and Operations Manager at Abnormal AI, you will own our go-to-market data quality strategy and serve as the steward of data across Salesforce and the systems around it. You will design the processes, controls, and intelligent workflows that keep data accurate, enriched, and trusted at scale, so Sales, Marketing, Customer Success, and Finance can give executive leadership reliable metrics. You will decide where AI agents and automation take over repetitive data work and where human judgment still matters, and partner with cross-functional teams to evaluate system changes that affect our data programs.\nWho you are\n• Data obsessed and just as obsessed with removing manual work, with a habit of automating any process that relies on fixing records by hand\n• Curious about AI and a daily user, with experience shipping workflows with LLMs, agents, or AI-assisted tooling, and able to tell a useful application from a demo\n• Eager to build and shape a program rather than only maintain one, and able to create systems that hold up at global scale\n• Highly analytical, able to see the big picture and spot trends and gaps, then zoom in with practical, specific recommendations\n• Steady when juggling multiple priorities in a constantly changing environment\n• A good teammate, dedicated to the mission, who likes to have fun along the way\nWhat you will do\n• Set the data governance strategy, standards, ownership model, and source-of-truth hierarchy for GTM data across Salesforce and connected systems\n• Establish policies, access controls, and field-level definitions, including record creation and deprecation rules, and monitor adherence\n• Ensure compliance and security of our data, and flag risks to IT, security, and leadership\n• Replace high-volume manual tasks (deduplication, enrichment, account matching, hierarchy mapping, routing, anomaly review) with automated and AI-assisted workflows\n• Design and maintain AI agents and LLM-powered workflows that classify, enrich, validate, and remediate data, with guardrails, human review points, and accuracy measurement\n• Build automated data quality monitoring that detects issues early, alerts the right owner, and fixes them without human intervention where appropriate\n• Evaluate and select AI, enrichment, and automation tooling, run pilots, and measure impact through time saved, accuracy gains, and coverage\n• Own the enrichment strategy and keep account firmographics accurate: hierarchies, employee count, location, industry, and Fortune ranking\n• Act as the subject matter expert for Business Ops, Marketing Ops, Customer Success, and Finance, run a defined feedback intake process, and support consistent reporting and dashboards\n• Manage a portfolio of data quality and automation projects with clear priorities, owners, and outcomes\nMust Haves\n• 5+ years in Sales Operations, Data Operations, or a similar analytical or systems role\n• Hands-on experience building automation with AI or LLM tools (agents, prompt-driven workflows, AI-assisted enrichment), with shipped examples you can easily share\n• Strong understanding of data lifecycle management, data modeling, master data management, and requirements gathering\n• Demonstrated understanding of Salesforce automation, including Flow and validation rules, and experience working closely with admins\n• Experience implementing and managing data and enrichment tools, including AI-native tools such as Clay, Kernel, Starbridge, and Onfire\n• Proficiency in Excel\n• Track record of leading data management projects from idea to result\n• Sound judgment about where AI is reliable and where it needs controls for privacy, security, and accuracy\n• Detail oriented, self-motivated, proactive, and quick to learn new tools\n• Strong written and verbal communication skills, including explaining technical and AI concepts to non-technical partners\n• Preferred: experience with workflow automation or integration platforms (such as Workato or Zapier), modern data stack tools (such as Snowflake or dbt), SQL, and a high-growth SaaS or security company\n#LI-EM3\nActual compensation will be determined based on several non-discriminatory factors including skills, experience, qualifications, and geographic location.\nIn addition to base salary, this role may be eligible for bonus or incentive compensation, equity, and a comprehensive benefits package.\nBase salary range:\n$107,100 â $154,000 USD\nA note on AI in our process:Â\nAbnormal AI uses AI-assisted tools to help our recruiting team prepare for candidate interviews. These tools analyze resume content and role requirements to suggest interview questions and areas for the interviewer to explore.They do not make hiring decisions or screen candidates automatically. Every decision about a candidacy is made by a person. Further, if your application is successful and Abnormal AI makes a conditional offer of employment, we will carry out pre-employment checks which must be successfully completed to progress to a final offer. All processes and pre-employment checks are in line with prevailing legislation and Abnormal AI's policies relevant to our security and privacy standards.\nAbnormal AI is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, protected veteran status or other characteristics protected by law. For our EEO policy statement please click here . If you would like more information on your EEO rights under the law, pleaseÂ click here .\nPlease mention the word **WONDER** and tag RNDAuMTI0LjIyNy45Nw== when applying to show you read the job post completely (#RNDAuMTI0LjIyNy45Nw==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "tags": [
     "data",
     "policy",
@@ -649,8 +1349,8 @@
     "qualitative"
    ],
    "rep": "job",
-   "verifyNote": "posted 2 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 4 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.223Z",
    "repNote": "no posts calling “Abnormal” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-21)",
    "firstSeen": "2026-11-21T20:40:28.498Z"
   },
@@ -683,7 +1383,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:06.335Z",
+   "checked": "2026-11-24T01:00:27.352Z",
    "repNote": "no posts calling “Welo Global” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-21)",
    "firstSeen": "2026-11-21T20:40:28.498Z"
   },
@@ -720,8 +1420,8 @@
     "research"
    ],
    "rep": "job",
-   "verifyNote": "posted 9 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 10 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
    "repNote": "no posts calling “Metics Media” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -750,7 +1450,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.350Z",
+   "checked": "2026-11-24T01:00:24.945Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -779,7 +1479,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.427Z",
+   "checked": "2026-11-24T01:00:25.104Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -808,7 +1508,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:03.682Z",
+   "checked": "2026-11-24T01:00:23.684Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -837,7 +1537,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:03.879Z",
+   "checked": "2026-11-24T01:00:24.101Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -866,7 +1566,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:03.960Z",
+   "checked": "2026-11-24T01:00:24.205Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -893,7 +1593,7 @@
    "tags": [],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:03.768Z",
+   "checked": "2026-11-24T01:00:23.799Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -922,7 +1622,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.046Z",
+   "checked": "2026-11-24T01:00:24.309Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -951,7 +1651,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:02.676Z",
+   "checked": "2026-11-24T01:00:22.634Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -980,7 +1680,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:02.966Z",
+   "checked": "2026-11-24T01:00:22.981Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1009,7 +1709,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:03.108Z",
+   "checked": "2026-11-24T01:00:23.071Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1038,7 +1738,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:02.775Z",
+   "checked": "2026-11-24T01:00:22.729Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1067,7 +1767,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:02.866Z",
+   "checked": "2026-11-24T01:00:22.852Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1100,7 +1800,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:01.923Z",
+   "checked": "2026-11-24T01:00:21.863Z",
    "repNote": "no posts calling “xAI” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-17)",
    "firstSeen": "2026-11-17T22:22:12.845Z"
   },
@@ -1133,7 +1833,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:00.863Z",
+   "checked": "2026-11-24T01:00:20.343Z",
    "repNote": "no posts calling “xAI” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-17)",
    "firstSeen": "2026-11-17T22:22:12.845Z"
   },
@@ -1166,7 +1866,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:02.080Z",
+   "checked": "2026-11-24T01:00:21.996Z",
    "repNote": "no posts calling “xAI” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-17)",
    "firstSeen": "2026-11-17T22:22:12.845Z"
   },
@@ -1199,7 +1899,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.158Z",
+   "checked": "2026-11-24T01:00:24.511Z",
    "repNote": "no posts calling “xAI” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-17)",
    "firstSeen": "2026-11-17T22:22:12.845Z"
   },
@@ -1232,7 +1932,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.268Z",
+   "checked": "2026-11-24T01:00:24.831Z",
    "repNote": "no posts calling “xAI” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-17)",
    "firstSeen": "2026-11-17T22:22:12.845Z"
   },
@@ -1261,7 +1961,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.774Z",
+   "checked": "2026-11-24T01:00:25.700Z",
    "repNote": "no posts calling “Affirm” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
    "firstSeen": "2026-11-16T23:27:04.692Z"
   },
@@ -1292,7 +1992,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:03.593Z",
+   "checked": "2026-11-24T01:00:23.580Z",
    "repNote": "no posts calling “Upstart” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-15)",
    "firstSeen": "2026-11-15T19:56:14.709Z"
   },
@@ -1321,7 +2021,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:05.435Z",
+   "checked": "2026-11-24T01:00:26.403Z",
    "repNote": "no posts calling “H2O.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1350,7 +2050,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:05.533Z",
+   "checked": "2026-11-24T01:00:26.553Z",
    "repNote": "no posts calling “H2O.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1379,7 +2079,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:05.668Z",
+   "checked": "2026-11-24T01:00:26.685Z",
    "repNote": "no posts calling “H2O.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1412,7 +2112,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-22T20:24:04.652Z",
+   "checked": "2026-11-24T01:00:25.475Z",
    "repNote": "no posts calling “Pragmatike” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1444,8 +2144,8 @@
     "merchandising"
    ],
    "rep": "job",
-   "verifyNote": "posted 11 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 13 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
    "repNote": "no posts calling “ShyftOff” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
    "firstSeen": "2026-11-13T21:02:23.518Z"
   },
@@ -1484,8 +2184,8 @@
     "machine learning"
    ],
    "rep": "job",
-   "verifyNote": "posted 24 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 25 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
    "repNote": "no posts calling “Fluence International, Inc.” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-08)",
    "firstSeen": "2026-11-08T18:55:57.571Z"
   },
@@ -1515,8 +2215,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 18 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 19 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
    "repNote": "no posts calling “IAPWE” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-07)",
    "firstSeen": "2026-11-07T18:36:52.748Z"
   },
@@ -1555,8 +2255,8 @@
     "design"
    ],
    "rep": "job",
-   "verifyNote": "posted 11 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 12 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   },
@@ -1596,8 +2296,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 20 day(s) ago and still listed as active",
-   "checked": "2026-11-22T20:23:57.450Z",
+   "verifyNote": "posted 21 day(s) ago and still listed as active",
+   "checked": "2026-11-24T01:00:16.222Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   }
@@ -1704,6 +2404,28 @@
   "f-5afw0d": "2026-11-21T20:40:28.498Z",
   "f-1mjxy0h": "2026-11-22T20:54:24.782Z",
   "f-1hnjp9x": "2026-11-22T20:54:24.782Z",
-  "f-1o6rfwk": "2026-11-22T20:54:24.782Z"
+  "f-1o6rfwk": "2026-11-22T20:54:24.782Z",
+  "f-tpisoo": "2026-11-24T01:31:04.009Z",
+  "f-114z486": "2026-11-24T01:31:04.009Z",
+  "f-1chpdt4": "2026-11-24T01:31:04.009Z",
+  "f-d9ii6n": "2026-11-24T01:31:04.009Z",
+  "f-118h3o5": "2026-11-24T01:31:04.009Z",
+  "f-1w7jfcj": "2026-11-24T01:31:04.009Z",
+  "f-4ae5fy": "2026-11-24T01:31:04.009Z",
+  "f-1ikgmhe": "2026-11-24T01:31:04.009Z",
+  "f-1t3p62f": "2026-11-24T01:31:04.009Z",
+  "f-14roux7": "2026-11-24T01:31:04.009Z",
+  "f-1k2q47x": "2026-11-24T01:31:04.009Z",
+  "f-mwt30p": "2026-11-24T01:31:04.009Z",
+  "f-12ryogh": "2026-11-24T01:31:04.009Z",
+  "f-1jfcky6": "2026-11-24T01:31:04.009Z",
+  "f-l9psma": "2026-11-24T01:31:04.009Z",
+  "f-4bg074": "2026-11-24T01:31:04.009Z",
+  "f-1wgmth5": "2026-11-24T01:31:04.009Z",
+  "f-17cc60h": "2026-11-24T01:31:04.009Z",
+  "f-97wejn": "2026-11-24T01:31:04.009Z",
+  "f-53e8n": "2026-11-24T01:31:04.009Z",
+  "f-1cshgqd": "2026-11-24T01:31:04.009Z",
+  "f-36ffn8": "2026-11-24T01:31:04.009Z"
  }
 }
