@@ -23,7 +23,7 @@
  "chainguard": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T22:59:09.626Z",
+  "checked": "2026-11-24T23:21:58.202Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -96,7 +96,7 @@
  "netdocuments": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-07T18:10:13.267Z",
+  "checked": "2026-11-24T23:13:32.814Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -423,7 +423,7 @@
  "magicschool ai": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-05T20:53:12.619Z",
+  "checked": "2026-11-24T23:17:36.482Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -586,14 +586,8 @@
  },
  "telus digital": {
   "verdict": "pending",
-  "reports": [
-   {
-    "where": "r/Scams",
-    "title": "Telus Digital Is a Scam",
-    "url": "https://www.reddit.com/r/Scams/comments/1owxpcf"
-   }
-  ],
-  "checked": "2026-11-24T01:23:17.760Z",
+  "reports": [],
+  "checked": "2026-11-24T23:32:43.062Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -607,7 +601,7 @@
  "ashby": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:07:26.190Z",
+  "checked": "2026-11-24T23:23:09.315Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -621,7 +615,7 @@
  "language services associates": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-18T21:34:20.965Z",
+  "checked": "2026-11-24T23:26:12.663Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -642,7 +636,7 @@
  "oddball": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-13T20:41:55.336Z",
+  "checked": "2026-11-24T23:11:21.924Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -711,7 +705,7 @@
  "cribl": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:20:43.105Z",
+  "checked": "2026-11-24T23:30:29.070Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -793,7 +787,7 @@
  "socket": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-17T22:06:34.572Z",
+  "checked": "2026-11-24T23:25:11.491Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1271,7 +1265,7 @@
  "rackner": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-20T21:24:06.872Z",
+  "checked": "2026-11-24T23:10:11.900Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1611,7 +1605,7 @@
  "lincolncenter": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:24:18.699Z",
+  "checked": "2026-11-24T23:33:44.182Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1730,7 +1724,7 @@
  "cloudbeds": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-19T21:39:54.197Z",
+  "checked": "2026-11-24T23:09:10.881Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1842,7 +1836,7 @@
  "keysight technologies": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:27:55.715Z",
+  "checked": "2026-11-24T23:35:02.637Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1898,7 +1892,7 @@
  "fivetran": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-20T21:26:09.119Z",
+  "checked": "2026-11-24T23:15:34.930Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2010,7 +2004,7 @@
  "launchdarkly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:18:31.793Z",
+  "checked": "2026-11-24T23:20:47.394Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2024,7 +2018,7 @@
  "tebra": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:21:44.105Z",
+  "checked": "2026-11-24T23:31:42.091Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2101,16 +2095,16 @@
  "mixpanel": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:17:30.801Z",
+  "checked": "2026-11-24T23:29:16.069Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "usable life": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-24T01:26:38.085Z",
+  "checked": "2026-11-24T23:35:01.483Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "neurohire.ai": {
   "verdict": "clean",
@@ -2179,6 +2173,89 @@
   "verdict": "pending",
   "reports": [],
   "checked": "2026-11-24T01:15:28.579Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "seatgeek": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:05:56.990Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "tailscale": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:06:57.905Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "bennie": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:07:58.718Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "grafana labs": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:12:31.677Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "lastpass": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:14:33.656Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "govsignals": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:16:35.955Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "testlio": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:18:45.465Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "arlo solutions": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:19:46.428Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "maintainx": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:24:10.162Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "icon plc": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-24T23:27:13.797Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "thrive": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "Hacker News",
+    "title": "Tell HN: Thrive Market Is a Scam",
+    "url": "https://news.ycombinator.com/item?id=43287429"
+   }
+  ],
+  "checked": "2026-11-24T23:28:14.959Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
