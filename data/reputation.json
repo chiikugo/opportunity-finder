@@ -264,7 +264,7 @@
  "hims &#038; hers": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:19:07.938Z",
+  "checked": "2026-11-26T22:31:09.376Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -593,7 +593,7 @@
     "url": "https://www.reddit.com/r/Scams/comments/1owxpcf"
    }
   ],
-  "checked": "2026-11-25T22:52:23.586Z",
+  "checked": "2026-11-26T22:45:14.640Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1004,7 +1004,7 @@
  "clickup": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:43:30.697Z",
+  "checked": "2026-11-26T22:33:58.037Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1052,7 +1052,7 @@
  "motive": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-16T23:06:24.795Z",
+  "checked": "2026-11-26T22:27:51.974Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1071,11 +1071,11 @@
   "throttled": false
  },
  "trm labs": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-19T21:49:32.860Z",
+  "checked": "2026-11-26T22:26:33.932Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "ōura": {
   "verdict": "pending",
@@ -1087,7 +1087,7 @@
  "echodyne": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T01:09:09.801Z",
+  "checked": "2026-11-26T22:28:52.515Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1201,7 +1201,7 @@
  "dropbox": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:46:33.544Z",
+  "checked": "2026-11-26T22:39:29.596Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1465,7 +1465,7 @@
  "empowerly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:59:05.282Z",
+  "checked": "2026-11-26T22:51:54.884Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1492,7 +1492,7 @@
  "marketbridge": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T23:00:22.794Z",
+  "checked": "2026-11-26T22:52:55.792Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1505,21 +1505,15 @@
  },
  "ao globe life": {
   "verdict": "pending",
-  "reports": [
-   {
-    "where": "r/Scams",
-    "title": "[Ontario, Canada] AO Globe Life Scam? Cold call and zoom meeting to discuss credit union ownership benefits.",
-    "url": "https://www.reddit.com/r/Scams/comments/1m85mna"
-   }
-  ],
-  "checked": "2026-11-25T23:02:03.739Z",
+  "reports": [],
+  "checked": "2026-11-26T22:53:56.735Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "circuit clinical": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T23:03:13.728Z",
+  "checked": "2026-11-26T22:55:07.749Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1603,7 +1597,7 @@
  "lemonade": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-17T21:58:42.915Z",
+  "checked": "2026-11-26T22:26:34.970Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1615,11 +1609,11 @@
   "throttled": true
  },
  "lincolncenter": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-25T22:53:34.659Z",
+  "checked": "2026-11-26T22:46:33.064Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "plusai": {
   "verdict": "pending",
@@ -1701,7 +1695,7 @@
  "betterhelp": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T23:04:15.327Z",
+  "checked": "2026-11-26T22:30:08.544Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1722,14 +1716,14 @@
  "emc research": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:57:03.077Z",
+  "checked": "2026-11-26T22:49:53.067Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "woolpert": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:58:04.212Z",
+  "checked": "2026-11-26T22:50:53.987Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1790,11 +1784,11 @@
   "throttled": false
  },
  "sigma computing": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-20T21:27:10.062Z",
+  "checked": "2026-11-26T22:33:40.120Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "fleetio": {
   "verdict": "pending",
@@ -1848,7 +1842,7 @@
  "keysight technologies": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:55:46.800Z",
+  "checked": "2026-11-26T22:48:51.790Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1979,11 +1973,11 @@
   "throttled": true
  },
  "path robotics": {
-  "verdict": "pending",
+  "verdict": "clean",
   "reports": [],
-  "checked": "2026-11-21T20:13:48.091Z",
+  "checked": "2026-11-26T22:27:51.051Z",
   "via": "Reddit (Arctic Shift archive)",
-  "throttled": true
+  "throttled": false
  },
  "rithum": {
   "verdict": "pending",
@@ -2016,7 +2010,7 @@
  "launchdarkly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:51:08.178Z",
+  "checked": "2026-11-26T22:43:57.768Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2107,7 +2101,7 @@
  "mixpanel": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:50:07.224Z",
+  "checked": "2026-11-26T22:42:56.831Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2267,7 +2261,7 @@
     "url": "https://news.ycombinator.com/item?id=43287429"
    }
   ],
-  "checked": "2026-11-25T22:49:05.681Z",
+  "checked": "2026-11-26T22:41:40.664Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2281,7 +2275,7 @@
  "steward web development": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:47:39.768Z",
+  "checked": "2026-11-26T22:40:39.436Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2295,14 +2289,14 @@
  "weekday ai": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T22:54:45.525Z",
+  "checked": "2026-11-26T22:47:43.981Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "utilisave": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-25T23:05:16.692Z",
+  "checked": "2026-11-26T22:56:08.716Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2317,6 +2311,61 @@
   "verdict": "pending",
   "reports": [],
   "checked": "2026-11-25T23:07:18.605Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "lightspeed dms": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-26T22:32:19.351Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "pacific legal foundation": {
+  "verdict": "clean",
+  "reports": [],
+  "checked": "2026-11-26T22:33:56.966Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": false
+ },
+ "smartling": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-26T22:35:13.379Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "quora": {
+  "verdict": "pending",
+  "reports": [
+   {
+    "where": "Hacker News",
+    "title": "The Quora Partner Program Is a Scam",
+    "url": "https://news.ycombinator.com/item?id=22483715"
+   }
+  ],
+  "checked": "2026-11-26T22:36:14.535Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "ethena": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-26T22:37:22.361Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "jobgether": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-26T22:38:23.425Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "bluesight": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-26T22:46:43.054Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }
