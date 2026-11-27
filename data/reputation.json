@@ -257,7 +257,7 @@
  "customer.io": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-04T20:31:30.119Z",
+  "checked": "2026-11-27T22:14:54.508Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -486,9 +486,20 @@
   "throttled": true
  },
  "dandy": {
-  "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-06T20:06:16.983Z",
+  "verdict": "reported",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "Dandy Apparel shop was a scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1r0og00"
+   },
+   {
+    "where": "r/Scams",
+    "title": "Scammed by dandy worldwide website ",
+    "url": "https://www.reddit.com/r/Scams/comments/1hs6ccn"
+   }
+  ],
+  "checked": "2026-11-27T22:09:17.814Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -593,7 +604,7 @@
     "url": "https://www.reddit.com/r/Scams/comments/1owxpcf"
    }
   ],
-  "checked": "2026-11-26T22:45:14.640Z",
+  "checked": "2026-11-27T22:23:43.996Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -793,7 +804,7 @@
  "socket": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-24T23:25:11.491Z",
+  "checked": "2026-11-27T22:12:33.917Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -830,7 +841,7 @@
  "quest analytics": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-09T23:03:24.811Z",
+  "checked": "2026-11-27T22:06:00.115Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -899,7 +910,7 @@
  "cresta": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:18:22.680Z",
+  "checked": "2026-11-27T22:11:24.428Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1101,7 +1112,7 @@
  "jamf": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-11T20:25:11.272Z",
+  "checked": "2026-11-27T22:08:04.512Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1200,8 +1211,14 @@
  },
  "dropbox": {
   "verdict": "pending",
-  "reports": [],
-  "checked": "2026-11-26T22:39:29.596Z",
+  "reports": [
+   {
+    "where": "r/Scams",
+    "title": "[US] Potential Dropbox Scam",
+    "url": "https://www.reddit.com/r/Scams/comments/1jcdw02"
+   }
+  ],
+  "checked": "2026-11-27T22:21:22.633Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1333,7 +1350,7 @@
  "elation health": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-14T18:47:36.385Z",
+  "checked": "2026-11-27T22:07:03.135Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1465,7 +1482,7 @@
  "empowerly": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:51:54.884Z",
+  "checked": "2026-11-27T22:30:11.337Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1492,7 +1509,7 @@
  "marketbridge": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:52:55.792Z",
+  "checked": "2026-11-27T22:31:14.968Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1506,14 +1523,14 @@
  "ao globe life": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:53:56.735Z",
+  "checked": "2026-11-27T22:32:15.839Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "circuit clinical": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:55:07.749Z",
+  "checked": "2026-11-27T22:33:16.457Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1695,7 +1712,7 @@
  "betterhelp": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:30:08.544Z",
+  "checked": "2026-11-27T22:34:17.169Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1716,14 +1733,14 @@
  "emc research": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:49:53.067Z",
+  "checked": "2026-11-27T22:27:59.700Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "woolpert": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:50:53.987Z",
+  "checked": "2026-11-27T22:29:09.861Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1842,7 +1859,7 @@
  "keysight technologies": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:48:51.790Z",
+  "checked": "2026-11-27T22:26:59.021Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -1863,7 +1880,7 @@
  "fin": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-20T21:19:21.201Z",
+  "checked": "2026-11-27T22:10:23.872Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2275,7 +2292,7 @@
  "steward web development": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:40:39.436Z",
+  "checked": "2026-11-27T22:22:30.896Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2289,14 +2306,14 @@
  "weekday ai": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:47:43.981Z",
+  "checked": "2026-11-27T22:25:58.260Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "utilisave": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:56:08.716Z",
+  "checked": "2026-11-27T22:35:17.941Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
@@ -2351,21 +2368,49 @@
  "ethena": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:37:22.361Z",
+  "checked": "2026-11-27T22:16:56.296Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "jobgether": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:38:23.425Z",
+  "checked": "2026-11-27T22:20:08.542Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  },
  "bluesight": {
   "verdict": "pending",
   "reports": [],
-  "checked": "2026-11-26T22:46:43.054Z",
+  "checked": "2026-11-27T22:24:52.307Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "precision medicine group": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-27T22:13:44.186Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "livekit": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-27T22:15:55.296Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "secure code warrior": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-27T22:17:56.825Z",
+  "via": "Reddit (Arctic Shift archive)",
+  "throttled": true
+ },
+ "veeva systems": {
+  "verdict": "pending",
+  "reports": [],
+  "checked": "2026-11-27T22:19:07.859Z",
   "via": "Reddit (Arctic Shift archive)",
   "throttled": true
  }

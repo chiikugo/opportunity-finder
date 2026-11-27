@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:57:08.717Z",
+ "updated": "2026-11-27T22:36:17.957Z",
  "sources": [
   {
    "name": "NYU ITP / IMA opportunities",
@@ -59,7 +59,7 @@
    "name": "Remote OK",
    "url": "https://remoteok.com",
    "ok": true,
-   "count": 76
+   "count": 79
   },
   {
    "name": "SimplifyJobs new-grad list",
@@ -89,17 +89,17 @@
      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA"
     }
    ],
-   "checked": "2026-11-26T22:25:32.453Z"
+   "checked": "2026-11-27T22:05:25.944Z"
   },
   "outreachy": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-26T22:25:33.043Z"
+   "checked": "2026-11-27T22:05:26.340Z"
   },
   "gsoc": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-26T22:25:33.160Z"
+   "checked": "2026-11-27T22:05:26.433Z"
   },
   "mlh-fellowship": {
    "open": true,
@@ -111,92 +111,92 @@
      "url": "https://fellowship.mlh.com/"
     }
    ],
-   "checked": "2026-11-26T22:25:33.610Z"
+   "checked": "2026-11-27T22:05:26.784Z"
   },
   "codepath-instructor": {
    "open": false,
    "reason": "no matching postings on their jobs board",
-   "checked": "2026-11-26T22:25:33.665Z"
+   "checked": "2026-11-27T22:05:26.821Z"
   },
   "venture-for-america": {
    "open": false,
    "reason": "page didn't load for our check (fetch failed)",
-   "checked": "2026-11-26T22:25:36.066Z"
+   "checked": "2026-11-27T22:05:29.226Z"
   },
   "techcongress": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-26T22:25:36.460Z"
+   "checked": "2026-11-27T22:05:29.361Z"
   },
   "loc-junior-fellows": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-26T22:25:36.506Z"
+   "checked": "2026-11-27T22:05:29.418Z"
   },
   "smithsonian-internships": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-26T22:25:36.506Z"
+   "checked": "2026-11-27T22:05:29.418Z"
   },
   "fulbright": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-26T22:25:37.097Z"
+   "checked": "2026-11-27T22:05:29.704Z"
   },
   "craft-research-fund": {
    "open": false,
    "reason": "page says it's closed",
-   "checked": "2026-11-26T22:25:37.178Z"
+   "checked": "2026-11-27T22:05:29.792Z"
   },
   "warhol-arts-writers": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-26T22:25:37.896Z"
+   "checked": "2026-11-27T22:05:30.236Z"
   },
   "pasold": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-26T22:25:37.896Z"
+   "checked": "2026-11-27T22:05:30.236Z"
   },
   "met-costume-institute": {
    "open": false,
    "reason": "page didn't load for our check (429)",
-   "checked": "2026-11-26T22:25:38.141Z"
+   "checked": "2026-11-27T22:05:30.283Z"
   },
   "arttable-fellowship": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-26T22:25:38.349Z"
+   "checked": "2026-11-27T22:05:30.340Z"
   },
   "processing-fellowship": {
    "open": false,
    "reason": "the open window's end date has passed",
-   "checked": "2026-11-26T22:25:38.482Z"
+   "checked": "2026-11-27T22:05:30.661Z"
   },
   "eyebeam-agency": {
    "open": false,
    "reason": "deadline has passed",
-   "checked": "2026-11-26T22:25:39.107Z"
+   "checked": "2026-11-27T22:05:30.930Z"
   },
   "solitude-web-residencies": {
    "open": false,
    "reason": "can't be checked automatically",
-   "checked": "2026-11-26T22:25:39.107Z"
+   "checked": "2026-11-27T22:05:30.930Z"
   },
   "lacma-art-tech": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-26T22:25:39.393Z"
+   "checked": "2026-11-27T22:05:31.197Z"
   },
   "rhizome-microgrants": {
    "open": false,
    "reason": "page didn't load for our check (403)",
-   "checked": "2026-11-26T22:25:39.455Z"
+   "checked": "2026-11-27T22:05:31.412Z"
   },
   "creative-capital": {
    "open": false,
    "reason": "page doesn't say it's open",
-   "checked": "2026-11-26T22:25:39.665Z"
+   "checked": "2026-11-27T22:05:31.655Z"
   },
   "fashion-trust-us": {
    "open": true,
@@ -207,7 +207,7 @@
      "url": "https://fashiontrustus.com/apply"
     }
    ],
-   "checked": "2026-11-26T22:25:39.966Z"
+   "checked": "2026-11-27T22:05:31.774Z"
   },
   "outschool": {
    "open": true,
@@ -218,7 +218,7 @@
      "url": "https://teach.outschool.com/"
     }
    ],
-   "checked": "2026-11-26T22:25:40.282Z"
+   "checked": "2026-11-27T22:05:32.021Z"
   },
   "smithsonian-transcription": {
    "open": true,
@@ -229,7 +229,7 @@
      "url": "https://transcription.si.edu/"
     }
    ],
-   "checked": "2026-11-26T22:25:40.330Z"
+   "checked": "2026-11-27T22:05:32.115Z"
   },
   "loc-by-the-people": {
    "open": true,
@@ -240,7 +240,7 @@
      "url": "https://crowd.loc.gov/"
     }
    ],
-   "checked": "2026-11-26T22:25:40.381Z"
+   "checked": "2026-11-27T22:05:32.158Z"
   },
   "zooniverse": {
    "open": true,
@@ -251,15 +251,15 @@
      "url": "https://www.zooniverse.org/projects?discipline=arts"
     }
    ],
-   "checked": "2026-11-26T22:25:41.014Z"
+   "checked": "2026-11-27T22:05:32.348Z"
   }
  },
  "removed": {
   "counts": {
-   "no link to an actual application": 10,
-   "news round-up, not a listing": 9,
+   "no link to an actual application": 16,
+   "news round-up, not a listing": 14,
    "charges an application / entry fee": 1,
-   "scam red flags": 1,
+   "scam red flags": 2,
    "no sign on the page that it's open": 7,
    "page blocks automated checks and has no future deadline we can confirm": 3,
    "deadline passed": 13,
@@ -276,74 +276,104 @@
     "why": "charges an application / entry fee"
    },
    {
-    "title": "Product Manager - Growth (technical or ex-product engineer)",
-    "org": "Kovo",
+    "title": "Mobile Engineer",
+    "org": "Fin",
     "why": "scam red flags: unusual payment method"
    },
    {
-    "title": "Associate Insurance Product Manager, Car",
-    "org": "Lemonade",
+    "title": "Developer Advocate - Network APIs",
+    "org": "aduna",
+    "why": "scam red flags: asks you to pay to start"
+   },
+   {
+    "title": "Software Engineer",
+    "org": "Quest Analytics",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Insurance Product Manager, Car",
-    "org": "Lemonade",
+    "title": "Sales Engineer - Billing",
+    "org": "Elation Health",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Business Operations Manager",
-    "org": "Motive",
+    "title": "Sales Engineer II | EDU",
+    "org": "Jamf",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Federal Emerging Partner Business Developer (BD)",
-    "org": "Echodyne",
+    "title": "Payroll Tax Analyst",
+    "org": "Jamf",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Army Strategic Partner Business Developer (BD)",
-    "org": "Echodyne",
+    "title": "Financial Analyst",
+    "org": "Jamf",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full Stack Software Engineer",
-    "org": "BetterHelp",
+    "title": "Dental Sales Engineer",
+    "org": "Dandy",
+    "why": "called a scam on Reddit / Hacker News (2 posts)"
+   },
+   {
+    "title": "Product Manager",
+    "org": "Fin",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Product Manager, Platform",
-    "org": "hims &#038; hers",
+    "title": "General Manager, Industrial Products & Services - US Based",
+    "org": "Toptal",
+    "why": "called a scam on Reddit / Hacker News (2 posts)"
+   },
+   {
+    "title": "Forward Deployed Product Manager, AI Agent",
+    "org": "Cresta",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Field Customer/Tech Training Instructor",
-    "org": "Lightspeed DMS",
+    "title": "Engineering Manager",
+    "org": "Socket",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Manager, Software Engineering - Developer Experience",
-    "org": "ClickUp",
+    "title": "Sales Engineer, SMB",
+    "org": "Socket",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Web Integrations Support Engineer",
-    "org": "Smartling",
+    "title": "Clinical Research Associate II - FSP",
+    "org": "Precision Medicine Group",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Machine Learning Engineer, New Grad - Quora",
-    "org": "Quora",
+    "title": "Engineering Manager",
+    "org": "Customer.io",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Full Stack Software Engineer, New Grad - Quora",
-    "org": "Quora",
+    "title": "Enterprise Sales Executive, Consumer Products and Services - US-Based",
+    "org": "Toptal",
+    "why": "called a scam on Reddit / Hacker News (2 posts)"
+   },
+   {
+    "title": "Content Engineer, Developer Documentation",
+    "org": "LiveKit",
     "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
-    "title": "Frontend Engineer, Ads",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
+    "title": "Sales Engineer",
+    "org": "Ethena",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Sales Engineer, US East",
+    "org": "Secure Code Warrior",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
+   },
+   {
+    "title": "Product Marketing Manager - Ostro",
+    "org": "Veeva Systems",
+    "why": "scam cross-check not finished yet (retried tomorrow)"
    },
    {
     "title": "Customer Success Engineer",
@@ -364,31 +394,6 @@
     "title": "WordPress Theme & Plugin Developer",
     "org": "Steward Web Development",
     "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Strategic Technical Advisor",
-    "org": "Thrive",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Product Manager, Developer Ecosystem",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
-   },
-   {
-    "title": "Deal Desk Analyst (Eastern Time Zone Preferred)",
-    "org": "Mixpanel",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Release Strategist, Professional Services",
-    "org": "LaunchDarkly",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Engineering Manager, Ranking Platform",
-    "org": "Reddit",
-    "why": "called a scam on Reddit / Hacker News (5 posts)"
    },
    {
     "title": "Content Reviewer - United States",
@@ -464,20 +469,15 @@
     "title": "Business Analyst - Educational Raters - Gemini",
     "org": "Weekday AI",
     "why": "scam cross-check not finished yet (retried tomorrow)"
-   },
-   {
-    "title": "Forensic Regulatory Data Analyst",
-    "org": "UtiliSave",
-    "why": "scam cross-check not finished yet (retried tomorrow)"
    }
   ]
  },
  "items": [
   {
-   "id": "f-upnvr7",
-   "title": "Agent Engineer - US Remote",
-   "org": "TRM Labs",
-   "url": "https://jobicy.com/jobs/164452-agent-engineer-us-remote",
+   "id": "f-te3gpy",
+   "title": "Product Marketing - Agents",
+   "org": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/164502-product-marketing-agents-2",
    "source": "Jobicy",
    "sourceUrl": "https://jobicy.com",
    "kind": "job",
@@ -489,225 +489,65 @@
    ],
    "pay": "paid",
    "where": "remote",
-   "whereNote": "USA",
+   "whereNote": "Poland,  UK,  USA",
    "payNote": "",
    "deadline": null,
-   "date": "2026-11-26T15:03:58+00:00",
-   "blurb": "Build a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct…",
-   "fullText": "Build a Safer World.\nTRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure.\nThe AI Engineering Team is chartered with enabling next-generation AI applications , with a special focus on Large Language Models (LLMs) and agentic systems . Our mission is to build robust pipelines, high-performance infrastructure, and operational tooling that allow AI systems to be deployed with speed, safety, and scale .\nWe manage petabyte-scale pipelines, serve models with millisecond-level latency, and provide the observability and governance needed to make AI production-ready. We’re also deeply involved in evaluating and integrating cutting-edge tools in the LLM and agent space — including open-source stacks, vector databases, evaluation frameworks, and orchestration tools that unlock TRM’s ability to innovate faster than the market.\nThe impact you will have:\n•\nArchitect and implement a robust agentic framework that supports tool use, context retrieval, memory, and planning\n•\nBuild intelligent, modular agents that automate investigative tasks and augment analyst decision-making\n•\nExtend and scale our LLM infrastructure (e.g. OpenAI, Anthropic, local models), including prompt engineering, RAG, and evaluation loops\n•\nDesign safe, observable, and auditable agent behaviors — ensuring reliability in high-sensitivity environments\n•\nEvaluate performance across metrics like reasoning, latency, success rate, and hallucination, and iterate based on user feedback and system telemetry\n•\nContribute to a culture of high ownership, rapid experimentation, and ethical AI deployment\nWhat we’re looking for:\n•\nStrong engineering background with deep experience in backend or systems work (Python preferred)\n•\nHands-on experience building with LLMs, agents, and tooling frameworks (LangChain, semantic caches, vector DBs, etc.)\n•\nComfort working with agentic pipelines and optimizing information flow into AI systems\n•\nThoughtful approach to system design, with an eye for safety, scalability, and explainability\n•\nHigh product empathy - you care about how agents impact real users (analysts) and optimize accordingly\n•\nBias toward experimentation and iteration - you’re excited to try, learn, and ship fast\n•\nPrevious experience with knowledge graphs, task orchestration, or AI safety a plus\nAbout the Team:\n•\nThe AI Engineering team operates with a high level of collaboration and interdependence, fostering an inclusive culture where connections extend beyond work. We value diverse personalities and seek someone who is both results-driven and sociable, with strong communication, leadership, and teamwork skills, along with a positive, solutions-oriented mindset.\nLearn about TRM Speed in this position:\n•\nRapid Issue Resolution. TRM Engineers identify and resolve critical onsite issues in minutes to hours, not weeks. We create virtual war rooms, implement fixes, and share lessons with both customer stakeholders and internal teams within 48 hours.\n•\nNavigating Bureaucracy. We anticipate and address procedural hurdles, build trust with key stakeholders, and find alternative pathways to approvals. This keeps projects moving even in complex environments.\n•\nEfficient Knowledge Transfer. Engineers document and share updates in real time, ensuring the entire team—onsite and remote—has full visibility into plans, blockers, and resolutions. Knowledge sharing sessions and clear documentation reduce friction and accelerate delivery.\nAbout TRM's Engineering Levels:\nEngineer: Responsible for helping to define project milestones and executing small decision decisions independently with the appropriate tradeoffs between simplicity, readability, and performance. Provides mentorship to junior engineers, and enhances operational excellence through tech debt reduction and knowledge sharing.\nSenior Engineer: Successfully designs and documents system improvements and features for an OKR/project from the ground up. Consistently delivers efficient and reusable systems, optimizes team throughput with appropriate tradeoffs, mentors team members, and enhances cross-team collaboration through documentation and knowledge sharing.\nStaff Engineer: Drives scoping and execution of one or more OKRs/projects that impact multiple teams. Partners with stakeholders to set the team vision and technical roadmaps for one or more products. Is a role model and mentor to the entire engineering organization. Ensures system health and quality with operational reviews, testing strategies, and monitoring rigor.\nThe following represents the expected range of compensation for this role:\n•\nIndividual pay is determined by skills, qualifications, experience, and location. The compensation details listed in this posting reflect the US base salary only.\n•\nThe estimated base salary range for this role is $200,000 - $270,000\n•\nAdditionally, this role may be eligible to participate in TRM’s equity plan.\n•\nPlease note – we factor in the different costs for geographies outside the United States.\nApplication Instructions\nIf you’re interested in joining TRM, we encourage you to apply directly. Every application is reviewed by our Talent team.\nBefore applying, review the job description carefully and highlight the experience and impact that best demonstrate the required qualifications. Please also provide thoughtful and accurate answers to the application questions, as these will be used to evaluate your skills and qualifications for the role.\nIf you send your resume directly to someone at TRM, we can’t guarantee it will reach the appropriate hiring team. Applying directly is the best way to ensure your application will be considered.\nInterviewing with TRM\nOur process is designed to understand how you think, solve problems, and deliver impact, while allowing you to evaluate TRM. Most interview processes include a case study, an AI skills assessment, and a Leadership Principles interview.\n•\nRecruiter Intro: Qualifications, motivations, and alignment with the role.\n•\nHiring Manager: Deep dive into your relevant experience, skills, and impact.\n•\nFirst Round: 1–2 interviews focused on the skills most critical to the role.\n•\nFinal Round: Hands-on case study. This is usually a panel-style session where we go deeper into your craft, problem-solving, and alignment with TRM.\n•\nReferences: Former colleagues who can provide insight into your work and impact.\n•\nOffer: Congrats! Your recruiter will present the offer and compensation details.\n•\nWelcome to TRM: We're excited to build a safer world with you!\nYour recruiter will share your specific interview plan and preparation guidance along the way.\nAI Fluency at TRM\nAI fluency is a baseline expectation at TRM.\nWe believe AI meaningfully changes how top performers operate. We expect every team member to use AI to accelerate and reimagine their craft, not just automate surface tasks.\nAt TRM, AI fluency means you are among the top 10 percent of operators in your function in how you apply AI to:\n•\nAccelerate repeatable workflows\n•\nStructure and solve problems\n•\nImprove output quality\n•\nIncrease speed and leverage\nYou will be evaluated on applied AI fluency during the interview process.\nLife at TRM\nWe are building a safer world. That promise shows up in how we work every day.\nTRM moves FAST. We are a high-velocity, high-ownership team that expects clarity, follow-through, and impact. People who thrive here are energized by hard problems, experimentation, and continuous feedback. If something takes months elsewhere, it will ship here in days.\nOur work sits at the intersection of AI, national security, and fighting crime. The problems are complex, the stakes are real, and the environment evolves quickly. The pace and intensity of the work r",
+   "date": "2026-11-27T09:35:06+00:00",
+   "blurb": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of…",
+   "fullText": "About ElevenLabs\nElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\nWe have expanded from voice into three main platforms:\n•\nElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n•\nElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n•\nElevenAPI gives developers access to our leading AI audio foundational models.\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\nHow we work\n•\nHigh-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n•\nImpact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n•\nAI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n•\nExcellence everywhere: Everything we do should match the quality of our AI models.\n•\nGlobal team: We prioritize your talent, not your location.\nWhat we offer\n•\nInnovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n•\nGrowth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n•\nLearning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.\n•\nSocial travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n•\nAnnual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Cancún\n•\nCo-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\nAbout the role\nWe are looking for a Product Marketer that can position & package the ElevenAgents Platform to Enterprise. Companies around the world use ElevenLabs Agents to resolve customer support, provide engaging and interactive experiences, and put an end to “waiting on hold”. We continue to discover new use cases and industries that can benefit from our technology and you’ll be helping drive the narrative as we grow. You’ll help launch new products, produce thought leadership content, create assets to enable our sales team, and build industry focused landing pages.\nWho You Are\nWe're looking for an exceptional individual who combines a great product & design sense, excellent copy writing skills, and the technical background and interest to become an expert on Conversational Agents.\nYou’ll thrive on our team if you:\n•\nAre extremely passionate about AI Audio and technology more generally.\n•\nHave experience launching products and creating content for technical / enterprise audiences.\n•\nHave excellent project management skills and can juggle multiple tasks at once.\n•\nConsistently strive for excellence, delivering high-quality work quickly and exceeding expectations.\n•\nTake initiative and work autonomously from day one, prioritizing learning and contribution while leaving ego aside.\nLocation\nThis role is remote and can be executed globally. If you prefer, you can work from our offices in Bangalore, Dublin, London, New York, San Francisco, Tokyo, and Warsaw.\n#LI-Remote\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
    "tags": [
-    "mentoring",
     "ai",
-    "policy",
-    "privacy",
-    "craft",
-    "python",
-    "software engineering",
-    "data",
-    "llm",
-    "open source"
-   ],
-   "rep": "job",
-   "verifyNote": "posted 0 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “TRM Labs” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-26)",
-   "firstSeen": "2026-11-26T22:57:08.717Z"
-  },
-  {
-   "id": "f-1i2g7vo",
-   "title": "Machine Learning Engineer, Robotics",
-   "org": "Path Robotics",
-   "url": "https://jobicy.com/jobs/164410-machine-learning-engineer-robotics",
-   "source": "Jobicy",
-   "sourceUrl": "https://jobicy.com",
-   "kind": "job",
-   "jobType": "Full-Time",
-   "fields": [
-    "tech",
-    "art",
-    "research"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "USA",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-11-26T14:23:47+00:00",
-   "blurb": "Build the Path Forward At Path Robotics , we’re building the future of embodied intelligence. Our AI-driven systems enable robots to adapt, learn, and perform in the real world closing the skilled labor gap and transforming industries. We…",
-   "fullText": "Build the Path Forward\nAt Path Robotics , we’re building the future of embodied intelligence. Our AI-driven systems enable robots to adapt, learn, and perform in the real world closing the skilled labor gap and transforming industries. We go beyond traditional methods, combining perception, reasoning, and control to deliver field-ready AI that is risk-aware, reliable, and continuously improving through real-world use.\nBig, hard problems are our everyday work, and our team of intelligent, humble, and driven people make the impossible possible together.\nWe're seeking a Machine Learning Engineer to join our Robotics team. You'll use machine learning to improve how our robots plan, scan, and act. You'll frame real robot problems as well-defined ML problems, train models on data that a fleet of production robotic cells generates every day, and ship them into a production stack where they work alongside classical planning and perception. Your models run on live robots doing real work for customers.\nWhat You'll Do\n• Frame open-ended problems in planning, scanning, and robot behavior as well-defined ML problems.\n• Train models that work with classical methods, such as initial guesses and learned costs for trajectory optimization, plan quality and feasibility predictors, and learned collision models.\n• Develop viewpoint planning policies that choose where and how to scan, and predict scan quality before the robot commits.\n• Apply imitation learning, reinforcement learning, and generative models such as diffusion and flow matching where they outperform classical baselines.\n• Build production ML pipelines: datasets from fleet logs and simulation, training, and metrics.\n• Evaluate models in the loop, with offline metrics that predict gains on the robot, failure-mode analysis, and calibrated confidence that determines when the system falls back to classical methods.\n• Own your models end to end, from prototype to deployment on live robotic cells, with low-latency inference and monitoring.\nWho You Are\n• An MS or PhD in Computer Science, Robotics, Machine Learning, or a related field.\n• 4+ years of applied machine learning for robotics or autonomy, in research or industry.\n• Fluent in Python with PyTorch or JAX, and experienced training, evaluating, and deploying deep learning models.\n• Strong foundations in linear algebra, 3D geometry, kinematics, and optimization.\n• You've run your methods on real robot hardware.\n• You explain model results and their limits clearly, so planning, perception, and field teams know when to trust them.\nPreferred\n• C++, and experience deploying models into a C++ or ROS 2 production stack.\n• Motion planning, trajectory optimization, or collision checking.\n• Active perception, next-best-view or informative path planning, or 3D point cloud learning.\n• Uncertainty estimation and calibration, or Bayesian and information-theoretic planning.\n• GPU inference optimization (CUDA, TensorRT, ONNX).\n• Simulation and sim-to-real transfer (Isaac Lab, MuJoCo).\n• Publications at RSS, CoRL, ICRA, IROS, NeurIPS, ICML, or similar venues.\nWhy You’ll Love Working Here\n• Daily free lunch to keep you fueled and connected with the team\n• Flexible PTO so you can take the time you need, when you need it\n• Comprehensive medical, dental, and vision coverage\n• 6 weeks fully paid parental leave, plus an additional 6–8 weeks for birthing parents (12–14 weeks total)\n• 401(k) retirement plan through Empower\n• Generous employee referral bonuses—help us grow our team!\nWho We Are\nAt Path Robotics we love coming to work to solve interesting and tough challenges but also because our ideas are welcomed and valued. We encourage unique thinking and are dedicated to creating a diverse and inclusive environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.\nIf you require a reasonable accommodation to participate in the application process or any part of the hiring process, please contact HR@path-robotics.com. We are committed to providing equal access and will work with qualified individuals to ensure a fair and accessible hiring experience. We will respond to your request within 48 hours.",
-   "tags": [
-    "machine learning",
-    "software engineering",
-    "research",
-    "python",
-    "c++",
-    "data",
-    "ai",
-    "generative art",
-    "3d"
-   ],
-   "rep": "job",
-   "verifyNote": "posted 0 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “Path Robotics” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-26)",
-   "firstSeen": "2026-11-26T22:57:08.717Z"
-  },
-  {
-   "id": "f-1k47aq4",
-   "title": "Enterprise Solution Engineer - South East",
-   "org": "Sigma Computing",
-   "url": "https://jobicy.com/jobs/164336-enterprise-solution-engineer-south-east",
-   "source": "Jobicy",
-   "sourceUrl": "https://jobicy.com",
-   "kind": "job",
-   "jobType": "Full-Time",
-   "fields": [
-    "tech",
-    "art",
-    "research"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "USA",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-11-26T10:02:24+00:00",
-   "blurb": "Location: Remote – South East Region (must reside in FL, GA, SC, NC, or TN) Sigma’s vision is to create an insight-driven world where people, organizations, and, ultimately, humanity are transformed for the better by data. At Sigma, we are…",
-   "fullText": "Location: Remote – South East Region (must reside in FL, GA, SC, NC, or TN)\nSigma’s vision is to create an insight-driven world where people, organizations, and, ultimately, humanity are transformed for the better by data. At Sigma, we are building a cloud-native business intelligence platform that allows users to tap into their biggest databases hosted in the cloud and easily conduct ad hoc analysis to gain business insights in seconds. All without any SQL programming. We are growing the Solution Engineering team and are looking for a Solution Engineer who will help redefine the business intelligence landscape for our customers. You will join a talented team of Solution Engineers with a shared mission to truly make data access easy to drive business results.\nThe Sigma Solution Engineer believes in the power of analytics to transform organizations and uncover new data insights to increase business agility. The Sigma Solution Engineer will act as the trusted advisor to our prospects and customers working in tandem with Sales, Business Development, Product Management, Engineering, and Support. This individual is ultimately responsible for managing and delivering on all activities related to the technical presales cycle. This includes presentations, demonstrations, and hands on development of prototypes. You will align closely with our field Regional Sales Managers (Enterprise) focused on sales in new and existing accounts.\nWhat You Will Be Doing\n• Understand and uncover business challenges and issues faced by the customer and be able to run a targeted discovery sessions or workshop\n• Engage with business users to define, create, and showcase solution prototypes\n• Build and present customized demos for customers, trade shows, and webinars\n• Confidently present and articulate the business value of the Sigma platform to all levels within an organization\n• Deliver product, technical, and security related responses on RFPs/RFIs\n• Participate in product, sales, and relevant technology certifications to acquire, maintain, and grow skill sets\n• Work as a team player by contributing, learning, and sharing new knowledge\n• Be conversant in integration and data migration approaches to facilitate enterprise-type sales cycles\n• Manage multiple customer engagements concurrently\n• Attain quarterly and annual objectives assigned by management\n• Become a Sigma champion and product expert, prospects and customers will look to you for advice and expertise\nQualifications We Need\n• Minimum 5 years of business intelligence experience\n• Customer relationship skills\n• Strong understanding of database concepts\n• Cloud data warehouse experience - Snowflake, Redshift, BigQuery\n• ETL experience - Fivetran, Matillion or traditional ETL\n• Excellent organizational skills and ability to multitask in a fast-paced startup environment\n• Experience implementing production business intelligence solutions or proof of concepts\n• Bachelor’s degree in computer science or related field or equivalent technical & business experience\n• 25% Travel\nQualifications We Want (also, skills you’ll learn!)\n• Experience at a SaaS company or with cloud architectures\n• Experience with data analytics business use cases\n• Business consulting\n• AI/Apps development experience\n• Startup experience\nAbout Sigma\nSigma is a modern analytics & business intelligence (BI) application built for the cloud. Trusted by data-first companies, Sigma provides live access to cloud data warehouses using an intuitive spreadsheet interface—empowering business experts to ask more of their data without writing a single line of code. With the full power of SQL, the cloud, and a familiar interface, business users have the freedom to analyze data in real time without limits. Sigma is self-service analytics as it was meant to be: a single source of truth that eliminates data extracts, simplifies analysis, and drives BI adoption at every level of business. Sigma is closing the gap between data teams and business experts. To learn more about Sigma, visit www.sigmacomputing.com or join the conversation on Twitter @SigmaComputing.\nAbout us:\nSigma is the AI Apps and agentic analytics platform built on the cloud data warehouse. Business and technical teams use Sigma to explore live data, build intelligent applications, and automate critical workflows all without moving data or breaking governance. Sigma supports a spreadsheet interface, SQL, Python, and native AI in a single governed workspace, giving every team the speed to act and IT the control to scale. Sigma is trusted by more than 2,000 customers, including AMD, Duolingo, Colgate-Palmolive, and JPMorgan Chase.\nSigma announced its $80M in Series E financing in May 2026. The round was led by Princeville Capital, with new strategic investors Databricks Ventures, ServiceNow Ventures, and Workday Ventures participating alongside returning investors Altimeter Capital, Avenir Growth Capital, D1 Capital Partners, K5 Global, NewView Capital, Spark Capital, Sutter Hill Ventures, and XN. This milestone follows Sigma reaching $200M in annual recurring revenue in April 2026, with more than 100% year-over-year growth and 1.1 million new active users added in the latest fiscal year.\nCome join us!\nBenefits For Our Full-Time Employees:\n• Equity\n• Generous health benefits\n• Flexible time off policy. Take the time off you need!\n• Paid bonding time for all new parents\n• Traditional and Roth 401k\n• Commuter and FSA benefits\n• Lunch Program\n• Dog friendly office\nSigma is an equal opportunity employer. We are committed to building a smart and strong team regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender, gender identity or expression, veteran, or any other protected status. We look forward to learning how your experience can enable all of us to grow.\nNote: We have an in-office work environment in all our offices in SF, NYC, London and Sydney. All roles have a 25% travel expectation unless explicitly stated otherwise.\nOur Privacy Practices\nWhen you submit a job application on this site, Sigma processes your personal data for the purposes of evaluating your candidacy for employment at Sigma and as otherwise needed throughout the recruitment and hiring process. Please review Sigma’s Candidate Privacy Notice for more details. Please note that your personal data may be transferred to a country other than the one in which it was provided (including to the USA, the UK, and Canada, Australia).\nSigma’s use of AI\nThis hiring process utilizes artificial intelligence tools to assist in candidate screening and assessment. Our AI tools are designed to complement, not replace, human decision-making.",
-   "tags": [
-    "software engineering",
-    "coding",
-    "sql",
-    "data",
-    "ai",
+    "ux",
     "product",
-    "privacy",
-    "python",
-    "policy",
-    "startup"
-   ],
-   "rep": "job",
-   "verifyNote": "posted 1 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “Sigma Computing” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-26)",
-   "firstSeen": "2026-11-26T22:57:08.717Z"
-  },
-  {
-   "id": "f-d17z9x",
-   "title": "Social Media Specialist",
-   "org": "Pacific Legal Foundation",
-   "url": "https://jobicy.com/jobs/164329-social-media-specialist",
-   "source": "Jobicy",
-   "sourceUrl": "https://jobicy.com",
-   "kind": "job",
-   "jobType": "Full-Time",
-   "fields": [
-    "tech",
-    "art",
-    "research"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "USA",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-11-26T07:45:23+00:00",
-   "blurb": "You: The voice behind PLF's daily presence on social media. Every day, government officials trample someone's rights, and every day PLF's freedom fighters push back in court. Your job is to make sure people see it. You'll take a dense case…",
-   "fullText": "You: The voice behind PLF's daily presence on social media. Every day, government officials trample someone's rights, and every day PLF's freedom fighters push back in court. Your job is to make sure people see it. You'll take a dense case filing or a new legislative initiative and turn it into a post that stops the scroll. You know an exciting story when you hear one and you’re able to maximize its impact online. When you're nailing it, more Americans know PLF is a best-in-class public interest law firm, and donors, legislators, and journalists respond.\nThem: Bureaucrats, city councils, mayors, governors, and federal agencies stripping Americans of their rights every day. There's a lot of government overreach out there, and it's backed by seemingly endless resources. But fortunately, like all lumbering giants, abusive government is most vulnerable when countered by individuals who act strategically and nimbly, take calculated risks, have each other's backs, and are confident in and passionate about the cause—the very sort of swashbucklers we employ in spades here at PLF. And a giant's overreach only stays hidden if nobody tells the story.\nUs: We fight back. Pacific Legal Foundation is the nation's first and most successful public interest law firm dedicated to vindicating individual liberty. PLF has an unmatched record in the United States Supreme Court, with 18 victories out of 21 litigated at the Court. We also have more than two hundred active cases across the nation.\nWe are a next-generation public interest law firm. That means we aren't interested in doing the same thing as everyone else. We aspire to be the best player in a constantly changing game.\nHere's what you get to do in this role\nYou'll report to our Social Media Manager who is responsible for increasing output while maintaining quality on PLF’s social media channels. You'll write, design, and schedule content every day. You'll turn case updates, legislative wins, and event news into posts, graphics, carousels, and short videos. The social media team works within our Case Publicity team to tell client stories, shape the narrative around our issues, and highlight the work of our attorneys. You’ll also collaborate with our Content Marketing, Media Relations, and Digital Marketing teams. That way, what we post lines up with what's happening in our cases.\nHere's the twist: we know great social media people don't all have the same strengths. Some are wordsmiths who can make a property rights case sing in 280 characters. Others are storytellers behind a camera who can cut a 90-second video that people actually finish. We want you to bring your strongest skill and grow the others.\nWe’re building a best-in-class social media presence and want you to bring your unique set of skills to help us continually level up. Stick with it, and you'll learn the platforms, our audience, and our cases inside and out.\nHere's where you'll spend your time:\n• Writing, designing, and publishing daily posts in Sprout Social and Canva, and scheduling them ahead for the Social Media Manager's approval\n• Boosting the volume and consistency of our case update and legislative posts, including carousel copy and graphics that promote our cases\n• Owning event promotion on social, with graphics and copy for LinkedIn\n• Filming and editing short-form video (potentially on location, with our clients and staff), and writing scripts for on-camera talent to deliver\n• Replying to comments, growing our followers, and handling routine upkeep on each platform\n• Building tracking links (UTMs) to measure how social drives traffic to our website, and sharing what's working with the team\n• Checking facts with our attorneys and massaging messaging so every post gets the story right\nThis role is ideal for someone with 2-4 years of experience professionally, in environments like a think tank, NGO, newsroom, agency, or political campaign. We're looking for:\n• A clear strength in either social copywriting or short-form video.\n• A strong sense of storytelling and the ability to put the most interesting facts at the front to grab audience attention.\n• A portfolio that showcases your strengths as a communicator. We want to see your work, so this one is required (see below).\n• Comfort reading case summaries and asking attorneys questions until you're sure the details are right. In our line of work, accuracy isn't optional.\n• The ability to run a daily publishing calendar without dropping deadlines, even when news breaks and plans change.\n• Working knowledge of Canva and a scheduling tool like Sprout Social. If you haven't used them, we'll teach you. Just be ready to learn fast.\n• A genuine passion for individual liberty, constitutional law, and helping real people fight back against government overreach.\nThe right person is relentless about getting the story right, confident enough to pitch a bold idea, and quick to elevate the teammates around them.\nGeneral Information\nPacific Legal Foundation identifies and litigates important legal issues to set landmark precedents that will benefit Americans nationwide. Using strategic and principled litigation, communications, and research, we battle for freedom in the nation's courts and the court of public opinion.\nAs a national nonprofit organization, PLF has brick-and-mortar offices in Sacramento, California and Arlington, Virginia, although approximately half of the staff work from home offices across the country. You can work physically in any of our offices or work virtually.\nSalary range and benefits\nThis is a full-time, permanent position with a starting salary range of $60,000–$70,000. Exceptions may be considered for candidates with exceptional experience, education, professional background, or proven results in previous roles. PLF is committed to recruiting and retaining the highest-quality talent nationwide and offers a total compensation package that includes medical, dental, and vision insurance, a generous 403(b) company contribution, life and disability insurance, paid leave and wellness leave, and 3 weeks of paid time off. Compensation will be commensurate with experience.\nHow to apply\nIf you think you might be a good fit, submit the following application materials:\n• Your resume, including your experience in the liberty movement and relevant professional experience\n• A cover letter explaining why PLF is the place for you, why you want to fight for liberty, and what distinguishes you from typical applicants. Tell us whether your strength leans toward writing or video.\n• A writing sample and/or a portfolio of your work. This can include social copy, graphics, video, or a mix. Links are great. Show us what you do best.",
-   "tags": [
-    "policy",
     "video",
+    "design",
     "writing",
     "social media",
-    "web development",
-    "design",
-    "teaching",
     "research"
    ],
    "rep": "job",
    "verifyNote": "posted 1 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “Pacific Legal Foundation” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-26)",
-   "firstSeen": "2026-11-26T22:57:08.717Z"
+   "checked": "2026-11-27T22:05:49.892Z",
+   "repNote": "no posts calling “Elevenlabs” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
+   "firstSeen": "2026-11-27T22:36:17.957Z"
   },
   {
-   "id": "f-15e206k",
-   "title": "Product Expert",
-   "org": "RevenueCat",
-   "url": "https://jobicy.com/jobs/157210-product-expert",
+   "id": "f-i5vsat",
+   "title": "Engineering Manager - Ubuntu Core",
+   "org": "Canonical",
+   "url": "https://jobicy.com/jobs/157405-engineering-manager-ubuntu-core",
    "source": "Jobicy",
    "sourceUrl": "https://jobicy.com",
    "kind": "job",
    "jobType": "Full-Time",
    "fields": [
     "tech",
-    "art",
-    "research"
+    "art"
    ],
    "pay": "paid",
    "where": "remote",
    "whereNote": "EMEA,  LATAM,  Canada,  USA",
    "payNote": "",
    "deadline": null,
-   "date": "2026-11-26T04:40:11+00:00",
-   "blurb": "RevenueCat gives app businesses the infrastructure and tools to build, run, and improve their monetization. Since graduating from YC's S18 batch, we've grown into the default monetization platform for mobile. We're in 50%+ of newly shipped…",
-   "fullText": "RevenueCat gives app businesses the infrastructure and tools to build, run, and improve their monetization. Since graduating from YC's S18 batch, we've grown into the default monetization platform for mobile.\nWe're in 50%+ of newly shipped subscription apps, we process $16B+ in annual purchase volume, and we help everyone from a solo developer to the OpenAI mobile team understand and grow their revenue.\nWe're a remote-first team of 150+ people across 25+ countries, guided by values we actually practice: Customer Obsession, Always Be Shipping, Own It, and Balance.\nThis isn't the right fit for everyone. The systems you’ll build here manage billions of dollars and touch hundreds of millions of end users, and we don’t take that lightly. You'll be expected to work hard and hold a high bar for what you ship, alongside some of the sharpest, most driven people you've worked with. If that sounds energizing rather than exhausting, keep reading.\nThe role:\nA developer is getting ready to launch their first subscription app. A growth team wants to improve its paywalls. A founder has heard about Daily Payouts and wants to understand whether it could help. They all reach out to RevenueCat, and they all deserve a useful conversation. You’re that conversation.\nAs a Product Expert, your job is to understand what someone is trying to accomplish, explain and demo the relevant parts of RevenueCat, and help them take a sensible next step. Sometimes that means helping them get started themselves. Sometimes it means bringing in an Account Executive, a Sales Engineer, Support, or someone else.\nThis is a new role at the intersection of inbound sales, product education, and helping developers get started. You’ll own the inbound conversations that don’t go directly to our Account Executives or Sales Engineers, and help us build a great experience for the people behind them.\nYou might be early in your career, building apps on the side, or looking to turn your product knowledge into a more customer-facing job. You don’t need to have held this exact role before. You do need to know RevenueCat well, enjoy talking to people, and have good judgment about what would actually help them.\nWe’re initially hiring one person in EMEA and one in the Americas. You’ll initially report to our Sales Engineering lead and learn alongside teammates who have been handling these conversations for years. You’ll also help shape how the Product Expert team works as it grows.\nWhat you’ll be responsible for:\n•\nMake a great first impression. Respond to inbound interest, run useful discovery conversations, and understand the app, the people building it, their goals, and what they need from us.\n•\nTurn product knowledge into practical guidance. Give clear demos, answer questions, and connect the relevant parts of RevenueCat to someone’s situation. Help them understand the product, its limits, and what getting started involves.\n•\nHelp straightforward adoption move forward. Guide people through the next steps they can take themselves, share useful resources, and follow up so a good conversation turns into progress.\n•\nRecognize the right next step. Bring qualified commercial opportunities to an Account Executive and involve a Sales Engineer for deeper technical discovery, complex migrations, or solution design. Connect support questions and people who aren’t ready yet with the appropriate team or follow-up. Understand (and tell people) when RevenueCat is not right for them.\n•\nMake handoffs easy for the customer. Keep clear notes on goals, requirements, open questions, and next steps. Stay responsible for follow-through until the next owner has picked up the conversation, so the customer doesn’t have to start over.\n•\nHelp us improve the experience. Share recurring questions and feedback with the team. Turn what you learn into better demos, resources, and playbooks, and help us see where conversations or handoffs get stuck.\nWhat you’ll need to be successful:\n•\nStrong, hands-on knowledge of RevenueCat. You can show how you’ve used the product and explain it in your own words. We care about what you understand and can demonstrate, whether you learned it at work or through your own projects.\n•\nCuriosity about the app business. You want to understand how developers build products, make money, and grow, and how RevenueCat can help.\n•\nClear, friendly communication. You listen carefully, ask useful questions, write concise follow-ups, and explain the same idea differently to a developer, founder, or growth lead.\n•\nTechnical common sense. You’re comfortable discussing SDKs, APIs, subscriptions, and paywalls at a practical level. You can recognize when a question needs an engineer and bring them in with useful context.\n•\nCommercial common sense. You can spot a promising opportunity, understand why timing and fit matter, and recommend a useful next step without making every conversation a pitch.\n•\nOwnership and follow-through. You can manage several conversations, keep your notes and commitments straight, and make sure people hear back from you.\n•\nThe ability to work remotely and keep learning. You communicate proactively, ask for help when you need it, and can work hours that meaningfully overlap with customers and teammates in your region.\nWe’re more interested in your product knowledge, judgment, and helpfulness than a particular degree, job title, or number of years on your résumé.\nIdeally, you:\n•\nHave built or shipped an app using RevenueCat, including a side project or Shipaton entry.\n•\nHave helped people through support, community participation, teaching, demos, or another customer-facing role.\n•\nHave experience with developer tools, subscriptions, or a product with both self-service and sales-assisted customers.\n•\nEnjoy improving a process or creating a resource that makes the next person’s job easier.\nWhat success looks like:\nWithin the first month, you’ll:\n•\nDeepen your RevenueCat knowledge, shadow customer conversations, and learn how Sales, Support, and other parts of the business work together.\n•\nStart handling conversations with support from the team and learn when to bring in a specialist.\n•\nHost one of our bi-weekly demo stream, for a live audience of customers and prospects.\nWithin the first three months, you’ll:\n•\nIndependently run the inbound discovery conversations and demos in your coverage area.\n•\nHelp people get started and make well-qualified handoffs with clear context and next steps.\n•\nBuild a reliable follow-up rhythm and agree with the team how we’ll measure response quality, opportunity progression, and adoption.\nWithin the first six months, you’ll:\n•\nBe a trusted source of product guidance for prospects and teammates.\n•\nShow how your work helps people move from interest to a useful next step, and use feedback and data to improve the experience.\n•\nContribute reusable guidance that helps the team handle common questions and situations more effectively.\nWithin the first twelve months, you’ll:\n•\nHave helped establish how the Product Expert team runs discovery, demos, follow-up, and handoffs.\n•\nHelp new teammates get up to speed and bring customer insight into how we improve the product and our processes.\n•\nBe building deeper expertise around your interests and strengths, with a foundation that could lead toward Sales Engineering, Account Executive, or Customer Success work over time.\nWhat we offer:\n•\nCompetitive equity in a fast-growing, Series C startup backed by top-tier investors, including Y Combinator\n•\n10-year window to exercise vested equity options\n•\nA fully remote environment designed around autonomy and flexibility\n•\n4-5 weeks of flexible time off annually\n•\nPaid desk at a co-working space\n•\nWorkspace budget and continuous learning stipend\nInterviewing at RevenueCat\nOur interview process is rigorous on purpose. We want to be sure that everyone we bring on is genuinely excited about this work, aligned with how we operate, and ready to meet our high bar for performance. Curious what that a",
+   "date": "2026-11-27T03:45:25+00:00",
+   "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data…",
+   "fullText": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.\nThe company is founder-led, profitable, and growing.\nWe are hiring technical engineering manager to redefine the embedded Linux experience with the smallest, most secure, and most reliable operating system in the IoT market.\nThis is an opportunity for a technical leader passionate about open source software, Linux, containers, security, and the developer experience, to shape the future of Linux from the smallest systems up to desktops. This challenging role demands a high degree of technical skill as well as high caliber for inspiring and driving people.\nOur mission is to allow everyone to build robust solutions in various fields including but not limited to IoT, automotive, and aviation using the next generation secure embedded Linux operating system in a simple solution. We define a reliable and secure set of device recovery mechanisms that enable device manufacturers to simplify and standardize the field operations for fleets of heterogeneous appliances.\nAs an engineering manager, you’ll lead a team of strong software developers to design and implement Ubuntu Core system software on various CPU architectures, such as ARM, RISC-V, and X86. You will meet stakeholders, prioritize requests, plan the roadmap and ensure the team can deliver their goals. You will have the opportunity to influence the culture, facilitate technical delivery, and work with your team on strategy and execution.\nThe role entails\n• Building and leading a distributed team of engineers through hiring, coaching, mentoring, feedback and career development\n• Demonstrating sound engineering principles by directly contributing toward your team’s goals\n• Coaching and mentoring team members with hands-on career development\n• Effectively setting and managing expectations with other engineering teams, senior management, and external stakeholders\n• Advocating and advancing modern, agile software development practices and helping develop and evangelize great engineering and organizational practices\n• Contributing to a healthy, collaborative engineering culture in line with the company values\n• Actively participating in the leadership team and collaborating with other leaders in the organisation\nWhat we are looking for in you\n• Demonstrated competencies in embedded software development\n• Strong skills in Golang, C++ and Shell\n• A solid understanding of Linux and a modern GNU/Linux distribution, Debian or Ubuntu preferred\n• Love for developing and growing people and have a track record of doing it\n• Demonstrated ability of planning and executing to deliver high quality software in a timely manner\n• Solid experience working in an agile development environment\n• Exceptional academic track record from both high school and university\n• Undergraduate degree in a technical subject or a compelling narrative about your alternative chosen path\n• Professional written and spoken English with excellent presentation skills\nNice-to-have skills\n• Familiarity with an immutable Linux distribution, preferably Ubuntu Core\n• Experience with multiple CPU architectures such as ARM, RISC-V\n• Experience with Linux native containerization and security\nWhat we offer colleagues\nWe consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.\n• Distributed work environment with twice-yearly team sprints in person\n• Personal learning and development budget of USD 2,000 per year\n• Annual compensation review\n• Recognition rewards\n• Annual holiday leave\n• Maternity and paternity leave\n• Team Member Assistance Program & Wellness Platform\n• Opportunity to travel to new locations to meet colleagues\n• Priority Pass and travel upgrades for long-haul company events\nAbout Canonical\nCanonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.\nCanonical is an equal opportunity employer\nWe are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.\n#LI-REMOTE",
    "tags": [
-    "startup",
-    "teaching",
     "software engineering",
     "data",
-    "product",
-    "design",
-    "craft",
-    "writing"
-   ],
-   "rep": "job",
-   "verifyNote": "posted 1 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “RevenueCat” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-20)",
-   "firstSeen": "2026-11-26T22:57:08.717Z"
-  },
-  {
-   "id": "f-1p92cwl",
-   "title": "Cloud Platform Engineer",
-   "org": "GitLab",
-   "url": "https://jobicy.com/jobs/157196-cloud-platform-engineer-2",
-   "source": "Jobicy",
-   "sourceUrl": "https://jobicy.com",
-   "kind": "job",
-   "jobType": "Full-Time",
-   "fields": [
-    "tech",
-    "art",
-    "fashion",
-    "research"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "Canada,  USA",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-11-26T04:35:33+00:00",
-   "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation.…",
-   "fullText": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software.\n* Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.\nCloud Platform Engineer\nAn overview of this role\nAs a Cloud Platform Engineer on the Runway team, you'll help design, build, and maintain the infrastructure and developer tooling that powers our engineering organization. You'll advance our Kubernetes-based platform, mature our GitOps practices, and expand infrastructure as code adoption across the business. This hands-on role brings together infrastructure, automation, and developer experience, helping application teams deploy and operate their services.\nWhat you’ll do\n• Operate and improve production Kubernetes clusters across cloud environments, managing upgrades, scaling, and reliability throughout the cluster lifecycle.\n• Own and extend Argo CD-based GitOps workflows, maintaining ApplicationSets, managing sync policies, and enforcing deployment standards across environments.\n• Write, review, and maintain reusable Terraform modules, with clear practices for state management and drift detection.\n• Monitor platform health, respond to incidents, conduct post-mortems, and improve availability, performance, and observability.\n• Collaborate with application teams to onboard services, and create documentation, runbooks, and self-service tooling that improves developer productivity.\n• Implement role-based access control, network policies, and secrets management to meet infrastructure security and compliance requirements.\n• Integrate platform capabilities with continuous integration and continuous delivery (CI/CD) pipelines to support end-to-end delivery workflows.\nWhat you’ll bring\n• Experience operating Kubernetes in production and working with at least one major cloud provider: Amazon Web Services, Google Cloud, or Microsoft Azure.\n• Experience with Argo CD or comparable GitOps tooling, such as Flux.\n• Proficiency in Terraform for cloud infrastructure provisioning, including remote state, workspaces, and module design.\n• Ability to write scripts and automation in Python, Bash, or Go.\n• Familiarity with Helm for Kubernetes package management.\n• Understanding of networking fundamentals, including the Domain Name System (DNS), load balancing, ingress, and service mesh concepts.\n• Clear written and verbal communication, with the ability to document systems and collaborate across teams.\n• Optional: experience with managed, multi-cluster, or multi-region Kubernetes, service meshes, policy as code, observability, or Kubernetes-native infrastructure as code; open source or platform tooling contributions; or relevant certifications.\nAbout the team\nThe Runway team builds and maintains infrastructure and developer tooling for GitLab's engineering organization. Its work centers on a Kubernetes-based platform, GitOps delivery practices, and infrastructure as code. The team collaborates with application teams to onboard services and improve developer productivity through documentation, runbooks, and self-service tooling.\nThe base salary range for this role’s listed level is currently for residents of the United States only. This range is intended to reflect the role's base salary rate in locations throughout the US. Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data, and geographic location. The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary.\nUnited States Salary Range\n$115,000—$194,000 USD\nHow GitLab Supports Full-Time Employees\n• Benefits to support your health, finances, and well-being\n• Flexible Paid Time Off\n• Team Member Resource Groups\n• Equity Compensation & Employee Stock Purchase Plan\n• Growth and Development Fund\n• Parental Leave\nPlease note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.\nCountry Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.\nPrivacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us.\nGitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab’s EEO Policy and EEO is the Law . If you have a disability or special need that requires accommodation , please let us know during the recruiting process .",
-   "tags": [
-    "policy",
-    "privacy",
-    "python",
-    "software engineering",
-    "coding",
-    "data",
-    "ai",
     "open source",
-    "design",
-    "writing"
+    "mentoring",
+    "c++",
+    "ai",
+    "privacy",
+    "startup",
+    "design"
    ],
    "rep": "job",
    "verifyNote": "posted 1 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “GitLab” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
-   "firstSeen": "2026-11-26T22:57:08.717Z"
+   "checked": "2026-11-27T22:05:49.892Z",
+   "repNote": "no posts calling “Canonical” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-18)",
+   "firstSeen": "2026-11-27T22:36:17.957Z"
   },
   {
    "id": "f-1onalvt",
@@ -744,8 +584,8 @@
     "mentoring"
    ],
    "rep": "job",
-   "verifyNote": "posted 2 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 3 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “GitLab” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-26T22:57:08.717Z"
   },
@@ -776,45 +616,9 @@
    ],
    "rep": "call",
    "verifyNote": "application page is live; open until 2027-01-24",
-   "checked": "2026-11-26T22:25:48.890Z",
+   "checked": "2026-11-27T22:05:38.507Z",
    "repNote": "no posts calling “lincolncenter” a scam on Reddit (r/Scams, r/artbusiness) or Hacker News (checked 2026-11-26)",
    "firstSeen": "2026-11-26T22:57:08.717Z"
-  },
-  {
-   "id": "f-h7cqyu",
-   "title": "Revenue Operations Analyst",
-   "org": "Augment",
-   "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
-   "source": "Remote OK",
-   "sourceUrl": "https://remoteok.com",
-   "kind": "job",
-   "jobType": "",
-   "fields": [
-    "tech",
-    "art"
-   ],
-   "pay": "paid",
-   "where": "remote",
-   "whereNote": "Remote",
-   "payNote": "",
-   "deadline": null,
-   "date": "2026-11-24T08:00:11+00:00",
-   "blurb": "About Augment Logistics is broken. Let's fix it. We are a team of engineers, product designers, and customer champions building Augie, Augment's AI teammate for supply chain. Augie reasons and acts like a seasoned operator, automating the…",
-   "fullText": "About Augment\nLogistics is broken. Let's fix it.\nWe are a team of engineers, product designers, and customer champions building Augie, Augment's AI teammate for supply chain. Augie reasons and acts like a seasoned operator, automating the busywork of quoting, dispatch, tracking, billing, and more for freight brokers, 3PLs, for-hire carriers, private fleets, and distributors.\nOur team has scaled billion-dollar companies, built delightful products, and powered billions in commerce. If you thrive in fast-paced, high-impact environments and want to define how AI reshapes supply chain, apply today.\nOverview\nWe're looking for a Revenue Operations Analyst to join our growing RevOps team. You'll own our deal desk, support territory planning, and run the reporting our sales leaders rely on every week as we grow from 12 AEs to more than 20. You'll also keep our data clean and handle the day-to-day work behind forecasting, quota administration, and commission calculations. This role reports to the Director of Revenue Operations.\nOur GTM Motion\nOur motion is outbound-led. SDRs prospect and qualify freight brokers, 3PLs, for-hire carriers, private fleets, and distributors before AEs run discovery and close. We sell across Mid-Market, Enterprise, and Strategic segments, with six-figure ARR deals and buying committees that span operations, IT, and finance. Your deal desk and reporting work needs to hold up to that complexity.\nWhat You'll Do\n• Own the deal desk: review pricing, discounts, and non-standard terms, route approvals, and make sure every closed deal is booked correctly\n• Partner with Sales, Finance, and Legal so quotes and contracts move fast without surprises\n• Support territory planning: model coverage and capacity, manage account assignments, and keep regions and segments up to date as we roll them out, starting with Distribution\n• Own sales reporting: run the weekly forecast and pipeline reports leadership uses to call the quarter, and build dashboards for pipeline, conversion, bookings, and AE and SDR performance\n• Report contracted ARR and live, billing ARR side by side, and work with Finance so the numbers tie out\n• Keep HubSpot clean and reliable: own data quality, required fields, account ownership, and deal hygiene\n• Calculate commissions and support quota tracking, working with the Director and Finance\n• Help onboard new hires to our sales tools and processes, and document how things work\nWhat We're Looking For\n• 2 to 4 years in Revenue Operations, Sales Operations, or Deal Desk at a B2B SaaS company\n• Hands-on experience running or supporting a deal desk, including pricing approvals and contract review\n• Experience supporting territory planning or account assignment\n• Hands-on CRM admin experience. We're on HubSpot, and experience there is a strong plus\n• Strong Excel or Google Sheets skills, and comfort with SQL or a BI tool\n• A detail person who cares when the numbers don't match and digs in until they do\n• Clear communication with sales leaders and reps, including pushing back when the data says otherwise\nBonus Points For\n• Experience in logistics, freight, trucking, distribution, or supply chain tech\n• Experience administering commission plans or quota models\n• Familiarity with Gong, LinkedIn Sales Navigator, Seamless.ai , Clay, or BI platforms\nWhy Join Us?\n• Competitive Salary + Stock Options\n• Comprehensive Health, Vision, and Dental Benefits\n• Flexible PTO\n• Monthly stipend\nAbout Augment\nAt Augment, we set out to create a fully autonomous AI platform that streamlines operations and reclaims the human element in logistics. Our founders recognized a pattern: talented professionals were stuck handling manual data entry, phone calls, and repetitive tasks, instead of focusing on high-impact problem-solving and strategic decision-making.\nThat insight became our missionâto free logistics professionals from busywork so they can focus on what truly drives business growth. Augment isnât just about efficiency; itâs about transforming an entire industry by empowering teams with AI-driven solutions that make logistics smarter, faster, and more adaptive.\nJoin us on this journey!\nAugment is an Equal Opportunity Employer and values diversity at our company. We consider all qualified applicants without regard to race, color, religion, national origin, gender, gender identity or expression, sexual orientation, age, marital status, veteran status, disability, or any other legally protected status.\nAugment complies with federal, state, and local laws regarding equal employment opportunity and reasonable accommodation. If you need assistance or an accommodation during the application or interview process, please contact your recruiter.\nWe also consider qualified applicants with arrest and conviction records in accordance with applicable federal, state and local fair-chance / ban-the-box laws (for example, but not limited to, the California Fair Chance Act).\nOur hiring process uses AI-powered tools to assist with screening and evaluating applications based on job-related criteria. All AI-assisted outputs are reviewed by human recruiters who make all decisions about which candidates advance in the process.\nPlease mention the word **FLUENT** and tag RNC4xNTQuMjE1LjE= when applying to show you read the job post completely (#RNC4xNTQuMjE1LjE=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-   "tags": [
-    "data",
-    "sql",
-    "ai",
-    "product",
-    "craft",
-    "social media",
-    "merchandising"
-   ],
-   "rep": "job",
-   "verifyNote": "posted 3 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
-   "repNote": "no posts calling “Augment” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-25)",
-   "firstSeen": "2026-11-25T23:08:18.621Z"
   },
   {
    "id": "f-1kfav6k",
@@ -839,7 +643,7 @@
    "tags": [],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:09.845Z",
+   "checked": "2026-11-27T22:05:54.995Z",
    "repNote": "no posts calling “Utilidata” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-25)",
    "firstSeen": "2026-11-25T23:08:18.621Z"
   },
@@ -868,7 +672,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:04.593Z",
+   "checked": "2026-11-27T22:05:51.864Z",
    "repNote": "no posts calling “Multi Media” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-25)",
    "firstSeen": "2026-11-25T23:08:18.621Z"
   },
@@ -897,7 +701,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:13.559Z",
+   "checked": "2026-11-27T22:05:57.827Z",
    "repNote": "no posts calling “USAble Life” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T23:36:02.641Z"
   },
@@ -927,7 +731,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:12.630Z",
+   "checked": "2026-11-27T22:05:56.853Z",
    "repNote": "no posts calling “Milliman” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T01:31:04.009Z"
   },
@@ -957,7 +761,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:11.636Z",
+   "checked": "2026-11-27T22:05:55.999Z",
    "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T01:31:04.009Z"
   },
@@ -984,7 +788,7 @@
    "tags": [],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:11.507Z",
+   "checked": "2026-11-27T22:05:55.919Z",
    "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T01:31:04.009Z"
   },
@@ -1015,7 +819,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:03.416Z",
+   "checked": "2026-11-27T22:05:51.335Z",
    "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T01:31:04.009Z"
   },
@@ -1046,7 +850,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:02.819Z",
+   "checked": "2026-11-27T22:05:50.990Z",
    "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T01:31:04.009Z"
   },
@@ -1077,7 +881,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:02.699Z",
+   "checked": "2026-11-27T22:05:50.933Z",
    "repNote": "no posts calling “neurohire.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-24)",
    "firstSeen": "2026-11-24T01:31:04.009Z"
   },
@@ -1106,7 +910,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:13.733Z",
+   "checked": "2026-11-27T22:05:57.948Z",
    "repNote": "no posts calling “Affirm” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
    "firstSeen": "2026-11-21T20:40:28.498Z"
   },
@@ -1139,7 +943,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:09.118Z",
+   "checked": "2026-11-27T22:05:54.731Z",
    "repNote": "no posts calling “Welo Global” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-21)",
    "firstSeen": "2026-11-21T20:40:28.498Z"
   },
@@ -1176,8 +980,8 @@
     "research"
    ],
    "rep": "job",
-   "verifyNote": "posted 13 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 14 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “Metics Media” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1206,7 +1010,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:07.194Z",
+   "checked": "2026-11-27T22:05:53.135Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1235,7 +1039,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:07.307Z",
+   "checked": "2026-11-27T22:05:53.197Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1264,7 +1068,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:06.596Z",
+   "checked": "2026-11-27T22:05:52.809Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1293,7 +1097,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:06.825Z",
+   "checked": "2026-11-27T22:05:52.934Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1322,7 +1126,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:06.946Z",
+   "checked": "2026-11-27T22:05:52.983Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1349,7 +1153,7 @@
    "tags": [],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:06.718Z",
+   "checked": "2026-11-27T22:05:52.867Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1378,7 +1182,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:07.081Z",
+   "checked": "2026-11-27T22:05:53.069Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1407,7 +1211,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:05.414Z",
+   "checked": "2026-11-27T22:05:52.156Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1436,7 +1240,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:05.792Z",
+   "checked": "2026-11-27T22:05:52.347Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1465,7 +1269,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:05.906Z",
+   "checked": "2026-11-27T22:05:52.413Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1494,7 +1298,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:05.530Z",
+   "checked": "2026-11-27T22:05:52.235Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1523,7 +1327,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:05.666Z",
+   "checked": "2026-11-27T22:05:52.292Z",
    "repNote": "no posts calling “Bask Health” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-19)",
    "firstSeen": "2026-11-19T22:10:34.729Z"
   },
@@ -1552,7 +1356,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:07.715Z",
+   "checked": "2026-11-27T22:05:53.470Z",
    "repNote": "no posts calling “Affirm” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-16)",
    "firstSeen": "2026-11-16T23:27:04.692Z"
   },
@@ -1583,7 +1387,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:06.468Z",
+   "checked": "2026-11-27T22:05:52.760Z",
    "repNote": "no posts calling “Upstart” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-15)",
    "firstSeen": "2026-11-15T19:56:14.709Z"
   },
@@ -1612,7 +1416,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:08.612Z",
+   "checked": "2026-11-27T22:05:53.917Z",
    "repNote": "no posts calling “H2O.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1641,7 +1445,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:08.791Z",
+   "checked": "2026-11-27T22:05:54.002Z",
    "repNote": "no posts calling “H2O.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1670,7 +1474,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:08.953Z",
+   "checked": "2026-11-27T22:05:54.069Z",
    "repNote": "no posts calling “H2O.ai” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1703,7 +1507,7 @@
    ],
    "rep": "job",
    "verifyNote": "listed as active and the posting page is live",
-   "checked": "2026-11-26T22:26:07.551Z",
+   "checked": "2026-11-27T22:05:53.354Z",
    "repNote": "no posts calling “Pragmatike” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-14)",
    "firstSeen": "2026-11-14T19:16:44.979Z"
   },
@@ -1735,8 +1539,8 @@
     "merchandising"
    ],
    "rep": "job",
-   "verifyNote": "posted 16 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 17 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “ShyftOff” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-13)",
    "firstSeen": "2026-11-13T21:02:23.518Z"
   },
@@ -1775,8 +1579,8 @@
     "machine learning"
    ],
    "rep": "job",
-   "verifyNote": "posted 28 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 29 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “Fluence International, Inc.” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-08)",
    "firstSeen": "2026-11-08T18:55:57.571Z"
   },
@@ -1806,8 +1610,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 22 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 23 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “IAPWE” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-07)",
    "firstSeen": "2026-11-07T18:36:52.748Z"
   },
@@ -1846,8 +1650,8 @@
     "design"
    ],
    "rep": "job",
-   "verifyNote": "posted 15 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 16 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   },
@@ -1887,8 +1691,8 @@
     "fashion"
    ],
    "rep": "job",
-   "verifyNote": "posted 24 day(s) ago and still listed as active",
-   "checked": "2026-11-26T22:26:01.147Z",
+   "verifyNote": "posted 25 day(s) ago and still listed as active",
+   "checked": "2026-11-27T22:05:49.892Z",
    "repNote": "no posts calling “Coalition Technologies” a scam on Reddit (r/Scams, r/recruitinghell) or Hacker News (checked 2026-11-04)",
    "firstSeen": "2026-11-04T20:59:11.015Z"
   }
@@ -2045,6 +1849,8 @@
   "f-15e206k": "2026-11-26T22:57:08.717Z",
   "f-1p92cwl": "2026-11-26T22:57:08.717Z",
   "f-1onalvt": "2026-11-26T22:57:08.717Z",
-  "f-1jykn76": "2026-11-26T22:57:08.717Z"
+  "f-1jykn76": "2026-11-26T22:57:08.717Z",
+  "f-te3gpy": "2026-11-27T22:36:17.957Z",
+  "f-i5vsat": "2026-11-27T22:36:17.957Z"
  }
 }
